@@ -1,0 +1,16 @@
+* install python 2.7 and pip
+since python 2 is deprecated new versions of pip will not use it. when
+that happens, it's probably better to run this in a virtual
+environment running an old version of a linux distro (like ubuntu
+14.04 or debian oldstable)
+
+* (optional) create virtual environment
+: virtualenv -p python2 venv
+: source venv/bin/active
+
+* install dependencies
+: pip install -r requirements.txt
+
+* run
+: python compress-hamiltonian-proof-graph.py
+the input graph is included in the script, you can edit it there

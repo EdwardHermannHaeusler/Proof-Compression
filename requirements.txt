@@ -1,0 +1,3 @@
+graphviz==0.14
+pydotplus==2.0.2
+pyparsing==2.4.7
