@@ -24,19 +24,18 @@ def tab_coloring(gin):
 def draw_discharging_edges(gin):
     global discharged_occurrences
     global conclusions
-#    print "Entrou no draw_discharging_edges"
     for no in gin.get_node_list():
-#        print "LABEL DISCHARGING ="+no.get('label')
+        print "LABEL DISCHARGING ="+no.get('label')
         if re.match(r'\[.+\][0-9]+',no.get('label')):
-           m=re.search(r'\[.+\]([0-9][0-9a-z]*)',no.get('label'))
-#           print "====> "+no.get('label')+" ="+m.group(1)
+           m=re.search(r'\[.+\]([0-9][0-9]*)',no.get('label'))
+           print "====> "+no.get('label')+" ="+m.group(1)
            if discharged_occurrences.get(m.group(1),"empty")=="empty":
               discharged_occurrences[m.group(1)]=[no]
            else:
               discharged_occurrences[m.group(1)].append(no)
-        if re.match(r'.+[\s]([0-9][0-9a-z]*)',no.get('label')):
-           m=re.match(r'.+[\s]([0-9][0-9a-z]*)',no.get('label'))
-#           print "ACHOU descarte ="+m.group(1)
+        if re.match(r'.+[\s]([0-9][0-9]*)',no.get('label')):
+           m=re.match(r'.+[\s]([0-9][0-9]*)',no.get('label'))
+           print "ACHOU descarte ="+m.group(1)
            if conclusions.get(m.group(1),"empty")=="empty":
               conclusions[m.group(1)]=no
            else:
@@ -67,7 +66,12 @@ def coloring(gin,tab):
 
 
 
-def node_id_hid(s):
+def node_id_hid(s,tipo):
+  global top_formulas_occ
+  if tipo=="top":
+    no=pd.Node(vertex_id(s),label=vertex_label(s), color='red')
+    return no
+  else:
     return pd.Node(vertex_id(s),label=vertex_label(s))
 
 
@@ -215,11 +219,11 @@ def find_root(g):
 #  print e_out
   global e_out
   global e_in
-#  print "Vai encontrar raiz"
+# print "Vai encontrar raiz"
   n=g.get_node_list()
   i=0
   while i < len(n) and not (n[i]):
-     # print "i="+str(i)
+ #    print "i="+str(i)
      i=i+1
   na=n[i]
   # print "na="+na.get_name()
@@ -229,7 +233,7 @@ def find_root(g):
   na=na.get_name()
   # print "na="+na+" label="+g.get_node(na)[0].get_label()
   while e_out.has_key(na):
-    # print "na="+na+" label="+g.get_node(na)[0].get_label()
+  #  print "na="+na+" label="+g.get_node(na)[0].get_label()
     na=(e_out[na][0]).get_destination()
   return na
 
@@ -254,16 +258,17 @@ def raw_formula(formula):
 
 def gera_grafo_ja_visitado(hg,w,i,v,k,label_descarte):
    global seqnode
+   global top_formulas_occ
 #   print str(seqnode)+"vai gerar grafo_ja_visitado"+"w= "+w+"i= "+str(i)+"v= "+v+"k="+str(k)
-##   print hg[0]
+#   print hg[0]
 #   hg[0].add((k,v))
-   novo_w=node_id_hid(str(seqnode)+"=[X"+str(i)+v+"]"+str(label_descarte))
+   novo_w=node_id_hid(str(seqnode)+"=[X"+str(i)+v+"]"+str(label_descarte),"top")
    hg[1].add_node(novo_w)
    seqnode=seqnode+1
-   nova_imp_w=node_id_hid(str(seqnode)+"=(X"+str(i)+vertex_name(v)+" imp "+"(X"+str(k)+v+" imp q))")
+   nova_imp_w=node_id_hid(str(seqnode)+"=(X"+str(i)+vertex_name(v)+" imp "+"(X"+str(k)+v+" imp q))","top")
    hg[1].add_node(nova_imp_w)
    seqnode=seqnode+1
-   w_negado=node_id_hid(str(seqnode)+"=(X"+str(k)+v+" imp q)")
+   w_negado=node_id_hid(str(seqnode)+"=(X"+str(k)+v+" imp q)","ded")
    hg[1].add_node(w_negado)
    hg[1].add_edge(Deduction_Edge(novo_w,w_negado))
    hg[1].add_edge(Deduction_Edge(nova_imp_w,w_negado))
@@ -274,19 +279,20 @@ def gera_grafo_ja_visitado(hg,w,i,v,k,label_descarte):
 
 def gera_grafo_proibido(hg,w,v,k,label_descarte):
    global seqnode
+   global top_formulas_occ
 #   print str(seqnode)+"vai gerar grafo_proibido"+"w= "+w+"v= "+v+"k="+str(k)+ "  hg[0]="
 #   print hg[0]
 #   hg[0].add((k,v))
 #   print hg[0]
-   novo_w=node_id_hid(str(seqnode)+"=[X"+str(k-1)+w+"]"+str(label_descarte))
+   novo_w=node_id_hid(str(seqnode)+"=[X"+str(k-1)+w+"]"+str(label_descarte),"top")
    hg[1].add_node(novo_w)
 #   novo_w=node_id_hid(str(seqnode)+"=X"+str(k-1)+vertex_name(w))
 #   hg[1].add_node(novo_w)
    seqnode=seqnode+1
-   nova_imp_w=node_id_hid(str(seqnode)+"=(X"+str(k-1)+vertex_name(w)+" imp "+"(X"+str(k)+v+" imp q))" )
+   nova_imp_w=node_id_hid(str(seqnode)+"=(X"+str(k-1)+vertex_name(w)+" imp "+"(X"+str(k)+v+" imp q))","top" )
    hg[1].add_node(nova_imp_w)
    seqnode=seqnode+1
-   w_negado=node_id_hid(str(seqnode)+"=(X"+str(k)+v+" imp q)")
+   w_negado=node_id_hid(str(seqnode)+"=(X"+str(k)+v+" imp q)","ded")
    hg[1].add_node(w_negado)
    hg[1].add_edge(Deduction_Edge(novo_w,w_negado))
    hg[1].add_edge(Deduction_Edge(nova_imp_w,w_negado))
@@ -324,15 +330,20 @@ def constroi_grafo_disjuntivo(hg,nivel,no,lista_provas):
    # hg[1].add_edge(pd.Edge(no_prova_pright,no_prova))
    # seqnode=seqnode+1
    disjunctive_formula="(ORX"+str(nivel+1)+" imp q)"
-   labeled_disjunctive_formula_conclusion=node_id_hid(str(seqnode)+"="+disjunctive_formula)
+   labeled_disjunctive_formula_conclusion=node_id_hid(str(seqnode)+"="+disjunctive_formula,"ded")
    seqnode=seqnode+1
    hg[1].root=labeled_disjunctive_formula_conclusion
+   level = 0
    for ((i1,v1),v) in lista_provas.items():
  #    print "k="+str(k)+" lista_provas[k]= "
  #    print "(i1, v1),v "+str(i1)+v1+" "+v
+     level = level+1
      hg[1].add_node(labeled_disjunctive_formula_conclusion)
-     disjunctive_formula="(X"+str(i1)+v1+" imp q) imp ("+ disjunctive_formula+ ")"
-     labeled_disjunctive_formula_premiss=node_id_hid(str(seqnode)+"="+disjunctive_formula)
+     disjunctive_formula="(X"+str(i1)+v1+" imp q) imp ("+ disjunctive_formula+")"
+     if level < Max:
+      labeled_disjunctive_formula_premiss=node_id_hid(str(seqnode)+"="+disjunctive_formula,"ded")
+     else:
+      labeled_disjunctive_formula_premiss=node_id_hid(str(seqnode)+"="+disjunctive_formula,"top")
      seqnode=seqnode+1
      hg[1].add_node(labeled_disjunctive_formula_premiss)
      hg[1].add_edge(Deduction_Edge(labeled_disjunctive_formula_premiss,labeled_disjunctive_formula_conclusion))
@@ -348,11 +359,11 @@ def constroi_grafo_disjuntivo(hg,nivel,no,lista_provas):
    # print "ROOT="
    # print hg[1].root
    left_premiss_disjunctive_formula="ORX"+str(nivel+1)
-   labeled_left_premiss_disjunctive_formula=node_id_hid(str(seqnode)+"="+left_premiss_disjunctive_formula)
+   labeled_left_premiss_disjunctive_formula=node_id_hid(str(seqnode)+"="+left_premiss_disjunctive_formula,"top")
    hg[1].add_node(labeled_left_premiss_disjunctive_formula)
    seqnode=seqnode+1
    absurdity_conclusion="q"
-   labeled_absurdity_conclusion=node_id_hid(str(seqnode)+"="+absurdity_conclusion)
+   labeled_absurdity_conclusion=node_id_hid(str(seqnode)+"="+absurdity_conclusion,"ded")
    hg[1].add_node(labeled_absurdity_conclusion)
    hg[1].add_edge(Deduction_Edge(labeled_left_premiss_disjunctive_formula,labeled_absurdity_conclusion))
    hg[1].add_edge(Deduction_Edge(hg[1].root,labeled_absurdity_conclusion))
@@ -790,7 +801,7 @@ def constroi_ramo(est,k, grafo, visitados_hips, w,descarte_counter):
 #     print "a partir do par ="+str(k-1)+" "+vw+"aqui"
 #     print est
      hg=constroi_grafo_disjuntivo(hg,k-1,vw,est)
-     imply_intro_conclusion_com_descarte=node_id_hid(str(seqnode)+"=(X"+str(k-1)+vw+" imp q)"+" "+str(this_context_descarte_counter))
+     imply_intro_conclusion_com_descarte=node_id_hid(str(seqnode)+"=(X"+str(k-1)+vw+" imp q)"+" "+str(this_context_descarte_counter),"ded")
      seqnode=seqnode+1
      hg[1].add_node(imply_intro_conclusion_com_descarte)
      hg[1].add_edge(Deduction_Edge(hg[1].root,imply_intro_conclusion_com_descarte))
@@ -822,27 +833,27 @@ def constroi_ramo(est,k, grafo, visitados_hips, w,descarte_counter):
             label=j
 #     print "ini="+ini
      if not linked(g,vw, ini):
-        no_prova_pleft=node_id_hid(str(seqnode)+"=[X"+str(1)+ini+"]"+str(label))
-        label_descarte_local=str(descarte_counter)+"a"
+        no_prova_pleft=node_id_hid(str(seqnode)+"=[X"+str(1)+ini+"]"+str(label),"top")
+        label_descarte_local=str(descarte_counter)
         hg[1].add_node(no_prova_pleft)
         seqnode=seqnode+1
-        no_prova_pright=node_id_hid(str(seqnode)+"=(X"+str(1)+ini+" imp (X"+str(Max+1)+ini+"))")
+        no_prova_pright=node_id_hid(str(seqnode)+"=(X"+str(1)+ini+" imp (X"+str(Max+1)+ini+"))","top")
         hg[1].add_node(no_prova_pright)
         seqnode=seqnode+1
-        no_prova_l=node_id_hid(str(seqnode)+"=X"+str(Max+1)+ini)
+        no_prova_l=node_id_hid(str(seqnode)+"=X"+str(Max+1)+ini,"ded")
         hg[1].add_node(no_prova_l)
         hg[1].add_edge(Deduction_Edge(no_prova_pleft,no_prova_l))
         hg[1].add_edge(Deduction_Edge(no_prova_pright,no_prova_l))
         seqnode=seqnode+1
-        no_provaright_pleft=node_id_hid(str(seqnode)+"=[X"+str(Max)+vw+"]"+label_descarte_local)
+        no_provaright_pleft=node_id_hid(str(seqnode)+"=[X"+str(Max)+vw+"]"+label_descarte_local,"top")
         seqnode=seqnode+1
-        no_provaright_pright=node_id_hid(str(seqnode)+"=(X"+str(Max)+vw+" imp (X"+str(Max+1)+ini+" imp q))")
+        no_provaright_pright=node_id_hid(str(seqnode)+"=(X"+str(Max)+vw+" imp (X"+str(Max+1)+ini+" imp q))","top")
         seqnode=seqnode+1
-        no_provaright=node_id_hid(str(seqnode)+"=(X"+str(Max+1)+ini+" imp q)")
+        no_provaright=node_id_hid(str(seqnode)+"=(X"+str(Max+1)+ini+" imp q)","ded")
         seqnode=seqnode+1
-        no_absurdity=node_id_hid(str(seqnode)+"=q")
+        no_absurdity=node_id_hid(str(seqnode)+"=q", "ded")
         seqnode=seqnode+1
-        no_conclusao=node_id_hid(str(seqnode)+"=(X"+str(Max)+vw+" imp q)"+label_descarte_local)
+        no_conclusao=node_id_hid(str(seqnode)+"=(X"+str(Max)+vw+" imp q) "+label_descarte_local, "ded")
         seqnode=seqnode+1
         hg[1].add_node(no_absurdity)
         hg[1].add_node(no_conclusao)
@@ -1019,7 +1030,7 @@ global seqnode
 
 discharged_occurrences={}
 conclusions={}
-
+top_formulas_occ={}
 
 # relativo a eficiencia da versao linked
 # associa vertices as arestas incidented que chegam nele
@@ -1051,7 +1062,7 @@ nos={"v"+str(i) for i in range(1,Max+1)}
 list_nodes=[]
 for i in range(1,Max+1):
     list_nodes=list_nodes+[pd.Node("v"+str(i))]
-
+"""  """
 # Especificacao do Grafo
 
 # # # # # Grafo Petersen
@@ -1200,17 +1211,17 @@ for (n,l) in node_formulas.items():
      v_oc[n][formula_f]=v_oc[n][formula_f]+1
      v_repeated_nodes[n][formula_f].append(node_formula_f)
 maximo_oc=0
-for niv in range(0,len(v_oc)):  
-    for f_r in v_oc[niv]:
+#for niv in range(0,len(v_oc)):  
+#    for f_r in v_oc[niv]:
 #        node_formula_f=graph_from_file.get_node(f)[0]
 #        formula_f=node_formula_f.get_label()
 #        formula_f=raw_formula(formula_f)
-        print "ocorrencias de "+f_r+"no nivel "+str(niv)+" eh "+str(v_oc[niv][f_r])
-        if (v_oc[niv][f_r]>maximo_oc):
-            maximo_oc=v_oc[niv][f_r]
-            niv_maximo=niv
-            formula_maximo=f_r
-print "o nivel "+str(niv_maximo)+" tem a formula "+formula_maximo+" que ocorre mais vezes ="+str(maximo_oc)
+#        print "ocorrencias de "+f_r+"no nivel "+str(niv)+" eh "+str(v_oc[niv][f_r])
+#        if (v_oc[niv][f_r]>maximo_oc):
+#            maximo_oc=v_oc[niv][f_r]
+#            niv_maximo=niv
+#            formula_maximo=f_r
+#print "o nivel "+str(niv_maximo)+" tem a formula "+formula_maximo+" que ocorre mais vezes ="+str(maximo_oc)
         
 #          formula_f=graph_from_file.get_node(f)[0].get_label()
 #      if v_oc[n][formula_f] > 1:
@@ -1219,10 +1230,10 @@ print "o nivel "+str(niv_maximo)+" tem a formula "+formula_maximo+" que ocorre m
 #      print l
 #      print v_oc[n]
 #write_vetor_oc(v_oc)
-print "seqnode="+str(seqnode)
-l_nodes=graph_from_file.get_node_list()
-num_oc_formulas=len(l_nodes)
-print "num_oc_formulas="+str(num_oc_formulas)
+#print "seqnode="+str(seqnode)
+#l_nodes=graph_from_file.get_node_list()
+#num_oc_formulas=len(l_nodes)
+#print "num_oc_formulas="+str(num_oc_formulas)
 # #  Starting the horizontal collapsing
 # print "COLLAPSING THE REPEATED FORMULAS"
 # print "Gerando graph_from_dot_data ANTES-COMPRESSAO "
