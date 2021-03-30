@@ -8,7 +8,8 @@ import csv
 import re
 import sets
 
-
+def second(elem):
+    return elem[1]
 
 def tab_coloring(gin):
     tab={}
@@ -75,7 +76,7 @@ def node_id_hid(s,tipo):
   global top_formulas_occ
   if tipo=="top":
     no=pd.Node(vertex_id(s),label=vertex_label(s), color='red')
-    if top_formulas_occ.get(vertex_label(s),"empty")=="empty":
+    if top_formulas_occ.get(remove_discharge_number(vertex_label(s)),"empty")=="empty":
       top_formulas_occ[remove_discharge_number(vertex_label(s))]=[no]
     else:
       top_formulas_occ[remove_discharge_number(vertex_label(s))].append(no)
@@ -995,7 +996,23 @@ def final(gin):
 #    print "pdf do colorido, gravando"
 #    sgraph.write_pdf(dotname+".pdf")
 
+def color_branch_from_top_formula(formula):
+  print "vai colorir branch que começa em"+str(formula.get('label'))+" que tem cor "+str(formula.get('color'))
+  downhill_to_minimal_formula = formula
+  downhill_to_minimal_formula.set_color( "blue") 
+  print "agora tem cor "+str(formula.get('color'))
+  
 
+def color_most_repeated_branches(hist):
+  global top_formulas_occ
+  indice=0
+  max_repeat=histograma_top_formulas[0][1]
+  while max_repeat == histograma_top_formulas[indice][1]:
+    for top_formula in top_formulas_occ[histograma_top_formulas[indice][0]]:
+      color_branch_from_top_formula(top_formula)
+    print "top_formula que ocorre mais é "+str(histograma_top_formulas[indice][0])+" e ocorre "+str(max_repeat)+" vezes"
+    indice=indice+1
+  
 
 def writetable(t):
     with open('img/tabelaLabels.csv', 'wb') as csv_file:
@@ -1065,7 +1082,7 @@ visitados.add("v1")
 
 
 
-Max=5
+Max=3
 nos={"v"+str(i) for i in range(1,Max+1)}
 # # set(['v1', 'v2', 'v3', 'v4', 'v5'])
 
@@ -1076,27 +1093,27 @@ for i in range(1,Max+1):
 # Especificacao do Grafo
 
 # # # # # Grafo Petersen
-# g=pd.Graph()
-# g=add_nodes(g,list_nodes)
-# g=add_edges(g, [('v1', 'v2'), ('v1','v5'),('v1','v7')])
-# g=add_edges(g, [('v2', 'v8'), ('v2', 'v3')])
-# g=add_edges(g, [('v3','v9'),('v3', 'v4')])
-# g=add_edges(g, [('v4', 'v10'), ('v4', 'v5')])
-# g=add_edges(g, [('v5', 'v6')])
-# g=add_edges(g, [('v6', 'v8'), ('v6','v9')])
-# g=add_edges(g, [('v7', 'v10'), ('v7','v9')])
-# g=add_edges(g, [('v8', 'v10')])
+""" g=pd.Graph()
+g=add_nodes(g,list_nodes)
+g=add_edges(g, [('v1', 'v2'), ('v1','v5'),('v1','v7')])
+g=add_edges(g, [('v2', 'v8'), ('v2', 'v3')])
+g=add_edges(g, [('v3','v9'),('v3', 'v4')])
+g=add_edges(g, [('v4', 'v10'), ('v4', 'v5')])
+g=add_edges(g, [('v5', 'v6')])
+g=add_edges(g, [('v6', 'v8'), ('v6','v9')])
+g=add_edges(g, [('v7', 'v10'), ('v7','v9')])
+g=add_edges(g, [('v8', 'v10')]) """
 
  # Grafo G3
-#g=pd.Graph()
-#g=add_nodes(g,list_nodes)
-#g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
+g=pd.Graph()
+g=add_nodes(g,list_nodes)
+g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
 
 # Grafo G5
-g=pd.Graph()
+""" g=pd.Graph()
 g=add_nodes(g, list_nodes)
 g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
-
+ """
 # # # # # Grafo tough
 # g=pd.Graph()
 # g=add_nodes(g,list_nodes)
@@ -1118,7 +1135,7 @@ g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v
 # inicia(GrafoPetersenDescartes)
 # GrafoPetersenDescartes=draw_discharging_edges(GrafoPetersenDescartes)
 GrafoProva=pd.Graph()
-GrafoProva.set_name("ArvoreProvaG5")
+GrafoProva.set_name("ArvoreProvaG3")
 inicia(GrafoProva)
 
 print("Grafo com "+str(len(GrafoProva.get_node_list()))+ "nós")
@@ -1130,8 +1147,25 @@ garf.write("img/"+garf.get_name()+".dot")
 for i,l in top_formulas_occ.items():
     print "Top_formula= "+str(i)+" ocorre:"+str(len(l))+" vezes"
     quant_each_top_formula[i]=len(l)
+histograma_top_formulas=[]
 for j in quant_each_top_formula.keys():
-  print "Quantidadde de top-formulas do tipo="+str(j)+" e "+str(quant_each_top_formula[j])
+#  print "Quantidadde de top-formulas do tipo="+str(j)+" e "+str(quant_each_top_formula[j])
+  histograma_top_formulas.append((j,quant_each_top_formula[j]))
+histograma_top_formulas.sort(key=second, reverse=True)
+
+for indice in range(len(histograma_top_formulas)):
+  print "Tipo da top-formula e sua quantidade="+str(histograma_top_formulas[indice][0])+" e "+str(histograma_top_formulas[indice][1])
+
+
+
+color_most_repeated_branches(histograma_top_formulas)
+
+print "gerando com os branches coloridos"
+
+GrafoProva.set_name("ArvoreProvaG3_com_branches_coloridos")
+
+garf=pd.graph_from_dot_data(GrafoProva.to_string())
+garf.write("img/"+garf.get_name()+".dot")
 #   for n in l:
 #        print n.to_string()
 # for i,l in discharged_occurrences.items():
