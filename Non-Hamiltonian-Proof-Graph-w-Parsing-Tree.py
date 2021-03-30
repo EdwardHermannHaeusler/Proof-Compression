@@ -64,12 +64,21 @@ def coloring(gin,tab):
          print n.to_string()
     return gin
 
-
+def remove_discharge_number(s):
+    if re.match(r'\[(.+)\].*[0-9]+',s):
+      m=re.match(r'\[(.+)\].*[0-9]+',s)
+      return m.group(1)
+    else:
+      return s
 
 def node_id_hid(s,tipo):
   global top_formulas_occ
   if tipo=="top":
     no=pd.Node(vertex_id(s),label=vertex_label(s), color='red')
+    if top_formulas_occ.get(vertex_label(s),"empty")=="empty":
+      top_formulas_occ[remove_discharge_number(vertex_label(s))]=[no]
+    else:
+      top_formulas_occ[remove_discharge_number(vertex_label(s))].append(no)
     return no
   else:
     return pd.Node(vertex_id(s),label=vertex_label(s))
@@ -1027,6 +1036,7 @@ def write_vetor_oc(t):
 visitados=set()
 
 global seqnode
+global quant_each_top_formula
 
 discharged_occurrences={}
 conclusions={}
@@ -1046,7 +1056,7 @@ e_out_A={}
 
 
 
-
+quant_each_top_formula={}
 seqnode=1
 
 # supondo X[1,v1] como inicio.
@@ -1055,7 +1065,7 @@ visitados.add("v1")
 
 
 
-Max=3
+Max=5
 nos={"v"+str(i) for i in range(1,Max+1)}
 # # set(['v1', 'v2', 'v3', 'v4', 'v5'])
 
@@ -1078,14 +1088,14 @@ for i in range(1,Max+1):
 # g=add_edges(g, [('v8', 'v10')])
 
  # Grafo G3
-g=pd.Graph()
-g=add_nodes(g,list_nodes)
-g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
+#g=pd.Graph()
+#g=add_nodes(g,list_nodes)
+#g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
 
 # Grafo G5
-# g=pd.Graph()
-# g=add_nodes(g, list_nodes)
-# g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
+g=pd.Graph()
+g=add_nodes(g, list_nodes)
+g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
 
 # # # # # Grafo tough
 # g=pd.Graph()
@@ -1108,7 +1118,7 @@ g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
 # inicia(GrafoPetersenDescartes)
 # GrafoPetersenDescartes=draw_discharging_edges(GrafoPetersenDescartes)
 GrafoProva=pd.Graph()
-GrafoProva.set_name("ArvoreProvaG3")
+GrafoProva.set_name("ArvoreProvaG5")
 inicia(GrafoProva)
 
 print("Grafo com "+str(len(GrafoProva.get_node_list()))+ "nós")
@@ -1117,6 +1127,13 @@ print("Grafo com "+str(len(GrafoProva.get_node_list()))+ "nós")
 GrafoProva=draw_discharging_edges(GrafoProva)
 garf=pd.graph_from_dot_data(GrafoProva.to_string())
 garf.write("img/"+garf.get_name()+".dot")
+for i,l in top_formulas_occ.items():
+    print "Top_formula= "+str(i)+" ocorre:"+str(len(l))+" vezes"
+    quant_each_top_formula[i]=len(l)
+for j in quant_each_top_formula.keys():
+  print "Quantidadde de top-formulas do tipo="+str(j)+" e "+str(quant_each_top_formula[j])
+#   for n in l:
+#        print n.to_string()
 # for i,l in discharged_occurrences.items():
 #    print "descarte num= "+str(i)+" lista:"
 #    for n in l:
