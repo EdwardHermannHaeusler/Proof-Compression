@@ -996,11 +996,28 @@ def final(gin):
 #    print "pdf do colorido, gravando"
 #    sgraph.write_pdf(dotname+".pdf")
 
+def premissa_maior(s):
+  global e_out
+  premissa= remove_discharge_number(s.get_label())
+  if premissa.find('imp')>0:
+    conclusion=(e_out[s.get_name()][0]).get_destination()
+    label_conclusion=GrafoProva.get_node(conclusion)[0].get_label()
+    return (premissa.find(label_conclusion) > 0)
+  else:
+    return False
+ 
+
 def color_branch_from_top_formula(formula):
   print "vai colorir branch que começa em"+str(formula.get('label'))+" que tem cor "+str(formula.get('color'))
   downhill_to_minimal_formula = formula
   downhill_to_minimal_formula.set_color( "blue") 
-  print "agora tem cor "+str(formula.get('color'))
+  while premissa_maior(downhill_to_minimal_formula):
+    print "formulaprocessando="+downhill_to_minimal_formula.get_label()
+    target=(e_out[downhill_to_minimal_formula.get_name()][0]).get_destination()
+    downhill_to_minimal_formula=GrafoProva.get_node(target)[0]
+    downhill_to_minimal_formula.set_color( "blue") 
+    print "coloriu "+downhill_to_minimal_formula.get_label()
+  
   
 
 def color_most_repeated_branches(hist):
@@ -1082,7 +1099,7 @@ visitados.add("v1")
 
 
 
-Max=3
+Max=5
 nos={"v"+str(i) for i in range(1,Max+1)}
 # # set(['v1', 'v2', 'v3', 'v4', 'v5'])
 
@@ -1104,16 +1121,16 @@ g=add_edges(g, [('v6', 'v8'), ('v6','v9')])
 g=add_edges(g, [('v7', 'v10'), ('v7','v9')])
 g=add_edges(g, [('v8', 'v10')]) """
 
- # Grafo G3
+""" # Grafo G3
 g=pd.Graph()
 g=add_nodes(g,list_nodes)
-g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
+g=add_edges(g, [('v1', 'v2'), ('v1','v3')]) """
 
 # Grafo G5
-""" g=pd.Graph()
+g=pd.Graph()
 g=add_nodes(g, list_nodes)
 g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
- """
+
 # # # # # Grafo tough
 # g=pd.Graph()
 # g=add_nodes(g,list_nodes)
@@ -1135,7 +1152,7 @@ g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v
 # inicia(GrafoPetersenDescartes)
 # GrafoPetersenDescartes=draw_discharging_edges(GrafoPetersenDescartes)
 GrafoProva=pd.Graph()
-GrafoProva.set_name("ArvoreProvaG3")
+GrafoProva.set_name("ArvoreProvadoGrafo")
 inicia(GrafoProva)
 
 print("Grafo com "+str(len(GrafoProva.get_node_list()))+ "nós")
@@ -1162,7 +1179,7 @@ color_most_repeated_branches(histograma_top_formulas)
 
 print "gerando com os branches coloridos"
 
-GrafoProva.set_name("ArvoreProvaG3_com_branches_coloridos")
+GrafoProva.set_name("ArvoreProvadoGrafo_com_branches_coloridos")
 
 garf=pd.graph_from_dot_data(GrafoProva.to_string())
 garf.write("img/"+garf.get_name()+".dot")
