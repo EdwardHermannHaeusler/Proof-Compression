@@ -1026,7 +1026,7 @@ visitados.add("v1")
 
 
 
-Max=5
+Max=3
 nos={"v"+str(i) for i in range(1,Max+1)}
 # set(['v1', 'v2', 'v3', 'v4', 'v5'])
 
@@ -1052,15 +1052,15 @@ for v in nos:
 # g=add_edges(g, [('v7', 'v10'), ('v7','v9')])
 # g=add_edges(g, [('v8', 'v10')])
 
-# # Grafo G3
-# g=pd.Graph()
-# g=add_nodes(g,list_nodes)
-# g=add_edges(g, [('v1', 'v2'), ('v1','v3'), ('v1','v4')])
+# Grafo G3
+g=pd.Graph()
+g=add_nodes(g,list_nodes)
+g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
 
 # # Grafo G5
-g=pd.Graph()
-g=add_nodes(g, list_nodes)
-g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
+# g=pd.Graph()
+# g=add_nodes(g, list_nodes)
+# g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v3','v4'), ('v4''v5')])
 
 
 
@@ -1072,7 +1072,7 @@ g=add_edges(g,[('v1','v2'),('v2','v3'),('v3','v1'),('v1','v4'), ('v2','v4'), ('v
 # inicia(GrafoPetersenDescartes)
 # GrafoPetersenDescartes=draw_discharging_edges(GrafoPetersenDescartes)
 GrafoProva=pd.Graph()
-GrafoProva.set_name("EntreNiveisVersion3Compressing33G3")
+GrafoProva.set_name("InGraph")
 inicia(GrafoProva)
 
 print("Grafo com "+str(len(GrafoProva.get_node_list()))+ "nós")
@@ -1088,18 +1088,18 @@ GrafoProva=draw_discharging_edges(GrafoProva)
 # for i,n in conclusions.items():
 #    print str(i)+" descartado em "+n.to_string()
 #print GrafoPetersenDescartes.to_string()
-# print "GERANDO O GRAFO COLORIDO e Gravando os dots"
-# final(GrafoProva)
+print "GERANDO O GRAFO COLORIDO e Gravando os dots"
+final(GrafoProva)
 
 # juntando a geracao e a estatistica
 
 graph_from_file=GrafoProva
 
 
-print " TERMINOU A GERACAO. VAI INICIAR A COMPRESSAO 107 "
+print " TERMINOU A GERACAO "
 #graph_from_file=pd.graph_from_dot_file("img/GrafoPetersenDescartes.dot")
-#graph_from_file.write_pdf("img/copiaG3.pdf")
-# Very inefficent for large proof-graphs. Must be used only in the case that the proof was not build by this
+#graph_from_file.write("img/InputGraph-ProvaNonHamiltonicity.dot")
+# Very inefficent for large proof-graphs. Must be used only in the case that the proof was not built by this
 # program itself.
 #(e_out,e_in)=associative_source_and_target_lists(graph_from_file)
 # Display used during the deveopment phase
@@ -1107,122 +1107,122 @@ print " TERMINOU A GERACAO. VAI INICIAR A COMPRESSAO 107 "
 #    print n+"e_in[n]="
 #    for v in l:
 #        print v.to_string()
-root=find_root(graph_from_file)
-#print root
-node_root=graph_from_file.get_node(root)
-#print node_root[0].get_label()
-nr=node_root[0].get_name()
-print "nr"+nr
-nivel=0
-node_formulas={}
-node_formulas[nivel]=[nr]
-while node_formulas[nivel]:
-#   print node_formulas[nivel]
-# for l in node_formulas[nivel]:
-#   print l
-   node_formulas[nivel+1]=[]
-   for n in node_formulas[nivel]:
-    if e_in.has_key(n):
-     for e in e_in[n]:
- #      if e.get_source():
- #        z=raw_input("ENCONTROU e.get_source() vazio")
- #        print e
- #        print "FIM DO ENCONTROU"
- #      else:
-         node_formulas[nivel+1].append(e.get_source())
-#     print "DEPOIS"
-#     print node_formulas[nivel+1]
-#     print "Fez o n="+n
-#   print "node_formulas="
-#   print  { graph_from_file.get_node(n)[0].get_label() for n in node_formulas[nivel+1]}
-#   print "Fez o NIVEL="+str(nivel+1)
-   nivel=nivel+1
-# calculando vetores de ocorrencias
-v_oc={}
-v_repeated_nodes={}
-i=0
-while i< len(node_formulas):
-  v_repeated_nodes[i]={}
-  v_oc[i]={}
-  i=i+1
-for (n,l) in node_formulas.items():
-#  print "nivel="+str(n)
-#  print "LISTA DE NOS="
-#  print l
-#  print "============FIM DE LISTA"
-  for f in l:
-   lista_nos_formula=graph_from_file.get_node(f)
-#   print "lista_nos_formula==>"
-#   print lista_nos_formula
-   if lista_nos_formula <> []:
-     node_formula_f=graph_from_file.get_node(f)[0]
-     # print "lista de nos"
-     # print node_formula_f
-     formula_f=node_formula_f.get_label()
-#     print "formula_f"+formula_f
-     formula_f=raw_formula(formula_f)
-     v_oc[n][formula_f]=0
-     v_repeated_nodes[n][formula_f]=[]
-  for f in l:
-   lista_nos_formula=graph_from_file.get_node(f)
-   if lista_nos_formula <> []:
-     node_formula_f=graph_from_file.get_node(f)[0]
-     formula_f=node_formula_f.get_label()
-     formula_f=raw_formula(formula_f)
-     v_oc[n][formula_f]=v_oc[n][formula_f]+1
-     v_repeated_nodes[n][formula_f].append(node_formula_f)
-     #------Alteracao de Inspecao
-print " LISTANDO v_oc[n][formula_f] "
-# for n in range(0,len(v_oc)):
-#       formula_f=graph_from_file.get_node(f)[0].get_label()
-#       if v_oc[n][formula_f] > 1:
-#          print "MAIS DE UMA OC = "+str(v_oc[n][formula_f])
-#       print n
-#       print l
-#       print v_oc[n]
-    # Final da Alteracao
-write_vetor_oc(v_oc)
-# -------   Final alteracao
-print "seqnode="+str(seqnode)
-l_nodes=graph_from_file.get_node_list()
-num_oc_formulas=len(l_nodes)
-print "num_oc_formulas="+str(num_oc_formulas)
-#  Starting the horizontal collapsing
-print "COLLAPSING THE REPEATED FORMULAS"
-print "Gerando graph_from_dot_data ANTES-COMPRESSAO "
-sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
-print "gravando dot file"
+# root=find_root(graph_from_file)
+# #print root
+# node_root=graph_from_file.get_node(root)
+# #print node_root[0].get_label()
+# nr=node_root[0].get_name()
+# print "nr"+nr
+# nivel=0
+# node_formulas={}
+# node_formulas[nivel]=[nr]
+# while node_formulas[nivel]:
+# #   print node_formulas[nivel]
+# # for l in node_formulas[nivel]:
+# #   print l
+#    node_formulas[nivel+1]=[]
+#    for n in node_formulas[nivel]:
+#     if e_in.has_key(n):
+#      for e in e_in[n]:
+#  #      if e.get_source():
+#  #        z=raw_input("ENCONTROU e.get_source() vazio")
+#  #        print e
+#  #        print "FIM DO ENCONTROU"
+#  #      else:
+#          node_formulas[nivel+1].append(e.get_source())
+# #     print "DEPOIS"
+# #     print node_formulas[nivel+1]
+# #     print "Fez o n="+n
+# #   print "node_formulas="
+# #   print  { graph_from_file.get_node(n)[0].get_label() for n in node_formulas[nivel+1]}
+# #   print "Fez o NIVEL="+str(nivel+1)
+#    nivel=nivel+1
+# # calculando vetores de ocorrencias
+# v_oc={}
+# v_repeated_nodes={}
+# i=0
+# while i< len(node_formulas):
+#   v_repeated_nodes[i]={}
+#   v_oc[i]={}
+#   i=i+1
+# for (n,l) in node_formulas.items():
+# #  print "nivel="+str(n)
+# #  print "LISTA DE NOS="
+# #  print l
+# #  print "============FIM DE LISTA"
+#   for f in l:
+#    lista_nos_formula=graph_from_file.get_node(f)
+# #   print "lista_nos_formula==>"
+# #   print lista_nos_formula
+#    if lista_nos_formula <> []:
+#      node_formula_f=graph_from_file.get_node(f)[0]
+#      # print "lista de nos"
+#      # print node_formula_f
+#      formula_f=node_formula_f.get_label()
+# #     print "formula_f"+formula_f
+#      formula_f=raw_formula(formula_f)
+#      v_oc[n][formula_f]=0
+#      v_repeated_nodes[n][formula_f]=[]
+#   for f in l:
+#    lista_nos_formula=graph_from_file.get_node(f)
+#    if lista_nos_formula <> []:
+#      node_formula_f=graph_from_file.get_node(f)[0]
+#      formula_f=node_formula_f.get_label()
+#      formula_f=raw_formula(formula_f)
+#      v_oc[n][formula_f]=v_oc[n][formula_f]+1
+#      v_repeated_nodes[n][formula_f].append(node_formula_f)
+#      #------Alteracao de Inspecao
+# print " LISTANDO v_oc[n][formula_f] "
+# # for n in range(0,len(v_oc)):
+# #       formula_f=graph_from_file.get_node(f)[0].get_label()
+# #       if v_oc[n][formula_f] > 1:
+# #          print "MAIS DE UMA OC = "+str(v_oc[n][formula_f])
+# #       print n
+# #       print l
+# #       print v_oc[n]
+#     # Final da Alteracao
+# write_vetor_oc(v_oc)
+# # -------   Final alteracao
+# print "seqnode="+str(seqnode)
+# l_nodes=graph_from_file.get_node_list()
+# num_oc_formulas=len(l_nodes)
+# print "num_oc_formulas="+str(num_oc_formulas)
+# #  Starting the horizontal collapsing
+# print "COLLAPSING THE REPEATED FORMULAS"
+# print "Gerando graph_from_dot_data ANTES-COMPRESSAO "
+# sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
+# print "gravando dot file"
 
-sgraph.write("img/"+sgraph.get_name()+"ANTES.dot")
-print "GRAVOU"
-i=0
-while i < len(v_oc) and v_oc[i]:
-    repeated_formulas=[]
-    while not repeated_formulas and v_oc[i]:
-       i=i+1
-#       if not v_oc[i]:
-       print "nivel "+str(i)
-       print v_oc[i].keys()
-       for f in v_oc[i].keys():
-#            print "Formulas do nivel "+str(i)
-#            print v_oc[i]
-#            print f+"i= "+str(i)+"v_oc[i][f]= "+ str(v_oc[i][f])
-            if v_oc[i][f]>1:
-                repeated_formulas.append(f)
-    print "REPEATED_FORMULAS =====> "
-    print repeated_formulas
-    print "=========="
-    for f in repeated_formulas:
-       print "nivel da formula que repete= "+str(i)
-       print "formula que repete= "+ f
-       print "vai collapsar "+f+" "+str(v_oc[i][f])+" vezes, no nivel "+str(i)
-       grafo_compressed=collapsing_nodes(i,f,v_repeated_nodes[i][f],graph_from_file)
+# sgraph.write("img/"+sgraph.get_name()+"ANTES.dot")
+# print "GRAVOU"
+# i=0
+# while i < len(v_oc) and v_oc[i]:
+#     repeated_formulas=[]
+#     while not repeated_formulas and v_oc[i]:
+#        i=i+1
+# #       if not v_oc[i]:
+#        print "nivel "+str(i)
+#        print v_oc[i].keys()
+#        for f in v_oc[i].keys():
+# #            print "Formulas do nivel "+str(i)
+# #            print v_oc[i]
+# #            print f+"i= "+str(i)+"v_oc[i][f]= "+ str(v_oc[i][f])
+#             if v_oc[i][f]>1:
+#                 repeated_formulas.append(f)
+#     print "REPEATED_FORMULAS =====> "
+#     print repeated_formulas
+#     print "=========="
+#     for f in repeated_formulas:
+#        print "nivel da formula que repete= "+str(i)
+#        print "formula que repete= "+ f
+#        print "vai collapsar "+f+" "+str(v_oc[i][f])+" vezes, no nivel "+str(i)
+#        grafo_compressed=collapsing_nodes(i,f,v_repeated_nodes[i][f],graph_from_file)
 
-    print "Gerando graph_from_dot_data  DEPOIS-COMPRESSAO do nivel "+str(i)
-    sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
-    print "gravando dot file"
-    sgraph.write("img/"+sgraph.get_name()+"DEPOISniv"+str(i)+".dot")
-#    i=i+1
+#     print "Gerando graph_from_dot_data  DEPOIS-COMPRESSAO do nivel "+str(i)
+#     sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
+#     print "gravando dot file"
+#     sgraph.write("img/"+sgraph.get_name()+"DEPOISniv"+str(i)+".dot")
+# #    i=i+1
 
 
 

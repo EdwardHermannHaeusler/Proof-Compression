@@ -1044,7 +1044,7 @@ visitados.add("v1")
 
 
 
-Max=3
+Max=4
 nos={"v"+str(i) for i in range(1,Max+1)}
 # # set(['v1', 'v2', 'v3', 'v4', 'v5'])
 
@@ -1069,7 +1069,7 @@ for i in range(1,Max+1):
  # Grafo G3
 g=pd.Graph()
 g=add_nodes(g,list_nodes)
-g=add_edges(g, [('v1', 'v2'), ('v1','v3')])
+g=add_edges(g, [('v1', 'v2'), ('v1','v3'), ('v1','v4')])
 
 # Grafo G5
 # g=pd.Graph()

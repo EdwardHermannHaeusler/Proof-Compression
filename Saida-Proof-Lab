@@ -1,0 +1,3524 @@
+ Vai ler a prova 
+aresta= 344 -> 355; tem indice em list_out= 344
+aresta= 343 -> 344; tem indice em list_in= 344
+aresta= 345 -> 347; tem indice em list_out= 345
+aresta= 346 -> 347; tem indice em list_out= 346
+aresta= 345 -> 347; tem indice em list_in= 347
+aresta= 346 -> 347; tem indice em list_in= 347
+aresta= 347 -> 354; tem indice em list_out= 347
+aresta= 327 -> 340; tem indice em list_in= 340
+aresta= 340 -> 339; tem indice em list_out= 340
+aresta= 341 -> 340; tem indice em list_in= 340
+aresta= 327 -> 340; tem indice em list_in= 340
+aresta= 340 -> 339; tem indice em list_out= 340
+aresta= 341 -> 340; tem indice em list_in= 340
+aresta= 341 -> 340; tem indice em list_out= 341
+aresta= 342 -> 343; tem indice em list_out= 342
+aresta= 342 -> 343; tem indice em list_in= 343
+aresta= 343 -> 344; tem indice em list_out= 343
+aresta= 336 -> 343; tem indice em list_in= 343
+aresta= 349 -> 351; tem indice em list_out= 349
+aresta= 299 -> 301; tem indice em list_out= 299
+aresta= 296 -> 297; tem indice em list_out= 296
+aresta= 295 -> 297; tem indice em list_in= 297
+aresta= 296 -> 297; tem indice em list_in= 297
+aresta= 297 -> 310; tem indice em list_out= 297
+aresta= 295 -> 297; tem indice em list_out= 295
+aresta= 292 -> 293; tem indice em list_out= 292
+aresta= 291 -> 293; tem indice em list_in= 293
+aresta= 293 -> 312; tem indice em list_out= 293
+aresta= 292 -> 293; tem indice em list_in= 293
+aresta= 291 -> 293; tem indice em list_out= 291
+aresta= 199 -> 201; tem indice em list_out= 199
+aresta= 195 -> 197; tem indice em list_out= 195
+aresta= 197 -> 216; tem indice em list_out= 197
+aresta= 195 -> 197; tem indice em list_in= 197
+aresta= 196 -> 197; tem indice em list_in= 197
+aresta= 196 -> 197; tem indice em list_out= 196
+aresta= 191 -> 193; tem indice em list_out= 191
+aresta= 189 -> 190; tem indice em list_in= 190
+aresta= 190 -> 408; tem indice em list_out= 190
+aresta= 192 -> 193; tem indice em list_in= 193
+aresta= 191 -> 193; tem indice em list_in= 193
+aresta= 193 -> 257; tem indice em list_out= 193
+aresta= 192 -> 193; tem indice em list_out= 192
+aresta= 269 -> 270; tem indice em list_in= 270
+aresta= 270 -> 279; tem indice em list_out= 270
+aresta= 268 -> 270; tem indice em list_in= 270
+aresta= 272 -> 274; tem indice em list_out= 272
+aresta= 273 -> 274; tem indice em list_out= 273
+aresta= 274 -> 280; tem indice em list_out= 274
+aresta= 272 -> 274; tem indice em list_in= 274
+aresta= 273 -> 274; tem indice em list_in= 274
+aresta= 275 -> 277; tem indice em list_out= 275
+aresta= 276 -> 277; tem indice em list_out= 276
+aresta= 277 -> 278; tem indice em list_out= 277
+aresta= 276 -> 277; tem indice em list_in= 277
+aresta= 275 -> 277; tem indice em list_in= 277
+aresta= 279 -> 278; tem indice em list_in= 278
+aresta= 277 -> 278; tem indice em list_in= 278
+aresta= 278 -> 285; tem indice em list_out= 278
+aresta= 279 -> 278; tem indice em list_out= 279
+aresta= 280 -> 279; tem indice em list_in= 279
+aresta= 270 -> 279; tem indice em list_in= 279
+aresta= 279 -> 278; tem indice em list_out= 279
+aresta= 280 -> 279; tem indice em list_in= 279
+aresta= 270 -> 279; tem indice em list_in= 279
+aresta= 108 -> 109; tem indice em list_out= 108
+aresta= 107 -> 109; tem indice em list_in= 109
+aresta= 109 -> 122; tem indice em list_out= 109
+aresta= 108 -> 109; tem indice em list_in= 109
+aresta= 103 -> 105; tem indice em list_out= 103
+aresta= 100 -> 101; tem indice em list_out= 100
+aresta= 101 -> 160; tem indice em list_out= 101
+aresta= 100 -> 101; tem indice em list_in= 101
+aresta= 99 -> 101; tem indice em list_in= 101
+aresta= 107 -> 109; tem indice em list_out= 107
+aresta= 104 -> 105; tem indice em list_out= 104
+aresta= 104 -> 105; tem indice em list_in= 105
+aresta= 103 -> 105; tem indice em list_in= 105
+aresta= 105 -> 124; tem indice em list_out= 105
+aresta= 39 -> 40; tem indice em list_out= 39
+aresta= 38 -> 40; tem indice em list_out= 38
+aresta= 31 -> 33; tem indice em list_in= 33
+aresta= 32 -> 33; tem indice em list_in= 33
+aresta= 33 -> 49; tem indice em list_out= 33
+aresta= 32 -> 33; tem indice em list_out= 32
+aresta= 31 -> 33; tem indice em list_out= 31
+aresta= 29 -> 30; tem indice em list_in= 30
+aresta= 30 -> 90; tem indice em list_out= 30
+aresta= 35 -> 37; tem indice em list_in= 37
+aresta= 36 -> 37; tem indice em list_in= 37
+aresta= 37 -> 48; tem indice em list_out= 37
+aresta= 36 -> 37; tem indice em list_out= 36
+aresta= 35 -> 37; tem indice em list_out= 35
+aresta= 320 -> 339; tem indice em list_in= 339
+aresta= 339 -> 338; tem indice em list_out= 339
+aresta= 340 -> 339; tem indice em list_in= 339
+aresta= 320 -> 339; tem indice em list_in= 339
+aresta= 339 -> 338; tem indice em list_out= 339
+aresta= 340 -> 339; tem indice em list_in= 339
+aresta= 331 -> 338; tem indice em list_in= 338
+aresta= 339 -> 338; tem indice em list_in= 338
+aresta= 338 -> 337; tem indice em list_out= 338
+aresta= 331 -> 338; tem indice em list_in= 338
+aresta= 339 -> 338; tem indice em list_in= 338
+aresta= 338 -> 337; tem indice em list_out= 338
+aresta= 334 -> 335; tem indice em list_in= 335
+aresta= 333 -> 335; tem indice em list_in= 335
+aresta= 335 -> 336; tem indice em list_out= 335
+aresta= 334 -> 335; tem indice em list_out= 334
+aresta= 338 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_out= 337
+aresta= 324 -> 337; tem indice em list_in= 337
+aresta= 338 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_out= 337
+aresta= 324 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_in= 336
+aresta= 336 -> 343; tem indice em list_out= 336
+aresta= 335 -> 336; tem indice em list_in= 336
+aresta= 329 -> 331; tem indice em list_in= 331
+aresta= 331 -> 338; tem indice em list_out= 331
+aresta= 330 -> 331; tem indice em list_in= 331
+aresta= 330 -> 331; tem indice em list_out= 330
+aresta= 333 -> 335; tem indice em list_out= 333
+aresta= 6 -> 7; tem indice em list_out= 6
+aresta= 99 -> 101; tem indice em list_out= 99
+aresta= 91 -> 90; tem indice em list_out= 91
+aresta= 90 -> 89; tem indice em list_out= 90
+aresta= 30 -> 90; tem indice em list_in= 90
+aresta= 91 -> 90; tem indice em list_in= 90
+aresta= 90 -> 89; tem indice em list_out= 90
+aresta= 30 -> 90; tem indice em list_in= 90
+aresta= 91 -> 90; tem indice em list_in= 90
+aresta= 92 -> 93; tem indice em list_in= 93
+aresta= 86 -> 93; tem indice em list_in= 93
+aresta= 93 -> 94; tem indice em list_out= 93
+aresta= 92 -> 93; tem indice em list_out= 92
+aresta= 95 -> 97; tem indice em list_out= 95
+aresta= 93 -> 94; tem indice em list_in= 94
+aresta= 94 -> 411; tem indice em list_out= 94
+aresta= 95 -> 97; tem indice em list_in= 97
+aresta= 97 -> 161; tem indice em list_out= 97
+aresta= 96 -> 97; tem indice em list_in= 97
+aresta= 96 -> 97; tem indice em list_out= 96
+aresta= 238 -> 239; tem indice em list_out= 238
+aresta= 238 -> 239; tem indice em list_in= 239
+aresta= 239 -> 246; tem indice em list_out= 239
+aresta= 237 -> 239; tem indice em list_in= 239
+aresta= 234 -> 235; tem indice em list_out= 234
+aresta= 234 -> 235; tem indice em list_in= 235
+aresta= 235 -> 248; tem indice em list_out= 235
+aresta= 233 -> 235; tem indice em list_in= 235
+aresta= 237 -> 239; tem indice em list_out= 237
+aresta= 230 -> 232; tem indice em list_out= 230
+aresta= 231 -> 232; tem indice em list_out= 231
+aresta= 230 -> 232; tem indice em list_in= 232
+aresta= 232 -> 245; tem indice em list_out= 232
+aresta= 231 -> 232; tem indice em list_in= 232
+aresta= 233 -> 235; tem indice em list_out= 233
+aresta= 1 -> 3; tem indice em list_out= 1
+aresta= 146 -> 147; tem indice em list_out= 146
+aresta= 146 -> 147; tem indice em list_in= 147
+aresta= 147 -> 148; tem indice em list_out= 147
+aresta= 145 -> 147; tem indice em list_in= 147
+aresta= 145 -> 147; tem indice em list_out= 145
+aresta= 142 -> 143; tem indice em list_out= 142
+aresta= 141 -> 143; tem indice em list_in= 143
+aresta= 143 -> 150; tem indice em list_out= 143
+aresta= 142 -> 143; tem indice em list_in= 143
+aresta= 140 -> 152; tem indice em list_out= 140
+aresta= 138 -> 140; tem indice em list_in= 140
+aresta= 139 -> 140; tem indice em list_in= 140
+aresta= 141 -> 143; tem indice em list_out= 141
+aresta= 149 -> 148; tem indice em list_in= 148
+aresta= 147 -> 148; tem indice em list_in= 148
+aresta= 148 -> 155; tem indice em list_out= 148
+aresta= 136 -> 149; tem indice em list_in= 149
+aresta= 149 -> 148; tem indice em list_out= 149
+aresta= 150 -> 149; tem indice em list_in= 149
+aresta= 136 -> 149; tem indice em list_in= 149
+aresta= 149 -> 148; tem indice em list_out= 149
+aresta= 150 -> 149; tem indice em list_in= 149
+aresta= 131 -> 132; tem indice em list_in= 132
+aresta= 130 -> 132; tem indice em list_in= 132
+aresta= 132 -> 151; tem indice em list_out= 132
+aresta= 131 -> 132; tem indice em list_out= 131
+aresta= 130 -> 132; tem indice em list_out= 130
+aresta= 136 -> 149; tem indice em list_out= 136
+aresta= 134 -> 136; tem indice em list_in= 136
+aresta= 135 -> 136; tem indice em list_in= 136
+aresta= 135 -> 136; tem indice em list_out= 135
+aresta= 134 -> 136; tem indice em list_out= 134
+aresta= 139 -> 140; tem indice em list_out= 139
+aresta= 138 -> 140; tem indice em list_out= 138
+aresta= 24 -> 23; tem indice em list_out= 24
+aresta= 25 -> 24; tem indice em list_in= 24
+aresta= 18 -> 24; tem indice em list_in= 24
+aresta= 24 -> 23; tem indice em list_out= 24
+aresta= 25 -> 24; tem indice em list_in= 24
+aresta= 18 -> 24; tem indice em list_in= 24
+aresta= 15 -> 25; tem indice em list_in= 25
+aresta= 26 -> 25; tem indice em list_in= 25
+aresta= 25 -> 24; tem indice em list_out= 25
+aresta= 15 -> 25; tem indice em list_in= 25
+aresta= 26 -> 25; tem indice em list_in= 25
+aresta= 25 -> 24; tem indice em list_out= 25
+aresta= 21 -> 26; tem indice em list_in= 26
+aresta= 27 -> 26; tem indice em list_in= 26
+aresta= 26 -> 25; tem indice em list_out= 26
+aresta= 21 -> 26; tem indice em list_in= 26
+aresta= 27 -> 26; tem indice em list_in= 26
+aresta= 26 -> 25; tem indice em list_out= 26
+aresta= 27 -> 26; tem indice em list_out= 27
+aresta= 20 -> 21; tem indice em list_out= 20
+aresta= 19 -> 21; tem indice em list_in= 21
+aresta= 21 -> 26; tem indice em list_out= 21
+aresta= 20 -> 21; tem indice em list_in= 21
+aresta= 23 -> 22; tem indice em list_in= 22
+aresta= 22 -> 29; tem indice em list_out= 22
+aresta= 11 -> 22; tem indice em list_in= 22
+aresta= 7 -> 23; tem indice em list_in= 23
+aresta= 24 -> 23; tem indice em list_in= 23
+aresta= 23 -> 22; tem indice em list_out= 23
+aresta= 7 -> 23; tem indice em list_in= 23
+aresta= 24 -> 23; tem indice em list_in= 23
+aresta= 23 -> 22; tem indice em list_out= 23
+aresta= 28 -> 29; tem indice em list_out= 28
+aresta= 28 -> 29; tem indice em list_in= 29
+aresta= 29 -> 30; tem indice em list_out= 29
+aresta= 22 -> 29; tem indice em list_in= 29
+aresta= 407 -> 409; tem indice em list_out= 407
+aresta= 406 -> 407; tem indice em list_in= 407
+aresta= 405 -> 406; tem indice em list_in= 406
+aresta= 399 -> 406; tem indice em list_in= 406
+aresta= 406 -> 407; tem indice em list_out= 406
+aresta= 405 -> 406; tem indice em list_out= 405
+aresta= 404 -> 403; tem indice em list_out= 404
+aresta= 403 -> 402; tem indice em list_out= 403
+aresta= 404 -> 403; tem indice em list_in= 403
+aresta= 388 -> 403; tem indice em list_in= 403
+aresta= 403 -> 402; tem indice em list_out= 403
+aresta= 404 -> 403; tem indice em list_in= 403
+aresta= 388 -> 403; tem indice em list_in= 403
+aresta= 403 -> 402; tem indice em list_in= 402
+aresta= 402 -> 401; tem indice em list_out= 402
+aresta= 385 -> 402; tem indice em list_in= 402
+aresta= 403 -> 402; tem indice em list_in= 402
+aresta= 402 -> 401; tem indice em list_out= 402
+aresta= 385 -> 402; tem indice em list_in= 402
+aresta= 401 -> 400; tem indice em list_out= 401
+aresta= 402 -> 401; tem indice em list_in= 401
+aresta= 394 -> 401; tem indice em list_in= 401
+aresta= 401 -> 400; tem indice em list_out= 401
+aresta= 402 -> 401; tem indice em list_in= 401
+aresta= 394 -> 401; tem indice em list_in= 401
+aresta= 401 -> 400; tem indice em list_in= 400
+aresta= 400 -> 399; tem indice em list_out= 400
+aresta= 391 -> 400; tem indice em list_in= 400
+aresta= 401 -> 400; tem indice em list_in= 400
+aresta= 400 -> 399; tem indice em list_out= 400
+aresta= 391 -> 400; tem indice em list_in= 400
+aresta= 409 -> 408; tem indice em list_out= 409
+aresta= 410 -> 409; tem indice em list_in= 409
+aresta= 407 -> 409; tem indice em list_in= 409
+aresta= 409 -> 408; tem indice em list_out= 409
+aresta= 410 -> 409; tem indice em list_in= 409
+aresta= 407 -> 409; tem indice em list_in= 409
+aresta= 408 -> 415; tem indice em list_out= 408
+aresta= 409 -> 408; tem indice em list_in= 408
+aresta= 190 -> 408; tem indice em list_in= 408
+aresta= 379 -> 378; tem indice em list_out= 379
+aresta= 379 -> 378; tem indice em list_in= 378
+aresta= 378 -> 377; tem indice em list_out= 378
+aresta= 363 -> 378; tem indice em list_in= 378
+aresta= 379 -> 378; tem indice em list_in= 378
+aresta= 378 -> 377; tem indice em list_out= 378
+aresta= 363 -> 378; tem indice em list_in= 378
+aresta= 371 -> 373; tem indice em list_out= 371
+aresta= 371 -> 373; tem indice em list_in= 373
+aresta= 373 -> 374; tem indice em list_out= 373
+aresta= 372 -> 373; tem indice em list_in= 373
+aresta= 372 -> 373; tem indice em list_out= 372
+aresta= 375 -> 374; tem indice em list_out= 375
+aresta= 366 -> 375; tem indice em list_in= 375
+aresta= 376 -> 375; tem indice em list_in= 375
+aresta= 375 -> 374; tem indice em list_out= 375
+aresta= 366 -> 375; tem indice em list_in= 375
+aresta= 376 -> 375; tem indice em list_in= 375
+aresta= 375 -> 374; tem indice em list_in= 374
+aresta= 374 -> 381; tem indice em list_out= 374
+aresta= 373 -> 374; tem indice em list_in= 374
+aresta= 377 -> 376; tem indice em list_out= 377
+aresta= 360 -> 377; tem indice em list_in= 377
+aresta= 378 -> 377; tem indice em list_in= 377
+aresta= 377 -> 376; tem indice em list_out= 377
+aresta= 360 -> 377; tem indice em list_in= 377
+aresta= 378 -> 377; tem indice em list_in= 377
+aresta= 377 -> 376; tem indice em list_in= 376
+aresta= 369 -> 376; tem indice em list_in= 376
+aresta= 376 -> 375; tem indice em list_out= 376
+aresta= 377 -> 376; tem indice em list_in= 376
+aresta= 369 -> 376; tem indice em list_in= 376
+aresta= 376 -> 375; tem indice em list_out= 376
+aresta= 393 -> 394; tem indice em list_out= 393
+aresta= 392 -> 394; tem indice em list_out= 392
+aresta= 89 -> 88; tem indice em list_in= 88
+aresta= 82 -> 88; tem indice em list_in= 88
+aresta= 88 -> 87; tem indice em list_out= 88
+aresta= 89 -> 88; tem indice em list_in= 88
+aresta= 82 -> 88; tem indice em list_in= 88
+aresta= 88 -> 87; tem indice em list_out= 88
+aresta= 90 -> 89; tem indice em list_in= 89
+aresta= 3 -> 89; tem indice em list_in= 89
+aresta= 89 -> 88; tem indice em list_out= 89
+aresta= 90 -> 89; tem indice em list_in= 89
+aresta= 3 -> 89; tem indice em list_in= 89
+aresta= 89 -> 88; tem indice em list_out= 89
+aresta= 397 -> 399; tem indice em list_out= 397
+aresta= 395 -> 397; tem indice em list_in= 397
+aresta= 396 -> 397; tem indice em list_in= 397
+aresta= 396 -> 397; tem indice em list_out= 396
+aresta= 395 -> 397; tem indice em list_out= 395
+aresta= 394 -> 401; tem indice em list_out= 394
+aresta= 393 -> 394; tem indice em list_in= 394
+aresta= 392 -> 394; tem indice em list_in= 394
+aresta= 81 -> 82; tem indice em list_in= 82
+aresta= 82 -> 88; tem indice em list_out= 82
+aresta= 83 -> 85; tem indice em list_out= 83
+aresta= 80 -> 81; tem indice em list_out= 80
+aresta= 80 -> 81; tem indice em list_in= 81
+aresta= 74 -> 81; tem indice em list_in= 81
+aresta= 81 -> 82; tem indice em list_out= 81
+aresta= 86 -> 93; tem indice em list_out= 86
+aresta= 87 -> 86; tem indice em list_in= 86
+aresta= 85 -> 86; tem indice em list_in= 86
+aresta= 56 -> 87; tem indice em list_in= 87
+aresta= 87 -> 86; tem indice em list_out= 87
+aresta= 88 -> 87; tem indice em list_in= 87
+aresta= 56 -> 87; tem indice em list_in= 87
+aresta= 87 -> 86; tem indice em list_out= 87
+aresta= 88 -> 87; tem indice em list_in= 87
+aresta= 84 -> 85; tem indice em list_out= 84
+aresta= 84 -> 85; tem indice em list_in= 85
+aresta= 83 -> 85; tem indice em list_in= 85
+aresta= 85 -> 86; tem indice em list_out= 85
+aresta= 7 -> 23; tem indice em list_out= 7
+aresta= 6 -> 7; tem indice em list_in= 7
+aresta= 5 -> 7; tem indice em list_in= 7
+aresta= 232 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_out= 245
+aresta= 246 -> 245; tem indice em list_in= 245
+aresta= 232 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_out= 245
+aresta= 246 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_in= 244
+aresta= 243 -> 244; tem indice em list_in= 244
+aresta= 244 -> 251; tem indice em list_out= 244
+aresta= 248 -> 247; tem indice em list_in= 247
+aresta= 247 -> 246; tem indice em list_out= 247
+aresta= 228 -> 247; tem indice em list_in= 247
+aresta= 248 -> 247; tem indice em list_in= 247
+aresta= 247 -> 246; tem indice em list_out= 247
+aresta= 228 -> 247; tem indice em list_in= 247
+aresta= 239 -> 246; tem indice em list_in= 246
+aresta= 247 -> 246; tem indice em list_in= 246
+aresta= 246 -> 245; tem indice em list_out= 246
+aresta= 239 -> 246; tem indice em list_in= 246
+aresta= 247 -> 246; tem indice em list_in= 246
+aresta= 246 -> 245; tem indice em list_out= 246
+aresta= 241 -> 243; tem indice em list_out= 241
+aresta= 243 -> 244; tem indice em list_out= 243
+aresta= 241 -> 243; tem indice em list_in= 243
+aresta= 242 -> 243; tem indice em list_in= 243
+aresta= 242 -> 243; tem indice em list_out= 242
+aresta= 249 -> 248; tem indice em list_out= 249
+aresta= 235 -> 248; tem indice em list_in= 248
+aresta= 249 -> 248; tem indice em list_in= 248
+aresta= 248 -> 247; tem indice em list_out= 248
+aresta= 235 -> 248; tem indice em list_in= 248
+aresta= 249 -> 248; tem indice em list_in= 248
+aresta= 248 -> 247; tem indice em list_out= 248
+aresta= 179 -> 181; tem indice em list_out= 179
+aresta= 176 -> 178; tem indice em list_in= 178
+aresta= 177 -> 178; tem indice em list_in= 178
+aresta= 178 -> 184; tem indice em list_out= 178
+aresta= 177 -> 178; tem indice em list_out= 177
+aresta= 176 -> 178; tem indice em list_out= 176
+aresta= 173 -> 175; tem indice em list_in= 175
+aresta= 175 -> 183; tem indice em list_out= 175
+aresta= 174 -> 175; tem indice em list_in= 175
+aresta= 174 -> 175; tem indice em list_out= 174
+aresta= 173 -> 175; tem indice em list_out= 173
+aresta= 170 -> 171; tem indice em list_in= 171
+aresta= 171 -> 186; tem indice em list_out= 171
+aresta= 169 -> 171; tem indice em list_in= 171
+aresta= 170 -> 171; tem indice em list_out= 170
+aresta= 253 -> 255; tem indice em list_out= 253
+aresta= 181 -> 182; tem indice em list_in= 182
+aresta= 182 -> 189; tem indice em list_out= 182
+aresta= 183 -> 182; tem indice em list_in= 182
+aresta= 175 -> 183; tem indice em list_in= 183
+aresta= 184 -> 183; tem indice em list_in= 183
+aresta= 183 -> 182; tem indice em list_out= 183
+aresta= 175 -> 183; tem indice em list_in= 183
+aresta= 184 -> 183; tem indice em list_in= 183
+aresta= 183 -> 182; tem indice em list_out= 183
+aresta= 180 -> 181; tem indice em list_out= 180
+aresta= 181 -> 182; tem indice em list_out= 181
+aresta= 180 -> 181; tem indice em list_in= 181
+aresta= 179 -> 181; tem indice em list_in= 181
+aresta= 171 -> 186; tem indice em list_in= 186
+aresta= 186 -> 185; tem indice em list_out= 186
+aresta= 187 -> 186; tem indice em list_in= 186
+aresta= 171 -> 186; tem indice em list_in= 186
+aresta= 186 -> 185; tem indice em list_out= 186
+aresta= 187 -> 186; tem indice em list_in= 186
+aresta= 187 -> 186; tem indice em list_out= 187
+aresta= 185 -> 184; tem indice em list_in= 184
+aresta= 178 -> 184; tem indice em list_in= 184
+aresta= 184 -> 183; tem indice em list_out= 184
+aresta= 185 -> 184; tem indice em list_in= 184
+aresta= 178 -> 184; tem indice em list_in= 184
+aresta= 184 -> 183; tem indice em list_out= 184
+aresta= 168 -> 185; tem indice em list_in= 185
+aresta= 185 -> 184; tem indice em list_out= 185
+aresta= 186 -> 185; tem indice em list_in= 185
+aresta= 168 -> 185; tem indice em list_in= 185
+aresta= 185 -> 184; tem indice em list_out= 185
+aresta= 186 -> 185; tem indice em list_in= 185
+aresta= 188 -> 189; tem indice em list_out= 188
+aresta= 188 -> 189; tem indice em list_in= 189
+aresta= 189 -> 190; tem indice em list_out= 189
+aresta= 182 -> 189; tem indice em list_in= 189
+aresta= 9 -> 11; tem indice em list_in= 11
+aresta= 11 -> 22; tem indice em list_out= 11
+aresta= 10 -> 11; tem indice em list_in= 11
+aresta= 10 -> 11; tem indice em list_out= 10
+aresta= 13 -> 15; tem indice em list_out= 13
+aresta= 15 -> 25; tem indice em list_out= 15
+aresta= 14 -> 15; tem indice em list_in= 15
+aresta= 13 -> 15; tem indice em list_in= 15
+aresta= 14 -> 15; tem indice em list_out= 14
+aresta= 17 -> 18; tem indice em list_out= 17
+aresta= 16 -> 18; tem indice em list_out= 16
+aresta= 19 -> 21; tem indice em list_out= 19
+aresta= 16 -> 18; tem indice em list_in= 18
+aresta= 17 -> 18; tem indice em list_in= 18
+aresta= 18 -> 24; tem indice em list_out= 18
+aresta= 62 -> 63; tem indice em list_out= 62
+aresta= 322 -> 324; tem indice em list_out= 322
+aresta= 323 -> 324; tem indice em list_out= 323
+aresta= 320 -> 339; tem indice em list_out= 320
+aresta= 318 -> 320; tem indice em list_in= 320
+aresta= 319 -> 320; tem indice em list_in= 320
+aresta= 326 -> 327; tem indice em list_out= 326
+aresta= 327 -> 340; tem indice em list_out= 327
+aresta= 325 -> 327; tem indice em list_in= 327
+aresta= 326 -> 327; tem indice em list_in= 327
+aresta= 323 -> 324; tem indice em list_in= 324
+aresta= 324 -> 337; tem indice em list_out= 324
+aresta= 322 -> 324; tem indice em list_in= 324
+aresta= 325 -> 327; tem indice em list_out= 325
+aresta= 329 -> 331; tem indice em list_out= 329
+aresta= 200 -> 201; tem indice em list_in= 201
+aresta= 199 -> 201; tem indice em list_in= 201
+aresta= 201 -> 214; tem indice em list_out= 201
+aresta= 200 -> 201; tem indice em list_out= 200
+aresta= 203 -> 205; tem indice em list_out= 203
+aresta= 204 -> 205; tem indice em list_in= 205
+aresta= 203 -> 205; tem indice em list_in= 205
+aresta= 205 -> 217; tem indice em list_out= 205
+aresta= 204 -> 205; tem indice em list_out= 204
+aresta= 207 -> 209; tem indice em list_out= 207
+aresta= 209 -> 215; tem indice em list_out= 209
+aresta= 208 -> 209; tem indice em list_in= 209
+aresta= 207 -> 209; tem indice em list_in= 209
+aresta= 208 -> 209; tem indice em list_out= 208
+aresta= 78 -> 77; tem indice em list_in= 77
+aresta= 66 -> 77; tem indice em list_in= 77
+aresta= 77 -> 76; tem indice em list_out= 77
+aresta= 78 -> 77; tem indice em list_in= 77
+aresta= 66 -> 77; tem indice em list_in= 77
+aresta= 77 -> 76; tem indice em list_out= 77
+aresta= 76 -> 75; tem indice em list_out= 76
+aresta= 69 -> 76; tem indice em list_in= 76
+aresta= 77 -> 76; tem indice em list_in= 76
+aresta= 76 -> 75; tem indice em list_out= 76
+aresta= 69 -> 76; tem indice em list_in= 76
+aresta= 77 -> 76; tem indice em list_in= 76
+aresta= 59 -> 75; tem indice em list_in= 75
+aresta= 76 -> 75; tem indice em list_in= 75
+aresta= 75 -> 74; tem indice em list_out= 75
+aresta= 59 -> 75; tem indice em list_in= 75
+aresta= 76 -> 75; tem indice em list_in= 75
+aresta= 75 -> 74; tem indice em list_out= 75
+aresta= 74 -> 81; tem indice em list_out= 74
+aresta= 63 -> 74; tem indice em list_in= 74
+aresta= 75 -> 74; tem indice em list_in= 74
+aresta= 73 -> 78; tem indice em list_out= 73
+aresta= 72 -> 73; tem indice em list_in= 73
+aresta= 71 -> 73; tem indice em list_in= 73
+aresta= 72 -> 73; tem indice em list_out= 72
+aresta= 71 -> 73; tem indice em list_out= 71
+aresta= 79 -> 78; tem indice em list_out= 79
+aresta= 79 -> 78; tem indice em list_in= 78
+aresta= 73 -> 78; tem indice em list_in= 78
+aresta= 78 -> 77; tem indice em list_out= 78
+aresta= 79 -> 78; tem indice em list_in= 78
+aresta= 73 -> 78; tem indice em list_in= 78
+aresta= 78 -> 77; tem indice em list_out= 78
+aresta= 2 -> 3; tem indice em list_out= 2
+aresta= 119 -> 120; tem indice em list_in= 120
+aresta= 118 -> 120; tem indice em list_in= 120
+aresta= 120 -> 121; tem indice em list_out= 120
+aresta= 121 -> 128; tem indice em list_out= 121
+aresta= 122 -> 121; tem indice em list_in= 121
+aresta= 120 -> 121; tem indice em list_in= 121
+aresta= 109 -> 122; tem indice em list_in= 122
+aresta= 122 -> 121; tem indice em list_out= 122
+aresta= 123 -> 122; tem indice em list_in= 122
+aresta= 109 -> 122; tem indice em list_in= 122
+aresta= 122 -> 121; tem indice em list_out= 122
+aresta= 123 -> 122; tem indice em list_in= 122
+aresta= 117 -> 123; tem indice em list_in= 123
+aresta= 123 -> 122; tem indice em list_out= 123
+aresta= 124 -> 123; tem indice em list_in= 123
+aresta= 117 -> 123; tem indice em list_in= 123
+aresta= 123 -> 122; tem indice em list_out= 123
+aresta= 124 -> 123; tem indice em list_in= 123
+aresta= 124 -> 123; tem indice em list_out= 124
+aresta= 105 -> 124; tem indice em list_in= 124
+aresta= 125 -> 124; tem indice em list_in= 124
+aresta= 124 -> 123; tem indice em list_out= 124
+aresta= 105 -> 124; tem indice em list_in= 124
+aresta= 125 -> 124; tem indice em list_in= 124
+aresta= 113 -> 125; tem indice em list_in= 125
+aresta= 126 -> 125; tem indice em list_in= 125
+aresta= 125 -> 124; tem indice em list_out= 125
+aresta= 113 -> 125; tem indice em list_in= 125
+aresta= 126 -> 125; tem indice em list_in= 125
+aresta= 125 -> 124; tem indice em list_out= 125
+aresta= 126 -> 125; tem indice em list_out= 126
+aresta= 127 -> 128; tem indice em list_out= 127
+aresta= 127 -> 128; tem indice em list_in= 128
+aresta= 121 -> 128; tem indice em list_in= 128
+aresta= 128 -> 129; tem indice em list_out= 128
+aresta= 129 -> 163; tem indice em list_out= 129
+aresta= 128 -> 129; tem indice em list_in= 129
+aresta= 414 -> 415; tem indice em list_out= 414
+aresta= 408 -> 415; tem indice em list_in= 415
+aresta= 414 -> 415; tem indice em list_in= 415
+aresta= 411 -> 410; tem indice em list_in= 410
+aresta= 410 -> 409; tem indice em list_out= 410
+aresta= 286 -> 410; tem indice em list_in= 410
+aresta= 411 -> 410; tem indice em list_in= 410
+aresta= 410 -> 409; tem indice em list_out= 410
+aresta= 286 -> 410; tem indice em list_in= 410
+aresta= 411 -> 410; tem indice em list_out= 411
+aresta= 94 -> 411; tem indice em list_in= 411
+aresta= 412 -> 411; tem indice em list_in= 411
+aresta= 411 -> 410; tem indice em list_out= 411
+aresta= 94 -> 411; tem indice em list_in= 411
+aresta= 412 -> 411; tem indice em list_in= 411
+aresta= 413 -> 412; tem indice em list_in= 412
+aresta= 382 -> 412; tem indice em list_in= 412
+aresta= 412 -> 411; tem indice em list_out= 412
+aresta= 413 -> 412; tem indice em list_in= 412
+aresta= 382 -> 412; tem indice em list_in= 412
+aresta= 412 -> 411; tem indice em list_out= 412
+aresta= 413 -> 412; tem indice em list_out= 413
+aresta= 319 -> 320; tem indice em list_out= 319
+aresta= 318 -> 320; tem indice em list_out= 318
+aresta= 301 -> 313; tem indice em list_in= 313
+aresta= 314 -> 313; tem indice em list_in= 313
+aresta= 313 -> 312; tem indice em list_out= 313
+aresta= 301 -> 313; tem indice em list_in= 313
+aresta= 314 -> 313; tem indice em list_in= 313
+aresta= 313 -> 312; tem indice em list_out= 313
+aresta= 293 -> 312; tem indice em list_in= 312
+aresta= 312 -> 311; tem indice em list_out= 312
+aresta= 313 -> 312; tem indice em list_in= 312
+aresta= 293 -> 312; tem indice em list_in= 312
+aresta= 312 -> 311; tem indice em list_out= 312
+aresta= 313 -> 312; tem indice em list_in= 312
+aresta= 311 -> 310; tem indice em list_out= 311
+aresta= 312 -> 311; tem indice em list_in= 311
+aresta= 304 -> 311; tem indice em list_in= 311
+aresta= 311 -> 310; tem indice em list_out= 311
+aresta= 312 -> 311; tem indice em list_in= 311
+aresta= 304 -> 311; tem indice em list_in= 311
+aresta= 311 -> 310; tem indice em list_in= 310
+aresta= 310 -> 309; tem indice em list_out= 310
+aresta= 297 -> 310; tem indice em list_in= 310
+aresta= 311 -> 310; tem indice em list_in= 310
+aresta= 310 -> 309; tem indice em list_out= 310
+aresta= 297 -> 310; tem indice em list_in= 310
+aresta= 317 -> 352; tem indice em list_out= 317
+aresta= 316 -> 317; tem indice em list_in= 317
+aresta= 309 -> 316; tem indice em list_in= 316
+aresta= 315 -> 316; tem indice em list_in= 316
+aresta= 316 -> 317; tem indice em list_out= 316
+aresta= 315 -> 316; tem indice em list_out= 315
+aresta= 314 -> 313; tem indice em list_out= 314
+aresta= 2 -> 3; tem indice em list_in= 3
+aresta= 3 -> 89; tem indice em list_out= 3
+aresta= 1 -> 3; tem indice em list_in= 3
+aresta= 368 -> 369; tem indice em list_out= 368
+aresta= 368 -> 369; tem indice em list_in= 369
+aresta= 367 -> 369; tem indice em list_in= 369
+aresta= 369 -> 376; tem indice em list_out= 369
+aresta= 364 -> 366; tem indice em list_in= 366
+aresta= 366 -> 375; tem indice em list_out= 366
+aresta= 365 -> 366; tem indice em list_in= 366
+aresta= 367 -> 369; tem indice em list_out= 367
+aresta= 364 -> 366; tem indice em list_out= 364
+aresta= 365 -> 366; tem indice em list_out= 365
+aresta= 362 -> 363; tem indice em list_out= 362
+aresta= 361 -> 363; tem indice em list_in= 363
+aresta= 363 -> 378; tem indice em list_out= 363
+aresta= 362 -> 363; tem indice em list_in= 363
+aresta= 360 -> 377; tem indice em list_out= 360
+aresta= 359 -> 360; tem indice em list_in= 360
+aresta= 361 -> 363; tem indice em list_out= 361
+aresta= 380 -> 381; tem indice em list_out= 380
+aresta= 380 -> 381; tem indice em list_in= 381
+aresta= 374 -> 381; tem indice em list_in= 381
+aresta= 381 -> 382; tem indice em list_out= 381
+aresta= 382 -> 412; tem indice em list_out= 382
+aresta= 381 -> 382; tem indice em list_in= 382
+aresta= 383 -> 385; tem indice em list_out= 383
+aresta= 384 -> 385; tem indice em list_out= 384
+aresta= 384 -> 385; tem indice em list_in= 385
+aresta= 383 -> 385; tem indice em list_in= 385
+aresta= 385 -> 402; tem indice em list_out= 385
+aresta= 386 -> 388; tem indice em list_out= 386
+aresta= 387 -> 388; tem indice em list_out= 387
+aresta= 387 -> 388; tem indice em list_in= 388
+aresta= 386 -> 388; tem indice em list_in= 388
+aresta= 388 -> 403; tem indice em list_out= 388
+aresta= 389 -> 391; tem indice em list_out= 389
+aresta= 61 -> 63; tem indice em list_out= 61
+aresta= 259 -> 258; tem indice em list_in= 258
+aresta= 258 -> 257; tem indice em list_out= 258
+aresta= 252 -> 258; tem indice em list_in= 258
+aresta= 259 -> 258; tem indice em list_in= 258
+aresta= 258 -> 257; tem indice em list_out= 258
+aresta= 252 -> 258; tem indice em list_in= 258
+aresta= 259 -> 258; tem indice em list_out= 259
+aresta= 260 -> 259; tem indice em list_in= 259
+aresta= 224 -> 259; tem indice em list_in= 259
+aresta= 259 -> 258; tem indice em list_out= 259
+aresta= 260 -> 259; tem indice em list_in= 259
+aresta= 224 -> 259; tem indice em list_in= 259
+aresta= 64 -> 66; tem indice em list_out= 64
+aresta= 65 -> 66; tem indice em list_out= 65
+aresta= 65 -> 66; tem indice em list_in= 66
+aresta= 66 -> 77; tem indice em list_out= 66
+aresta= 64 -> 66; tem indice em list_in= 66
+aresta= 67 -> 69; tem indice em list_out= 67
+aresta= 251 -> 252; tem indice em list_in= 252
+aresta= 252 -> 258; tem indice em list_out= 252
+aresta= 69 -> 76; tem indice em list_out= 69
+aresta= 67 -> 69; tem indice em list_in= 69
+aresta= 68 -> 69; tem indice em list_in= 69
+aresta= 250 -> 251; tem indice em list_out= 250
+aresta= 251 -> 252; tem indice em list_out= 251
+aresta= 250 -> 251; tem indice em list_in= 251
+aresta= 244 -> 251; tem indice em list_in= 251
+aresta= 256 -> 263; tem indice em list_out= 256
+aresta= 257 -> 256; tem indice em list_in= 256
+aresta= 221 -> 256; tem indice em list_in= 256
+aresta= 193 -> 257; tem indice em list_in= 257
+aresta= 258 -> 257; tem indice em list_in= 257
+aresta= 257 -> 256; tem indice em list_out= 257
+aresta= 193 -> 257; tem indice em list_in= 257
+aresta= 258 -> 257; tem indice em list_in= 257
+aresta= 257 -> 256; tem indice em list_out= 257
+aresta= 254 -> 255; tem indice em list_out= 254
+aresta= 254 -> 255; tem indice em list_in= 255
+aresta= 255 -> 260; tem indice em list_out= 255
+aresta= 253 -> 255; tem indice em list_in= 255
+aresta= 168 -> 185; tem indice em list_out= 168
+aresta= 167 -> 168; tem indice em list_in= 168
+aresta= 169 -> 171; tem indice em list_out= 169
+aresta= 165 -> 164; tem indice em list_in= 164
+aresta= 164 -> 163; tem indice em list_out= 164
+aresta= 159 -> 164; tem indice em list_in= 164
+aresta= 165 -> 164; tem indice em list_in= 164
+aresta= 164 -> 163; tem indice em list_out= 164
+aresta= 159 -> 164; tem indice em list_in= 164
+aresta= 165 -> 164; tem indice em list_out= 165
+aresta= 166 -> 167; tem indice em list_out= 166
+aresta= 166 -> 167; tem indice em list_in= 167
+aresta= 160 -> 167; tem indice em list_in= 167
+aresta= 167 -> 168; tem indice em list_out= 167
+aresta= 101 -> 160; tem indice em list_in= 160
+aresta= 161 -> 160; tem indice em list_in= 160
+aresta= 160 -> 167; tem indice em list_out= 160
+aresta= 161 -> 160; tem indice em list_out= 161
+aresta= 162 -> 161; tem indice em list_in= 161
+aresta= 97 -> 161; tem indice em list_in= 161
+aresta= 161 -> 160; tem indice em list_out= 161
+aresta= 162 -> 161; tem indice em list_in= 161
+aresta= 97 -> 161; tem indice em list_in= 161
+aresta= 163 -> 162; tem indice em list_in= 162
+aresta= 162 -> 161; tem indice em list_out= 162
+aresta= 156 -> 162; tem indice em list_in= 162
+aresta= 163 -> 162; tem indice em list_in= 162
+aresta= 162 -> 161; tem indice em list_out= 162
+aresta= 156 -> 162; tem indice em list_in= 162
+aresta= 129 -> 163; tem indice em list_in= 163
+aresta= 163 -> 162; tem indice em list_out= 163
+aresta= 164 -> 163; tem indice em list_in= 163
+aresta= 129 -> 163; tem indice em list_in= 163
+aresta= 163 -> 162; tem indice em list_out= 163
+aresta= 164 -> 163; tem indice em list_in= 163
+aresta= 9 -> 11; tem indice em list_out= 9
+aresta= 357 -> 356; tem indice em list_out= 357
+aresta= 356 -> 355; tem indice em list_out= 356
+aresta= 351 -> 356; tem indice em list_in= 356
+aresta= 357 -> 356; tem indice em list_in= 356
+aresta= 356 -> 355; tem indice em list_out= 356
+aresta= 351 -> 356; tem indice em list_in= 356
+aresta= 357 -> 356; tem indice em list_in= 356
+aresta= 356 -> 355; tem indice em list_in= 355
+aresta= 344 -> 355; tem indice em list_in= 355
+aresta= 355 -> 354; tem indice em list_out= 355
+aresta= 356 -> 355; tem indice em list_in= 355
+aresta= 344 -> 355; tem indice em list_in= 355
+aresta= 355 -> 354; tem indice em list_out= 355
+aresta= 354 -> 353; tem indice em list_out= 354
+aresta= 347 -> 354; tem indice em list_in= 354
+aresta= 355 -> 354; tem indice em list_in= 354
+aresta= 354 -> 353; tem indice em list_out= 354
+aresta= 347 -> 354; tem indice em list_in= 354
+aresta= 355 -> 354; tem indice em list_in= 354
+aresta= 354 -> 353; tem indice em list_in= 353
+aresta= 353 -> 352; tem indice em list_out= 353
+aresta= 289 -> 353; tem indice em list_in= 353
+aresta= 354 -> 353; tem indice em list_in= 353
+aresta= 353 -> 352; tem indice em list_out= 353
+aresta= 289 -> 353; tem indice em list_in= 353
+aresta= 317 -> 352; tem indice em list_in= 352
+aresta= 352 -> 359; tem indice em list_out= 352
+aresta= 353 -> 352; tem indice em list_in= 352
+aresta= 349 -> 351; tem indice em list_in= 351
+aresta= 350 -> 351; tem indice em list_in= 351
+aresta= 351 -> 356; tem indice em list_out= 351
+aresta= 350 -> 351; tem indice em list_out= 350
+aresta= 352 -> 359; tem indice em list_in= 359
+aresta= 359 -> 360; tem indice em list_out= 359
+aresta= 358 -> 359; tem indice em list_in= 359
+aresta= 358 -> 359; tem indice em list_out= 358
+aresta= 197 -> 216; tem indice em list_in= 216
+aresta= 217 -> 216; tem indice em list_in= 216
+aresta= 216 -> 215; tem indice em list_out= 216
+aresta= 197 -> 216; tem indice em list_in= 216
+aresta= 217 -> 216; tem indice em list_in= 216
+aresta= 216 -> 215; tem indice em list_out= 216
+aresta= 218 -> 217; tem indice em list_in= 217
+aresta= 217 -> 216; tem indice em list_out= 217
+aresta= 205 -> 217; tem indice em list_in= 217
+aresta= 218 -> 217; tem indice em list_in= 217
+aresta= 217 -> 216; tem indice em list_out= 217
+aresta= 205 -> 217; tem indice em list_in= 217
+aresta= 215 -> 214; tem indice em list_in= 214
+aresta= 214 -> 213; tem indice em list_out= 214
+aresta= 201 -> 214; tem indice em list_in= 214
+aresta= 215 -> 214; tem indice em list_in= 214
+aresta= 214 -> 213; tem indice em list_out= 214
+aresta= 201 -> 214; tem indice em list_in= 214
+aresta= 215 -> 214; tem indice em list_out= 215
+aresta= 209 -> 215; tem indice em list_in= 215
+aresta= 216 -> 215; tem indice em list_in= 215
+aresta= 215 -> 214; tem indice em list_out= 215
+aresta= 209 -> 215; tem indice em list_in= 215
+aresta= 216 -> 215; tem indice em list_in= 215
+aresta= 211 -> 212; tem indice em list_in= 212
+aresta= 210 -> 212; tem indice em list_in= 212
+aresta= 212 -> 213; tem indice em list_out= 212
+aresta= 214 -> 213; tem indice em list_in= 213
+aresta= 213 -> 220; tem indice em list_out= 213
+aresta= 212 -> 213; tem indice em list_in= 213
+aresta= 210 -> 212; tem indice em list_out= 210
+aresta= 211 -> 212; tem indice em list_out= 211
+aresta= 218 -> 217; tem indice em list_out= 218
+aresta= 219 -> 220; tem indice em list_out= 219
+aresta= 287 -> 289; tem indice em list_in= 289
+aresta= 289 -> 353; tem indice em list_out= 289
+aresta= 288 -> 289; tem indice em list_in= 289
+aresta= 288 -> 289; tem indice em list_out= 288
+aresta= 264 -> 281; tem indice em list_in= 281
+aresta= 282 -> 281; tem indice em list_in= 281
+aresta= 281 -> 280; tem indice em list_out= 281
+aresta= 264 -> 281; tem indice em list_in= 281
+aresta= 282 -> 281; tem indice em list_in= 281
+aresta= 281 -> 280; tem indice em list_out= 281
+aresta= 274 -> 280; tem indice em list_in= 280
+aresta= 280 -> 279; tem indice em list_out= 280
+aresta= 281 -> 280; tem indice em list_in= 280
+aresta= 274 -> 280; tem indice em list_in= 280
+aresta= 280 -> 279; tem indice em list_out= 280
+aresta= 281 -> 280; tem indice em list_in= 280
+aresta= 283 -> 282; tem indice em list_out= 283
+aresta= 282 -> 281; tem indice em list_out= 282
+aresta= 283 -> 282; tem indice em list_in= 282
+aresta= 267 -> 282; tem indice em list_in= 282
+aresta= 282 -> 281; tem indice em list_out= 282
+aresta= 283 -> 282; tem indice em list_in= 282
+aresta= 267 -> 282; tem indice em list_in= 282
+aresta= 284 -> 285; tem indice em list_in= 285
+aresta= 285 -> 286; tem indice em list_out= 285
+aresta= 278 -> 285; tem indice em list_in= 285
+aresta= 284 -> 285; tem indice em list_out= 284
+aresta= 287 -> 289; tem indice em list_out= 287
+aresta= 285 -> 286; tem indice em list_in= 286
+aresta= 286 -> 410; tem indice em list_out= 286
+aresta= 263 -> 264; tem indice em list_out= 263
+aresta= 256 -> 263; tem indice em list_in= 263
+aresta= 262 -> 263; tem indice em list_in= 263
+aresta= 262 -> 263; tem indice em list_out= 262
+aresta= 261 -> 260; tem indice em list_out= 261
+aresta= 261 -> 260; tem indice em list_in= 260
+aresta= 260 -> 259; tem indice em list_out= 260
+aresta= 255 -> 260; tem indice em list_in= 260
+aresta= 261 -> 260; tem indice em list_in= 260
+aresta= 260 -> 259; tem indice em list_out= 260
+aresta= 255 -> 260; tem indice em list_in= 260
+aresta= 266 -> 267; tem indice em list_in= 267
+aresta= 265 -> 267; tem indice em list_in= 267
+aresta= 267 -> 282; tem indice em list_out= 267
+aresta= 266 -> 267; tem indice em list_out= 266
+aresta= 265 -> 267; tem indice em list_out= 265
+aresta= 264 -> 281; tem indice em list_out= 264
+aresta= 263 -> 264; tem indice em list_in= 264
+aresta= 269 -> 270; tem indice em list_out= 269
+aresta= 268 -> 270; tem indice em list_out= 268
+aresta= 58 -> 59; tem indice em list_in= 59
+aresta= 59 -> 75; tem indice em list_out= 59
+aresta= 57 -> 59; tem indice em list_in= 59
+aresta= 58 -> 59; tem indice em list_out= 58
+aresta= 54 -> 55; tem indice em list_in= 55
+aresta= 55 -> 56; tem indice em list_out= 55
+aresta= 48 -> 55; tem indice em list_in= 55
+aresta= 54 -> 55; tem indice em list_out= 54
+aresta= 57 -> 59; tem indice em list_out= 57
+aresta= 56 -> 87; tem indice em list_out= 56
+aresta= 55 -> 56; tem indice em list_in= 56
+aresta= 51 -> 50; tem indice em list_out= 51
+aresta= 52 -> 51; tem indice em list_in= 51
+aresta= 40 -> 51; tem indice em list_in= 51
+aresta= 51 -> 50; tem indice em list_out= 51
+aresta= 52 -> 51; tem indice em list_in= 51
+aresta= 40 -> 51; tem indice em list_in= 51
+aresta= 50 -> 49; tem indice em list_out= 50
+aresta= 51 -> 50; tem indice em list_in= 50
+aresta= 44 -> 50; tem indice em list_in= 50
+aresta= 50 -> 49; tem indice em list_out= 50
+aresta= 51 -> 50; tem indice em list_in= 50
+aresta= 44 -> 50; tem indice em list_in= 50
+aresta= 53 -> 52; tem indice em list_out= 53
+aresta= 52 -> 51; tem indice em list_out= 52
+aresta= 47 -> 52; tem indice em list_in= 52
+aresta= 53 -> 52; tem indice em list_in= 52
+aresta= 52 -> 51; tem indice em list_out= 52
+aresta= 47 -> 52; tem indice em list_in= 52
+aresta= 53 -> 52; tem indice em list_in= 52
+aresta= 61 -> 63; tem indice em list_in= 63
+aresta= 62 -> 63; tem indice em list_in= 63
+aresta= 63 -> 74; tem indice em list_out= 63
+aresta= 115 -> 117; tem indice em list_out= 115
+aresta= 68 -> 69; tem indice em list_out= 68
+aresta= 115 -> 117; tem indice em list_in= 117
+aresta= 117 -> 123; tem indice em list_out= 117
+aresta= 116 -> 117; tem indice em list_in= 117
+aresta= 116 -> 117; tem indice em list_out= 116
+aresta= 111 -> 113; tem indice em list_out= 111
+aresta= 113 -> 125; tem indice em list_out= 113
+aresta= 112 -> 113; tem indice em list_in= 113
+aresta= 111 -> 113; tem indice em list_in= 113
+aresta= 112 -> 113; tem indice em list_out= 112
+aresta= 119 -> 120; tem indice em list_out= 119
+aresta= 118 -> 120; tem indice em list_out= 118
+aresta= 306 -> 308; tem indice em list_in= 308
+aresta= 308 -> 309; tem indice em list_out= 308
+aresta= 307 -> 308; tem indice em list_in= 308
+aresta= 309 -> 316; tem indice em list_out= 309
+aresta= 310 -> 309; tem indice em list_in= 309
+aresta= 308 -> 309; tem indice em list_in= 309
+aresta= 300 -> 301; tem indice em list_out= 300
+aresta= 301 -> 313; tem indice em list_out= 301
+aresta= 299 -> 301; tem indice em list_in= 301
+aresta= 300 -> 301; tem indice em list_in= 301
+aresta= 302 -> 304; tem indice em list_out= 302
+aresta= 303 -> 304; tem indice em list_out= 303
+aresta= 302 -> 304; tem indice em list_in= 304
+aresta= 303 -> 304; tem indice em list_in= 304
+aresta= 304 -> 311; tem indice em list_out= 304
+aresta= 306 -> 308; tem indice em list_out= 306
+aresta= 307 -> 308; tem indice em list_out= 307
+aresta= 226 -> 228; tem indice em list_in= 228
+aresta= 228 -> 247; tem indice em list_out= 228
+aresta= 227 -> 228; tem indice em list_in= 228
+aresta= 227 -> 228; tem indice em list_out= 227
+aresta= 226 -> 228; tem indice em list_out= 226
+aresta= 223 -> 224; tem indice em list_in= 224
+aresta= 224 -> 259; tem indice em list_out= 224
+aresta= 222 -> 224; tem indice em list_in= 224
+aresta= 223 -> 224; tem indice em list_out= 223
+aresta= 222 -> 224; tem indice em list_out= 222
+aresta= 220 -> 221; tem indice em list_in= 221
+aresta= 221 -> 256; tem indice em list_out= 221
+aresta= 219 -> 220; tem indice em list_in= 220
+aresta= 213 -> 220; tem indice em list_in= 220
+aresta= 220 -> 221; tem indice em list_out= 220
+aresta= 390 -> 391; tem indice em list_in= 391
+aresta= 391 -> 400; tem indice em list_out= 391
+aresta= 389 -> 391; tem indice em list_in= 391
+aresta= 390 -> 391; tem indice em list_out= 390
+aresta= 152 -> 151; tem indice em list_in= 151
+aresta= 132 -> 151; tem indice em list_in= 151
+aresta= 151 -> 150; tem indice em list_out= 151
+aresta= 152 -> 151; tem indice em list_in= 151
+aresta= 132 -> 151; tem indice em list_in= 151
+aresta= 151 -> 150; tem indice em list_out= 151
+aresta= 150 -> 149; tem indice em list_out= 150
+aresta= 151 -> 150; tem indice em list_in= 150
+aresta= 143 -> 150; tem indice em list_in= 150
+aresta= 150 -> 149; tem indice em list_out= 150
+aresta= 151 -> 150; tem indice em list_in= 150
+aresta= 143 -> 150; tem indice em list_in= 150
+aresta= 153 -> 152; tem indice em list_out= 153
+aresta= 152 -> 151; tem indice em list_out= 152
+aresta= 140 -> 152; tem indice em list_in= 152
+aresta= 153 -> 152; tem indice em list_in= 152
+aresta= 152 -> 151; tem indice em list_out= 152
+aresta= 140 -> 152; tem indice em list_in= 152
+aresta= 153 -> 152; tem indice em list_in= 152
+aresta= 154 -> 155; tem indice em list_in= 155
+aresta= 155 -> 156; tem indice em list_out= 155
+aresta= 148 -> 155; tem indice em list_in= 155
+aresta= 154 -> 155; tem indice em list_out= 154
+aresta= 157 -> 159; tem indice em list_out= 157
+aresta= 156 -> 162; tem indice em list_out= 156
+aresta= 155 -> 156; tem indice em list_in= 156
+aresta= 159 -> 164; tem indice em list_out= 159
+aresta= 158 -> 159; tem indice em list_in= 159
+aresta= 157 -> 159; tem indice em list_in= 159
+aresta= 158 -> 159; tem indice em list_out= 158
+aresta= 400 -> 399; tem indice em list_in= 399
+aresta= 397 -> 399; tem indice em list_in= 399
+aresta= 399 -> 406; tem indice em list_out= 399
+aresta= 48 -> 55; tem indice em list_out= 48
+aresta= 49 -> 48; tem indice em list_in= 48
+aresta= 37 -> 48; tem indice em list_in= 48
+aresta= 50 -> 49; tem indice em list_in= 49
+aresta= 49 -> 48; tem indice em list_out= 49
+aresta= 33 -> 49; tem indice em list_in= 49
+aresta= 50 -> 49; tem indice em list_in= 49
+aresta= 49 -> 48; tem indice em list_out= 49
+aresta= 33 -> 49; tem indice em list_in= 49
+aresta= 46 -> 47; tem indice em list_out= 46
+aresta= 45 -> 47; tem indice em list_in= 47
+aresta= 46 -> 47; tem indice em list_in= 47
+aresta= 47 -> 52; tem indice em list_out= 47
+aresta= 42 -> 44; tem indice em list_in= 44
+aresta= 44 -> 50; tem indice em list_out= 44
+aresta= 43 -> 44; tem indice em list_in= 44
+aresta= 45 -> 47; tem indice em list_out= 45
+aresta= 42 -> 44; tem indice em list_out= 42
+aresta= 43 -> 44; tem indice em list_out= 43
+aresta= 38 -> 40; tem indice em list_in= 40
+aresta= 39 -> 40; tem indice em list_in= 40
+aresta= 40 -> 51; tem indice em list_out= 40
+aresta= 5 -> 7; tem indice em list_out= 5
+344e_in[n]=
+343 -> 344;
+345e_in[n]=
+346e_in[n]=
+347e_in[n]=
+345 -> 347;
+346 -> 347;
+340e_in[n]=
+327 -> 340;
+341 -> 340;
+341e_in[n]=
+342e_in[n]=
+343e_in[n]=
+342 -> 343;
+336 -> 343;
+349e_in[n]=
+299e_in[n]=
+296e_in[n]=
+297e_in[n]=
+295 -> 297;
+296 -> 297;
+295e_in[n]=
+292e_in[n]=
+293e_in[n]=
+291 -> 293;
+292 -> 293;
+291e_in[n]=
+199e_in[n]=
+195e_in[n]=
+197e_in[n]=
+195 -> 197;
+196 -> 197;
+196e_in[n]=
+191e_in[n]=
+190e_in[n]=
+189 -> 190;
+193e_in[n]=
+192 -> 193;
+191 -> 193;
+192e_in[n]=
+270e_in[n]=
+269 -> 270;
+268 -> 270;
+272e_in[n]=
+273e_in[n]=
+274e_in[n]=
+272 -> 274;
+273 -> 274;
+275e_in[n]=
+276e_in[n]=
+277e_in[n]=
+276 -> 277;
+275 -> 277;
+278e_in[n]=
+279 -> 278;
+277 -> 278;
+279e_in[n]=
+280 -> 279;
+270 -> 279;
+108e_in[n]=
+109e_in[n]=
+107 -> 109;
+108 -> 109;
+103e_in[n]=
+100e_in[n]=
+101e_in[n]=
+100 -> 101;
+99 -> 101;
+107e_in[n]=
+104e_in[n]=
+105e_in[n]=
+104 -> 105;
+103 -> 105;
+39e_in[n]=
+38e_in[n]=
+33e_in[n]=
+31 -> 33;
+32 -> 33;
+32e_in[n]=
+31e_in[n]=
+30e_in[n]=
+29 -> 30;
+37e_in[n]=
+35 -> 37;
+36 -> 37;
+36e_in[n]=
+35e_in[n]=
+339e_in[n]=
+320 -> 339;
+340 -> 339;
+338e_in[n]=
+331 -> 338;
+339 -> 338;
+335e_in[n]=
+334 -> 335;
+333 -> 335;
+334e_in[n]=
+337e_in[n]=
+338 -> 337;
+324 -> 337;
+336e_in[n]=
+337 -> 336;
+335 -> 336;
+331e_in[n]=
+329 -> 331;
+330 -> 331;
+330e_in[n]=
+333e_in[n]=
+6e_in[n]=
+99e_in[n]=
+91e_in[n]=
+90e_in[n]=
+30 -> 90;
+91 -> 90;
+93e_in[n]=
+92 -> 93;
+86 -> 93;
+92e_in[n]=
+95e_in[n]=
+94e_in[n]=
+93 -> 94;
+97e_in[n]=
+95 -> 97;
+96 -> 97;
+96e_in[n]=
+238e_in[n]=
+239e_in[n]=
+238 -> 239;
+237 -> 239;
+234e_in[n]=
+235e_in[n]=
+234 -> 235;
+233 -> 235;
+237e_in[n]=
+230e_in[n]=
+231e_in[n]=
+232e_in[n]=
+230 -> 232;
+231 -> 232;
+233e_in[n]=
+1e_in[n]=
+146e_in[n]=
+147e_in[n]=
+146 -> 147;
+145 -> 147;
+145e_in[n]=
+142e_in[n]=
+143e_in[n]=
+141 -> 143;
+142 -> 143;
+140e_in[n]=
+138 -> 140;
+139 -> 140;
+141e_in[n]=
+148e_in[n]=
+149 -> 148;
+147 -> 148;
+149e_in[n]=
+136 -> 149;
+150 -> 149;
+132e_in[n]=
+131 -> 132;
+130 -> 132;
+131e_in[n]=
+130e_in[n]=
+136e_in[n]=
+134 -> 136;
+135 -> 136;
+135e_in[n]=
+134e_in[n]=
+139e_in[n]=
+138e_in[n]=
+24e_in[n]=
+25 -> 24;
+18 -> 24;
+25e_in[n]=
+15 -> 25;
+26 -> 25;
+26e_in[n]=
+21 -> 26;
+27 -> 26;
+27e_in[n]=
+20e_in[n]=
+21e_in[n]=
+19 -> 21;
+20 -> 21;
+22e_in[n]=
+23 -> 22;
+11 -> 22;
+23e_in[n]=
+7 -> 23;
+24 -> 23;
+28e_in[n]=
+29e_in[n]=
+28 -> 29;
+22 -> 29;
+407e_in[n]=
+406 -> 407;
+406e_in[n]=
+405 -> 406;
+399 -> 406;
+405e_in[n]=
+404e_in[n]=
+403e_in[n]=
+404 -> 403;
+388 -> 403;
+402e_in[n]=
+403 -> 402;
+385 -> 402;
+401e_in[n]=
+402 -> 401;
+394 -> 401;
+400e_in[n]=
+401 -> 400;
+391 -> 400;
+409e_in[n]=
+410 -> 409;
+407 -> 409;
+408e_in[n]=
+409 -> 408;
+190 -> 408;
+379e_in[n]=
+378e_in[n]=
+379 -> 378;
+363 -> 378;
+371e_in[n]=
+373e_in[n]=
+371 -> 373;
+372 -> 373;
+372e_in[n]=
+375e_in[n]=
+366 -> 375;
+376 -> 375;
+374e_in[n]=
+375 -> 374;
+373 -> 374;
+377e_in[n]=
+360 -> 377;
+378 -> 377;
+376e_in[n]=
+377 -> 376;
+369 -> 376;
+393e_in[n]=
+392e_in[n]=
+88e_in[n]=
+89 -> 88;
+82 -> 88;
+89e_in[n]=
+90 -> 89;
+3 -> 89;
+397e_in[n]=
+395 -> 397;
+396 -> 397;
+396e_in[n]=
+395e_in[n]=
+394e_in[n]=
+393 -> 394;
+392 -> 394;
+82e_in[n]=
+81 -> 82;
+181e_in[n]=
+180 -> 181;
+179 -> 181;
+80e_in[n]=
+81e_in[n]=
+80 -> 81;
+74 -> 81;
+86e_in[n]=
+87 -> 86;
+85 -> 86;
+87e_in[n]=
+56 -> 87;
+88 -> 87;
+84e_in[n]=
+85e_in[n]=
+84 -> 85;
+83 -> 85;
+7e_in[n]=
+6 -> 7;
+5 -> 7;
+245e_in[n]=
+232 -> 245;
+246 -> 245;
+244e_in[n]=
+245 -> 244;
+243 -> 244;
+247e_in[n]=
+248 -> 247;
+228 -> 247;
+246e_in[n]=
+239 -> 246;
+247 -> 246;
+241e_in[n]=
+243e_in[n]=
+241 -> 243;
+242 -> 243;
+242e_in[n]=
+249e_in[n]=
+248e_in[n]=
+235 -> 248;
+249 -> 248;
+179e_in[n]=
+178e_in[n]=
+176 -> 178;
+177 -> 178;
+177e_in[n]=
+176e_in[n]=
+175e_in[n]=
+173 -> 175;
+174 -> 175;
+174e_in[n]=
+173e_in[n]=
+171e_in[n]=
+170 -> 171;
+169 -> 171;
+170e_in[n]=
+182e_in[n]=
+181 -> 182;
+183 -> 182;
+183e_in[n]=
+175 -> 183;
+184 -> 183;
+180e_in[n]=
+2e_in[n]=
+186e_in[n]=
+171 -> 186;
+187 -> 186;
+187e_in[n]=
+184e_in[n]=
+185 -> 184;
+178 -> 184;
+185e_in[n]=
+168 -> 185;
+186 -> 185;
+188e_in[n]=
+189e_in[n]=
+188 -> 189;
+182 -> 189;
+11e_in[n]=
+9 -> 11;
+10 -> 11;
+10e_in[n]=
+13e_in[n]=
+15e_in[n]=
+14 -> 15;
+13 -> 15;
+14e_in[n]=
+17e_in[n]=
+16e_in[n]=
+19e_in[n]=
+18e_in[n]=
+16 -> 18;
+17 -> 18;
+62e_in[n]=
+322e_in[n]=
+323e_in[n]=
+320e_in[n]=
+318 -> 320;
+319 -> 320;
+326e_in[n]=
+327e_in[n]=
+325 -> 327;
+326 -> 327;
+324e_in[n]=
+323 -> 324;
+322 -> 324;
+325e_in[n]=
+329e_in[n]=
+201e_in[n]=
+200 -> 201;
+199 -> 201;
+200e_in[n]=
+203e_in[n]=
+205e_in[n]=
+204 -> 205;
+203 -> 205;
+204e_in[n]=
+207e_in[n]=
+209e_in[n]=
+208 -> 209;
+207 -> 209;
+208e_in[n]=
+77e_in[n]=
+78 -> 77;
+66 -> 77;
+76e_in[n]=
+69 -> 76;
+77 -> 76;
+75e_in[n]=
+59 -> 75;
+76 -> 75;
+74e_in[n]=
+63 -> 74;
+75 -> 74;
+73e_in[n]=
+72 -> 73;
+71 -> 73;
+72e_in[n]=
+71e_in[n]=
+79e_in[n]=
+78e_in[n]=
+79 -> 78;
+73 -> 78;
+120e_in[n]=
+119 -> 120;
+118 -> 120;
+121e_in[n]=
+122 -> 121;
+120 -> 121;
+122e_in[n]=
+109 -> 122;
+123 -> 122;
+123e_in[n]=
+117 -> 123;
+124 -> 123;
+124e_in[n]=
+105 -> 124;
+125 -> 124;
+125e_in[n]=
+113 -> 125;
+126 -> 125;
+126e_in[n]=
+127e_in[n]=
+128e_in[n]=
+127 -> 128;
+121 -> 128;
+129e_in[n]=
+128 -> 129;
+414e_in[n]=
+415e_in[n]=
+408 -> 415;
+414 -> 415;
+410e_in[n]=
+411 -> 410;
+286 -> 410;
+411e_in[n]=
+94 -> 411;
+412 -> 411;
+412e_in[n]=
+413 -> 412;
+382 -> 412;
+413e_in[n]=
+319e_in[n]=
+318e_in[n]=
+313e_in[n]=
+301 -> 313;
+314 -> 313;
+312e_in[n]=
+293 -> 312;
+313 -> 312;
+311e_in[n]=
+312 -> 311;
+304 -> 311;
+310e_in[n]=
+311 -> 310;
+297 -> 310;
+317e_in[n]=
+316 -> 317;
+316e_in[n]=
+309 -> 316;
+315 -> 316;
+315e_in[n]=
+314e_in[n]=
+3e_in[n]=
+2 -> 3;
+1 -> 3;
+368e_in[n]=
+369e_in[n]=
+368 -> 369;
+367 -> 369;
+366e_in[n]=
+364 -> 366;
+365 -> 366;
+367e_in[n]=
+364e_in[n]=
+365e_in[n]=
+362e_in[n]=
+363e_in[n]=
+361 -> 363;
+362 -> 363;
+360e_in[n]=
+359 -> 360;
+361e_in[n]=
+380e_in[n]=
+381e_in[n]=
+380 -> 381;
+374 -> 381;
+382e_in[n]=
+381 -> 382;
+383e_in[n]=
+384e_in[n]=
+385e_in[n]=
+384 -> 385;
+383 -> 385;
+386e_in[n]=
+387e_in[n]=
+388e_in[n]=
+387 -> 388;
+386 -> 388;
+389e_in[n]=
+61e_in[n]=
+258e_in[n]=
+259 -> 258;
+252 -> 258;
+63e_in[n]=
+61 -> 63;
+62 -> 63;
+64e_in[n]=
+65e_in[n]=
+66e_in[n]=
+65 -> 66;
+64 -> 66;
+67e_in[n]=
+252e_in[n]=
+251 -> 252;
+69e_in[n]=
+67 -> 69;
+68 -> 69;
+250e_in[n]=
+251e_in[n]=
+250 -> 251;
+244 -> 251;
+256e_in[n]=
+257 -> 256;
+221 -> 256;
+257e_in[n]=
+193 -> 257;
+258 -> 257;
+254e_in[n]=
+255e_in[n]=
+254 -> 255;
+253 -> 255;
+168e_in[n]=
+167 -> 168;
+169e_in[n]=
+164e_in[n]=
+165 -> 164;
+159 -> 164;
+165e_in[n]=
+166e_in[n]=
+167e_in[n]=
+166 -> 167;
+160 -> 167;
+160e_in[n]=
+101 -> 160;
+161 -> 160;
+161e_in[n]=
+162 -> 161;
+97 -> 161;
+162e_in[n]=
+163 -> 162;
+156 -> 162;
+163e_in[n]=
+129 -> 163;
+164 -> 163;
+9e_in[n]=
+357e_in[n]=
+356e_in[n]=
+351 -> 356;
+357 -> 356;
+355e_in[n]=
+356 -> 355;
+344 -> 355;
+354e_in[n]=
+347 -> 354;
+355 -> 354;
+353e_in[n]=
+354 -> 353;
+289 -> 353;
+352e_in[n]=
+317 -> 352;
+353 -> 352;
+351e_in[n]=
+349 -> 351;
+350 -> 351;
+350e_in[n]=
+359e_in[n]=
+352 -> 359;
+358 -> 359;
+358e_in[n]=
+216e_in[n]=
+197 -> 216;
+217 -> 216;
+217e_in[n]=
+218 -> 217;
+205 -> 217;
+214e_in[n]=
+215 -> 214;
+201 -> 214;
+215e_in[n]=
+209 -> 215;
+216 -> 215;
+212e_in[n]=
+211 -> 212;
+210 -> 212;
+213e_in[n]=
+214 -> 213;
+212 -> 213;
+210e_in[n]=
+211e_in[n]=
+218e_in[n]=
+219e_in[n]=
+289e_in[n]=
+287 -> 289;
+288 -> 289;
+288e_in[n]=
+281e_in[n]=
+264 -> 281;
+282 -> 281;
+280e_in[n]=
+274 -> 280;
+281 -> 280;
+283e_in[n]=
+282e_in[n]=
+283 -> 282;
+267 -> 282;
+285e_in[n]=
+284 -> 285;
+278 -> 285;
+284e_in[n]=
+287e_in[n]=
+286e_in[n]=
+285 -> 286;
+263e_in[n]=
+256 -> 263;
+262 -> 263;
+262e_in[n]=
+261e_in[n]=
+260e_in[n]=
+261 -> 260;
+255 -> 260;
+267e_in[n]=
+266 -> 267;
+265 -> 267;
+266e_in[n]=
+265e_in[n]=
+264e_in[n]=
+263 -> 264;
+269e_in[n]=
+268e_in[n]=
+59e_in[n]=
+58 -> 59;
+57 -> 59;
+58e_in[n]=
+55e_in[n]=
+54 -> 55;
+48 -> 55;
+54e_in[n]=
+57e_in[n]=
+56e_in[n]=
+55 -> 56;
+51e_in[n]=
+52 -> 51;
+40 -> 51;
+50e_in[n]=
+51 -> 50;
+44 -> 50;
+53e_in[n]=
+52e_in[n]=
+47 -> 52;
+53 -> 52;
+259e_in[n]=
+260 -> 259;
+224 -> 259;
+115e_in[n]=
+68e_in[n]=
+117e_in[n]=
+115 -> 117;
+116 -> 117;
+116e_in[n]=
+111e_in[n]=
+113e_in[n]=
+112 -> 113;
+111 -> 113;
+253e_in[n]=
+119e_in[n]=
+118e_in[n]=
+308e_in[n]=
+306 -> 308;
+307 -> 308;
+309e_in[n]=
+310 -> 309;
+308 -> 309;
+300e_in[n]=
+301e_in[n]=
+299 -> 301;
+300 -> 301;
+302e_in[n]=
+303e_in[n]=
+304e_in[n]=
+302 -> 304;
+303 -> 304;
+306e_in[n]=
+307e_in[n]=
+228e_in[n]=
+226 -> 228;
+227 -> 228;
+227e_in[n]=
+226e_in[n]=
+224e_in[n]=
+223 -> 224;
+222 -> 224;
+223e_in[n]=
+222e_in[n]=
+221e_in[n]=
+220 -> 221;
+220e_in[n]=
+219 -> 220;
+213 -> 220;
+391e_in[n]=
+390 -> 391;
+389 -> 391;
+390e_in[n]=
+151e_in[n]=
+152 -> 151;
+132 -> 151;
+150e_in[n]=
+151 -> 150;
+143 -> 150;
+153e_in[n]=
+152e_in[n]=
+140 -> 152;
+153 -> 152;
+155e_in[n]=
+154 -> 155;
+148 -> 155;
+154e_in[n]=
+157e_in[n]=
+156e_in[n]=
+155 -> 156;
+159e_in[n]=
+158 -> 159;
+157 -> 159;
+158e_in[n]=
+112e_in[n]=
+83e_in[n]=
+399e_in[n]=
+400 -> 399;
+397 -> 399;
+48e_in[n]=
+49 -> 48;
+37 -> 48;
+49e_in[n]=
+50 -> 49;
+33 -> 49;
+46e_in[n]=
+47e_in[n]=
+45 -> 47;
+46 -> 47;
+44e_in[n]=
+42 -> 44;
+43 -> 44;
+45e_in[n]=
+42e_in[n]=
+43e_in[n]=
+40e_in[n]=
+38 -> 40;
+39 -> 40;
+5e_in[n]=
+ finding the root 
+{'344': [<pydotplus.graphviz.Edge object at 0x7fc4925f2b50>], '345': [<pydotplus.graphviz.Edge object at 0x7fc491b61310>], '346': [<pydotplus.graphviz.Edge object at 0x7fc491aa10d0>], '347': [<pydotplus.graphviz.Edge object at 0x7fc4926cb950>], '340': [<pydotplus.graphviz.Edge object at 0x7fc49175d550>], '341': [<pydotplus.graphviz.Edge object at 0x7fc49228c910>], '342': [<pydotplus.graphviz.Edge object at 0x7fc4931ab490>], '343': [<pydotplus.graphviz.Edge object at 0x7fc4926d8a50>], '349': [<pydotplus.graphviz.Edge object at 0x7fc491ad2e50>], '299': [<pydotplus.graphviz.Edge object at 0x7fc493188b50>], '296': [<pydotplus.graphviz.Edge object at 0x7fc492703fd0>], '297': [<pydotplus.graphviz.Edge object at 0x7fc492ab0050>], '295': [<pydotplus.graphviz.Edge object at 0x7fc491a479d0>], '292': [<pydotplus.graphviz.Edge object at 0x7fc492a8c910>], '293': [<pydotplus.graphviz.Edge object at 0x7fc49367ef10>], '291': [<pydotplus.graphviz.Edge object at 0x7fc491a77550>], '199': [<pydotplus.graphviz.Edge object at 0x7fc49230c910>], '195': [<pydotplus.graphviz.Edge object at 0x7fc493668fd0>], '197': [<pydotplus.graphviz.Edge object at 0x7fc491af1550>], '196': [<pydotplus.graphviz.Edge object at 0x7fc4927ca090>], '191': [<pydotplus.graphviz.Edge object at 0x7fc4937f1b50>], '190': [<pydotplus.graphviz.Edge object at 0x7fc491cb0bd0>], '193': [<pydotplus.graphviz.Edge object at 0x7fc492d13310>], '192': [<pydotplus.graphviz.Edge object at 0x7fc49319b390>], '270': [<pydotplus.graphviz.Edge object at 0x7fc492bb75d0>], '272': [<pydotplus.graphviz.Edge object at 0x7fc4937df910>], '273': [<pydotplus.graphviz.Edge object at 0x7fc492137690>], '274': [<pydotplus.graphviz.Edge object at 0x7fc4919d7c10>], '275': [<pydotplus.graphviz.Edge object at 0x7fc492654fd0>], '276': [<pydotplus.graphviz.Edge object at 0x7fc4922c3250>], '277': [<pydotplus.graphviz.Edge object at 0x7fc492dc53d0>], '278': [<pydotplus.graphviz.Edge object at 0x7fc491fb9490>], '279': [<pydotplus.graphviz.Edge object at 0x7fc49176f9d0>], '108': [<pydotplus.graphviz.Edge object at 0x7fc493690350>], '109': [<pydotplus.graphviz.Edge object at 0x7fc49275dad0>], '103': [<pydotplus.graphviz.Edge object at 0x7fc492bb6fd0>], '100': [<pydotplus.graphviz.Edge object at 0x7fc492437d90>], '101': [<pydotplus.graphviz.Edge object at 0x7fc4917fae50>], '107': [<pydotplus.graphviz.Edge object at 0x7fc491716310>], '104': [<pydotplus.graphviz.Edge object at 0x7fc491bcf890>], '105': [<pydotplus.graphviz.Edge object at 0x7fc493051b90>], '39': [<pydotplus.graphviz.Edge object at 0x7fc493243250>], '38': [<pydotplus.graphviz.Edge object at 0x7fc4916d10d0>], '33': [<pydotplus.graphviz.Edge object at 0x7fc492214490>], '32': [<pydotplus.graphviz.Edge object at 0x7fc4939f1fd0>], '31': [<pydotplus.graphviz.Edge object at 0x7fc491a44790>], '30': [<pydotplus.graphviz.Edge object at 0x7fc4921768d0>], '37': [<pydotplus.graphviz.Edge object at 0x7fc492b7a550>], '36': [<pydotplus.graphviz.Edge object at 0x7fc491c9ea50>], '35': [<pydotplus.graphviz.Edge object at 0x7fc491ade0d0>], '339': [<pydotplus.graphviz.Edge object at 0x7fc4917ac9d0>], '338': [<pydotplus.graphviz.Edge object at 0x7fc491662310>], '335': [<pydotplus.graphviz.Edge object at 0x7fc492a4a6d0>], '334': [<pydotplus.graphviz.Edge object at 0x7fc491a099d0>], '337': [<pydotplus.graphviz.Edge object at 0x7fc493985090>], '336': [<pydotplus.graphviz.Edge object at 0x7fc4932d0910>], '331': [<pydotplus.graphviz.Edge object at 0x7fc491920c10>], '330': [<pydotplus.graphviz.Edge object at 0x7fc4916b1790>], '333': [<pydotplus.graphviz.Edge object at 0x7fc49170d0d0>], '6': [<pydotplus.graphviz.Edge object at 0x7fc49172a790>], '99': [<pydotplus.graphviz.Edge object at 0x7fc492b5afd0>], '91': [<pydotplus.graphviz.Edge object at 0x7fc492b67bd0>], '90': [<pydotplus.graphviz.Edge object at 0x7fc4936a5f50>], '93': [<pydotplus.graphviz.Edge object at 0x7fc4925e2fd0>], '92': [<pydotplus.graphviz.Edge object at 0x7fc491b580d0>], '95': [<pydotplus.graphviz.Edge object at 0x7fc491fb6890>], '94': [<pydotplus.graphviz.Edge object at 0x7fc491fa9b90>], '97': [<pydotplus.graphviz.Edge object at 0x7fc492744550>], '96': [<pydotplus.graphviz.Edge object at 0x7fc4927e06d0>], '238': [<pydotplus.graphviz.Edge object at 0x7fc49184d550>], '239': [<pydotplus.graphviz.Edge object at 0x7fc4918609d0>], '234': [<pydotplus.graphviz.Edge object at 0x7fc4918c5310>], '235': [<pydotplus.graphviz.Edge object at 0x7fc49186ac10>], '237': [<pydotplus.graphviz.Edge object at 0x7fc492460fd0>], '230': [<pydotplus.graphviz.Edge object at 0x7fc491b37790>], '231': [<pydotplus.graphviz.Edge object at 0x7fc4927bc250>], '232': [<pydotplus.graphviz.Edge object at 0x7fc49173dc10>], '233': [<pydotplus.graphviz.Edge object at 0x7fc4925ffc90>], '1': [<pydotplus.graphviz.Edge object at 0x7fc49288be90>], '146': [<pydotplus.graphviz.Edge object at 0x7fc492db7490>], '147': [<pydotplus.graphviz.Edge object at 0x7fc493673410>], '145': [<pydotplus.graphviz.Edge object at 0x7fc493966b50>], '142': [<pydotplus.graphviz.Edge object at 0x7fc492a57e50>], '143': [<pydotplus.graphviz.Edge object at 0x7fc492140610>], '140': [<pydotplus.graphviz.Edge object at 0x7fc49240b550>], '141': [<pydotplus.graphviz.Edge object at 0x7fc491bc1890>], '148': [<pydotplus.graphviz.Edge object at 0x7fc49265ed90>], '149': [<pydotplus.graphviz.Edge object at 0x7fc491753310>], '132': [<pydotplus.graphviz.Edge object at 0x7fc49394d8d0>], '131': [<pydotplus.graphviz.Edge object at 0x7fc4919b7310>], '130': [<pydotplus.graphviz.Edge object at 0x7fc49169d310>], '136': [<pydotplus.graphviz.Edge object at 0x7fc491bf4650>], '135': [<pydotplus.graphviz.Edge object at 0x7fc492a75d90>], '134': [<pydotplus.graphviz.Edge object at 0x7fc4922e36d0>], '139': [<pydotplus.graphviz.Edge object at 0x7fc492b276d0>], '138': [<pydotplus.graphviz.Edge object at 0x7fc492b3a990>], '24': [<pydotplus.graphviz.Edge object at 0x7fc4916bb9d0>], '25': [<pydotplus.graphviz.Edge object at 0x7fc492b9e490>], '26': [<pydotplus.graphviz.Edge object at 0x7fc4927a9510>], '27': [<pydotplus.graphviz.Edge object at 0x7fc492596890>], '20': [<pydotplus.graphviz.Edge object at 0x7fc492562fd0>], '21': [<pydotplus.graphviz.Edge object at 0x7fc4922d7910>], '22': [<pydotplus.graphviz.Edge object at 0x7fc492b22610>], '23': [<pydotplus.graphviz.Edge object at 0x7fc491675790>], '28': [<pydotplus.graphviz.Edge object at 0x7fc491bfe890>], '29': [<pydotplus.graphviz.Edge object at 0x7fc4920e5950>], '407': [<pydotplus.graphviz.Edge object at 0x7fc4931f2490>], '406': [<pydotplus.graphviz.Edge object at 0x7fc4936a7fd0>], '405': [<pydotplus.graphviz.Edge object at 0x7fc491811550>], '404': [<pydotplus.graphviz.Edge object at 0x7fc492736bd0>], '403': [<pydotplus.graphviz.Edge object at 0x7fc4917d5550>], '402': [<pydotplus.graphviz.Edge object at 0x7fc4935320d0>], '401': [<pydotplus.graphviz.Edge object at 0x7fc493a87b90>], '400': [<pydotplus.graphviz.Edge object at 0x7fc491bae410>], '409': [<pydotplus.graphviz.Edge object at 0x7fc49291d2d0>], '408': [<pydotplus.graphviz.Edge object at 0x7fc491a8dc10>], '379': [<pydotplus.graphviz.Edge object at 0x7fc491b9af50>], '378': [<pydotplus.graphviz.Edge object at 0x7fc4918c7550>], '371': [<pydotplus.graphviz.Edge object at 0x7fc4916c4c10>], '373': [<pydotplus.graphviz.Edge object at 0x7fc492414490>], '372': [<pydotplus.graphviz.Edge object at 0x7fc492074490>], '375': [<pydotplus.graphviz.Edge object at 0x7fc4919ae0d0>], '374': [<pydotplus.graphviz.Edge object at 0x7fc492443cd0>], '377': [<pydotplus.graphviz.Edge object at 0x7fc4919c0550>], '376': [<pydotplus.graphviz.Edge object at 0x7fc492bfeb50>], '393': [<pydotplus.graphviz.Edge object at 0x7fc4921288d0>], '392': [<pydotplus.graphviz.Edge object at 0x7fc492449e50>], '88': [<pydotplus.graphviz.Edge object at 0x7fc492aae250>], '89': [<pydotplus.graphviz.Edge object at 0x7fc492bce350>], '397': [<pydotplus.graphviz.Edge object at 0x7fc49188a550>], '396': [<pydotplus.graphviz.Edge object at 0x7fc492053b50>], '395': [<pydotplus.graphviz.Edge object at 0x7fc492069e50>], '394': [<pydotplus.graphviz.Edge object at 0x7fc492bca290>], '82': [<pydotplus.graphviz.Edge object at 0x7fc492abab90>], '181': [<pydotplus.graphviz.Edge object at 0x7fc491ab4550>], '80': [<pydotplus.graphviz.Edge object at 0x7fc4918bb0d0>], '81': [<pydotplus.graphviz.Edge object at 0x7fc491f9e250>], '86': [<pydotplus.graphviz.Edge object at 0x7fc4918a6c10>], '87': [<pydotplus.graphviz.Edge object at 0x7fc49223c4d0>], '84': [<pydotplus.graphviz.Edge object at 0x7fc491a1ce50>], '85': [<pydotplus.graphviz.Edge object at 0x7fc492674910>], '7': [<pydotplus.graphviz.Edge object at 0x7fc4918d0790>], '245': [<pydotplus.graphviz.Edge object at 0x7fc4926cfe10>], '244': [<pydotplus.graphviz.Edge object at 0x7fc492bdb250>], '247': [<pydotplus.graphviz.Edge object at 0x7fc4933cee10>], '246': [<pydotplus.graphviz.Edge object at 0x7fc49270cfd0>], '241': [<pydotplus.graphviz.Edge object at 0x7fc4922ceb50>], '243': [<pydotplus.graphviz.Edge object at 0x7fc49293c0d0>], '242': [<pydotplus.graphviz.Edge object at 0x7fc493a04d90>], '249': [<pydotplus.graphviz.Edge object at 0x7fc4922f54d0>], '248': [<pydotplus.graphviz.Edge object at 0x7fc492804290>], '179': [<pydotplus.graphviz.Edge object at 0x7fc492c43250>], '178': [<pydotplus.graphviz.Edge object at 0x7fc4917de790>], '177': [<pydotplus.graphviz.Edge object at 0x7fc4918da9d0>], '176': [<pydotplus.graphviz.Edge object at 0x7fc491a31310>], '175': [<pydotplus.graphviz.Edge object at 0x7fc491b10e50>], '174': [<pydotplus.graphviz.Edge object at 0x7fc492192c90>], '173': [<pydotplus.graphviz.Edge object at 0x7fc491bec410>], '171': [<pydotplus.graphviz.Edge object at 0x7fc4925a2d90>], '170': [<pydotplus.graphviz.Edge object at 0x7fc4925c26d0>], '182': [<pydotplus.graphviz.Edge object at 0x7fc4933da8d0>], '183': [<pydotplus.graphviz.Edge object at 0x7fc4936bbb50>], '180': [<pydotplus.graphviz.Edge object at 0x7fc492341590>], '2': [<pydotplus.graphviz.Edge object at 0x7fc491b24310>], '186': [<pydotplus.graphviz.Edge object at 0x7fc492720b50>], '187': [<pydotplus.graphviz.Edge object at 0x7fc492b45910>], '184': [<pydotplus.graphviz.Edge object at 0x7fc492344050>], '185': [<pydotplus.graphviz.Edge object at 0x7fc491807310>], '188': [<pydotplus.graphviz.Edge object at 0x7fc491b2d550>], '189': [<pydotplus.graphviz.Edge object at 0x7fc4928b8090>], '11': [<pydotplus.graphviz.Edge object at 0x7fc493801f90>], '10': [<pydotplus.graphviz.Edge object at 0x7fc491ca4b50>], '13': [<pydotplus.graphviz.Edge object at 0x7fc492683b50>], '15': [<pydotplus.graphviz.Edge object at 0x7fc493970950>], '14': [<pydotplus.graphviz.Edge object at 0x7fc492577b50>], '17': [<pydotplus.graphviz.Edge object at 0x7fc4939d7250>], '16': [<pydotplus.graphviz.Edge object at 0x7fc49182dc10>], '19': [<pydotplus.graphviz.Edge object at 0x7fc49164ee50>], '18': [<pydotplus.graphviz.Edge object at 0x7fc49211e410>], '62': [<pydotplus.graphviz.Edge object at 0x7fc493378fd0>], '322': [<pydotplus.graphviz.Edge object at 0x7fc4921a9250>], '323': [<pydotplus.graphviz.Edge object at 0x7fc4917339d0>], '320': [<pydotplus.graphviz.Edge object at 0x7fc491ac9c10>], '326': [<pydotplus.graphviz.Edge object at 0x7fc493680250>], '327': [<pydotplus.graphviz.Edge object at 0x7fc4919cd9d0>], '324': [<pydotplus.graphviz.Edge object at 0x7fc49334a2d0>], '325': [<pydotplus.graphviz.Edge object at 0x7fc4917f1c10>], '329': [<pydotplus.graphviz.Edge object at 0x7fc491a13c10>], '201': [<pydotplus.graphviz.Edge object at 0x7fc49369ac10>], '200': [<pydotplus.graphviz.Edge object at 0x7fc492911fd0>], '203': [<pydotplus.graphviz.Edge object at 0x7fc4931f9590>], '205': [<pydotplus.graphviz.Edge object at 0x7fc49276a850>], '204': [<pydotplus.graphviz.Edge object at 0x7fc4925e8810>], '207': [<pydotplus.graphviz.Edge object at 0x7fc49307ed50>], '209': [<pydotplus.graphviz.Edge object at 0x7fc492152d90>], '208': [<pydotplus.graphviz.Edge object at 0x7fc49319fe90>], '77': [<pydotplus.graphviz.Edge object at 0x7fc492480690>], '76': [<pydotplus.graphviz.Edge object at 0x7fc492d33f10>], '75': [<pydotplus.graphviz.Edge object at 0x7fc49221f050>], '74': [<pydotplus.graphviz.Edge object at 0x7fc49296f150>], '73': [<pydotplus.graphviz.Edge object at 0x7fc4917b6c10>], '72': [<pydotplus.graphviz.Edge object at 0x7fc4933546d0>], '71': [<pydotplus.graphviz.Edge object at 0x7fc492bf4d90>], '79': [<pydotplus.graphviz.Edge object at 0x7fc491b4bd50>], '78': [<pydotplus.graphviz.Edge object at 0x7fc4930746d0>], '120': [<pydotplus.graphviz.Edge object at 0x7fc4932f65d0>], '121': [<pydotplus.graphviz.Edge object at 0x7fc4917e79d0>], '122': [<pydotplus.graphviz.Edge object at 0x7fc4937cecd0>], '123': [<pydotplus.graphviz.Edge object at 0x7fc492d35f90>], '124': [<pydotplus.graphviz.Edge object at 0x7fc492d1bd90>], '125': [<pydotplus.graphviz.Edge object at 0x7fc4932e8490>], '126': [<pydotplus.graphviz.Edge object at 0x7fc4926ecad0>], '127': [<pydotplus.graphviz.Edge object at 0x7fc4918afe50>], '128': [<pydotplus.graphviz.Edge object at 0x7fc493067910>], '129': [<pydotplus.graphviz.Edge object at 0x7fc491b73790>], '414': [<pydotplus.graphviz.Edge object at 0x7fc4919f4310>], '415': [], '410': [<pydotplus.graphviz.Edge object at 0x7fc4931c2fd0>], '411': [<pydotplus.graphviz.Edge object at 0x7fc491b4de50>], '412': [<pydotplus.graphviz.Edge object at 0x7fc492082290>], '413': [<pydotplus.graphviz.Edge object at 0x7fc4916f69d0>], '319': [<pydotplus.graphviz.Edge object at 0x7fc492d99e10>], '318': [<pydotplus.graphviz.Edge object at 0x7fc491a96e50>], '313': [<pydotplus.graphviz.Edge object at 0x7fc4927f6250>], '312': [<pydotplus.graphviz.Edge object at 0x7fc492d28a10>], '311': [<pydotplus.graphviz.Edge object at 0x7fc49197b310>], '310': [<pydotplus.graphviz.Edge object at 0x7fc4931b6250>], '317': [<pydotplus.graphviz.Edge object at 0x7fc491837e50>], '316': [<pydotplus.graphviz.Edge object at 0x7fc492476ad0>], '315': [<pydotplus.graphviz.Edge object at 0x7fc4919169d0>], '314': [<pydotplus.graphviz.Edge object at 0x7fc4922b2150>], '3': [<pydotplus.graphviz.Edge object at 0x7fc493653fd0>], '368': [<pydotplus.graphviz.Edge object at 0x7fc491a80790>], '369': [<pydotplus.graphviz.Edge object at 0x7fc49215ce10>], '366': [<pydotplus.graphviz.Edge object at 0x7fc492945490>], '367': [<pydotplus.graphviz.Edge object at 0x7fc4916580d0>], '364': [<pydotplus.graphviz.Edge object at 0x7fc49178f310>], '365': [<pydotplus.graphviz.Edge object at 0x7fc4922b9150>], '362': [<pydotplus.graphviz.Edge object at 0x7fc492d3f6d0>], '363': [<pydotplus.graphviz.Edge object at 0x7fc492c20fd0>], '360': [<pydotplus.graphviz.Edge object at 0x7fc491966e50>], '361': [<pydotplus.graphviz.Edge object at 0x7fc493a0c790>], '380': [<pydotplus.graphviz.Edge object at 0x7fc4919350d0>], '381': [<pydotplus.graphviz.Edge object at 0x7fc492b846d0>], '382': [<pydotplus.graphviz.Edge object at 0x7fc492dad6d0>], '383': [<pydotplus.graphviz.Edge object at 0x7fc4926e2910>], '384': [<pydotplus.graphviz.Edge object at 0x7fc491a59e50>], '385': [<pydotplus.graphviz.Edge object at 0x7fc4927b4490>], '386': [<pydotplus.graphviz.Edge object at 0x7fc492b89250>], '387': [<pydotplus.graphviz.Edge object at 0x7fc4919dfe50>], '388': [<pydotplus.graphviz.Edge object at 0x7fc492d47dd0>], '389': [<pydotplus.graphviz.Edge object at 0x7fc492ba8f90>], '61': [<pydotplus.graphviz.Edge object at 0x7fc4925dcfd0>], '258': [<pydotplus.graphviz.Edge object at 0x7fc49305c090>], '63': [<pydotplus.graphviz.Edge object at 0x7fc492c10250>], '64': [<pydotplus.graphviz.Edge object at 0x7fc49266a710>], '65': [<pydotplus.graphviz.Edge object at 0x7fc492d8c1d0>], '66': [<pydotplus.graphviz.Edge object at 0x7fc4921bcd90>], '67': [<pydotplus.graphviz.Edge object at 0x7fc4933fdb50>], '252': [<pydotplus.graphviz.Edge object at 0x7fc492b0c490>], '69': [<pydotplus.graphviz.Edge object at 0x7fc4925afd50>], '250': [<pydotplus.graphviz.Edge object at 0x7fc492da39d0>], '251': [<pydotplus.graphviz.Edge object at 0x7fc491700c10>], '256': [<pydotplus.graphviz.Edge object at 0x7fc49187e0d0>], '257': [<pydotplus.graphviz.Edge object at 0x7fc492752b50>], '254': [<pydotplus.graphviz.Edge object at 0x7fc492548490>], '255': [<pydotplus.graphviz.Edge object at 0x7fc492d21250>], '168': [<pydotplus.graphviz.Edge object at 0x7fc4918ede50>], '169': [<pydotplus.graphviz.Edge object at 0x7fc492231250>], '164': [<pydotplus.graphviz.Edge object at 0x7fc492168fd0>], '165': [<pydotplus.graphviz.Edge object at 0x7fc491abd790>], '166': [<pydotplus.graphviz.Edge object at 0x7fc49279a7d0>], '167': [<pydotplus.graphviz.Edge object at 0x7fc491c91fd0>], '160': [<pydotplus.graphviz.Edge object at 0x7fc492c13790>], '161': [<pydotplus.graphviz.Edge object at 0x7fc49217ac50>], '162': [<pydotplus.graphviz.Edge object at 0x7fc492f3e050>], '163': [<pydotplus.graphviz.Edge object at 0x7fc491984550>], '9': [<pydotplus.graphviz.Edge object at 0x7fc491b1a0d0>], '357': [<pydotplus.graphviz.Edge object at 0x7fc4936940d0>], '356': [<pydotplus.graphviz.Edge object at 0x7fc491a3a550>], '355': [<pydotplus.graphviz.Edge object at 0x7fc4936c5910>], '354': [<pydotplus.graphviz.Edge object at 0x7fc491765790>], '353': [<pydotplus.graphviz.Edge object at 0x7fc4916ee790>], '352': [<pydotplus.graphviz.Edge object at 0x7fc49174a0d0>], '351': [<pydotplus.graphviz.Edge object at 0x7fc492c29d90>], '350': [<pydotplus.graphviz.Edge object at 0x7fc492554250>], '359': [<pydotplus.graphviz.Edge object at 0x7fc491782e50>], '358': [<pydotplus.graphviz.Edge object at 0x7fc4925b84d0>], '216': [<pydotplus.graphviz.Edge object at 0x7fc4927d2590>], '217': [<pydotplus.graphviz.Edge object at 0x7fc492321490>], '214': [<pydotplus.graphviz.Edge object at 0x7fc4918259d0>], '215': [<pydotplus.graphviz.Edge object at 0x7fc491ba51d0>], '212': [<pydotplus.graphviz.Edge object at 0x7fc4937e8690>], '213': [<pydotplus.graphviz.Edge object at 0x7fc4937fda50>], '210': [<pydotplus.graphviz.Edge object at 0x7fc491689e50>], '211': [<pydotplus.graphviz.Edge object at 0x7fc491a50c10>], '218': [<pydotplus.graphviz.Edge object at 0x7fc491b91d10>], '219': [<pydotplus.graphviz.Edge object at 0x7fc491894790>], '289': [<pydotplus.graphviz.Edge object at 0x7fc491bca350>], '288': [<pydotplus.graphviz.Edge object at 0x7fc493300990>], '281': [<pydotplus.graphviz.Edge object at 0x7fc492a986d0>], '280': [<pydotplus.graphviz.Edge object at 0x7fc491778c10>], '283': [<pydotplus.graphviz.Edge object at 0x7fc492305c90>], '282': [<pydotplus.graphviz.Edge object at 0x7fc49171f550>], '285': [<pydotplus.graphviz.Edge object at 0x7fc4931e7a10>], '284': [<pydotplus.graphviz.Edge object at 0x7fc491798550>], '287': [<pydotplus.graphviz.Edge object at 0x7fc491a280d0>], '286': [<pydotplus.graphviz.Edge object at 0x7fc49219de50>], '263': [<pydotplus.graphviz.Edge object at 0x7fc49189d9d0>], '262': [<pydotplus.graphviz.Edge object at 0x7fc49254d7d0>], '261': [<pydotplus.graphviz.Edge object at 0x7fc49230b3d0>], '260': [<pydotplus.graphviz.Edge object at 0x7fc492dc29d0>], '267': [<pydotplus.graphviz.Edge object at 0x7fc4922070d0>], '266': [<pydotplus.graphviz.Edge object at 0x7fc4918420d0>], '265': [<pydotplus.graphviz.Edge object at 0x7fc492299b50>], '264': [<pydotplus.graphviz.Edge object at 0x7fc4919fe550>], '269': [<pydotplus.graphviz.Edge object at 0x7fc49194a790>], '268': [<pydotplus.graphviz.Edge object at 0x7fc4928ab490>], '59': [<pydotplus.graphviz.Edge object at 0x7fc4928da950>], '58': [<pydotplus.graphviz.Edge object at 0x7fc491a6e310>], '55': [<pydotplus.graphviz.Edge object at 0x7fc4916950d0>], '54': [<pydotplus.graphviz.Edge object at 0x7fc49190e790>], '57': [<pydotplus.graphviz.Edge object at 0x7fc4925d1510>], '56': [<pydotplus.graphviz.Edge object at 0x7fc4917bee50>], '51': [<pydotplus.graphviz.Edge object at 0x7fc49193e310>], '50': [<pydotplus.graphviz.Edge object at 0x7fc49195dc10>], '53': [<pydotplus.graphviz.Edge object at 0x7fc4931d46d0>], '52': [<pydotplus.graphviz.Edge object at 0x7fc4933a6a90>], '259': [<pydotplus.graphviz.Edge object at 0x7fc4916e4550>], '115': [<pydotplus.graphviz.Edge object at 0x7fc491afa790>], '68': [<pydotplus.graphviz.Edge object at 0x7fc4921b2fd0>], '117': [<pydotplus.graphviz.Edge object at 0x7fc492585a90>], '116': [<pydotplus.graphviz.Edge object at 0x7fc492a88f10>], '111': [<pydotplus.graphviz.Edge object at 0x7fc4933e8050>], '113': [<pydotplus.graphviz.Edge object at 0x7fc491857790>], '253': [<pydotplus.graphviz.Edge object at 0x7fc4931fb250>], '119': [<pydotplus.graphviz.Edge object at 0x7fc491c82c50>], '118': [<pydotplus.graphviz.Edge object at 0x7fc4925d9490>], '308': [<pydotplus.graphviz.Edge object at 0x7fc493076510>], '309': [<pydotplus.graphviz.Edge object at 0x7fc491c39290>], '300': [<pydotplus.graphviz.Edge object at 0x7fc4931dd910>], '301': [<pydotplus.graphviz.Edge object at 0x7fc492de8190>], '302': [<pydotplus.graphviz.Edge object at 0x7fc491b87ad0>], '303': [<pydotplus.graphviz.Edge object at 0x7fc492b18250>], '304': [<pydotplus.graphviz.Edge object at 0x7fc492b4cc10>], '306': [<pydotplus.graphviz.Edge object at 0x7fc49181b790>], '307': [<pydotplus.graphviz.Edge object at 0x7fc491fb03d0>], '228': [<pydotplus.graphviz.Edge object at 0x7fc492bbf6d0>], '227': [<pydotplus.graphviz.Edge object at 0x7fc491f90d90>], '226': [<pydotplus.graphviz.Edge object at 0x7fc4922a6290>], '224': [<pydotplus.graphviz.Edge object at 0x7fc493a38350>], '223': [<pydotplus.graphviz.Edge object at 0x7fc4917a3790>], '222': [<pydotplus.graphviz.Edge object at 0x7fc4927d6910>], '221': [<pydotplus.graphviz.Edge object at 0x7fc492b47a10>], '220': [<pydotplus.graphviz.Edge object at 0x7fc491cbb6d0>], '391': [<pydotplus.graphviz.Edge object at 0x7fc4919710d0>], '390': [<pydotplus.graphviz.Edge object at 0x7fc4919539d0>], '151': [<pydotplus.graphviz.Edge object at 0x7fc4927891d0>], '150': [<pydotplus.graphviz.Edge object at 0x7fc4929270d0>], '153': [<pydotplus.graphviz.Edge object at 0x7fc49279e910>], '152': [<pydotplus.graphviz.Edge object at 0x7fc491c1d990>], '155': [<pydotplus.graphviz.Edge object at 0x7fc4939f0250>], '154': [<pydotplus.graphviz.Edge object at 0x7fc491b7d9d0>], '157': [<pydotplus.graphviz.Edge object at 0x7fc49271c510>], '156': [<pydotplus.graphviz.Edge object at 0x7fc49258e310>], '159': [<pydotplus.graphviz.Edge object at 0x7fc49397a090>], '158': [<pydotplus.graphviz.Edge object at 0x7fc492242c10>], '112': [<pydotplus.graphviz.Edge object at 0x7fc4939b5150>], '83': [<pydotplus.graphviz.Edge object at 0x7fc492189cd0>], '399': [<pydotplus.graphviz.Edge object at 0x7fc49336a610>], '48': [<pydotplus.graphviz.Edge object at 0x7fc493319b90>], '49': [<pydotplus.graphviz.Edge object at 0x7fc492108110>], '46': [<pydotplus.graphviz.Edge object at 0x7fc4933825d0>], '47': [<pydotplus.graphviz.Edge object at 0x7fc492410250>], '44': [<pydotplus.graphviz.Edge object at 0x7fc4918050d0>], '45': [<pydotplus.graphviz.Edge object at 0x7fc491bb8650>], '42': [<pydotplus.graphviz.Edge object at 0x7fc491987790>], '43': [<pydotplus.graphviz.Edge object at 0x7fc4923166d0>], '40': [<pydotplus.graphviz.Edge object at 0x7fc4928a21d0>], '5': [<pydotplus.graphviz.Edge object at 0x7fc492a60250>]}
+{'344': [<pydotplus.graphviz.Edge object at 0x7fc4926d8a50>], '345': [], '346': [], '347': [<pydotplus.graphviz.Edge object at 0x7fc491b61310>, <pydotplus.graphviz.Edge object at 0x7fc491aa10d0>], '340': [<pydotplus.graphviz.Edge object at 0x7fc4919cd9d0>, <pydotplus.graphviz.Edge object at 0x7fc49228c910>], '341': [], '342': [], '343': [<pydotplus.graphviz.Edge object at 0x7fc4931ab490>, <pydotplus.graphviz.Edge object at 0x7fc4932d0910>], '349': [], '299': [], '296': [], '297': [<pydotplus.graphviz.Edge object at 0x7fc491a479d0>, <pydotplus.graphviz.Edge object at 0x7fc492703fd0>], '295': [], '292': [], '293': [<pydotplus.graphviz.Edge object at 0x7fc491a77550>, <pydotplus.graphviz.Edge object at 0x7fc492a8c910>], '291': [], '199': [], '195': [], '197': [<pydotplus.graphviz.Edge object at 0x7fc493668fd0>, <pydotplus.graphviz.Edge object at 0x7fc4927ca090>], '196': [], '191': [], '190': [<pydotplus.graphviz.Edge object at 0x7fc4928b8090>], '193': [<pydotplus.graphviz.Edge object at 0x7fc49319b390>, <pydotplus.graphviz.Edge object at 0x7fc4937f1b50>], '192': [], '270': [<pydotplus.graphviz.Edge object at 0x7fc49194a790>, <pydotplus.graphviz.Edge object at 0x7fc4928ab490>], '272': [], '273': [], '274': [<pydotplus.graphviz.Edge object at 0x7fc4937df910>, <pydotplus.graphviz.Edge object at 0x7fc492137690>], '275': [], '276': [], '277': [<pydotplus.graphviz.Edge object at 0x7fc4922c3250>, <pydotplus.graphviz.Edge object at 0x7fc492654fd0>], '278': [<pydotplus.graphviz.Edge object at 0x7fc49176f9d0>, <pydotplus.graphviz.Edge object at 0x7fc492dc53d0>], '279': [<pydotplus.graphviz.Edge object at 0x7fc491778c10>, <pydotplus.graphviz.Edge object at 0x7fc492bb75d0>], '108': [], '109': [<pydotplus.graphviz.Edge object at 0x7fc491716310>, <pydotplus.graphviz.Edge object at 0x7fc493690350>], '103': [], '100': [], '101': [<pydotplus.graphviz.Edge object at 0x7fc492437d90>, <pydotplus.graphviz.Edge object at 0x7fc492b5afd0>], '107': [], '104': [], '105': [<pydotplus.graphviz.Edge object at 0x7fc491bcf890>, <pydotplus.graphviz.Edge object at 0x7fc492bb6fd0>], '39': [], '38': [], '33': [<pydotplus.graphviz.Edge object at 0x7fc491a44790>, <pydotplus.graphviz.Edge object at 0x7fc4939f1fd0>], '32': [], '31': [], '30': [<pydotplus.graphviz.Edge object at 0x7fc4920e5950>], '37': [<pydotplus.graphviz.Edge object at 0x7fc491ade0d0>, <pydotplus.graphviz.Edge object at 0x7fc491c9ea50>], '36': [], '35': [], '339': [<pydotplus.graphviz.Edge object at 0x7fc491ac9c10>, <pydotplus.graphviz.Edge object at 0x7fc49175d550>], '338': [<pydotplus.graphviz.Edge object at 0x7fc491920c10>, <pydotplus.graphviz.Edge object at 0x7fc4917ac9d0>], '335': [<pydotplus.graphviz.Edge object at 0x7fc491a099d0>, <pydotplus.graphviz.Edge object at 0x7fc49170d0d0>], '334': [], '337': [<pydotplus.graphviz.Edge object at 0x7fc491662310>, <pydotplus.graphviz.Edge object at 0x7fc49334a2d0>], '336': [<pydotplus.graphviz.Edge object at 0x7fc493985090>, <pydotplus.graphviz.Edge object at 0x7fc492a4a6d0>], '331': [<pydotplus.graphviz.Edge object at 0x7fc491a13c10>, <pydotplus.graphviz.Edge object at 0x7fc4916b1790>], '330': [], '333': [], '6': [], '99': [], '91': [], '90': [<pydotplus.graphviz.Edge object at 0x7fc4921768d0>, <pydotplus.graphviz.Edge object at 0x7fc492b67bd0>], '93': [<pydotplus.graphviz.Edge object at 0x7fc491b580d0>, <pydotplus.graphviz.Edge object at 0x7fc4918a6c10>], '92': [], '95': [], '94': [<pydotplus.graphviz.Edge object at 0x7fc4925e2fd0>], '97': [<pydotplus.graphviz.Edge object at 0x7fc491fb6890>, <pydotplus.graphviz.Edge object at 0x7fc4927e06d0>], '96': [], '238': [], '239': [<pydotplus.graphviz.Edge object at 0x7fc49184d550>, <pydotplus.graphviz.Edge object at 0x7fc492460fd0>], '234': [], '235': [<pydotplus.graphviz.Edge object at 0x7fc4918c5310>, <pydotplus.graphviz.Edge object at 0x7fc4925ffc90>], '237': [], '230': [], '231': [], '232': [<pydotplus.graphviz.Edge object at 0x7fc491b37790>, <pydotplus.graphviz.Edge object at 0x7fc4927bc250>], '233': [], '1': [], '146': [], '147': [<pydotplus.graphviz.Edge object at 0x7fc492db7490>, <pydotplus.graphviz.Edge object at 0x7fc493966b50>], '145': [], '142': [], '143': [<pydotplus.graphviz.Edge object at 0x7fc491bc1890>, <pydotplus.graphviz.Edge object at 0x7fc492a57e50>], '140': [<pydotplus.graphviz.Edge object at 0x7fc492b3a990>, <pydotplus.graphviz.Edge object at 0x7fc492b276d0>], '141': [], '148': [<pydotplus.graphviz.Edge object at 0x7fc491753310>, <pydotplus.graphviz.Edge object at 0x7fc493673410>], '149': [<pydotplus.graphviz.Edge object at 0x7fc491bf4650>, <pydotplus.graphviz.Edge object at 0x7fc4929270d0>], '132': [<pydotplus.graphviz.Edge object at 0x7fc4919b7310>, <pydotplus.graphviz.Edge object at 0x7fc49169d310>], '131': [], '130': [], '136': [<pydotplus.graphviz.Edge object at 0x7fc4922e36d0>, <pydotplus.graphviz.Edge object at 0x7fc492a75d90>], '135': [], '134': [], '139': [], '138': [], '24': [<pydotplus.graphviz.Edge object at 0x7fc492b9e490>, <pydotplus.graphviz.Edge object at 0x7fc49211e410>], '25': [<pydotplus.graphviz.Edge object at 0x7fc493970950>, <pydotplus.graphviz.Edge object at 0x7fc4927a9510>], '26': [<pydotplus.graphviz.Edge object at 0x7fc4922d7910>, <pydotplus.graphviz.Edge object at 0x7fc492596890>], '27': [], '20': [], '21': [<pydotplus.graphviz.Edge object at 0x7fc49164ee50>, <pydotplus.graphviz.Edge object at 0x7fc492562fd0>], '22': [<pydotplus.graphviz.Edge object at 0x7fc491675790>, <pydotplus.graphviz.Edge object at 0x7fc493801f90>], '23': [<pydotplus.graphviz.Edge object at 0x7fc4918d0790>, <pydotplus.graphviz.Edge object at 0x7fc4916bb9d0>], '28': [], '29': [<pydotplus.graphviz.Edge object at 0x7fc491bfe890>, <pydotplus.graphviz.Edge object at 0x7fc492b22610>], '407': [<pydotplus.graphviz.Edge object at 0x7fc4936a7fd0>], '406': [<pydotplus.graphviz.Edge object at 0x7fc491811550>, <pydotplus.graphviz.Edge object at 0x7fc49336a610>], '405': [], '404': [], '403': [<pydotplus.graphviz.Edge object at 0x7fc492736bd0>, <pydotplus.graphviz.Edge object at 0x7fc492d47dd0>], '402': [<pydotplus.graphviz.Edge object at 0x7fc4917d5550>, <pydotplus.graphviz.Edge object at 0x7fc4927b4490>], '401': [<pydotplus.graphviz.Edge object at 0x7fc4935320d0>, <pydotplus.graphviz.Edge object at 0x7fc492bca290>], '400': [<pydotplus.graphviz.Edge object at 0x7fc493a87b90>, <pydotplus.graphviz.Edge object at 0x7fc4919710d0>], '409': [<pydotplus.graphviz.Edge object at 0x7fc4931c2fd0>, <pydotplus.graphviz.Edge object at 0x7fc4931f2490>], '408': [<pydotplus.graphviz.Edge object at 0x7fc49291d2d0>, <pydotplus.graphviz.Edge object at 0x7fc491cb0bd0>], '379': [], '378': [<pydotplus.graphviz.Edge object at 0x7fc491b9af50>, <pydotplus.graphviz.Edge object at 0x7fc492c20fd0>], '371': [], '373': [<pydotplus.graphviz.Edge object at 0x7fc4916c4c10>, <pydotplus.graphviz.Edge object at 0x7fc492074490>], '372': [], '375': [<pydotplus.graphviz.Edge object at 0x7fc492945490>, <pydotplus.graphviz.Edge object at 0x7fc492bfeb50>], '374': [<pydotplus.graphviz.Edge object at 0x7fc4919ae0d0>, <pydotplus.graphviz.Edge object at 0x7fc492414490>], '377': [<pydotplus.graphviz.Edge object at 0x7fc491966e50>, <pydotplus.graphviz.Edge object at 0x7fc4918c7550>], '376': [<pydotplus.graphviz.Edge object at 0x7fc4919c0550>, <pydotplus.graphviz.Edge object at 0x7fc49215ce10>], '393': [], '392': [], '88': [<pydotplus.graphviz.Edge object at 0x7fc492bce350>, <pydotplus.graphviz.Edge object at 0x7fc492abab90>], '89': [<pydotplus.graphviz.Edge object at 0x7fc4936a5f50>, <pydotplus.graphviz.Edge object at 0x7fc493653fd0>], '397': [<pydotplus.graphviz.Edge object at 0x7fc492069e50>, <pydotplus.graphviz.Edge object at 0x7fc492053b50>], '396': [], '395': [], '394': [<pydotplus.graphviz.Edge object at 0x7fc4921288d0>, <pydotplus.graphviz.Edge object at 0x7fc492449e50>], '82': [<pydotplus.graphviz.Edge object at 0x7fc491f9e250>], '181': [<pydotplus.graphviz.Edge object at 0x7fc492341590>, <pydotplus.graphviz.Edge object at 0x7fc492c43250>], '80': [], '81': [<pydotplus.graphviz.Edge object at 0x7fc4918bb0d0>, <pydotplus.graphviz.Edge object at 0x7fc49296f150>], '86': [<pydotplus.graphviz.Edge object at 0x7fc49223c4d0>, <pydotplus.graphviz.Edge object at 0x7fc492674910>], '87': [<pydotplus.graphviz.Edge object at 0x7fc4917bee50>, <pydotplus.graphviz.Edge object at 0x7fc492aae250>], '84': [], '85': [<pydotplus.graphviz.Edge object at 0x7fc491a1ce50>, <pydotplus.graphviz.Edge object at 0x7fc492189cd0>], '7': [<pydotplus.graphviz.Edge object at 0x7fc49172a790>, <pydotplus.graphviz.Edge object at 0x7fc492a60250>], '245': [<pydotplus.graphviz.Edge object at 0x7fc49173dc10>, <pydotplus.graphviz.Edge object at 0x7fc49270cfd0>], '244': [<pydotplus.graphviz.Edge object at 0x7fc4926cfe10>, <pydotplus.graphviz.Edge object at 0x7fc49293c0d0>], '247': [<pydotplus.graphviz.Edge object at 0x7fc492804290>, <pydotplus.graphviz.Edge object at 0x7fc492bbf6d0>], '246': [<pydotplus.graphviz.Edge object at 0x7fc4918609d0>, <pydotplus.graphviz.Edge object at 0x7fc4933cee10>], '241': [], '243': [<pydotplus.graphviz.Edge object at 0x7fc4922ceb50>, <pydotplus.graphviz.Edge object at 0x7fc493a04d90>], '242': [], '249': [], '248': [<pydotplus.graphviz.Edge object at 0x7fc49186ac10>, <pydotplus.graphviz.Edge object at 0x7fc4922f54d0>], '179': [], '178': [<pydotplus.graphviz.Edge object at 0x7fc491a31310>, <pydotplus.graphviz.Edge object at 0x7fc4918da9d0>], '177': [], '176': [], '175': [<pydotplus.graphviz.Edge object at 0x7fc491bec410>, <pydotplus.graphviz.Edge object at 0x7fc492192c90>], '174': [], '173': [], '171': [<pydotplus.graphviz.Edge object at 0x7fc4925c26d0>, <pydotplus.graphviz.Edge object at 0x7fc492231250>], '170': [], '182': [<pydotplus.graphviz.Edge object at 0x7fc491ab4550>, <pydotplus.graphviz.Edge object at 0x7fc4936bbb50>], '183': [<pydotplus.graphviz.Edge object at 0x7fc491b10e50>, <pydotplus.graphviz.Edge object at 0x7fc492344050>], '180': [], '2': [], '186': [<pydotplus.graphviz.Edge object at 0x7fc4925a2d90>, <pydotplus.graphviz.Edge object at 0x7fc492b45910>], '187': [], '184': [<pydotplus.graphviz.Edge object at 0x7fc491807310>, <pydotplus.graphviz.Edge object at 0x7fc4917de790>], '185': [<pydotplus.graphviz.Edge object at 0x7fc4918ede50>, <pydotplus.graphviz.Edge object at 0x7fc492720b50>], '188': [], '189': [<pydotplus.graphviz.Edge object at 0x7fc491b2d550>, <pydotplus.graphviz.Edge object at 0x7fc4933da8d0>], '11': [<pydotplus.graphviz.Edge object at 0x7fc491b1a0d0>, <pydotplus.graphviz.Edge object at 0x7fc491ca4b50>], '10': [], '13': [], '15': [<pydotplus.graphviz.Edge object at 0x7fc492577b50>, <pydotplus.graphviz.Edge object at 0x7fc492683b50>], '14': [], '17': [], '16': [], '19': [], '18': [<pydotplus.graphviz.Edge object at 0x7fc49182dc10>, <pydotplus.graphviz.Edge object at 0x7fc4939d7250>], '62': [], '322': [], '323': [], '320': [<pydotplus.graphviz.Edge object at 0x7fc491a96e50>, <pydotplus.graphviz.Edge object at 0x7fc492d99e10>], '326': [], '327': [<pydotplus.graphviz.Edge object at 0x7fc4917f1c10>, <pydotplus.graphviz.Edge object at 0x7fc493680250>], '324': [<pydotplus.graphviz.Edge object at 0x7fc4917339d0>, <pydotplus.graphviz.Edge object at 0x7fc4921a9250>], '325': [], '329': [], '201': [<pydotplus.graphviz.Edge object at 0x7fc492911fd0>, <pydotplus.graphviz.Edge object at 0x7fc49230c910>], '200': [], '203': [], '205': [<pydotplus.graphviz.Edge object at 0x7fc4925e8810>, <pydotplus.graphviz.Edge object at 0x7fc4931f9590>], '204': [], '207': [], '209': [<pydotplus.graphviz.Edge object at 0x7fc49319fe90>, <pydotplus.graphviz.Edge object at 0x7fc49307ed50>], '208': [], '77': [<pydotplus.graphviz.Edge object at 0x7fc4930746d0>, <pydotplus.graphviz.Edge object at 0x7fc4921bcd90>], '76': [<pydotplus.graphviz.Edge object at 0x7fc4925afd50>, <pydotplus.graphviz.Edge object at 0x7fc492480690>], '75': [<pydotplus.graphviz.Edge object at 0x7fc4928da950>, <pydotplus.graphviz.Edge object at 0x7fc492d33f10>], '74': [<pydotplus.graphviz.Edge object at 0x7fc492c10250>, <pydotplus.graphviz.Edge object at 0x7fc49221f050>], '73': [<pydotplus.graphviz.Edge object at 0x7fc4933546d0>, <pydotplus.graphviz.Edge object at 0x7fc492bf4d90>], '72': [], '71': [], '79': [], '78': [<pydotplus.graphviz.Edge object at 0x7fc491b4bd50>, <pydotplus.graphviz.Edge object at 0x7fc4917b6c10>], '120': [<pydotplus.graphviz.Edge object at 0x7fc491c82c50>, <pydotplus.graphviz.Edge object at 0x7fc4925d9490>], '121': [<pydotplus.graphviz.Edge object at 0x7fc4937cecd0>, <pydotplus.graphviz.Edge object at 0x7fc4932f65d0>], '122': [<pydotplus.graphviz.Edge object at 0x7fc49275dad0>, <pydotplus.graphviz.Edge object at 0x7fc492d35f90>], '123': [<pydotplus.graphviz.Edge object at 0x7fc492585a90>, <pydotplus.graphviz.Edge object at 0x7fc492d1bd90>], '124': [<pydotplus.graphviz.Edge object at 0x7fc493051b90>, <pydotplus.graphviz.Edge object at 0x7fc4932e8490>], '125': [<pydotplus.graphviz.Edge object at 0x7fc491857790>, <pydotplus.graphviz.Edge object at 0x7fc4926ecad0>], '126': [], '127': [], '128': [<pydotplus.graphviz.Edge object at 0x7fc4918afe50>, <pydotplus.graphviz.Edge object at 0x7fc4917e79d0>], '129': [<pydotplus.graphviz.Edge object at 0x7fc493067910>], '414': [], '415': [<pydotplus.graphviz.Edge object at 0x7fc491a8dc10>, <pydotplus.graphviz.Edge object at 0x7fc4919f4310>], '410': [<pydotplus.graphviz.Edge object at 0x7fc491b4de50>, <pydotplus.graphviz.Edge object at 0x7fc49219de50>], '411': [<pydotplus.graphviz.Edge object at 0x7fc491fa9b90>, <pydotplus.graphviz.Edge object at 0x7fc492082290>], '412': [<pydotplus.graphviz.Edge object at 0x7fc4916f69d0>, <pydotplus.graphviz.Edge object at 0x7fc492dad6d0>], '413': [], '319': [], '318': [], '313': [<pydotplus.graphviz.Edge object at 0x7fc492de8190>, <pydotplus.graphviz.Edge object at 0x7fc4922b2150>], '312': [<pydotplus.graphviz.Edge object at 0x7fc49367ef10>, <pydotplus.graphviz.Edge object at 0x7fc4927f6250>], '311': [<pydotplus.graphviz.Edge object at 0x7fc492d28a10>, <pydotplus.graphviz.Edge object at 0x7fc492b4cc10>], '310': [<pydotplus.graphviz.Edge object at 0x7fc49197b310>, <pydotplus.graphviz.Edge object at 0x7fc492ab0050>], '317': [<pydotplus.graphviz.Edge object at 0x7fc492476ad0>], '316': [<pydotplus.graphviz.Edge object at 0x7fc491c39290>, <pydotplus.graphviz.Edge object at 0x7fc4919169d0>], '315': [], '314': [], '3': [<pydotplus.graphviz.Edge object at 0x7fc491b24310>, <pydotplus.graphviz.Edge object at 0x7fc49288be90>], '368': [], '369': [<pydotplus.graphviz.Edge object at 0x7fc491a80790>, <pydotplus.graphviz.Edge object at 0x7fc4916580d0>], '366': [<pydotplus.graphviz.Edge object at 0x7fc49178f310>, <pydotplus.graphviz.Edge object at 0x7fc4922b9150>], '367': [], '364': [], '365': [], '362': [], '363': [<pydotplus.graphviz.Edge object at 0x7fc493a0c790>, <pydotplus.graphviz.Edge object at 0x7fc492d3f6d0>], '360': [<pydotplus.graphviz.Edge object at 0x7fc491782e50>], '361': [], '380': [], '381': [<pydotplus.graphviz.Edge object at 0x7fc4919350d0>, <pydotplus.graphviz.Edge object at 0x7fc492443cd0>], '382': [<pydotplus.graphviz.Edge object at 0x7fc492b846d0>], '383': [], '384': [], '385': [<pydotplus.graphviz.Edge object at 0x7fc491a59e50>, <pydotplus.graphviz.Edge object at 0x7fc4926e2910>], '386': [], '387': [], '388': [<pydotplus.graphviz.Edge object at 0x7fc4919dfe50>, <pydotplus.graphviz.Edge object at 0x7fc492b89250>], '389': [], '61': [], '258': [<pydotplus.graphviz.Edge object at 0x7fc4916e4550>, <pydotplus.graphviz.Edge object at 0x7fc492b0c490>], '63': [<pydotplus.graphviz.Edge object at 0x7fc4925dcfd0>, <pydotplus.graphviz.Edge object at 0x7fc493378fd0>], '64': [], '65': [], '66': [<pydotplus.graphviz.Edge object at 0x7fc492d8c1d0>, <pydotplus.graphviz.Edge object at 0x7fc49266a710>], '67': [], '252': [<pydotplus.graphviz.Edge object at 0x7fc491700c10>], '69': [<pydotplus.graphviz.Edge object at 0x7fc4933fdb50>, <pydotplus.graphviz.Edge object at 0x7fc4921b2fd0>], '250': [], '251': [<pydotplus.graphviz.Edge object at 0x7fc492da39d0>, <pydotplus.graphviz.Edge object at 0x7fc492bdb250>], '256': [<pydotplus.graphviz.Edge object at 0x7fc492752b50>, <pydotplus.graphviz.Edge object at 0x7fc492b47a10>], '257': [<pydotplus.graphviz.Edge object at 0x7fc492d13310>, <pydotplus.graphviz.Edge object at 0x7fc49305c090>], '254': [], '255': [<pydotplus.graphviz.Edge object at 0x7fc492548490>, <pydotplus.graphviz.Edge object at 0x7fc4931fb250>], '168': [<pydotplus.graphviz.Edge object at 0x7fc491c91fd0>], '169': [], '164': [<pydotplus.graphviz.Edge object at 0x7fc491abd790>, <pydotplus.graphviz.Edge object at 0x7fc49397a090>], '165': [], '166': [], '167': [<pydotplus.graphviz.Edge object at 0x7fc49279a7d0>, <pydotplus.graphviz.Edge object at 0x7fc492c13790>], '160': [<pydotplus.graphviz.Edge object at 0x7fc4917fae50>, <pydotplus.graphviz.Edge object at 0x7fc49217ac50>], '161': [<pydotplus.graphviz.Edge object at 0x7fc492f3e050>, <pydotplus.graphviz.Edge object at 0x7fc492744550>], '162': [<pydotplus.graphviz.Edge object at 0x7fc491984550>, <pydotplus.graphviz.Edge object at 0x7fc49258e310>], '163': [<pydotplus.graphviz.Edge object at 0x7fc491b73790>, <pydotplus.graphviz.Edge object at 0x7fc492168fd0>], '9': [], '357': [], '356': [<pydotplus.graphviz.Edge object at 0x7fc492c29d90>, <pydotplus.graphviz.Edge object at 0x7fc4936940d0>], '355': [<pydotplus.graphviz.Edge object at 0x7fc491a3a550>, <pydotplus.graphviz.Edge object at 0x7fc4925f2b50>], '354': [<pydotplus.graphviz.Edge object at 0x7fc4926cb950>, <pydotplus.graphviz.Edge object at 0x7fc4936c5910>], '353': [<pydotplus.graphviz.Edge object at 0x7fc491765790>, <pydotplus.graphviz.Edge object at 0x7fc491bca350>], '352': [<pydotplus.graphviz.Edge object at 0x7fc491837e50>, <pydotplus.graphviz.Edge object at 0x7fc4916ee790>], '351': [<pydotplus.graphviz.Edge object at 0x7fc491ad2e50>, <pydotplus.graphviz.Edge object at 0x7fc492554250>], '350': [], '359': [<pydotplus.graphviz.Edge object at 0x7fc49174a0d0>, <pydotplus.graphviz.Edge object at 0x7fc4925b84d0>], '358': [], '216': [<pydotplus.graphviz.Edge object at 0x7fc491af1550>, <pydotplus.graphviz.Edge object at 0x7fc492321490>], '217': [<pydotplus.graphviz.Edge object at 0x7fc491b91d10>, <pydotplus.graphviz.Edge object at 0x7fc49276a850>], '214': [<pydotplus.graphviz.Edge object at 0x7fc491ba51d0>, <pydotplus.graphviz.Edge object at 0x7fc49369ac10>], '215': [<pydotplus.graphviz.Edge object at 0x7fc492152d90>, <pydotplus.graphviz.Edge object at 0x7fc4927d2590>], '212': [<pydotplus.graphviz.Edge object at 0x7fc491a50c10>, <pydotplus.graphviz.Edge object at 0x7fc491689e50>], '213': [<pydotplus.graphviz.Edge object at 0x7fc4918259d0>, <pydotplus.graphviz.Edge object at 0x7fc4937e8690>], '210': [], '211': [], '218': [], '219': [], '289': [<pydotplus.graphviz.Edge object at 0x7fc491a280d0>, <pydotplus.graphviz.Edge object at 0x7fc493300990>], '288': [], '281': [<pydotplus.graphviz.Edge object at 0x7fc4919fe550>, <pydotplus.graphviz.Edge object at 0x7fc49171f550>], '280': [<pydotplus.graphviz.Edge object at 0x7fc4919d7c10>, <pydotplus.graphviz.Edge object at 0x7fc492a986d0>], '283': [], '282': [<pydotplus.graphviz.Edge object at 0x7fc492305c90>, <pydotplus.graphviz.Edge object at 0x7fc4922070d0>], '285': [<pydotplus.graphviz.Edge object at 0x7fc491798550>, <pydotplus.graphviz.Edge object at 0x7fc491fb9490>], '284': [], '287': [], '286': [<pydotplus.graphviz.Edge object at 0x7fc4931e7a10>], '263': [<pydotplus.graphviz.Edge object at 0x7fc49187e0d0>, <pydotplus.graphviz.Edge object at 0x7fc49254d7d0>], '262': [], '261': [], '260': [<pydotplus.graphviz.Edge object at 0x7fc49230b3d0>, <pydotplus.graphviz.Edge object at 0x7fc492d21250>], '267': [<pydotplus.graphviz.Edge object at 0x7fc4918420d0>, <pydotplus.graphviz.Edge object at 0x7fc492299b50>], '266': [], '265': [], '264': [<pydotplus.graphviz.Edge object at 0x7fc49189d9d0>], '269': [], '268': [], '59': [<pydotplus.graphviz.Edge object at 0x7fc491a6e310>, <pydotplus.graphviz.Edge object at 0x7fc4925d1510>], '58': [], '55': [<pydotplus.graphviz.Edge object at 0x7fc49190e790>, <pydotplus.graphviz.Edge object at 0x7fc493319b90>], '54': [], '57': [], '56': [<pydotplus.graphviz.Edge object at 0x7fc4916950d0>], '51': [<pydotplus.graphviz.Edge object at 0x7fc4933a6a90>, <pydotplus.graphviz.Edge object at 0x7fc4928a21d0>], '50': [<pydotplus.graphviz.Edge object at 0x7fc49193e310>, <pydotplus.graphviz.Edge object at 0x7fc4918050d0>], '53': [], '52': [<pydotplus.graphviz.Edge object at 0x7fc492410250>, <pydotplus.graphviz.Edge object at 0x7fc4931d46d0>], '259': [<pydotplus.graphviz.Edge object at 0x7fc492dc29d0>, <pydotplus.graphviz.Edge object at 0x7fc493a38350>], '115': [], '68': [], '117': [<pydotplus.graphviz.Edge object at 0x7fc491afa790>, <pydotplus.graphviz.Edge object at 0x7fc492a88f10>], '116': [], '111': [], '113': [<pydotplus.graphviz.Edge object at 0x7fc4939b5150>, <pydotplus.graphviz.Edge object at 0x7fc4933e8050>], '253': [], '119': [], '118': [], '308': [<pydotplus.graphviz.Edge object at 0x7fc49181b790>, <pydotplus.graphviz.Edge object at 0x7fc491fb03d0>], '309': [<pydotplus.graphviz.Edge object at 0x7fc4931b6250>, <pydotplus.graphviz.Edge object at 0x7fc493076510>], '300': [], '301': [<pydotplus.graphviz.Edge object at 0x7fc493188b50>, <pydotplus.graphviz.Edge object at 0x7fc4931dd910>], '302': [], '303': [], '304': [<pydotplus.graphviz.Edge object at 0x7fc491b87ad0>, <pydotplus.graphviz.Edge object at 0x7fc492b18250>], '306': [], '307': [], '228': [<pydotplus.graphviz.Edge object at 0x7fc4922a6290>, <pydotplus.graphviz.Edge object at 0x7fc491f90d90>], '227': [], '226': [], '224': [<pydotplus.graphviz.Edge object at 0x7fc4917a3790>, <pydotplus.graphviz.Edge object at 0x7fc4927d6910>], '223': [], '222': [], '221': [<pydotplus.graphviz.Edge object at 0x7fc491cbb6d0>], '220': [<pydotplus.graphviz.Edge object at 0x7fc491894790>, <pydotplus.graphviz.Edge object at 0x7fc4937fda50>], '391': [<pydotplus.graphviz.Edge object at 0x7fc4919539d0>, <pydotplus.graphviz.Edge object at 0x7fc492ba8f90>], '390': [], '151': [<pydotplus.graphviz.Edge object at 0x7fc491c1d990>, <pydotplus.graphviz.Edge object at 0x7fc49394d8d0>], '150': [<pydotplus.graphviz.Edge object at 0x7fc4927891d0>, <pydotplus.graphviz.Edge object at 0x7fc492140610>], '153': [], '152': [<pydotplus.graphviz.Edge object at 0x7fc49240b550>, <pydotplus.graphviz.Edge object at 0x7fc49279e910>], '155': [<pydotplus.graphviz.Edge object at 0x7fc491b7d9d0>, <pydotplus.graphviz.Edge object at 0x7fc49265ed90>], '154': [], '157': [], '156': [<pydotplus.graphviz.Edge object at 0x7fc4939f0250>], '159': [<pydotplus.graphviz.Edge object at 0x7fc492242c10>, <pydotplus.graphviz.Edge object at 0x7fc49271c510>], '158': [], '112': [], '83': [], '399': [<pydotplus.graphviz.Edge object at 0x7fc491bae410>, <pydotplus.graphviz.Edge object at 0x7fc49188a550>], '48': [<pydotplus.graphviz.Edge object at 0x7fc492108110>, <pydotplus.graphviz.Edge object at 0x7fc492b7a550>], '49': [<pydotplus.graphviz.Edge object at 0x7fc49195dc10>, <pydotplus.graphviz.Edge object at 0x7fc492214490>], '46': [], '47': [<pydotplus.graphviz.Edge object at 0x7fc491bb8650>, <pydotplus.graphviz.Edge object at 0x7fc4933825d0>], '44': [<pydotplus.graphviz.Edge object at 0x7fc491987790>, <pydotplus.graphviz.Edge object at 0x7fc4923166d0>], '45': [], '42': [], '43': [], '40': [<pydotplus.graphviz.Edge object at 0x7fc4916d10d0>, <pydotplus.graphviz.Edge object at 0x7fc493243250>], '5': []}
+na=344
+label="(X3v3 imp q) 19"
+na=344label="(X3v3 imp q) 19"
+<class 'pydotplus.graphviz.Node'>
+na=344label="(X3v3 imp q) 19"
+na=344label="(X3v3 imp q) 19"
+ Lista de nos sainde de na=344 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4925f2b50>
+na=355label="(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"
+ Lista de nos sainde de na=355 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4936c5910>
+na=354label="(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"
+ Lista de nos sainde de na=354 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc491765790>
+na=353label="(X3v2 imp q) imp ((ORX3 imp q))"
+ Lista de nos sainde de na=353 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4916ee790>
+na=352label="(ORX3 imp q)"
+ Lista de nos sainde de na=352 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc49174a0d0>
+na=359label=q
+ Lista de nos sainde de na=359 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc491782e50>
+na=360label="(X2v1 imp q) 17"
+ Lista de nos sainde de na=360 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc491966e50>
+na=377label="(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"
+ Lista de nos sainde de na=377 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4919c0550>
+na=376label="(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"
+ Lista de nos sainde de na=376 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc492bfeb50>
+na=375label="(X2v5 imp q) imp ((ORX2 imp q))"
+ Lista de nos sainde de na=375 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4919ae0d0>
+na=374label="(ORX2 imp q)"
+ Lista de nos sainde de na=374 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc492443cd0>
+na=381label=q
+ Lista de nos sainde de na=381 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc492b846d0>
+na=382label="(X1v4 imp q) 16"
+ Lista de nos sainde de na=382 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc492dad6d0>
+na=412label="(X1v1 imp q) imp ((X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))))"
+ Lista de nos sainde de na=412 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc492082290>
+na=411label="(X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q))))"
+ Lista de nos sainde de na=411 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc491b4de50>
+na=410label="(X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))"
+ Lista de nos sainde de na=410 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc4931c2fd0>
+na=409label="(X1v2 imp q) imp ((ORX1 imp q))"
+ Lista de nos sainde de na=409 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc49291d2d0>
+na=408label="(ORX1 imp q)"
+ Lista de nos sainde de na=408 ===> 
+<pydotplus.graphviz.Edge object at 0x7fc491a8dc10>
+ A Raiz do DLDS = q ou 415
+415
+q
+nr415
+['415']
+415
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['408', '414']
+Fez o n=415
+node_formulas=
+set(['"(ORX1 imp q)"', 'ORX1'])
+Fez o NIVEL=1
+['408', '414']
+408
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['409', '190']
+Fez o n=408
+DEPOIS
+['409', '190']
+Fez o n=414
+node_formulas=
+set(['"(X1v2 imp q) imp ((ORX1 imp q))"', '"(X1v2 imp q) 6"'])
+Fez o NIVEL=2
+414
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['410', '407']
+Fez o n=409
+vai testar e in e_in[n]
+DEPOIS
+['410', '407', '189']
+Fez o n=190
+node_formulas=
+set(['q', '"(X1v5 imp q) 21"', '"(X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))"'])
+Fez o NIVEL=3
+['410', '407', '189']
+410
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['411', '286']
+Fez o n=410
+vai testar e in e_in[n]
+DEPOIS
+['411', '286', '406']
+Fez o n=407
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['411', '286', '406', '188', '182']
+Fez o n=189
+node_formulas=
+set(['q', 'ORX2', '"(ORX2 imp q)"', '"(X1v3 imp q) 11"', '"(X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q))))"'])
+Fez o NIVEL=4
+407
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['94', '412']
+Fez o n=411
+vai testar e in e_in[n]
+DEPOIS
+['94', '412', '285']
+Fez o n=286
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['94', '412', '285', '405', '399']
+Fez o n=406
+DEPOIS
+['94', '412', '285', '405', '399']
+Fez o n=188
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['94', '412', '285', '405', '399', '181', '183']
+Fez o n=182
+node_formulas=
+set(['"(X1v1 imp q) imp ((X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))))"', '"(X2v5 imp q)"', '"(ORX2 imp q)"', 'q', 'ORX2', '"(X1v1 imp q) 1"', '"(X2v5 imp q) imp ((ORX2 imp q))"'])
+Fez o NIVEL=5
+189
+vai testar e in e_in[n]
+DEPOIS
+['93']
+Fez o n=94
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['93', '413', '382']
+Fez o n=412
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['93', '413', '382', '284', '278']
+Fez o n=285
+DEPOIS
+['93', '413', '382', '284', '278']
+Fez o n=405
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['93', '413', '382', '284', '278', '400', '397']
+Fez o n=399
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['93', '413', '382', '284', '278', '400', '397', '180', '179']
+Fez o n=181
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['93', '413', '382', '284', '278', '400', '397', '180', '179', '175', '184']
+Fez o n=183
+node_formulas=
+set(['"(X2v5 imp q) imp ((ORX2 imp q))"', '"(X1v4 imp q) imp ((X1v1 imp q) imp ((X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q))))))"', '"(X2v5 imp q)"', '"(ORX2 imp q)"', 'q', '"(X2v3 imp q)"', '"[X1v2]6"', 'ORX2', '"(X1v2 imp (X2v5 imp q))"', '"(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"', '"(X1v4 imp q) 16"'])
+Fez o NIVEL=6
+['93', '413', '382', '284', '278', '400', '397', '180', '179', '175', '184']
+93
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86']
+Fez o n=93
+DEPOIS
+['92', '86']
+Fez o n=413
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381']
+Fez o n=382
+DEPOIS
+['92', '86', '381']
+Fez o n=284
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381', '279', '277']
+Fez o n=278
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391']
+Fez o n=400
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391', '395', '396']
+Fez o n=397
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391', '395', '396']
+Fez o n=180
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391', '395', '396']
+Fez o n=179
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391', '395', '396', '173', '174']
+Fez o n=175
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['92', '86', '381', '279', '277', '401', '391', '395', '396', '173', '174', '185', '178']
+Fez o n=184
+node_formulas=
+set(['"(X2v5 imp q) imp ((ORX2 imp q))"', '"(X2v4 imp q)"', '"(X2v5 imp q)"', '"[X1v5]21"', '"(ORX2 imp q)"', '"(X1v5 imp (X2v5 imp q))"', '"(X1v2 imp (X2v3 imp q))"', 'q', '"(X2v3 imp q)"', '"[X1v2]6"', '"(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"', 'ORX2', '"(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"'])
+Fez o NIVEL=7
+413
+DEPOIS
+[]
+Fez o n=92
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85']
+Fez o n=86
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374']
+Fez o n=381
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270']
+Fez o n=279
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275']
+Fez o n=277
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394']
+Fez o n=401
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389']
+Fez o n=391
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389']
+Fez o n=395
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389']
+Fez o n=396
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389']
+Fez o n=173
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389']
+Fez o n=174
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389', '168', '186']
+Fez o n=185
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['87', '85', '380', '374', '280', '270', '276', '275', '402', '394', '390', '389', '168', '186', '176', '177']
+Fez o n=178
+node_formulas=
+set(['"(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"', '"(X1v2 imp (X2v4 imp q))"', '"(X2v4 imp q)"', '"(X2v5 imp q)"', '"(X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))))"', '"[X1v5]21"', '"(ORX2 imp q)"', '"[X1v2]6"', '"(X2v5 imp q) imp ((ORX2 imp q))"', '"(X2v3 imp q)"', '"[X1v3]11"', '"(X1v5 imp (X2v3 imp q))"', 'ORX2', '"(X1v3 imp (X2v5 imp q))"', '"(X2v1 imp q) 7"', '"(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"'])
+Fez o NIVEL=8
+382
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88']
+Fez o n=87
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83']
+Fez o n=85
+DEPOIS
+['56', '88', '84', '83']
+Fez o n=380
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373']
+Fez o n=374
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281']
+Fez o n=280
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268']
+Fez o n=270
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268']
+Fez o n=276
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268']
+Fez o n=275
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385']
+Fez o n=402
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392']
+Fez o n=394
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392']
+Fez o n=390
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392']
+Fez o n=389
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392', '167']
+Fez o n=168
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392', '167', '171', '187']
+Fez o n=186
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392', '167', '171', '187']
+Fez o n=176
+DEPOIS
+['56', '88', '84', '83', '375', '373', '274', '281', '269', '268', '403', '385', '393', '392', '167', '171', '187']
+Fez o n=177
+node_formulas=
+set(['"[X1v1]1"', '"(X1v1 imp (X2v5 imp q))"', '"(X1v5 imp (X2v4 imp q))"', '"(X2v4 imp q)"', '"(X2v5 imp q)"', '"(X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))))"', '"(X1v3 imp (X2v3 imp q))"', '"(X2v1 imp q)"', '"(X2v5 imp q) imp ((ORX2 imp q))"', '"(X2v2 imp q) imp ((X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))))"', '"[X1v3]11"', 'q', '"(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"', '"[X1v5]21"', '"(X2v2 imp q)"', '"(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"', '"(X2v3 imp q) 3"'])
+Fez o NIVEL=9
+284
+vai testar e in e_in[n]
+DEPOIS
+['55']
+Fez o n=56
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82']
+Fez o n=88
+DEPOIS
+['55', '89', '82']
+Fez o n=84
+DEPOIS
+['55', '89', '82']
+Fez o n=83
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376']
+Fez o n=375
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372']
+Fez o n=373
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273']
+Fez o n=274
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282']
+Fez o n=281
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282']
+Fez o n=269
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282']
+Fez o n=268
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388']
+Fez o n=403
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383']
+Fez o n=385
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383']
+Fez o n=393
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383']
+Fez o n=392
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383', '166', '160']
+Fez o n=167
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383', '166', '160', '170', '169']
+Fez o n=171
+DEPOIS
+['55', '89', '82', '366', '376', '371', '372', '272', '273', '264', '282', '404', '388', '384', '383', '166', '160', '170', '169']
+Fez o n=187
+node_formulas=
+set(['"(X1v3 imp (X2v4 imp q))"', '"(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"', 'ORX3', '"(X2v2 imp q)"', '"(ORX3 imp q)"', '"(X1v5 imp (X2v1 imp q))"', '"(X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))))"', '"(X2v1 imp q) 12"', '"[X1v2]6"', '"(X2v4 imp q) 4"', 'q', '"(X2v3 imp q)"', '"[X1v3]11"', '"(X1v4 imp (X2v5 imp q))"', '"[X1v5]21"', '"(X2v2 imp q) imp ((X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))))"', '"(X1v2 imp (X2v2 imp q))"', '"[X1v4]16"', '"(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"'])
+Fez o NIVEL=10
+278
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48']
+Fez o n=55
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3']
+Fez o n=89
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81']
+Fez o n=82
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365']
+Fez o n=366
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369']
+Fez o n=376
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369']
+Fez o n=371
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369']
+Fez o n=372
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369']
+Fez o n=272
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369']
+Fez o n=273
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263']
+Fez o n=264
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267']
+Fez o n=282
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267']
+Fez o n=404
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386']
+Fez o n=388
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386']
+Fez o n=384
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386']
+Fez o n=383
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386']
+Fez o n=166
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386', '101', '161']
+Fez o n=160
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386', '101', '161']
+Fez o n=170
+DEPOIS
+['54', '48', '90', '3', '81', '364', '365', '377', '369', '263', '283', '267', '387', '386', '101', '161']
+Fez o n=169
+node_formulas=
+set(['"(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"', '"(X2v2 imp q)"', '"(X2v4 imp q)"', '"(X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))))"', '"[X1v5]21"', '"(X2v1 imp q)"', '"(X3v2 imp q)"', 'q', '"(X2v2 imp q) imp ((X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))))"', '"(X1v4 imp (X2v3 imp q))"', 'ORX3', '"(ORX3 imp q)"', '"(X1v5 imp (X2v2 imp q))"', '"[X1v4]16"', '"(X3v2 imp q) imp ((ORX3 imp q))"'])
+Fez o NIVEL=11
+400
+DEPOIS
+[]
+Fez o n=54
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37']
+Fez o n=48
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91']
+Fez o n=90
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1']
+Fez o n=3
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74']
+Fez o n=81
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74']
+Fez o n=364
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74']
+Fez o n=365
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378']
+Fez o n=377
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367']
+Fez o n=369
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262']
+Fez o n=263
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262']
+Fez o n=283
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262', '266', '265']
+Fez o n=267
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262', '266', '265']
+Fez o n=387
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262', '266', '265']
+Fez o n=386
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262', '266', '265', '100', '99']
+Fez o n=101
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['49', '37', '30', '91', '2', '1', '80', '74', '360', '378', '368', '367', '256', '262', '266', '265', '100', '99', '162', '97']
+Fez o n=161
+node_formulas=
+set(['"[X1v1]1"', '"(X2v1 imp q) 17"', '"(X3v2 imp q) imp ((ORX3 imp q))"', '"(X3v1 imp q)"', '"(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"', '"(X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))))"', '"(X1v1 imp (X2v1 imp q))"', '"(X3v2 imp q)"', 'ORX3', '"(X2v2 imp q) imp ((X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))))"', '"(X1v2 imp (X3v2 imp q))"', '"[X1v3]11"', '"(X2v2 imp q) 2"', '"[X1v2]6"', '"(ORX3 imp q)"', '"[X1v4]16"', '"(X1v3 imp (X2v2 imp q))"', '"(X1v4 imp (X2v4 imp q))"'])
+Fez o NIVEL=12
+397
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33']
+Fez o n=49
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36']
+Fez o n=37
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29']
+Fez o n=30
+DEPOIS
+['50', '33', '35', '36', '29']
+Fez o n=91
+DEPOIS
+['50', '33', '35', '36', '29']
+Fez o n=2
+DEPOIS
+['50', '33', '35', '36', '29']
+Fez o n=1
+DEPOIS
+['50', '33', '35', '36', '29']
+Fez o n=80
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75']
+Fez o n=74
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359']
+Fez o n=360
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363']
+Fez o n=378
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363']
+Fez o n=368
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363']
+Fez o n=367
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=256
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=262
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=266
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=265
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=100
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221']
+Fez o n=99
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221', '163', '156']
+Fez o n=162
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['50', '33', '35', '36', '29', '63', '75', '359', '379', '363', '257', '221', '163', '156', '95', '96']
+Fez o n=97
+node_formulas=
+set(['"(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"', '"(X3v2 imp q) imp ((ORX3 imp q))"', '"(X3v1 imp q)"', '"(X2v1 imp (X3v1 imp q))"', '"(X2v2 imp q) imp ((X2v1 imp q) imp ((X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))))"', '"(X3v2 imp q)"', 'q', '"(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"', '"(X2v2 imp q)"', '"(X3v4 imp q) 9"', '"(X2v3 imp (X3v2 imp q))"', '"[X2v1]7"', '"(X3v2 imp q) 13"', '"[X2v3]3"'])
+Fez o NIVEL=13
+180
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44']
+Fez o n=50
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32']
+Fez o n=33
+DEPOIS
+['51', '44', '31', '32']
+Fez o n=35
+DEPOIS
+['51', '44', '31', '32']
+Fez o n=36
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22']
+Fez o n=29
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62']
+Fez o n=63
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76']
+Fez o n=75
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358']
+Fez o n=359
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358']
+Fez o n=379
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362']
+Fez o n=363
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258']
+Fez o n=257
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258', '220']
+Fez o n=221
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258', '220', '129', '164']
+Fez o n=163
+vai testar e in e_in[n]
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258', '220', '129', '164', '155']
+Fez o n=156
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258', '220', '129', '164', '155']
+Fez o n=95
+DEPOIS
+['51', '44', '31', '32', '28', '22', '61', '62', '59', '76', '352', '358', '361', '362', '193', '258', '220', '129', '164', '155']
+Fez o n=96
+node_formulas=
+set(['"[X1v1]1"', '"(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"', '"(X3v1 imp q)"', '"[X1v4]16"', '"(X3v4 imp q)"', '"(X3v3 imp q) 8"', '"(X1v1 imp (X3v1 imp q))"', '"(X1v4 imp (X2v2 imp q))"', 'q', '"(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"', '"(X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))))"', '"(X2v4 imp (X3v2 imp q))"', 'ORX3', '"(ORX3 imp q)"', '"[X2v4]4"'])
+Fez o NIVEL=14
+179
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40']
+Fez o n=51
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43']
+Fez o n=44
+DEPOIS
+['52', '40', '42', '43']
+Fez o n=31
+DEPOIS
+['52', '40', '42', '43']
+Fez o n=32
+DEPOIS
+['52', '40', '42', '43']
+Fez o n=28
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11']
+Fez o n=22
+DEPOIS
+['52', '40', '42', '43', '23', '11']
+Fez o n=61
+DEPOIS
+['52', '40', '42', '43', '23', '11']
+Fez o n=62
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57']
+Fez o n=59
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77']
+Fez o n=76
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353']
+Fez o n=352
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353']
+Fez o n=358
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353']
+Fez o n=361
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353']
+Fez o n=362
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191']
+Fez o n=193
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191', '259', '252']
+Fez o n=258
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191', '259', '252', '219', '213']
+Fez o n=220
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191', '259', '252', '219', '213', '128']
+Fez o n=129
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191', '259', '252', '219', '213', '128', '165', '159']
+Fez o n=164
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['52', '40', '42', '43', '23', '11', '58', '57', '69', '77', '317', '353', '192', '191', '259', '252', '219', '213', '128', '165', '159', '154', '148']
+Fez o n=155
+node_formulas=
+set(['"[X1v1]1"', '"(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"', '"(X3v2 imp q) imp ((ORX3 imp q))"', '"(X2v1 imp (X3v1 imp q))"', '"(X3v5 imp q) imp ((X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))))"', '"(X3v4 imp q)"', '"(X3v2 imp q)"', '"(X1v1 imp (X3v1 imp q))"', '"(ORX4 imp q)"', 'q', '"(X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))))"', '"(X3v3 imp q)"', '"(X2v3 imp (X3v4 imp q))"', '"[X2v1]12"', '"(X3v2 imp q) 18"', '"(X3v5 imp q)"', '"(X3v4 imp q) 14"', '"[X2v3]3"', 'ORX4'])
+Fez o NIVEL=15
+175
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53']
+Fez o n=52
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39']
+Fez o n=40
+DEPOIS
+['47', '53', '38', '39']
+Fez o n=42
+DEPOIS
+['47', '53', '38', '39']
+Fez o n=43
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24']
+Fez o n=23
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10']
+Fez o n=11
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10']
+Fez o n=58
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10']
+Fez o n=57
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68']
+Fez o n=69
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66']
+Fez o n=77
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316']
+Fez o n=317
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289']
+Fez o n=353
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289']
+Fez o n=192
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289']
+Fez o n=191
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224']
+Fez o n=259
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251']
+Fez o n=252
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251']
+Fez o n=219
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212']
+Fez o n=213
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212', '127', '121']
+Fez o n=128
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212', '127', '121']
+Fez o n=165
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212', '127', '121', '158', '157']
+Fez o n=159
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212', '127', '121', '158', '157']
+Fez o n=154
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['47', '53', '38', '39', '7', '24', '9', '10', '67', '68', '78', '66', '316', '354', '289', '260', '224', '251', '214', '212', '127', '121', '158', '157', '149', '147']
+Fez o n=148
+node_formulas=
+set(['"(X4v5 imp q) imp ((ORX4 imp q))"', '"(X2v1 imp (X3v5 imp q))"', '"(X3v1 imp q)"', '"[X2v2]2"', '"(X3v5 imp q) imp ((X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))))"', '"(X2v2 imp (X3v2 imp q))"', '"(ORX4 imp q)"', '"[X2v4]4"', 'q', '"(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"', '"(X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))))"', '"(X2v3 imp (X3v3 imp q))"', '"(X3v3 imp q)"', '"(X4v5 imp q)"', '"(X3v5 imp q)"', 'ORX4', '"[X2v1]7"', '"[X2v3]3"', '"(X2v4 imp (X3v4 imp q))"'])
+Fez o NIVEL=16
+184
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46']
+Fez o n=47
+DEPOIS
+['45', '46']
+Fez o n=53
+DEPOIS
+['45', '46']
+Fez o n=38
+DEPOIS
+['45', '46']
+Fez o n=39
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5']
+Fez o n=7
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18']
+Fez o n=24
+DEPOIS
+['45', '46', '6', '5', '25', '18']
+Fez o n=9
+DEPOIS
+['45', '46', '6', '5', '25', '18']
+Fez o n=10
+DEPOIS
+['45', '46', '6', '5', '25', '18']
+Fez o n=67
+DEPOIS
+['45', '46', '6', '5', '25', '18']
+Fez o n=68
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73']
+Fez o n=78
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64']
+Fez o n=66
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315']
+Fez o n=316
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355']
+Fez o n=354
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288']
+Fez o n=289
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255']
+Fez o n=260
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222']
+Fez o n=224
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244']
+Fez o n=251
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201']
+Fez o n=214
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210']
+Fez o n=212
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210']
+Fez o n=127
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120']
+Fez o n=121
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120']
+Fez o n=158
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120']
+Fez o n=157
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120', '136', '150']
+Fez o n=149
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120', '136', '150', '146', '145']
+Fez o n=147
+node_formulas=
+set(['"(X3v2 imp (X4v5 imp q))"', '"(ORX4 imp q)"', '"(X4v2 imp q)"', '"[X3v4]9"', '"[X1v1]1"', '"(X2v1 imp (X3v1 imp q))"', '"(X1v3 imp (X3v3 imp q))"', '"[X2v3]3"', '"(X2v3 imp (X3v5 imp q))"', '"(X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))"', '"(X3v4 imp q)"', '"[X3v2]13"', '"[X1v3]11"', '"[X2v1]17"', '"(X4v5 imp q)"', '"(X3v5 imp q)"', '"(X3v4 imp (X4v5 imp q))"', '"[X2v4]4"', 'ORX4', '"(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"', '"(X3v5 imp q) imp ((X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))))"', '"(X2v4 imp (X3v3 imp q))"', '"(X1v1 imp (X3v1 imp q))"', '"(X4v5 imp q) imp ((ORX4 imp q))"'])
+Fez o NIVEL=17
+['45', '46', '6', '5', '25', '18', '79', '73', '65', '64', '309', '315', '347', '355', '287', '288', '261', '255', '223', '222', '250', '244', '215', '201', '211', '210', '122', '120', '136', '150', '146', '145']
+45
+DEPOIS
+[]
+Fez o n=45
+DEPOIS
+[]
+Fez o n=46
+DEPOIS
+[]
+Fez o n=6
+DEPOIS
+[]
+Fez o n=5
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26']
+Fez o n=25
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17']
+Fez o n=18
+DEPOIS
+['15', '26', '16', '17']
+Fez o n=79
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71']
+Fez o n=73
+DEPOIS
+['15', '26', '16', '17', '72', '71']
+Fez o n=65
+DEPOIS
+['15', '26', '16', '17', '72', '71']
+Fez o n=64
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308']
+Fez o n=309
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308']
+Fez o n=315
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346']
+Fez o n=347
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344']
+Fez o n=355
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344']
+Fez o n=287
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344']
+Fez o n=288
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344']
+Fez o n=261
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253']
+Fez o n=255
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253']
+Fez o n=223
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253']
+Fez o n=222
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253']
+Fez o n=250
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243']
+Fez o n=244
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216']
+Fez o n=215
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199']
+Fez o n=201
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199']
+Fez o n=211
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199']
+Fez o n=210
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123']
+Fez o n=122
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123', '119', '118']
+Fez o n=120
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123', '119', '118', '134', '135']
+Fez o n=136
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123', '119', '118', '134', '135', '151', '143']
+Fez o n=150
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123', '119', '118', '134', '135', '151', '143']
+Fez o n=146
+DEPOIS
+['15', '26', '16', '17', '72', '71', '310', '308', '345', '346', '356', '344', '254', '253', '245', '243', '209', '216', '200', '199', '109', '123', '119', '118', '134', '135', '151', '143']
+Fez o n=145
+node_formulas=
+set(['"(X4v4 imp q)"', '"(X2v2 imp (X3v4 imp q))"', '"(X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))"', '"(X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))))"', '"(X1v4 imp (X3v4 imp q))"', '"[X2v1]12"', '"(X3v3 imp (X4v5 imp q))"', '"(X1v2 imp (X4v2 imp q))"', '"(X3v2 imp (X4v2 imp q))"', '"[X2v2]2"', '"(X3v3 imp q)"', '"[X1v4]16"', '"[X3v3]8"', '"(X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))"', '"(X2v1 imp (X3v5 imp q))"', '"(X2v4 imp (X3v5 imp q))"', '"[X3v2]13"', '"(X4v2 imp q)"', '"(X4v5 imp q)"', '"[X2v4]4"', '"(X3v3 imp q) 19"', '"(X4v5 imp q) imp ((ORX4 imp q))"', '"[X1v2]6"'])
+Fez o NIVEL=18
+46
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13']
+Fez o n=15
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27']
+Fez o n=26
+DEPOIS
+['14', '13', '21', '27']
+Fez o n=16
+DEPOIS
+['14', '13', '21', '27']
+Fez o n=17
+DEPOIS
+['14', '13', '21', '27']
+Fez o n=72
+DEPOIS
+['14', '13', '21', '27']
+Fez o n=71
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297']
+Fez o n=310
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307']
+Fez o n=308
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307']
+Fez o n=345
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307']
+Fez o n=346
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357']
+Fez o n=356
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343']
+Fez o n=344
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343']
+Fez o n=254
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343']
+Fez o n=253
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246']
+Fez o n=245
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242']
+Fez o n=243
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207']
+Fez o n=209
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217']
+Fez o n=216
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217']
+Fez o n=200
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217']
+Fez o n=199
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108']
+Fez o n=109
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124']
+Fez o n=123
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124']
+Fez o n=119
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124']
+Fez o n=118
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124']
+Fez o n=134
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124']
+Fez o n=135
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124', '152', '132']
+Fez o n=151
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['14', '13', '21', '27', '311', '297', '306', '307', '351', '357', '343', '232', '246', '241', '242', '208', '207', '197', '217', '107', '108', '117', '124', '152', '132', '141', '142']
+Fez o n=143
+node_formulas=
+set(['"(X3v2 imp (X4v5 imp q))"', '"(X4v4 imp q)"', '"(X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))"', '"(X1v2 imp (X4v2 imp q))"', '"[X3v4]9"', '"(X3v5 imp q) imp ((X3v3 imp q) imp ((X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))))"', '"[X3v4]14"', '"(X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))))"', '"(X3v4 imp (X4v5 imp q))"', '"(X4v2 imp q)"', '"[X3v2]13"', 'q', '"[X2v2]2"', '"(X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))"', '"(X3v4 imp (X4v4 imp q))"', '"[X1v2]6"', '"(X4v1 imp q)"', '"(X2v2 imp (X3v3 imp q))"', '"(X3v5 imp q)"', '"(X3v2 imp (X4v4 imp q))"', '"[X3v2]18"'])
+Fez o NIVEL=19
+6
+DEPOIS
+[]
+Fez o n=14
+DEPOIS
+[]
+Fez o n=13
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20']
+Fez o n=21
+DEPOIS
+['19', '20']
+Fez o n=27
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304']
+Fez o n=311
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296']
+Fez o n=297
+DEPOIS
+['19', '20', '312', '304', '295', '296']
+Fez o n=306
+DEPOIS
+['19', '20', '312', '304', '295', '296']
+Fez o n=307
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350']
+Fez o n=351
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350']
+Fez o n=357
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336']
+Fez o n=343
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231']
+Fez o n=232
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247']
+Fez o n=246
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247']
+Fez o n=241
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247']
+Fez o n=242
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247']
+Fez o n=208
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247']
+Fez o n=207
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196']
+Fez o n=197
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205']
+Fez o n=217
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205']
+Fez o n=107
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205']
+Fez o n=108
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116']
+Fez o n=117
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116', '105', '125']
+Fez o n=124
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116', '105', '125', '140', '153']
+Fez o n=152
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116', '105', '125', '140', '153', '131', '130']
+Fez o n=132
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116', '105', '125', '140', '153', '131', '130']
+Fez o n=141
+DEPOIS
+['19', '20', '312', '304', '295', '296', '349', '350', '342', '336', '230', '231', '239', '247', '195', '196', '218', '205', '115', '116', '105', '125', '140', '153', '131', '130']
+Fez o n=142
+node_formulas=
+set(['"(X4v4 imp q)"', '"(X4v3 imp q) imp ((X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))))"', '"(X4v1 imp q)"', '"(X2v1 imp (X3v5 imp q))"', '"(X2v1 imp (X4v1 imp q))"', '"(X3v2 imp (X4v2 imp q))"', '"[X3v4]14"', '"(X3v4 imp (X4v2 imp q))"', '"(ORX4 imp q)"', '"(X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))"', '"(X4v3 imp q)"', '"[X2v2]2"', '"(X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))))"', '"(X3v3 imp (X4v4 imp q))"', '"(X2v2 imp (X3v5 imp q))"', '"[X2v1]17"', '"[X2v1]12"', '"[X2v1]7"', '"[X3v3]8"', '"[X3v2]18"', 'ORX4'])
+Fez o NIVEL=20
+5
+DEPOIS
+[]
+Fez o n=19
+DEPOIS
+[]
+Fez o n=20
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313']
+Fez o n=312
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=304
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=295
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=296
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=349
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=350
+DEPOIS
+['293', '313', '302', '303']
+Fez o n=342
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335']
+Fez o n=336
+DEPOIS
+['293', '313', '302', '303', '337', '335']
+Fez o n=230
+DEPOIS
+['293', '313', '302', '303', '337', '335']
+Fez o n=231
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237']
+Fez o n=239
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228']
+Fez o n=247
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228']
+Fez o n=195
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228']
+Fez o n=196
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228']
+Fez o n=218
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203']
+Fez o n=205
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203']
+Fez o n=115
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203']
+Fez o n=116
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103']
+Fez o n=105
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103', '113', '126']
+Fez o n=125
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103', '113', '126', '138', '139']
+Fez o n=140
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103', '113', '126', '138', '139']
+Fez o n=153
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103', '113', '126', '138', '139']
+Fez o n=131
+DEPOIS
+['293', '313', '302', '303', '337', '335', '238', '237', '248', '228', '204', '203', '104', '103', '113', '126', '138', '139']
+Fez o n=130
+node_formulas=
+set(['"(X4v3 imp q) imp ((X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))))"', '"[X3v4]14"', '"(X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))))"', '"(X3v4 imp (X4v4 imp q))"', '"(X4v3 imp q)"', '"(X4v5 imp q) imp ((ORX4 imp q))"', '"[X3v4]9"', '"(X1v3 imp (X4v3 imp q))"', '"[X1v3]11"', '"(X4v1 imp q)"', '"(X2v1 imp (X4v1 imp q))"', '"(X4v5 imp q)"', '"[X1v4]16"', '"[X2v1]7"', '"(X3v4 imp (X4v3 imp q))"', '"(X1v4 imp (X4v4 imp q))"'])
+Fez o NIVEL=21
+25
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292']
+Fez o n=293
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314']
+Fez o n=313
+DEPOIS
+['291', '292', '301', '314']
+Fez o n=302
+DEPOIS
+['291', '292', '301', '314']
+Fez o n=303
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314', '338', '324']
+Fez o n=337
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333']
+Fez o n=335
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333']
+Fez o n=238
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333']
+Fez o n=237
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249']
+Fez o n=248
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227']
+Fez o n=228
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227']
+Fez o n=204
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227']
+Fez o n=203
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227']
+Fez o n=104
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227']
+Fez o n=103
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227', '112', '111']
+Fez o n=113
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227', '112', '111']
+Fez o n=126
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227', '112', '111']
+Fez o n=138
+DEPOIS
+['291', '292', '301', '314', '338', '324', '334', '333', '235', '249', '226', '227', '112', '111']
+Fez o n=139
+node_formulas=
+set(['"(X4v3 imp q) imp ((X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))))"', '"(X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))"', '"[X3v3]8"', '"(X3v3 imp (X4v3 imp q))"', '"(X4v2 imp q)"', '"(X4v3 imp q)"', '"(X2v1 imp (X4v1 imp q))"', '"[X2v1]17"', '"[X2v1]12"', '"(X3v3 imp (X4v5 imp q))"', '"[X3v3]19"'])
+Fez o NIVEL=22
+18
+DEPOIS
+[]
+Fez o n=291
+DEPOIS
+[]
+Fez o n=292
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['299', '300']
+Fez o n=301
+DEPOIS
+['299', '300']
+Fez o n=314
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['299', '300', '331', '339']
+Fez o n=338
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['299', '300', '331', '339', '323', '322']
+Fez o n=324
+DEPOIS
+['299', '300', '331', '339', '323', '322']
+Fez o n=334
+DEPOIS
+['299', '300', '331', '339', '323', '322']
+Fez o n=333
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=235
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=249
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=226
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=227
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=112
+DEPOIS
+['299', '300', '331', '339', '323', '322', '234', '233']
+Fez o n=111
+node_formulas=
+set(['"(X4v4 imp q)"', '"(X3v2 imp (X4v3 imp q))"', '"(X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))"', '"(X1v3 imp (X4v3 imp q))"', '"[X1v3]11"', '"[X3v3]19"', '"[X3v2]18"', '"(X3v3 imp (X4v2 imp q))"'])
+Fez o NIVEL=23
+79
+DEPOIS
+[]
+Fez o n=299
+DEPOIS
+[]
+Fez o n=300
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['329', '330']
+Fez o n=331
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['329', '330', '320', '340']
+Fez o n=339
+DEPOIS
+['329', '330', '320', '340']
+Fez o n=323
+DEPOIS
+['329', '330', '320', '340']
+Fez o n=322
+DEPOIS
+['329', '330', '320', '340']
+Fez o n=234
+DEPOIS
+['329', '330', '320', '340']
+Fez o n=233
+node_formulas=
+set(['"[X1v4]16"', '"(X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q)))))"', '"(X4v1 imp q)"', '"(X1v4 imp (X4v4 imp q))"'])
+Fez o NIVEL=24
+73
+DEPOIS
+[]
+Fez o n=329
+DEPOIS
+[]
+Fez o n=330
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['318', '319']
+Fez o n=320
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['318', '319', '327', '341']
+Fez o n=340
+node_formulas=
+set(['"(X4v3 imp q) imp ((X4v1 imp q) imp ((X4v4 imp q) imp ((X4v2 imp q) imp ((X4v5 imp q) imp ((ORX4 imp q))))))"', '"(X4v3 imp q)"', '"(X2v1 imp (X4v1 imp q))"', '"[X2v1]17"'])
+Fez o NIVEL=25
+65
+DEPOIS
+[]
+Fez o n=318
+DEPOIS
+[]
+Fez o n=319
+vai testar e in e_in[n]
+vai testar e in e_in[n]
+DEPOIS
+['325', '326']
+Fez o n=327
+DEPOIS
+['325', '326']
+Fez o n=341
+node_formulas=
+set(['"(X3v3 imp (X4v3 imp q))"', '"[X3v3]19"'])
+Fez o NIVEL=26
+64
+DEPOIS
+[]
+Fez o n=325
+DEPOIS
+[]
+Fez o n=326
+node_formulas=
+set([])
+Fez o NIVEL=27
+309
+node_formulas=
+set([])
+Fez o NIVEL=28
+315
+node_formulas=
+set([])
+Fez o NIVEL=29
+347
+node_formulas=
+set([])
+Fez o NIVEL=30
+355
+node_formulas=
+set([])
+Fez o NIVEL=31
+287
+node_formulas=
+set([])
+Fez o NIVEL=32
+288
+node_formulas=
+set([])
+Fez o NIVEL=33
+261
+node_formulas=
+set([])
+Fez o NIVEL=34
+255
+node_formulas=
+set([])
+Fez o NIVEL=35
+223
+node_formulas=
+set([])
+Fez o NIVEL=36
+222
+node_formulas=
+set([])
+Fez o NIVEL=37
+250
+node_formulas=
+set([])
+Fez o NIVEL=38
+244
+node_formulas=
+set([])
+Fez o NIVEL=39
+215
+node_formulas=
+set([])
+Fez o NIVEL=40
+201
+node_formulas=
+set([])
+Fez o NIVEL=41
+211
+node_formulas=
+set([])
+Fez o NIVEL=42
+210
+node_formulas=
+set([])
+Fez o NIVEL=43
+122
+node_formulas=
+set([])
+Fez o NIVEL=44
+120
+node_formulas=
+set([])
+Fez o NIVEL=45
+136
+node_formulas=
+set([])
+Fez o NIVEL=46
+150
+node_formulas=
+set([])
+Fez o NIVEL=47
+146
+node_formulas=
+set([])
+Fez o NIVEL=48
+145
+node_formulas=
+set([])
+Fez o NIVEL=49
+ LISTANDO v_oc[n][formula_f] 
+seqnode=1
+num_oc_formulas=452
+ Vai gravar o que leu 
