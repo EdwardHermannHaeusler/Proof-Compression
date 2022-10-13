@@ -1,0 +1,2471 @@
+ Vai ler a prova 
+Entrou aresta de descarte
+aresta= 333 -> 344  [color=red]; tem indice em list_in_Discharge= 344
+Entrou aresta de descarte
+aresta= 325 -> 344  [color=red]; tem indice em list_in_Discharge= 344
+aresta= 344 -> 355; tem indice em list_out= 344
+aresta= 343 -> 344; tem indice em list_in= 344
+Entrou aresta de descarte
+aresta= 322 -> 344  [color=red]; tem indice em list_in_Discharge= 344
+aresta= 345 -> 347; tem indice em list_out= 345
+aresta= 345 -> 382  [color=red]; tem indice em list_out= 345
+aresta= 346 -> 347; tem indice em list_out= 346
+aresta= 345 -> 347; tem indice em list_in= 347
+aresta= 346 -> 347; tem indice em list_in= 347
+aresta= 347 -> 354; tem indice em list_out= 347
+aresta= 327 -> 340; tem indice em list_in= 340
+aresta= 340 -> 339; tem indice em list_out= 340
+aresta= 341 -> 340; tem indice em list_in= 340
+aresta= 327 -> 340; tem indice em list_in= 340
+aresta= 340 -> 339; tem indice em list_out= 340
+aresta= 341 -> 340; tem indice em list_in= 340
+aresta= 341 -> 340; tem indice em list_out= 341
+aresta= 342 -> 343; tem indice em list_out= 342
+aresta= 342 -> 343; tem indice em list_in= 343
+aresta= 343 -> 344; tem indice em list_out= 343
+aresta= 336 -> 343; tem indice em list_in= 343
+aresta= 349 -> 351; tem indice em list_out= 349
+aresta= 349 -> 360  [color=red]; tem indice em list_out= 349
+aresta= 299 -> 301; tem indice em list_out= 299
+aresta= 299 -> 317  [color=red]; tem indice em list_out= 299
+aresta= 296 -> 297; tem indice em list_out= 296
+aresta= 295 -> 297; tem indice em list_in= 297
+aresta= 296 -> 297; tem indice em list_in= 297
+aresta= 297 -> 310; tem indice em list_out= 297
+aresta= 295 -> 297; tem indice em list_out= 295
+aresta= 295 -> 317  [color=red]; tem indice em list_out= 295
+aresta= 292 -> 293; tem indice em list_out= 292
+aresta= 291 -> 293; tem indice em list_in= 293
+aresta= 293 -> 312; tem indice em list_out= 293
+aresta= 292 -> 293; tem indice em list_in= 293
+aresta= 291 -> 293; tem indice em list_out= 291
+aresta= 291 -> 360  [color=red]; tem indice em list_out= 291
+aresta= 199 -> 221  [color=red]; tem indice em list_out= 199
+aresta= 199 -> 201; tem indice em list_out= 199
+aresta= 195 -> 264  [color=red]; tem indice em list_out= 195
+aresta= 195 -> 197; tem indice em list_out= 195
+aresta= 197 -> 216; tem indice em list_out= 197
+aresta= 195 -> 197; tem indice em list_in= 197
+aresta= 196 -> 197; tem indice em list_in= 197
+aresta= 196 -> 197; tem indice em list_out= 196
+aresta= 191 -> 264  [color=red]; tem indice em list_out= 191
+aresta= 191 -> 193; tem indice em list_out= 191
+Entrou aresta de descarte
+aresta= 169 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+Entrou aresta de descarte
+aresta= 173 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+Entrou aresta de descarte
+aresta= 107 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+Entrou aresta de descarte
+aresta= 99 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+aresta= 189 -> 190; tem indice em list_in= 190
+Entrou aresta de descarte
+aresta= 176 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+Entrou aresta de descarte
+aresta= 134 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+aresta= 190 -> 408; tem indice em list_out= 190
+Entrou aresta de descarte
+aresta= 179 -> 190  [color=red]; tem indice em list_in_Discharge= 190
+aresta= 192 -> 193; tem indice em list_in= 193
+aresta= 191 -> 193; tem indice em list_in= 193
+aresta= 193 -> 257; tem indice em list_out= 193
+aresta= 192 -> 193; tem indice em list_out= 192
+aresta= 269 -> 270; tem indice em list_in= 270
+aresta= 270 -> 279; tem indice em list_out= 270
+aresta= 268 -> 270; tem indice em list_in= 270
+aresta= 272 -> 286  [color=red]; tem indice em list_out= 272
+aresta= 272 -> 274; tem indice em list_out= 272
+aresta= 273 -> 274; tem indice em list_out= 273
+aresta= 274 -> 280; tem indice em list_out= 274
+aresta= 272 -> 274; tem indice em list_in= 274
+aresta= 273 -> 274; tem indice em list_in= 274
+aresta= 275 -> 286  [color=red]; tem indice em list_out= 275
+aresta= 275 -> 277; tem indice em list_out= 275
+aresta= 276 -> 277; tem indice em list_out= 276
+aresta= 277 -> 278; tem indice em list_out= 277
+aresta= 276 -> 277; tem indice em list_in= 277
+aresta= 275 -> 277; tem indice em list_in= 277
+aresta= 279 -> 278; tem indice em list_in= 278
+aresta= 277 -> 278; tem indice em list_in= 278
+aresta= 278 -> 285; tem indice em list_out= 278
+aresta= 279 -> 278; tem indice em list_out= 279
+aresta= 280 -> 279; tem indice em list_in= 279
+aresta= 270 -> 279; tem indice em list_in= 279
+aresta= 279 -> 278; tem indice em list_out= 279
+aresta= 280 -> 279; tem indice em list_in= 279
+aresta= 270 -> 279; tem indice em list_in= 279
+aresta= 108 -> 109; tem indice em list_out= 108
+aresta= 107 -> 109; tem indice em list_in= 109
+aresta= 109 -> 122; tem indice em list_out= 109
+aresta= 108 -> 109; tem indice em list_in= 109
+aresta= 103 -> 168  [color=red]; tem indice em list_out= 103
+aresta= 103 -> 105; tem indice em list_out= 103
+aresta= 100 -> 101; tem indice em list_out= 100
+aresta= 101 -> 160; tem indice em list_out= 101
+aresta= 100 -> 101; tem indice em list_in= 101
+aresta= 99 -> 101; tem indice em list_in= 101
+aresta= 107 -> 109; tem indice em list_out= 107
+aresta= 107 -> 190  [color=red]; tem indice em list_out= 107
+aresta= 104 -> 105; tem indice em list_out= 104
+aresta= 104 -> 105; tem indice em list_in= 105
+aresta= 103 -> 105; tem indice em list_in= 105
+aresta= 105 -> 124; tem indice em list_out= 105
+aresta= 39 -> 40; tem indice em list_out= 39
+aresta= 38 -> 40; tem indice em list_out= 38
+aresta= 38 -> 56  [color=red]; tem indice em list_out= 38
+aresta= 31 -> 33; tem indice em list_in= 33
+aresta= 32 -> 33; tem indice em list_in= 33
+aresta= 33 -> 49; tem indice em list_out= 33
+aresta= 32 -> 33; tem indice em list_out= 32
+aresta= 31 -> 33; tem indice em list_out= 31
+aresta= 31 -> 94  [color=red]; tem indice em list_out= 31
+Entrou aresta de descarte
+aresta= 9 -> 30  [color=red]; tem indice em list_in_Discharge= 30
+aresta= 29 -> 30; tem indice em list_in= 30
+aresta= 30 -> 90; tem indice em list_out= 30
+Entrou aresta de descarte
+aresta= 13 -> 30  [color=red]; tem indice em list_in_Discharge= 30
+Entrou aresta de descarte
+aresta= 16 -> 30  [color=red]; tem indice em list_in_Discharge= 30
+Entrou aresta de descarte
+aresta= 19 -> 30  [color=red]; tem indice em list_in_Discharge= 30
+aresta= 35 -> 37; tem indice em list_in= 37
+aresta= 36 -> 37; tem indice em list_in= 37
+aresta= 37 -> 48; tem indice em list_out= 37
+aresta= 36 -> 37; tem indice em list_out= 36
+aresta= 35 -> 37; tem indice em list_out= 35
+aresta= 35 -> 56  [color=red]; tem indice em list_out= 35
+aresta= 320 -> 339; tem indice em list_in= 339
+aresta= 339 -> 338; tem indice em list_out= 339
+aresta= 340 -> 339; tem indice em list_in= 339
+aresta= 320 -> 339; tem indice em list_in= 339
+aresta= 339 -> 338; tem indice em list_out= 339
+aresta= 340 -> 339; tem indice em list_in= 339
+aresta= 331 -> 338; tem indice em list_in= 338
+aresta= 339 -> 338; tem indice em list_in= 338
+aresta= 338 -> 337; tem indice em list_out= 338
+aresta= 331 -> 338; tem indice em list_in= 338
+aresta= 339 -> 338; tem indice em list_in= 338
+aresta= 338 -> 337; tem indice em list_out= 338
+aresta= 334 -> 335; tem indice em list_in= 335
+aresta= 333 -> 335; tem indice em list_in= 335
+aresta= 335 -> 336; tem indice em list_out= 335
+aresta= 334 -> 335; tem indice em list_out= 334
+aresta= 338 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_out= 337
+aresta= 324 -> 337; tem indice em list_in= 337
+aresta= 338 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_out= 337
+aresta= 324 -> 337; tem indice em list_in= 337
+aresta= 337 -> 336; tem indice em list_in= 336
+aresta= 336 -> 343; tem indice em list_out= 336
+aresta= 335 -> 336; tem indice em list_in= 336
+aresta= 329 -> 331; tem indice em list_in= 331
+aresta= 331 -> 338; tem indice em list_out= 331
+aresta= 330 -> 331; tem indice em list_in= 331
+aresta= 330 -> 331; tem indice em list_out= 330
+aresta= 333 -> 344  [color=red]; tem indice em list_out= 333
+aresta= 333 -> 335; tem indice em list_out= 333
+aresta= 6 -> 7; tem indice em list_out= 6
+aresta= 99 -> 190  [color=red]; tem indice em list_out= 99
+aresta= 99 -> 101; tem indice em list_out= 99
+aresta= 91 -> 90; tem indice em list_out= 91
+aresta= 90 -> 89; tem indice em list_out= 90
+aresta= 30 -> 90; tem indice em list_in= 90
+aresta= 91 -> 90; tem indice em list_in= 90
+aresta= 90 -> 89; tem indice em list_out= 90
+aresta= 30 -> 90; tem indice em list_in= 90
+aresta= 91 -> 90; tem indice em list_in= 90
+aresta= 92 -> 93; tem indice em list_in= 93
+aresta= 86 -> 93; tem indice em list_in= 93
+aresta= 93 -> 94; tem indice em list_out= 93
+aresta= 92 -> 93; tem indice em list_out= 92
+aresta= 95 -> 168  [color=red]; tem indice em list_out= 95
+aresta= 95 -> 97; tem indice em list_out= 95
+aresta= 93 -> 94; tem indice em list_in= 94
+Entrou aresta de descarte
+aresta= 1 -> 94  [color=red]; tem indice em list_in_Discharge= 94
+Entrou aresta de descarte
+aresta= 31 -> 94  [color=red]; tem indice em list_in_Discharge= 94
+Entrou aresta de descarte
+aresta= 57 -> 94  [color=red]; tem indice em list_in_Discharge= 94
+Entrou aresta de descarte
+aresta= 83 -> 94  [color=red]; tem indice em list_in_Discharge= 94
+aresta= 94 -> 411; tem indice em list_out= 94
+Entrou aresta de descarte
+aresta= 5 -> 94  [color=red]; tem indice em list_in_Discharge= 94
+aresta= 95 -> 97; tem indice em list_in= 97
+aresta= 97 -> 161; tem indice em list_out= 97
+aresta= 96 -> 97; tem indice em list_in= 97
+aresta= 96 -> 97; tem indice em list_out= 96
+aresta= 238 -> 239; tem indice em list_out= 238
+aresta= 238 -> 239; tem indice em list_in= 239
+aresta= 239 -> 246; tem indice em list_out= 239
+aresta= 237 -> 239; tem indice em list_in= 239
+aresta= 234 -> 235; tem indice em list_out= 234
+aresta= 234 -> 235; tem indice em list_in= 235
+aresta= 235 -> 248; tem indice em list_out= 235
+aresta= 233 -> 235; tem indice em list_in= 235
+aresta= 237 -> 252  [color=red]; tem indice em list_out= 237
+aresta= 237 -> 239; tem indice em list_out= 237
+aresta= 230 -> 232; tem indice em list_out= 230
+aresta= 230 -> 252  [color=red]; tem indice em list_out= 230
+aresta= 231 -> 232; tem indice em list_out= 231
+aresta= 230 -> 232; tem indice em list_in= 232
+aresta= 232 -> 245; tem indice em list_out= 232
+aresta= 231 -> 232; tem indice em list_in= 232
+aresta= 233 -> 235; tem indice em list_out= 233
+aresta= 233 -> 286  [color=red]; tem indice em list_out= 233
+aresta= 1 -> 94  [color=red]; tem indice em list_out= 1
+aresta= 1 -> 3; tem indice em list_out= 1
+aresta= 146 -> 147; tem indice em list_out= 146
+aresta= 146 -> 147; tem indice em list_in= 147
+aresta= 147 -> 148; tem indice em list_out= 147
+aresta= 145 -> 147; tem indice em list_in= 147
+aresta= 145 -> 156  [color=red]; tem indice em list_out= 145
+aresta= 145 -> 147; tem indice em list_out= 145
+aresta= 142 -> 143; tem indice em list_out= 142
+aresta= 141 -> 143; tem indice em list_in= 143
+aresta= 143 -> 150; tem indice em list_out= 143
+aresta= 142 -> 143; tem indice em list_in= 143
+aresta= 140 -> 152; tem indice em list_out= 140
+aresta= 138 -> 140; tem indice em list_in= 140
+aresta= 139 -> 140; tem indice em list_in= 140
+aresta= 141 -> 143; tem indice em list_out= 141
+aresta= 141 -> 156  [color=red]; tem indice em list_out= 141
+aresta= 149 -> 148; tem indice em list_in= 148
+aresta= 147 -> 148; tem indice em list_in= 148
+aresta= 148 -> 155; tem indice em list_out= 148
+aresta= 136 -> 149; tem indice em list_in= 149
+aresta= 149 -> 148; tem indice em list_out= 149
+aresta= 150 -> 149; tem indice em list_in= 149
+aresta= 136 -> 149; tem indice em list_in= 149
+aresta= 149 -> 148; tem indice em list_out= 149
+aresta= 150 -> 149; tem indice em list_in= 149
+aresta= 131 -> 132; tem indice em list_in= 132
+aresta= 130 -> 132; tem indice em list_in= 132
+aresta= 132 -> 151; tem indice em list_out= 132
+aresta= 131 -> 132; tem indice em list_out= 131
+aresta= 130 -> 132; tem indice em list_out= 130
+aresta= 130 -> 168  [color=red]; tem indice em list_out= 130
+aresta= 136 -> 149; tem indice em list_out= 136
+aresta= 134 -> 136; tem indice em list_in= 136
+aresta= 135 -> 136; tem indice em list_in= 136
+aresta= 135 -> 136; tem indice em list_out= 135
+aresta= 134 -> 136; tem indice em list_out= 134
+aresta= 134 -> 190  [color=red]; tem indice em list_out= 134
+aresta= 139 -> 140; tem indice em list_out= 139
+aresta= 138 -> 156  [color=red]; tem indice em list_out= 138
+aresta= 138 -> 140; tem indice em list_out= 138
+aresta= 24 -> 23; tem indice em list_out= 24
+aresta= 25 -> 24; tem indice em list_in= 24
+aresta= 18 -> 24; tem indice em list_in= 24
+aresta= 24 -> 23; tem indice em list_out= 24
+aresta= 25 -> 24; tem indice em list_in= 24
+aresta= 18 -> 24; tem indice em list_in= 24
+aresta= 15 -> 25; tem indice em list_in= 25
+aresta= 26 -> 25; tem indice em list_in= 25
+aresta= 25 -> 24; tem indice em list_out= 25
+aresta= 15 -> 25; tem indice em list_in= 25
+aresta= 26 -> 25; tem indice em list_in= 25
+aresta= 25 -> 24; tem indice em list_out= 25
+aresta= 21 -> 26; tem indice em list_in= 26
+aresta= 27 -> 26; tem indice em list_in= 26
+aresta= 26 -> 25; tem indice em list_out= 26
+aresta= 21 -> 26; tem indice em list_in= 26
+aresta= 27 -> 26; tem indice em list_in= 26
+aresta= 26 -> 25; tem indice em list_out= 26
+aresta= 27 -> 26; tem indice em list_out= 27
+aresta= 20 -> 21; tem indice em list_out= 20
+aresta= 19 -> 21; tem indice em list_in= 21
+aresta= 21 -> 26; tem indice em list_out= 21
+aresta= 20 -> 21; tem indice em list_in= 21
+aresta= 23 -> 22; tem indice em list_in= 22
+aresta= 22 -> 29; tem indice em list_out= 22
+aresta= 11 -> 22; tem indice em list_in= 22
+aresta= 7 -> 23; tem indice em list_in= 23
+aresta= 24 -> 23; tem indice em list_in= 23
+aresta= 23 -> 22; tem indice em list_out= 23
+aresta= 7 -> 23; tem indice em list_in= 23
+aresta= 24 -> 23; tem indice em list_in= 23
+aresta= 23 -> 22; tem indice em list_out= 23
+aresta= 28 -> 29; tem indice em list_out= 28
+aresta= 28 -> 29; tem indice em list_in= 29
+aresta= 29 -> 30; tem indice em list_out= 29
+aresta= 22 -> 29; tem indice em list_in= 29
+Entrou aresta de descarte
+aresta= 386 -> 407  [color=red]; tem indice em list_in_Discharge= 407
+Entrou aresta de descarte
+aresta= 395 -> 407  [color=red]; tem indice em list_in_Discharge= 407
+Entrou aresta de descarte
+aresta= 392 -> 407  [color=red]; tem indice em list_in_Discharge= 407
+aresta= 407 -> 409; tem indice em list_out= 407
+aresta= 406 -> 407; tem indice em list_in= 407
+Entrou aresta de descarte
+aresta= 383 -> 407  [color=red]; tem indice em list_in_Discharge= 407
+Entrou aresta de descarte
+aresta= 389 -> 407  [color=red]; tem indice em list_in_Discharge= 407
+aresta= 405 -> 406; tem indice em list_in= 406
+aresta= 399 -> 406; tem indice em list_in= 406
+aresta= 406 -> 407; tem indice em list_out= 406
+aresta= 405 -> 406; tem indice em list_out= 405
+aresta= 404 -> 403; tem indice em list_out= 404
+aresta= 403 -> 402; tem indice em list_out= 403
+aresta= 404 -> 403; tem indice em list_in= 403
+aresta= 388 -> 403; tem indice em list_in= 403
+aresta= 403 -> 402; tem indice em list_out= 403
+aresta= 404 -> 403; tem indice em list_in= 403
+aresta= 388 -> 403; tem indice em list_in= 403
+aresta= 403 -> 402; tem indice em list_in= 402
+aresta= 402 -> 401; tem indice em list_out= 402
+aresta= 385 -> 402; tem indice em list_in= 402
+aresta= 403 -> 402; tem indice em list_in= 402
+aresta= 402 -> 401; tem indice em list_out= 402
+aresta= 385 -> 402; tem indice em list_in= 402
+aresta= 401 -> 400; tem indice em list_out= 401
+aresta= 402 -> 401; tem indice em list_in= 401
+aresta= 394 -> 401; tem indice em list_in= 401
+aresta= 401 -> 400; tem indice em list_out= 401
+aresta= 402 -> 401; tem indice em list_in= 401
+aresta= 394 -> 401; tem indice em list_in= 401
+aresta= 401 -> 400; tem indice em list_in= 400
+aresta= 400 -> 399; tem indice em list_out= 400
+aresta= 391 -> 400; tem indice em list_in= 400
+aresta= 401 -> 400; tem indice em list_in= 400
+aresta= 400 -> 399; tem indice em list_out= 400
+aresta= 391 -> 400; tem indice em list_in= 400
+aresta= 409 -> 408; tem indice em list_out= 409
+aresta= 410 -> 409; tem indice em list_in= 409
+aresta= 407 -> 409; tem indice em list_in= 409
+aresta= 409 -> 408; tem indice em list_out= 409
+aresta= 410 -> 409; tem indice em list_in= 409
+aresta= 407 -> 409; tem indice em list_in= 409
+aresta= 408 -> 415; tem indice em list_out= 408
+aresta= 409 -> 408; tem indice em list_in= 408
+aresta= 190 -> 408; tem indice em list_in= 408
+aresta= 379 -> 378; tem indice em list_out= 379
+aresta= 379 -> 378; tem indice em list_in= 378
+aresta= 378 -> 377; tem indice em list_out= 378
+aresta= 363 -> 378; tem indice em list_in= 378
+aresta= 379 -> 378; tem indice em list_in= 378
+aresta= 378 -> 377; tem indice em list_out= 378
+aresta= 363 -> 378; tem indice em list_in= 378
+aresta= 371 -> 382  [color=red]; tem indice em list_out= 371
+aresta= 371 -> 373; tem indice em list_out= 371
+aresta= 371 -> 373; tem indice em list_in= 373
+aresta= 373 -> 374; tem indice em list_out= 373
+aresta= 372 -> 373; tem indice em list_in= 373
+aresta= 372 -> 373; tem indice em list_out= 372
+aresta= 375 -> 374; tem indice em list_out= 375
+aresta= 366 -> 375; tem indice em list_in= 375
+aresta= 376 -> 375; tem indice em list_in= 375
+aresta= 375 -> 374; tem indice em list_out= 375
+aresta= 366 -> 375; tem indice em list_in= 375
+aresta= 376 -> 375; tem indice em list_in= 375
+aresta= 375 -> 374; tem indice em list_in= 374
+aresta= 374 -> 381; tem indice em list_out= 374
+aresta= 373 -> 374; tem indice em list_in= 374
+aresta= 377 -> 376; tem indice em list_out= 377
+aresta= 360 -> 377; tem indice em list_in= 377
+aresta= 378 -> 377; tem indice em list_in= 377
+aresta= 377 -> 376; tem indice em list_out= 377
+aresta= 360 -> 377; tem indice em list_in= 377
+aresta= 378 -> 377; tem indice em list_in= 377
+aresta= 377 -> 376; tem indice em list_in= 376
+aresta= 369 -> 376; tem indice em list_in= 376
+aresta= 376 -> 375; tem indice em list_out= 376
+aresta= 377 -> 376; tem indice em list_in= 376
+aresta= 369 -> 376; tem indice em list_in= 376
+aresta= 376 -> 375; tem indice em list_out= 376
+aresta= 393 -> 394; tem indice em list_out= 393
+aresta= 392 -> 407  [color=red]; tem indice em list_out= 392
+aresta= 392 -> 394; tem indice em list_out= 392
+aresta= 89 -> 88; tem indice em list_in= 88
+aresta= 82 -> 88; tem indice em list_in= 88
+aresta= 88 -> 87; tem indice em list_out= 88
+aresta= 89 -> 88; tem indice em list_in= 88
+aresta= 82 -> 88; tem indice em list_in= 88
+aresta= 88 -> 87; tem indice em list_out= 88
+aresta= 90 -> 89; tem indice em list_in= 89
+aresta= 3 -> 89; tem indice em list_in= 89
+aresta= 89 -> 88; tem indice em list_out= 89
+aresta= 90 -> 89; tem indice em list_in= 89
+aresta= 3 -> 89; tem indice em list_in= 89
+aresta= 89 -> 88; tem indice em list_out= 89
+aresta= 397 -> 399; tem indice em list_out= 397
+aresta= 395 -> 397; tem indice em list_in= 397
+aresta= 396 -> 397; tem indice em list_in= 397
+aresta= 396 -> 397; tem indice em list_out= 396
+aresta= 395 -> 407  [color=red]; tem indice em list_out= 395
+aresta= 395 -> 397; tem indice em list_out= 395
+aresta= 394 -> 401; tem indice em list_out= 394
+aresta= 393 -> 394; tem indice em list_in= 394
+aresta= 392 -> 394; tem indice em list_in= 394
+Entrou aresta de descarte
+aresta= 61 -> 82  [color=red]; tem indice em list_in_Discharge= 82
+Entrou aresta de descarte
+aresta= 71 -> 82  [color=red]; tem indice em list_in_Discharge= 82
+Entrou aresta de descarte
+aresta= 67 -> 82  [color=red]; tem indice em list_in_Discharge= 82
+aresta= 81 -> 82; tem indice em list_in= 82
+Entrou aresta de descarte
+aresta= 64 -> 82  [color=red]; tem indice em list_in_Discharge= 82
+aresta= 82 -> 88; tem indice em list_out= 82
+aresta= 83 -> 85; tem indice em list_out= 83
+aresta= 83 -> 94  [color=red]; tem indice em list_out= 83
+aresta= 80 -> 81; tem indice em list_out= 80
+aresta= 80 -> 81; tem indice em list_in= 81
+aresta= 74 -> 81; tem indice em list_in= 81
+aresta= 81 -> 82; tem indice em list_out= 81
+aresta= 86 -> 93; tem indice em list_out= 86
+aresta= 87 -> 86; tem indice em list_in= 86
+aresta= 85 -> 86; tem indice em list_in= 86
+aresta= 56 -> 87; tem indice em list_in= 87
+aresta= 87 -> 86; tem indice em list_out= 87
+aresta= 88 -> 87; tem indice em list_in= 87
+aresta= 56 -> 87; tem indice em list_in= 87
+aresta= 87 -> 86; tem indice em list_out= 87
+aresta= 88 -> 87; tem indice em list_in= 87
+aresta= 84 -> 85; tem indice em list_out= 84
+aresta= 84 -> 85; tem indice em list_in= 85
+aresta= 83 -> 85; tem indice em list_in= 85
+aresta= 85 -> 86; tem indice em list_out= 85
+aresta= 7 -> 23; tem indice em list_out= 7
+aresta= 6 -> 7; tem indice em list_in= 7
+aresta= 5 -> 7; tem indice em list_in= 7
+aresta= 232 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_out= 245
+aresta= 246 -> 245; tem indice em list_in= 245
+aresta= 232 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_out= 245
+aresta= 246 -> 245; tem indice em list_in= 245
+aresta= 245 -> 244; tem indice em list_in= 244
+aresta= 243 -> 244; tem indice em list_in= 244
+aresta= 244 -> 251; tem indice em list_out= 244
+aresta= 248 -> 247; tem indice em list_in= 247
+aresta= 247 -> 246; tem indice em list_out= 247
+aresta= 228 -> 247; tem indice em list_in= 247
+aresta= 248 -> 247; tem indice em list_in= 247
+aresta= 247 -> 246; tem indice em list_out= 247
+aresta= 228 -> 247; tem indice em list_in= 247
+aresta= 239 -> 246; tem indice em list_in= 246
+aresta= 247 -> 246; tem indice em list_in= 246
+aresta= 246 -> 245; tem indice em list_out= 246
+aresta= 239 -> 246; tem indice em list_in= 246
+aresta= 247 -> 246; tem indice em list_in= 246
+aresta= 246 -> 245; tem indice em list_out= 246
+aresta= 241 -> 252  [color=red]; tem indice em list_out= 241
+aresta= 241 -> 243; tem indice em list_out= 241
+aresta= 243 -> 244; tem indice em list_out= 243
+aresta= 241 -> 243; tem indice em list_in= 243
+aresta= 242 -> 243; tem indice em list_in= 243
+aresta= 242 -> 243; tem indice em list_out= 242
+aresta= 249 -> 248; tem indice em list_out= 249
+aresta= 235 -> 248; tem indice em list_in= 248
+aresta= 249 -> 248; tem indice em list_in= 248
+aresta= 248 -> 247; tem indice em list_out= 248
+aresta= 235 -> 248; tem indice em list_in= 248
+aresta= 249 -> 248; tem indice em list_in= 248
+aresta= 248 -> 247; tem indice em list_out= 248
+aresta= 179 -> 181; tem indice em list_out= 179
+aresta= 179 -> 190  [color=red]; tem indice em list_out= 179
+aresta= 176 -> 178; tem indice em list_in= 178
+aresta= 177 -> 178; tem indice em list_in= 178
+aresta= 178 -> 184; tem indice em list_out= 178
+aresta= 177 -> 178; tem indice em list_out= 177
+aresta= 176 -> 178; tem indice em list_out= 176
+aresta= 176 -> 190  [color=red]; tem indice em list_out= 176
+aresta= 173 -> 175; tem indice em list_in= 175
+aresta= 175 -> 183; tem indice em list_out= 175
+aresta= 174 -> 175; tem indice em list_in= 175
+aresta= 174 -> 175; tem indice em list_out= 174
+aresta= 173 -> 175; tem indice em list_out= 173
+aresta= 173 -> 190  [color=red]; tem indice em list_out= 173
+aresta= 170 -> 171; tem indice em list_in= 171
+aresta= 171 -> 186; tem indice em list_out= 171
+aresta= 169 -> 171; tem indice em list_in= 171
+aresta= 170 -> 171; tem indice em list_out= 170
+aresta= 253 -> 255; tem indice em list_out= 253
+aresta= 253 -> 264  [color=red]; tem indice em list_out= 253
+aresta= 181 -> 182; tem indice em list_in= 182
+aresta= 182 -> 189; tem indice em list_out= 182
+aresta= 183 -> 182; tem indice em list_in= 182
+aresta= 175 -> 183; tem indice em list_in= 183
+aresta= 184 -> 183; tem indice em list_in= 183
+aresta= 183 -> 182; tem indice em list_out= 183
+aresta= 175 -> 183; tem indice em list_in= 183
+aresta= 184 -> 183; tem indice em list_in= 183
+aresta= 183 -> 182; tem indice em list_out= 183
+aresta= 180 -> 181; tem indice em list_out= 180
+aresta= 181 -> 182; tem indice em list_out= 181
+aresta= 180 -> 181; tem indice em list_in= 181
+aresta= 179 -> 181; tem indice em list_in= 181
+aresta= 171 -> 186; tem indice em list_in= 186
+aresta= 186 -> 185; tem indice em list_out= 186
+aresta= 187 -> 186; tem indice em list_in= 186
+aresta= 171 -> 186; tem indice em list_in= 186
+aresta= 186 -> 185; tem indice em list_out= 186
+aresta= 187 -> 186; tem indice em list_in= 186
+aresta= 187 -> 186; tem indice em list_out= 187
+aresta= 185 -> 184; tem indice em list_in= 184
+aresta= 178 -> 184; tem indice em list_in= 184
+aresta= 184 -> 183; tem indice em list_out= 184
+aresta= 185 -> 184; tem indice em list_in= 184
+aresta= 178 -> 184; tem indice em list_in= 184
+aresta= 184 -> 183; tem indice em list_out= 184
+aresta= 168 -> 185; tem indice em list_in= 185
+aresta= 185 -> 184; tem indice em list_out= 185
+aresta= 186 -> 185; tem indice em list_in= 185
+aresta= 168 -> 185; tem indice em list_in= 185
+aresta= 185 -> 184; tem indice em list_out= 185
+aresta= 186 -> 185; tem indice em list_in= 185
+aresta= 188 -> 189; tem indice em list_out= 188
+aresta= 188 -> 189; tem indice em list_in= 189
+aresta= 189 -> 190; tem indice em list_out= 189
+aresta= 182 -> 189; tem indice em list_in= 189
+aresta= 9 -> 11; tem indice em list_in= 11
+aresta= 11 -> 22; tem indice em list_out= 11
+aresta= 10 -> 11; tem indice em list_in= 11
+aresta= 10 -> 11; tem indice em list_out= 10
+aresta= 13 -> 30  [color=red]; tem indice em list_out= 13
+aresta= 13 -> 15; tem indice em list_out= 13
+aresta= 15 -> 25; tem indice em list_out= 15
+aresta= 14 -> 15; tem indice em list_in= 15
+aresta= 13 -> 15; tem indice em list_in= 15
+aresta= 14 -> 15; tem indice em list_out= 14
+aresta= 17 -> 18; tem indice em list_out= 17
+aresta= 16 -> 18; tem indice em list_out= 16
+aresta= 16 -> 30  [color=red]; tem indice em list_out= 16
+aresta= 19 -> 21; tem indice em list_out= 19
+aresta= 19 -> 30  [color=red]; tem indice em list_out= 19
+aresta= 16 -> 18; tem indice em list_in= 18
+aresta= 17 -> 18; tem indice em list_in= 18
+aresta= 18 -> 24; tem indice em list_out= 18
+aresta= 62 -> 63; tem indice em list_out= 62
+aresta= 322 -> 344  [color=red]; tem indice em list_out= 322
+aresta= 322 -> 324; tem indice em list_out= 322
+aresta= 323 -> 324; tem indice em list_out= 323
+aresta= 320 -> 339; tem indice em list_out= 320
+aresta= 318 -> 320; tem indice em list_in= 320
+aresta= 319 -> 320; tem indice em list_in= 320
+aresta= 326 -> 327; tem indice em list_out= 326
+aresta= 327 -> 340; tem indice em list_out= 327
+aresta= 325 -> 327; tem indice em list_in= 327
+aresta= 326 -> 327; tem indice em list_in= 327
+aresta= 323 -> 324; tem indice em list_in= 324
+aresta= 324 -> 337; tem indice em list_out= 324
+aresta= 322 -> 324; tem indice em list_in= 324
+aresta= 325 -> 344  [color=red]; tem indice em list_out= 325
+aresta= 325 -> 327; tem indice em list_out= 325
+aresta= 329 -> 331; tem indice em list_out= 329
+aresta= 329 -> 382  [color=red]; tem indice em list_out= 329
+aresta= 200 -> 201; tem indice em list_in= 201
+aresta= 199 -> 201; tem indice em list_in= 201
+aresta= 201 -> 214; tem indice em list_out= 201
+aresta= 200 -> 201; tem indice em list_out= 200
+aresta= 203 -> 286  [color=red]; tem indice em list_out= 203
+aresta= 203 -> 205; tem indice em list_out= 203
+aresta= 204 -> 205; tem indice em list_in= 205
+aresta= 203 -> 205; tem indice em list_in= 205
+aresta= 205 -> 217; tem indice em list_out= 205
+aresta= 204 -> 205; tem indice em list_out= 204
+aresta= 207 -> 209; tem indice em list_out= 207
+aresta= 207 -> 221  [color=red]; tem indice em list_out= 207
+aresta= 209 -> 215; tem indice em list_out= 209
+aresta= 208 -> 209; tem indice em list_in= 209
+aresta= 207 -> 209; tem indice em list_in= 209
+aresta= 208 -> 209; tem indice em list_out= 208
+aresta= 78 -> 77; tem indice em list_in= 77
+aresta= 66 -> 77; tem indice em list_in= 77
+aresta= 77 -> 76; tem indice em list_out= 77
+aresta= 78 -> 77; tem indice em list_in= 77
+aresta= 66 -> 77; tem indice em list_in= 77
+aresta= 77 -> 76; tem indice em list_out= 77
+aresta= 76 -> 75; tem indice em list_out= 76
+aresta= 69 -> 76; tem indice em list_in= 76
+aresta= 77 -> 76; tem indice em list_in= 76
+aresta= 76 -> 75; tem indice em list_out= 76
+aresta= 69 -> 76; tem indice em list_in= 76
+aresta= 77 -> 76; tem indice em list_in= 76
+aresta= 59 -> 75; tem indice em list_in= 75
+aresta= 76 -> 75; tem indice em list_in= 75
+aresta= 75 -> 74; tem indice em list_out= 75
+aresta= 59 -> 75; tem indice em list_in= 75
+aresta= 76 -> 75; tem indice em list_in= 75
+aresta= 75 -> 74; tem indice em list_out= 75
+aresta= 74 -> 81; tem indice em list_out= 74
+aresta= 63 -> 74; tem indice em list_in= 74
+aresta= 75 -> 74; tem indice em list_in= 74
+aresta= 73 -> 78; tem indice em list_out= 73
+aresta= 72 -> 73; tem indice em list_in= 73
+aresta= 71 -> 73; tem indice em list_in= 73
+aresta= 72 -> 73; tem indice em list_out= 72
+aresta= 71 -> 82  [color=red]; tem indice em list_out= 71
+aresta= 71 -> 73; tem indice em list_out= 71
+aresta= 79 -> 78; tem indice em list_out= 79
+aresta= 79 -> 78; tem indice em list_in= 78
+aresta= 73 -> 78; tem indice em list_in= 78
+aresta= 78 -> 77; tem indice em list_out= 78
+aresta= 79 -> 78; tem indice em list_in= 78
+aresta= 73 -> 78; tem indice em list_in= 78
+aresta= 78 -> 77; tem indice em list_out= 78
+aresta= 2 -> 3; tem indice em list_out= 2
+aresta= 119 -> 120; tem indice em list_in= 120
+aresta= 118 -> 120; tem indice em list_in= 120
+aresta= 120 -> 121; tem indice em list_out= 120
+aresta= 121 -> 128; tem indice em list_out= 121
+aresta= 122 -> 121; tem indice em list_in= 121
+aresta= 120 -> 121; tem indice em list_in= 121
+aresta= 109 -> 122; tem indice em list_in= 122
+aresta= 122 -> 121; tem indice em list_out= 122
+aresta= 123 -> 122; tem indice em list_in= 122
+aresta= 109 -> 122; tem indice em list_in= 122
+aresta= 122 -> 121; tem indice em list_out= 122
+aresta= 123 -> 122; tem indice em list_in= 122
+aresta= 117 -> 123; tem indice em list_in= 123
+aresta= 123 -> 122; tem indice em list_out= 123
+aresta= 124 -> 123; tem indice em list_in= 123
+aresta= 117 -> 123; tem indice em list_in= 123
+aresta= 123 -> 122; tem indice em list_out= 123
+aresta= 124 -> 123; tem indice em list_in= 123
+aresta= 124 -> 123; tem indice em list_out= 124
+aresta= 105 -> 124; tem indice em list_in= 124
+aresta= 125 -> 124; tem indice em list_in= 124
+aresta= 124 -> 123; tem indice em list_out= 124
+aresta= 105 -> 124; tem indice em list_in= 124
+aresta= 125 -> 124; tem indice em list_in= 124
+aresta= 113 -> 125; tem indice em list_in= 125
+aresta= 126 -> 125; tem indice em list_in= 125
+aresta= 125 -> 124; tem indice em list_out= 125
+aresta= 113 -> 125; tem indice em list_in= 125
+aresta= 126 -> 125; tem indice em list_in= 125
+aresta= 125 -> 124; tem indice em list_out= 125
+aresta= 126 -> 125; tem indice em list_out= 126
+aresta= 127 -> 128; tem indice em list_out= 127
+aresta= 127 -> 128; tem indice em list_in= 128
+aresta= 121 -> 128; tem indice em list_in= 128
+aresta= 128 -> 129; tem indice em list_out= 128
+aresta= 129 -> 163; tem indice em list_out= 129
+Entrou aresta de descarte
+aresta= 118 -> 129  [color=red]; tem indice em list_in_Discharge= 129
+Entrou aresta de descarte
+aresta= 115 -> 129  [color=red]; tem indice em list_in_Discharge= 129
+aresta= 128 -> 129; tem indice em list_in= 129
+Entrou aresta de descarte
+aresta= 111 -> 129  [color=red]; tem indice em list_in_Discharge= 129
+aresta= 414 -> 415; tem indice em list_out= 414
+aresta= 408 -> 415; tem indice em list_in= 415
+aresta= 414 -> 415; tem indice em list_in= 415
+aresta= 411 -> 410; tem indice em list_in= 410
+aresta= 410 -> 409; tem indice em list_out= 410
+aresta= 286 -> 410; tem indice em list_in= 410
+aresta= 411 -> 410; tem indice em list_in= 410
+aresta= 410 -> 409; tem indice em list_out= 410
+aresta= 286 -> 410; tem indice em list_in= 410
+aresta= 411 -> 410; tem indice em list_out= 411
+aresta= 94 -> 411; tem indice em list_in= 411
+aresta= 412 -> 411; tem indice em list_in= 411
+aresta= 411 -> 410; tem indice em list_out= 411
+aresta= 94 -> 411; tem indice em list_in= 411
+aresta= 412 -> 411; tem indice em list_in= 411
+aresta= 413 -> 412; tem indice em list_in= 412
+aresta= 382 -> 412; tem indice em list_in= 412
+aresta= 412 -> 411; tem indice em list_out= 412
+aresta= 413 -> 412; tem indice em list_in= 412
+aresta= 382 -> 412; tem indice em list_in= 412
+aresta= 412 -> 411; tem indice em list_out= 412
+aresta= 413 -> 412; tem indice em list_out= 413
+aresta= 319 -> 320; tem indice em list_out= 319
+aresta= 318 -> 320; tem indice em list_out= 318
+aresta= 318 -> 360  [color=red]; tem indice em list_out= 318
+aresta= 301 -> 313; tem indice em list_in= 313
+aresta= 314 -> 313; tem indice em list_in= 313
+aresta= 313 -> 312; tem indice em list_out= 313
+aresta= 301 -> 313; tem indice em list_in= 313
+aresta= 314 -> 313; tem indice em list_in= 313
+aresta= 313 -> 312; tem indice em list_out= 313
+aresta= 293 -> 312; tem indice em list_in= 312
+aresta= 312 -> 311; tem indice em list_out= 312
+aresta= 313 -> 312; tem indice em list_in= 312
+aresta= 293 -> 312; tem indice em list_in= 312
+aresta= 312 -> 311; tem indice em list_out= 312
+aresta= 313 -> 312; tem indice em list_in= 312
+aresta= 311 -> 310; tem indice em list_out= 311
+aresta= 312 -> 311; tem indice em list_in= 311
+aresta= 304 -> 311; tem indice em list_in= 311
+aresta= 311 -> 310; tem indice em list_out= 311
+aresta= 312 -> 311; tem indice em list_in= 311
+aresta= 304 -> 311; tem indice em list_in= 311
+aresta= 311 -> 310; tem indice em list_in= 310
+aresta= 310 -> 309; tem indice em list_out= 310
+aresta= 297 -> 310; tem indice em list_in= 310
+aresta= 311 -> 310; tem indice em list_in= 310
+aresta= 310 -> 309; tem indice em list_out= 310
+aresta= 297 -> 310; tem indice em list_in= 310
+aresta= 317 -> 352; tem indice em list_out= 317
+Entrou aresta de descarte
+aresta= 306 -> 317  [color=red]; tem indice em list_in_Discharge= 317
+aresta= 316 -> 317; tem indice em list_in= 317
+Entrou aresta de descarte
+aresta= 295 -> 317  [color=red]; tem indice em list_in_Discharge= 317
+Entrou aresta de descarte
+aresta= 299 -> 317  [color=red]; tem indice em list_in_Discharge= 317
+aresta= 309 -> 316; tem indice em list_in= 316
+aresta= 315 -> 316; tem indice em list_in= 316
+aresta= 316 -> 317; tem indice em list_out= 316
+aresta= 315 -> 316; tem indice em list_out= 315
+aresta= 314 -> 313; tem indice em list_out= 314
+aresta= 2 -> 3; tem indice em list_in= 3
+aresta= 3 -> 89; tem indice em list_out= 3
+aresta= 1 -> 3; tem indice em list_in= 3
+aresta= 368 -> 369; tem indice em list_out= 368
+aresta= 368 -> 369; tem indice em list_in= 369
+aresta= 367 -> 369; tem indice em list_in= 369
+aresta= 369 -> 376; tem indice em list_out= 369
+aresta= 364 -> 366; tem indice em list_in= 366
+aresta= 366 -> 375; tem indice em list_out= 366
+aresta= 365 -> 366; tem indice em list_in= 366
+aresta= 367 -> 382  [color=red]; tem indice em list_out= 367
+aresta= 367 -> 369; tem indice em list_out= 367
+aresta= 364 -> 382  [color=red]; tem indice em list_out= 364
+aresta= 364 -> 366; tem indice em list_out= 364
+aresta= 365 -> 366; tem indice em list_out= 365
+aresta= 362 -> 363; tem indice em list_out= 362
+aresta= 361 -> 363; tem indice em list_in= 363
+aresta= 363 -> 378; tem indice em list_out= 363
+aresta= 362 -> 363; tem indice em list_in= 363
+aresta= 360 -> 377; tem indice em list_out= 360
+aresta= 359 -> 360; tem indice em list_in= 360
+Entrou aresta de descarte
+aresta= 291 -> 360  [color=red]; tem indice em list_in_Discharge= 360
+Entrou aresta de descarte
+aresta= 318 -> 360  [color=red]; tem indice em list_in_Discharge= 360
+Entrou aresta de descarte
+aresta= 349 -> 360  [color=red]; tem indice em list_in_Discharge= 360
+Entrou aresta de descarte
+aresta= 287 -> 360  [color=red]; tem indice em list_in_Discharge= 360
+aresta= 361 -> 363; tem indice em list_out= 361
+aresta= 361 -> 382  [color=red]; tem indice em list_out= 361
+aresta= 380 -> 381; tem indice em list_out= 380
+aresta= 380 -> 381; tem indice em list_in= 381
+aresta= 374 -> 381; tem indice em list_in= 381
+aresta= 381 -> 382; tem indice em list_out= 381
+Entrou aresta de descarte
+aresta= 367 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+Entrou aresta de descarte
+aresta= 364 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+Entrou aresta de descarte
+aresta= 371 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+Entrou aresta de descarte
+aresta= 329 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+Entrou aresta de descarte
+aresta= 345 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+aresta= 382 -> 412; tem indice em list_out= 382
+Entrou aresta de descarte
+aresta= 302 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+Entrou aresta de descarte
+aresta= 361 -> 382  [color=red]; tem indice em list_in_Discharge= 382
+aresta= 381 -> 382; tem indice em list_in= 382
+aresta= 383 -> 385; tem indice em list_out= 383
+aresta= 383 -> 407  [color=red]; tem indice em list_out= 383
+aresta= 384 -> 385; tem indice em list_out= 384
+aresta= 384 -> 385; tem indice em list_in= 385
+aresta= 383 -> 385; tem indice em list_in= 385
+aresta= 385 -> 402; tem indice em list_out= 385
+aresta= 386 -> 407  [color=red]; tem indice em list_out= 386
+aresta= 386 -> 388; tem indice em list_out= 386
+aresta= 387 -> 388; tem indice em list_out= 387
+aresta= 387 -> 388; tem indice em list_in= 388
+aresta= 386 -> 388; tem indice em list_in= 388
+aresta= 388 -> 403; tem indice em list_out= 388
+aresta= 389 -> 391; tem indice em list_out= 389
+aresta= 389 -> 407  [color=red]; tem indice em list_out= 389
+aresta= 61 -> 82  [color=red]; tem indice em list_out= 61
+aresta= 61 -> 63; tem indice em list_out= 61
+aresta= 259 -> 258; tem indice em list_in= 258
+aresta= 258 -> 257; tem indice em list_out= 258
+aresta= 252 -> 258; tem indice em list_in= 258
+aresta= 259 -> 258; tem indice em list_in= 258
+aresta= 258 -> 257; tem indice em list_out= 258
+aresta= 252 -> 258; tem indice em list_in= 258
+aresta= 259 -> 258; tem indice em list_out= 259
+aresta= 260 -> 259; tem indice em list_in= 259
+aresta= 224 -> 259; tem indice em list_in= 259
+aresta= 259 -> 258; tem indice em list_out= 259
+aresta= 260 -> 259; tem indice em list_in= 259
+aresta= 224 -> 259; tem indice em list_in= 259
+aresta= 64 -> 82  [color=red]; tem indice em list_out= 64
+aresta= 64 -> 66; tem indice em list_out= 64
+aresta= 65 -> 66; tem indice em list_out= 65
+aresta= 65 -> 66; tem indice em list_in= 66
+aresta= 66 -> 77; tem indice em list_out= 66
+aresta= 64 -> 66; tem indice em list_in= 66
+aresta= 67 -> 82  [color=red]; tem indice em list_out= 67
+aresta= 67 -> 69; tem indice em list_out= 67
+Entrou aresta de descarte
+aresta= 237 -> 252  [color=red]; tem indice em list_in_Discharge= 252
+Entrou aresta de descarte
+aresta= 241 -> 252  [color=red]; tem indice em list_in_Discharge= 252
+aresta= 251 -> 252; tem indice em list_in= 252
+Entrou aresta de descarte
+aresta= 230 -> 252  [color=red]; tem indice em list_in_Discharge= 252
+aresta= 252 -> 258; tem indice em list_out= 252
+aresta= 69 -> 76; tem indice em list_out= 69
+aresta= 67 -> 69; tem indice em list_in= 69
+aresta= 68 -> 69; tem indice em list_in= 69
+aresta= 250 -> 251; tem indice em list_out= 250
+aresta= 251 -> 252; tem indice em list_out= 251
+aresta= 250 -> 251; tem indice em list_in= 251
+aresta= 244 -> 251; tem indice em list_in= 251
+aresta= 256 -> 263; tem indice em list_out= 256
+aresta= 257 -> 256; tem indice em list_in= 256
+aresta= 221 -> 256; tem indice em list_in= 256
+aresta= 193 -> 257; tem indice em list_in= 257
+aresta= 258 -> 257; tem indice em list_in= 257
+aresta= 257 -> 256; tem indice em list_out= 257
+aresta= 193 -> 257; tem indice em list_in= 257
+aresta= 258 -> 257; tem indice em list_in= 257
+aresta= 257 -> 256; tem indice em list_out= 257
+aresta= 254 -> 255; tem indice em list_out= 254
+aresta= 254 -> 255; tem indice em list_in= 255
+aresta= 255 -> 260; tem indice em list_out= 255
+aresta= 253 -> 255; tem indice em list_in= 255
+Entrou aresta de descarte
+aresta= 103 -> 168  [color=red]; tem indice em list_in_Discharge= 168
+aresta= 168 -> 185; tem indice em list_out= 168
+Entrou aresta de descarte
+aresta= 130 -> 168  [color=red]; tem indice em list_in_Discharge= 168
+Entrou aresta de descarte
+aresta= 157 -> 168  [color=red]; tem indice em list_in_Discharge= 168
+Entrou aresta de descarte
+aresta= 95 -> 168  [color=red]; tem indice em list_in_Discharge= 168
+aresta= 167 -> 168; tem indice em list_in= 168
+aresta= 169 -> 190  [color=red]; tem indice em list_out= 169
+aresta= 169 -> 171; tem indice em list_out= 169
+aresta= 165 -> 164; tem indice em list_in= 164
+aresta= 164 -> 163; tem indice em list_out= 164
+aresta= 159 -> 164; tem indice em list_in= 164
+aresta= 165 -> 164; tem indice em list_in= 164
+aresta= 164 -> 163; tem indice em list_out= 164
+aresta= 159 -> 164; tem indice em list_in= 164
+aresta= 165 -> 164; tem indice em list_out= 165
+aresta= 166 -> 167; tem indice em list_out= 166
+aresta= 166 -> 167; tem indice em list_in= 167
+aresta= 160 -> 167; tem indice em list_in= 167
+aresta= 167 -> 168; tem indice em list_out= 167
+aresta= 101 -> 160; tem indice em list_in= 160
+aresta= 161 -> 160; tem indice em list_in= 160
+aresta= 160 -> 167; tem indice em list_out= 160
+aresta= 161 -> 160; tem indice em list_out= 161
+aresta= 162 -> 161; tem indice em list_in= 161
+aresta= 97 -> 161; tem indice em list_in= 161
+aresta= 161 -> 160; tem indice em list_out= 161
+aresta= 162 -> 161; tem indice em list_in= 161
+aresta= 97 -> 161; tem indice em list_in= 161
+aresta= 163 -> 162; tem indice em list_in= 162
+aresta= 162 -> 161; tem indice em list_out= 162
+aresta= 156 -> 162; tem indice em list_in= 162
+aresta= 163 -> 162; tem indice em list_in= 162
+aresta= 162 -> 161; tem indice em list_out= 162
+aresta= 156 -> 162; tem indice em list_in= 162
+aresta= 129 -> 163; tem indice em list_in= 163
+aresta= 163 -> 162; tem indice em list_out= 163
+aresta= 164 -> 163; tem indice em list_in= 163
+aresta= 129 -> 163; tem indice em list_in= 163
+aresta= 163 -> 162; tem indice em list_out= 163
+aresta= 164 -> 163; tem indice em list_in= 163
+aresta= 9 -> 11; tem indice em list_out= 9
+aresta= 9 -> 30  [color=red]; tem indice em list_out= 9
+aresta= 357 -> 356; tem indice em list_out= 357
+aresta= 356 -> 355; tem indice em list_out= 356
+aresta= 351 -> 356; tem indice em list_in= 356
+aresta= 357 -> 356; tem indice em list_in= 356
+aresta= 356 -> 355; tem indice em list_out= 356
+aresta= 351 -> 356; tem indice em list_in= 356
+aresta= 357 -> 356; tem indice em list_in= 356
+aresta= 356 -> 355; tem indice em list_in= 355
+aresta= 344 -> 355; tem indice em list_in= 355
+aresta= 355 -> 354; tem indice em list_out= 355
+aresta= 356 -> 355; tem indice em list_in= 355
+aresta= 344 -> 355; tem indice em list_in= 355
+aresta= 355 -> 354; tem indice em list_out= 355
+aresta= 354 -> 353; tem indice em list_out= 354
+aresta= 347 -> 354; tem indice em list_in= 354
+aresta= 355 -> 354; tem indice em list_in= 354
+aresta= 354 -> 353; tem indice em list_out= 354
+aresta= 347 -> 354; tem indice em list_in= 354
+aresta= 355 -> 354; tem indice em list_in= 354
+aresta= 354 -> 353; tem indice em list_in= 353
+aresta= 353 -> 352; tem indice em list_out= 353
+aresta= 289 -> 353; tem indice em list_in= 353
+aresta= 354 -> 353; tem indice em list_in= 353
+aresta= 353 -> 352; tem indice em list_out= 353
+aresta= 289 -> 353; tem indice em list_in= 353
+aresta= 317 -> 352; tem indice em list_in= 352
+aresta= 352 -> 359; tem indice em list_out= 352
+aresta= 353 -> 352; tem indice em list_in= 352
+aresta= 349 -> 351; tem indice em list_in= 351
+aresta= 350 -> 351; tem indice em list_in= 351
+aresta= 351 -> 356; tem indice em list_out= 351
+aresta= 350 -> 351; tem indice em list_out= 350
+aresta= 352 -> 359; tem indice em list_in= 359
+aresta= 359 -> 360; tem indice em list_out= 359
+aresta= 358 -> 359; tem indice em list_in= 359
+aresta= 358 -> 359; tem indice em list_out= 358
+aresta= 197 -> 216; tem indice em list_in= 216
+aresta= 217 -> 216; tem indice em list_in= 216
+aresta= 216 -> 215; tem indice em list_out= 216
+aresta= 197 -> 216; tem indice em list_in= 216
+aresta= 217 -> 216; tem indice em list_in= 216
+aresta= 216 -> 215; tem indice em list_out= 216
+aresta= 218 -> 217; tem indice em list_in= 217
+aresta= 217 -> 216; tem indice em list_out= 217
+aresta= 205 -> 217; tem indice em list_in= 217
+aresta= 218 -> 217; tem indice em list_in= 217
+aresta= 217 -> 216; tem indice em list_out= 217
+aresta= 205 -> 217; tem indice em list_in= 217
+aresta= 215 -> 214; tem indice em list_in= 214
+aresta= 214 -> 213; tem indice em list_out= 214
+aresta= 201 -> 214; tem indice em list_in= 214
+aresta= 215 -> 214; tem indice em list_in= 214
+aresta= 214 -> 213; tem indice em list_out= 214
+aresta= 201 -> 214; tem indice em list_in= 214
+aresta= 215 -> 214; tem indice em list_out= 215
+aresta= 209 -> 215; tem indice em list_in= 215
+aresta= 216 -> 215; tem indice em list_in= 215
+aresta= 215 -> 214; tem indice em list_out= 215
+aresta= 209 -> 215; tem indice em list_in= 215
+aresta= 216 -> 215; tem indice em list_in= 215
+aresta= 211 -> 212; tem indice em list_in= 212
+aresta= 210 -> 212; tem indice em list_in= 212
+aresta= 212 -> 213; tem indice em list_out= 212
+aresta= 214 -> 213; tem indice em list_in= 213
+aresta= 213 -> 220; tem indice em list_out= 213
+aresta= 212 -> 213; tem indice em list_in= 213
+aresta= 210 -> 221  [color=red]; tem indice em list_out= 210
+aresta= 210 -> 212; tem indice em list_out= 210
+aresta= 211 -> 212; tem indice em list_out= 211
+aresta= 218 -> 217; tem indice em list_out= 218
+aresta= 219 -> 220; tem indice em list_out= 219
+aresta= 287 -> 289; tem indice em list_in= 289
+aresta= 289 -> 353; tem indice em list_out= 289
+aresta= 288 -> 289; tem indice em list_in= 289
+aresta= 288 -> 289; tem indice em list_out= 288
+aresta= 264 -> 281; tem indice em list_in= 281
+aresta= 282 -> 281; tem indice em list_in= 281
+aresta= 281 -> 280; tem indice em list_out= 281
+aresta= 264 -> 281; tem indice em list_in= 281
+aresta= 282 -> 281; tem indice em list_in= 281
+aresta= 281 -> 280; tem indice em list_out= 281
+aresta= 274 -> 280; tem indice em list_in= 280
+aresta= 280 -> 279; tem indice em list_out= 280
+aresta= 281 -> 280; tem indice em list_in= 280
+aresta= 274 -> 280; tem indice em list_in= 280
+aresta= 280 -> 279; tem indice em list_out= 280
+aresta= 281 -> 280; tem indice em list_in= 280
+aresta= 283 -> 282; tem indice em list_out= 283
+aresta= 282 -> 281; tem indice em list_out= 282
+aresta= 283 -> 282; tem indice em list_in= 282
+aresta= 267 -> 282; tem indice em list_in= 282
+aresta= 282 -> 281; tem indice em list_out= 282
+aresta= 283 -> 282; tem indice em list_in= 282
+aresta= 267 -> 282; tem indice em list_in= 282
+aresta= 284 -> 285; tem indice em list_in= 285
+aresta= 285 -> 286; tem indice em list_out= 285
+aresta= 278 -> 285; tem indice em list_in= 285
+aresta= 284 -> 285; tem indice em list_out= 284
+aresta= 287 -> 289; tem indice em list_out= 287
+aresta= 287 -> 360  [color=red]; tem indice em list_out= 287
+Entrou aresta de descarte
+aresta= 272 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+Entrou aresta de descarte
+aresta= 203 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+Entrou aresta de descarte
+aresta= 275 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+Entrou aresta de descarte
+aresta= 265 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+aresta= 285 -> 286; tem indice em list_in= 286
+aresta= 286 -> 410; tem indice em list_out= 286
+Entrou aresta de descarte
+aresta= 233 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+Entrou aresta de descarte
+aresta= 268 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+Entrou aresta de descarte
+aresta= 222 -> 286  [color=red]; tem indice em list_in_Discharge= 286
+aresta= 263 -> 264; tem indice em list_out= 263
+aresta= 256 -> 263; tem indice em list_in= 263
+aresta= 262 -> 263; tem indice em list_in= 263
+aresta= 262 -> 263; tem indice em list_out= 262
+aresta= 261 -> 260; tem indice em list_out= 261
+aresta= 261 -> 260; tem indice em list_in= 260
+aresta= 260 -> 259; tem indice em list_out= 260
+aresta= 255 -> 260; tem indice em list_in= 260
+aresta= 261 -> 260; tem indice em list_in= 260
+aresta= 260 -> 259; tem indice em list_out= 260
+aresta= 255 -> 260; tem indice em list_in= 260
+aresta= 266 -> 267; tem indice em list_in= 267
+aresta= 265 -> 267; tem indice em list_in= 267
+aresta= 267 -> 282; tem indice em list_out= 267
+aresta= 266 -> 267; tem indice em list_out= 266
+aresta= 265 -> 267; tem indice em list_out= 265
+aresta= 265 -> 286  [color=red]; tem indice em list_out= 265
+aresta= 264 -> 281; tem indice em list_out= 264
+Entrou aresta de descarte
+aresta= 191 -> 264  [color=red]; tem indice em list_in_Discharge= 264
+Entrou aresta de descarte
+aresta= 226 -> 264  [color=red]; tem indice em list_in_Discharge= 264
+Entrou aresta de descarte
+aresta= 195 -> 264  [color=red]; tem indice em list_in_Discharge= 264
+aresta= 263 -> 264; tem indice em list_in= 264
+Entrou aresta de descarte
+aresta= 253 -> 264  [color=red]; tem indice em list_in_Discharge= 264
+aresta= 269 -> 270; tem indice em list_out= 269
+aresta= 268 -> 270; tem indice em list_out= 268
+aresta= 268 -> 286  [color=red]; tem indice em list_out= 268
+aresta= 58 -> 59; tem indice em list_in= 59
+aresta= 59 -> 75; tem indice em list_out= 59
+aresta= 57 -> 59; tem indice em list_in= 59
+aresta= 58 -> 59; tem indice em list_out= 58
+aresta= 54 -> 55; tem indice em list_in= 55
+aresta= 55 -> 56; tem indice em list_out= 55
+aresta= 48 -> 55; tem indice em list_in= 55
+aresta= 54 -> 55; tem indice em list_out= 54
+aresta= 57 -> 59; tem indice em list_out= 57
+aresta= 57 -> 94  [color=red]; tem indice em list_out= 57
+aresta= 56 -> 87; tem indice em list_out= 56
+aresta= 55 -> 56; tem indice em list_in= 56
+Entrou aresta de descarte
+aresta= 42 -> 56  [color=red]; tem indice em list_in_Discharge= 56
+Entrou aresta de descarte
+aresta= 38 -> 56  [color=red]; tem indice em list_in_Discharge= 56
+Entrou aresta de descarte
+aresta= 45 -> 56  [color=red]; tem indice em list_in_Discharge= 56
+Entrou aresta de descarte
+aresta= 35 -> 56  [color=red]; tem indice em list_in_Discharge= 56
+aresta= 51 -> 50; tem indice em list_out= 51
+aresta= 52 -> 51; tem indice em list_in= 51
+aresta= 40 -> 51; tem indice em list_in= 51
+aresta= 51 -> 50; tem indice em list_out= 51
+aresta= 52 -> 51; tem indice em list_in= 51
+aresta= 40 -> 51; tem indice em list_in= 51
+aresta= 50 -> 49; tem indice em list_out= 50
+aresta= 51 -> 50; tem indice em list_in= 50
+aresta= 44 -> 50; tem indice em list_in= 50
+aresta= 50 -> 49; tem indice em list_out= 50
+aresta= 51 -> 50; tem indice em list_in= 50
+aresta= 44 -> 50; tem indice em list_in= 50
+aresta= 53 -> 52; tem indice em list_out= 53
+aresta= 52 -> 51; tem indice em list_out= 52
+aresta= 47 -> 52; tem indice em list_in= 52
+aresta= 53 -> 52; tem indice em list_in= 52
+aresta= 52 -> 51; tem indice em list_out= 52
+aresta= 47 -> 52; tem indice em list_in= 52
+aresta= 53 -> 52; tem indice em list_in= 52
+aresta= 61 -> 63; tem indice em list_in= 63
+aresta= 62 -> 63; tem indice em list_in= 63
+aresta= 63 -> 74; tem indice em list_out= 63
+aresta= 115 -> 117; tem indice em list_out= 115
+aresta= 115 -> 129  [color=red]; tem indice em list_out= 115
+aresta= 68 -> 69; tem indice em list_out= 68
+aresta= 115 -> 117; tem indice em list_in= 117
+aresta= 117 -> 123; tem indice em list_out= 117
+aresta= 116 -> 117; tem indice em list_in= 117
+aresta= 116 -> 117; tem indice em list_out= 116
+aresta= 111 -> 129  [color=red]; tem indice em list_out= 111
+aresta= 111 -> 113; tem indice em list_out= 111
+aresta= 113 -> 125; tem indice em list_out= 113
+aresta= 112 -> 113; tem indice em list_in= 113
+aresta= 111 -> 113; tem indice em list_in= 113
+aresta= 112 -> 113; tem indice em list_out= 112
+aresta= 119 -> 120; tem indice em list_out= 119
+aresta= 118 -> 129  [color=red]; tem indice em list_out= 118
+aresta= 118 -> 120; tem indice em list_out= 118
+aresta= 306 -> 308; tem indice em list_in= 308
+aresta= 308 -> 309; tem indice em list_out= 308
+aresta= 307 -> 308; tem indice em list_in= 308
+aresta= 309 -> 316; tem indice em list_out= 309
+aresta= 310 -> 309; tem indice em list_in= 309
+aresta= 308 -> 309; tem indice em list_in= 309
+aresta= 300 -> 301; tem indice em list_out= 300
+aresta= 301 -> 313; tem indice em list_out= 301
+aresta= 299 -> 301; tem indice em list_in= 301
+aresta= 300 -> 301; tem indice em list_in= 301
+aresta= 302 -> 304; tem indice em list_out= 302
+aresta= 302 -> 382  [color=red]; tem indice em list_out= 302
+aresta= 303 -> 304; tem indice em list_out= 303
+aresta= 302 -> 304; tem indice em list_in= 304
+aresta= 303 -> 304; tem indice em list_in= 304
+aresta= 304 -> 311; tem indice em list_out= 304
+aresta= 306 -> 308; tem indice em list_out= 306
+aresta= 306 -> 317  [color=red]; tem indice em list_out= 306
+aresta= 307 -> 308; tem indice em list_out= 307
+aresta= 226 -> 228; tem indice em list_in= 228
+aresta= 228 -> 247; tem indice em list_out= 228
+aresta= 227 -> 228; tem indice em list_in= 228
+aresta= 227 -> 228; tem indice em list_out= 227
+aresta= 226 -> 264  [color=red]; tem indice em list_out= 226
+aresta= 226 -> 228; tem indice em list_out= 226
+aresta= 223 -> 224; tem indice em list_in= 224
+aresta= 224 -> 259; tem indice em list_out= 224
+aresta= 222 -> 224; tem indice em list_in= 224
+aresta= 223 -> 224; tem indice em list_out= 223
+aresta= 222 -> 224; tem indice em list_out= 222
+aresta= 222 -> 286  [color=red]; tem indice em list_out= 222
+Entrou aresta de descarte
+aresta= 210 -> 221  [color=red]; tem indice em list_in_Discharge= 221
+Entrou aresta de descarte
+aresta= 199 -> 221  [color=red]; tem indice em list_in_Discharge= 221
+aresta= 220 -> 221; tem indice em list_in= 221
+Entrou aresta de descarte
+aresta= 207 -> 221  [color=red]; tem indice em list_in_Discharge= 221
+aresta= 221 -> 256; tem indice em list_out= 221
+aresta= 219 -> 220; tem indice em list_in= 220
+aresta= 213 -> 220; tem indice em list_in= 220
+aresta= 220 -> 221; tem indice em list_out= 220
+aresta= 390 -> 391; tem indice em list_in= 391
+aresta= 391 -> 400; tem indice em list_out= 391
+aresta= 389 -> 391; tem indice em list_in= 391
+aresta= 390 -> 391; tem indice em list_out= 390
+aresta= 152 -> 151; tem indice em list_in= 151
+aresta= 132 -> 151; tem indice em list_in= 151
+aresta= 151 -> 150; tem indice em list_out= 151
+aresta= 152 -> 151; tem indice em list_in= 151
+aresta= 132 -> 151; tem indice em list_in= 151
+aresta= 151 -> 150; tem indice em list_out= 151
+aresta= 150 -> 149; tem indice em list_out= 150
+aresta= 151 -> 150; tem indice em list_in= 150
+aresta= 143 -> 150; tem indice em list_in= 150
+aresta= 150 -> 149; tem indice em list_out= 150
+aresta= 151 -> 150; tem indice em list_in= 150
+aresta= 143 -> 150; tem indice em list_in= 150
+aresta= 153 -> 152; tem indice em list_out= 153
+aresta= 152 -> 151; tem indice em list_out= 152
+aresta= 140 -> 152; tem indice em list_in= 152
+aresta= 153 -> 152; tem indice em list_in= 152
+aresta= 152 -> 151; tem indice em list_out= 152
+aresta= 140 -> 152; tem indice em list_in= 152
+aresta= 153 -> 152; tem indice em list_in= 152
+aresta= 154 -> 155; tem indice em list_in= 155
+aresta= 155 -> 156; tem indice em list_out= 155
+aresta= 148 -> 155; tem indice em list_in= 155
+aresta= 154 -> 155; tem indice em list_out= 154
+aresta= 157 -> 168  [color=red]; tem indice em list_out= 157
+aresta= 157 -> 159; tem indice em list_out= 157
+Entrou aresta de descarte
+aresta= 145 -> 156  [color=red]; tem indice em list_in_Discharge= 156
+Entrou aresta de descarte
+aresta= 141 -> 156  [color=red]; tem indice em list_in_Discharge= 156
+Entrou aresta de descarte
+aresta= 138 -> 156  [color=red]; tem indice em list_in_Discharge= 156
+aresta= 156 -> 162; tem indice em list_out= 156
+aresta= 155 -> 156; tem indice em list_in= 156
+aresta= 159 -> 164; tem indice em list_out= 159
+aresta= 158 -> 159; tem indice em list_in= 159
+aresta= 157 -> 159; tem indice em list_in= 159
+aresta= 158 -> 159; tem indice em list_out= 158
+aresta= 400 -> 399; tem indice em list_in= 399
+aresta= 397 -> 399; tem indice em list_in= 399
+aresta= 399 -> 406; tem indice em list_out= 399
+aresta= 48 -> 55; tem indice em list_out= 48
+aresta= 49 -> 48; tem indice em list_in= 48
+aresta= 37 -> 48; tem indice em list_in= 48
+aresta= 50 -> 49; tem indice em list_in= 49
+aresta= 49 -> 48; tem indice em list_out= 49
+aresta= 33 -> 49; tem indice em list_in= 49
+aresta= 50 -> 49; tem indice em list_in= 49
+aresta= 49 -> 48; tem indice em list_out= 49
+aresta= 33 -> 49; tem indice em list_in= 49
+aresta= 46 -> 47; tem indice em list_out= 46
+aresta= 45 -> 47; tem indice em list_in= 47
+aresta= 46 -> 47; tem indice em list_in= 47
+aresta= 47 -> 52; tem indice em list_out= 47
+aresta= 42 -> 44; tem indice em list_in= 44
+aresta= 44 -> 50; tem indice em list_out= 44
+aresta= 43 -> 44; tem indice em list_in= 44
+aresta= 45 -> 47; tem indice em list_out= 45
+aresta= 45 -> 56  [color=red]; tem indice em list_out= 45
+aresta= 42 -> 44; tem indice em list_out= 42
+aresta= 42 -> 56  [color=red]; tem indice em list_out= 42
+aresta= 43 -> 44; tem indice em list_out= 43
+aresta= 38 -> 40; tem indice em list_in= 40
+aresta= 39 -> 40; tem indice em list_in= 40
+aresta= 40 -> 51; tem indice em list_out= 40
+aresta= 5 -> 94  [color=red]; tem indice em list_out= 5
+aresta= 5 -> 7; tem indice em list_out= 5
+344e_in[n]=
+343 -> 344; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5c00d0>
+345e_in[n]=
+346e_in[n]=
+347e_in[n]=
+345 -> 347; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9cb610>
+346 -> 347; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c90b3d0>
+340e_in[n]=
+327 -> 340; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c837cd0>
+341 -> 340; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf7bad0>
+341e_in[n]=
+342e_in[n]=
+343e_in[n]=
+342 -> 343; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e019ad0>
+336 -> 343; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e23fd50>
+349e_in[n]=
+299e_in[n]=
+296e_in[n]=
+297e_in[n]=
+295 -> 297; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c931cd0>
+296 -> 297; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5ee790>
+295e_in[n]=
+292e_in[n]=
+293e_in[n]=
+291 -> 293; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8e2850>
+292 -> 293; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9b8c10>
+291e_in[n]=
+199e_in[n]=
+195e_in[n]=
+197e_in[n]=
+195 -> 197; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e654310>
+196 -> 197; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d979e50>
+196e_in[n]=
+191e_in[n]=
+190e_in[n]=
+189 -> 190; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d75e550>
+193e_in[n]=
+192 -> 193; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dfffe10>
+191 -> 193; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e7dde50>
+192e_in[n]=
+270e_in[n]=
+269 -> 270; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7b4a90>
+268 -> 270; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d756f50>
+272e_in[n]=
+273e_in[n]=
+274e_in[n]=
+272 -> 274; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e632550>
+273 -> 274; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d325550>
+275e_in[n]=
+276e_in[n]=
+277e_in[n]=
+276 -> 277; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf9c210>
+275 -> 277; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d642f50>
+278e_in[n]=
+279 -> 278; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5d9cd0>
+277 -> 278; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc30550>
+279e_in[n]=
+280 -> 279; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5e2f10>
+270 -> 279; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da1c190>
+108e_in[n]=
+109e_in[n]=
+107 -> 109; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c581610>
+108 -> 109; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e5f9a90>
+103e_in[n]=
+100e_in[n]=
+101e_in[n]=
+100 -> 101; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d429910>
+99 -> 101; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd43310>
+107e_in[n]=
+104e_in[n]=
+105e_in[n]=
+104 -> 105; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca39b90>
+103 -> 105; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da7fe90>
+39e_in[n]=
+38e_in[n]=
+33e_in[n]=
+31 -> 33; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8aea90>
+32 -> 33; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ce07310>
+32e_in[n]=
+31e_in[n]=
+30e_in[n]=
+29 -> 30; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf33490>
+37e_in[n]=
+35 -> 37; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9483d0>
+36 -> 37; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d008850>
+36e_in[n]=
+35e_in[n]=
+339e_in[n]=
+320 -> 339; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c933f10>
+340 -> 339; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5c7850>
+338e_in[n]=
+331 -> 338; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c78af10>
+339 -> 338; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c616cd0>
+335e_in[n]=
+334 -> 335; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c874cd0>
+333 -> 335; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5773d0>
+334e_in[n]=
+337e_in[n]=
+338 -> 337; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c4cc610>
+324 -> 337; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4b4c10>
+336e_in[n]=
+337 -> 336; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e88eb50>
+335 -> 336; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc389d0>
+331e_in[n]=
+329 -> 331; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c87df10>
+330 -> 331; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c51ba90>
+330e_in[n]=
+333e_in[n]=
+6e_in[n]=
+99e_in[n]=
+91e_in[n]=
+90e_in[n]=
+30 -> 90; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3dc0d0>
+91 -> 90; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd5de50>
+93e_in[n]=
+92 -> 93; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9c23d0>
+86 -> 93; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c710f10>
+92e_in[n]=
+95e_in[n]=
+94e_in[n]=
+93 -> 94; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3b34d0>
+97e_in[n]=
+95 -> 97; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d0aec90>
+96 -> 97; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9919d0>
+96e_in[n]=
+238e_in[n]=
+239e_in[n]=
+238 -> 239; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6b7850>
+237 -> 239; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d4ca4d0>
+234e_in[n]=
+235e_in[n]=
+234 -> 235; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c72f610>
+233 -> 235; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d7afc10>
+237e_in[n]=
+230e_in[n]=
+231e_in[n]=
+232e_in[n]=
+230 -> 232; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9a1a90>
+231 -> 232; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d62dad0>
+233e_in[n]=
+1e_in[n]=
+146e_in[n]=
+147e_in[n]=
+146 -> 147; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc272d0>
+145 -> 147; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e8705d0>
+145e_in[n]=
+142e_in[n]=
+143e_in[n]=
+141 -> 143; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca2cb90>
+142 -> 143; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc46cd0>
+140e_in[n]=
+138 -> 140; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbe4e50>
+139 -> 140; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbce310>
+141e_in[n]=
+148e_in[n]=
+149 -> 148; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5bd610>
+147 -> 148; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e65d0d0>
+149e_in[n]=
+136 -> 149; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca5e950>
+150 -> 149; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da11bd0>
+132e_in[n]=
+131 -> 132; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c821610>
+130 -> 132; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c508610>
+131e_in[n]=
+130e_in[n]=
+136e_in[n]=
+134 -> 136; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d113310>
+135 -> 136; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc65510>
+135e_in[n]=
+134e_in[n]=
+139e_in[n]=
+138e_in[n]=
+24e_in[n]=
+25 -> 24; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da8c790>
+18 -> 24; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d30c9d0>
+25e_in[n]=
+15 -> 25; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e85c290>
+26 -> 25; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d619450>
+26e_in[n]=
+21 -> 26; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d106f10>
+27 -> 26; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d546c10>
+27e_in[n]=
+20e_in[n]=
+21e_in[n]=
+19 -> 21; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c4b9190>
+20 -> 21; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d44ef50>
+22e_in[n]=
+23 -> 22; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca34f50>
+11 -> 22; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e665890>
+23e_in[n]=
+7 -> 23; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c73aa90>
+24 -> 23; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c525cd0>
+28e_in[n]=
+29e_in[n]=
+28 -> 29; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca68b90>
+22 -> 29; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9759d0>
+407e_in[n]=
+406 -> 407; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e610310>
+406e_in[n]=
+405 -> 406; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c67c850>
+399 -> 406; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4d5550>
+405e_in[n]=
+404e_in[n]=
+403e_in[n]=
+404 -> 403; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9229d0>
+388 -> 403; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dee0610>
+402e_in[n]=
+403 -> 402; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c63f850>
+385 -> 402; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d624790>
+401e_in[n]=
+402 -> 401; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e453210>
+394 -> 401; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931db749d0>
+400e_in[n]=
+401 -> 400; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e880dd0>
+391 -> 400; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7db3d0>
+409e_in[n]=
+410 -> 409; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e02e310>
+407 -> 409; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e21d790>
+408e_in[n]=
+409 -> 408; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da04e50>
+190 -> 408; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d01ec10>
+379e_in[n]=
+378e_in[n]=
+379 -> 378; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca06290>
+363 -> 378; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd8a310>
+371e_in[n]=
+373e_in[n]=
+371 -> 373; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c52ef10>
+372 -> 373; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d19d590>
+372e_in[n]=
+375e_in[n]=
+366 -> 375; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da001d0>
+376 -> 375; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbadfd0>
+374e_in[n]=
+375 -> 374; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8193d0>
+373 -> 374; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d404790>
+377e_in[n]=
+360 -> 377; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7d2190>
+378 -> 377; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7b1850>
+376e_in[n]=
+377 -> 376; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c82b850>
+369 -> 376; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3c9c50>
+393e_in[n]=
+392e_in[n]=
+88e_in[n]=
+89 -> 88; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931db96ad0>
+82 -> 88; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9e2310>
+89e_in[n]=
+90 -> 89; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4f7f50>
+3 -> 89; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e63f4d0>
+397e_in[n]=
+395 -> 397; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d1949d0>
+396 -> 397; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d182e50>
+396e_in[n]=
+395e_in[n]=
+394e_in[n]=
+393 -> 394; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d175b50>
+392 -> 394; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d4b6910>
+82e_in[n]=
+81 -> 82; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d08bc10>
+181e_in[n]=
+180 -> 181; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d1685d0>
+179 -> 181; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ddadc10>
+80e_in[n]=
+81e_in[n]=
+80 -> 81; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7253d0>
+74 -> 81; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d890590>
+86e_in[n]=
+87 -> 86; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2e0910>
+85 -> 86; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d662c10>
+87e_in[n]=
+56 -> 87; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c62a190>
+88 -> 87; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9da850>
+84e_in[n]=
+85e_in[n]=
+84 -> 85; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c889190>
+83 -> 85; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d128b90>
+7e_in[n]=
+6 -> 7; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c594a90>
+5 -> 7; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc50d50>
+245e_in[n]=
+232 -> 245; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5a7f10>
+246 -> 245; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d8f6310>
+244e_in[n]=
+245 -> 244; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d597250>
+243 -> 244; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da0ab10>
+247e_in[n]=
+248 -> 247; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d6577d0>
+228 -> 247; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931daae450>
+246e_in[n]=
+239 -> 246; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6cacd0>
+247 -> 246; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e29f9d0>
+241e_in[n]=
+243e_in[n]=
+241 -> 243; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d0fae50>
+242 -> 243; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ce13750>
+242e_in[n]=
+249e_in[n]=
+248e_in[n]=
+235 -> 248; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6d4f10>
+249 -> 248; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d13e950>
+179e_in[n]=
+178e_in[n]=
+176 -> 178; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c89b610>
+177 -> 178; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c744cd0>
+177e_in[n]=
+176e_in[n]=
+175e_in[n]=
+173 -> 175; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca56710>
+174 -> 175; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d27d510>
+174e_in[n]=
+173e_in[n]=
+171e_in[n]=
+170 -> 171; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d56dbd0>
+169 -> 171; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2d4310>
+170e_in[n]=
+182e_in[n]=
+181 -> 182; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c91e850>
+183 -> 182; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e626e50>
+183e_in[n]=
+175 -> 183; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c97b190>
+184 -> 183; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d171190>
+180e_in[n]=
+2e_in[n]=
+186e_in[n]=
+171 -> 186; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d550310>
+187 -> 186; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbf1dd0>
+187e_in[n]=
+184e_in[n]=
+185 -> 184; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c672610>
+178 -> 184; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c648a90>
+185e_in[n]=
+168 -> 185; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c758190>
+186 -> 185; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d90ee50>
+188e_in[n]=
+189e_in[n]=
+188 -> 189; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c998850>
+182 -> 189; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e232e50>
+11e_in[n]=
+9 -> 11; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9853d0>
+10 -> 11; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d014e50>
+10e_in[n]=
+13e_in[n]=
+15e_in[n]=
+14 -> 15; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d467e50>
+13 -> 15; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d66c9d0>
+14e_in[n]=
+17e_in[n]=
+16e_in[n]=
+19e_in[n]=
+18e_in[n]=
+16 -> 18; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c697f10>
+17 -> 18; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cdfb550>
+62e_in[n]=
+322e_in[n]=
+323e_in[n]=
+320e_in[n]=
+318 -> 320; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c902190>
+319 -> 320; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc07d10>
+326e_in[n]=
+327e_in[n]=
+325 -> 327; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c65bf10>
+326 -> 327; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e66eb90>
+324e_in[n]=
+323 -> 324; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c59ecd0>
+322 -> 324; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d296590>
+325e_in[n]=
+329e_in[n]=
+201e_in[n]=
+200 -> 201; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9f9310>
+199 -> 201; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d13bc10>
+200e_in[n]=
+203e_in[n]=
+205e_in[n]=
+204 -> 205; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d7900d0>
+203 -> 205; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1b3310>
+204e_in[n]=
+207e_in[n]=
+209e_in[n]=
+208 -> 209; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e0139d0>
+207 -> 209; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1edc10>
+208e_in[n]=
+77e_in[n]=
+78 -> 77; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1e43d0>
+66 -> 77; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2aa810>
+76e_in[n]=
+69 -> 76; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d55ae50>
+77 -> 76; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d4f10d0>
+75e_in[n]=
+59 -> 75; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d7a2650>
+76 -> 75; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931db7bfd0>
+74e_in[n]=
+63 -> 74; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd7d550>
+75 -> 74; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2ca550>
+73e_in[n]=
+72 -> 73; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4c19d0>
+71 -> 73; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dba20d0>
+72e_in[n]=
+71e_in[n]=
+79e_in[n]=
+78e_in[n]=
+79 -> 78; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931caa8090>
+73 -> 78; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c620f10>
+120e_in[n]=
+119 -> 120; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cae2410>
+118 -> 120; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d43dcd0>
+121e_in[n]=
+122 -> 121; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e7bb550>
+120 -> 121; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e25c550>
+122e_in[n]=
+109 -> 122; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5c1b50>
+123 -> 122; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dde3e10>
+123e_in[n]=
+117 -> 123; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d470c10>
+124 -> 123; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ddc60d0>
+124e_in[n]=
+105 -> 124; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1bf0d0>
+125 -> 124; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e253790>
+125e_in[n]=
+113 -> 125; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6c1a90>
+126 -> 125; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5dd3d0>
+126e_in[n]=
+127e_in[n]=
+128e_in[n]=
+127 -> 128; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c71c190>
+121 -> 128; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c652cd0>
+129e_in[n]=
+128 -> 129; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1d6dd0>
+414e_in[n]=
+415e_in[n]=
+408 -> 415; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>
+414 -> 415; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c85e610>
+410e_in[n]=
+411 -> 410; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9b8190>
+286 -> 410; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d289790>
+411e_in[n]=
+94 -> 411; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d09ae50>
+412 -> 411; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d19bad0>
+412e_in[n]=
+413 -> 412; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c560cd0>
+382 -> 412; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc199d0>
+413e_in[n]=
+319e_in[n]=
+318e_in[n]=
+313e_in[n]=
+301 -> 313; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc3a110>
+314 -> 313; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf9e8d0>
+312e_in[n]=
+293 -> 312; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4e8090>
+313 -> 312; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9a7510>
+311e_in[n]=
+312 -> 311; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ddd4e50>
+304 -> 311; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd39550>
+310e_in[n]=
+311 -> 310; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7e5610>
+297 -> 310; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9f0650>
+317e_in[n]=
+316 -> 317; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d4e4e50>
+316e_in[n]=
+309 -> 316; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca98fd0>
+315 -> 316; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c780cd0>
+315e_in[n]=
+314e_in[n]=
+3e_in[n]=
+2 -> 3; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c98e610>
+1 -> 3; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d737c10>
+368e_in[n]=
+369e_in[n]=
+368 -> 369; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8eaa90>
+367 -> 369; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c4c33d0>
+366e_in[n]=
+364 -> 366; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5fa610>
+365 -> 366; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cfa8790>
+367e_in[n]=
+364e_in[n]=
+365e_in[n]=
+362e_in[n]=
+363e_in[n]=
+361 -> 363; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e877090>
+362 -> 363; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd72d90>
+360e_in[n]=
+359 -> 360; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5ee190>
+361e_in[n]=
+380e_in[n]=
+381e_in[n]=
+380 -> 381; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c79f3d0>
+374 -> 381; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3f4710>
+382e_in[n]=
+381 -> 382; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd346d0>
+383e_in[n]=
+384e_in[n]=
+385e_in[n]=
+384 -> 385; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8c5190>
+383 -> 385; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5cee50>
+386e_in[n]=
+387e_in[n]=
+388e_in[n]=
+387 -> 388; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c84b190>
+386 -> 388; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da7b190>
+389e_in[n]=
+61e_in[n]=
+258e_in[n]=
+259 -> 258; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c54e850>
+252 -> 258; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbb8790>
+63e_in[n]=
+61 -> 63; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d786310>
+62 -> 63; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4e1310>
+64e_in[n]=
+65e_in[n]=
+66e_in[n]=
+65 -> 66; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbf6e90>
+64 -> 66; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d659e10>
+67e_in[n]=
+252e_in[n]=
+251 -> 252; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c56af10>
+69e_in[n]=
+67 -> 69; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e5280d0>
+68 -> 69; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d29d310>
+250e_in[n]=
+251e_in[n]=
+250 -> 251; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc11e10>
+244 -> 251; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931db93f90>
+256e_in[n]=
+257 -> 256; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d8c4e50>
+221 -> 256; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd510d0>
+257e_in[n]=
+193 -> 257; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ddbd310>
+258 -> 257; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1ca910>
+254e_in[n]=
+255e_in[n]=
+254 -> 255; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d438790>
+253 -> 255; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e229a90>
+168e_in[n]=
+167 -> 168; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cffc710>
+169e_in[n]=
+164e_in[n]=
+165 -> 164; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c927a90>
+159 -> 164; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e84dcd0>
+165e_in[n]=
+166e_in[n]=
+167e_in[n]=
+166 -> 167; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d600e50>
+160 -> 167; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dda21d0>
+160e_in[n]=
+101 -> 160; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c667190>
+161 -> 160; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cfdc690>
+161e_in[n]=
+162 -> 161; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dda8050>
+97 -> 161; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d91bb90>
+162e_in[n]=
+163 -> 162; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7ee850>
+156 -> 162; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5378d0>
+163e_in[n]=
+129 -> 163; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9dda90>
+164 -> 163; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3d3c90>
+9e_in[n]=
+357e_in[n]=
+356e_in[n]=
+351 -> 356; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd960d0>
+357 -> 356; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e61a0d0>
+355e_in[n]=
+356 -> 355; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8a4850>
+344 -> 355; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d79fe50>
+354e_in[n]=
+347 -> 354; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5b4490>
+355 -> 354; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e625150>
+353e_in[n]=
+354 -> 353; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5cfa90>
+289 -> 353; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cac4910>
+352e_in[n]=
+317 -> 352; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6a3190>
+353 -> 352; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c557a90>
+351e_in[n]=
+349 -> 351; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c93f190>
+350 -> 351; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d444550>
+350e_in[n]=
+359e_in[n]=
+352 -> 359; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c5b43d0>
+358 -> 359; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d567590>
+358e_in[n]=
+216e_in[n]=
+197 -> 216; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c95a850>
+217 -> 216; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d150790>
+217e_in[n]=
+218 -> 217; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9fd050>
+205 -> 217; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d8d89d0>
+214e_in[n]=
+215 -> 214; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca0f4d0>
+201 -> 214; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e603550>
+215e_in[n]=
+209 -> 215; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3bfe10>
+216 -> 215; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d99b110>
+212e_in[n]=
+211 -> 212; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8b9f10>
+210 -> 212; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c4f5190>
+213e_in[n]=
+214 -> 213; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c68fcd0>
+212 -> 213; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e7d22d0>
+210e_in[n]=
+211e_in[n]=
+218e_in[n]=
+219e_in[n]=
+289e_in[n]=
+287 -> 289; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8913d0>
+288 -> 289; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e26dd50>
+288e_in[n]=
+281e_in[n]=
+264 -> 281; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c868850>
+282 -> 281; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c58b850>
+280e_in[n]=
+274 -> 280; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c841f10>
+281 -> 280; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9c6e50>
+283e_in[n]=
+282e_in[n]=
+283 -> 282; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d116590>
+267 -> 282; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2b5910>
+285e_in[n]=
+284 -> 285; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c603850>
+278 -> 285; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d0aabd0>
+284e_in[n]=
+287e_in[n]=
+286e_in[n]=
+285 -> 286; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e2149d0>
+263e_in[n]=
+256 -> 263; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6e83d0>
+262 -> 263; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3b7290>
+262e_in[n]=
+261e_in[n]=
+260e_in[n]=
+261 -> 260; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2ac990>
+255 -> 260; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dde99d0>
+267e_in[n]=
+266 -> 267; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6ad3d0>
+265 -> 267; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf88550>
+266e_in[n]=
+265e_in[n]=
+264e_in[n]=
+263 -> 264; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c707cd0>
+269e_in[n]=
+268e_in[n]=
+59e_in[n]=
+58 -> 59; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c8d8610>
+57 -> 59; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d77c9d0>
+58e_in[n]=
+55e_in[n]=
+54 -> 55; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c778a90>
+48 -> 55; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1e0b50>
+54e_in[n]=
+57e_in[n]=
+56e_in[n]=
+55 -> 56; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c4ff3d0>
+51e_in[n]=
+52 -> 51; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e209510>
+40 -> 51; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d74e9d0>
+50e_in[n]=
+51 -> 50; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7a7610>
+44 -> 50; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c66f3d0>
+53e_in[n]=
+52e_in[n]=
+47 -> 52; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d41b310>
+53 -> 52; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e1ffe10>
+259e_in[n]=
+260 -> 259; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dc24a50>
+224 -> 259; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e899b50>
+115e_in[n]=
+68e_in[n]=
+117e_in[n]=
+115 -> 117; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c964a90>
+116 -> 117; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9d0e90>
+116e_in[n]=
+111e_in[n]=
+113e_in[n]=
+112 -> 113; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e7f6350>
+111 -> 113; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e513410>
+253e_in[n]=
+119e_in[n]=
+118e_in[n]=
+308e_in[n]=
+306 -> 308; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c685a90>
+307 -> 308; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d0a2650>
+309e_in[n]=
+310 -> 309; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e022550>
+308 -> 309; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ddb2550>
+300e_in[n]=
+301e_in[n]=
+299 -> 301; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dff5e50>
+300 -> 301; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e20af10>
+302e_in[n]=
+303e_in[n]=
+304e_in[n]=
+302 -> 304; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9f2dd0>
+303 -> 304; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dbc4a50>
+306e_in[n]=
+307e_in[n]=
+228e_in[n]=
+226 -> 228; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931cf90c10>
+227 -> 228; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d07e0d0>
+227e_in[n]=
+226e_in[n]=
+224e_in[n]=
+223 -> 224; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c60da90>
+222 -> 224; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d989210>
+223e_in[n]=
+222e_in[n]=
+221e_in[n]=
+220 -> 221; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d02b110>
+220e_in[n]=
+219 -> 220; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6fea90>
+213 -> 220; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e7eb990>
+391e_in[n]=
+390 -> 391; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7becd0>
+389 -> 391; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931da95550>
+390e_in[n]=
+151e_in[n]=
+152 -> 151; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca8e6d0>
+132 -> 151; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e842310>
+150e_in[n]=
+151 -> 150; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d5f40d0>
+143 -> 150; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d329310>
+153e_in[n]=
+152e_in[n]=
+140 -> 152; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d3fa490>
+153 -> 152; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d60fd10>
+155e_in[n]=
+154 -> 155; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c9e7cd0>
+148 -> 155; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d64c0d0>
+154e_in[n]=
+157e_in[n]=
+156e_in[n]=
+155 -> 156; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ce1ee50>
+159e_in[n]=
+158 -> 159; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2ec050>
+157 -> 159; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d9020d0>
+158e_in[n]=
+112e_in[n]=
+83e_in[n]=
+399e_in[n]=
+400 -> 399; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca19710>
+397 -> 399; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c6f5850>
+48e_in[n]=
+49 -> 48; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2f4d90>
+37 -> 48; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931dd6d6d0>
+49e_in[n]=
+50 -> 49; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c7c7f10>
+33 -> 49; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d2be790>
+46e_in[n]=
+47e_in[n]=
+45 -> 47; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931ca22950>
+46 -> 47; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e4cf910>
+44e_in[n]=
+42 -> 44; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c870a90>
+43 -> 44; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931d137890>
+45e_in[n]=
+42e_in[n]=
+43e_in[n]=
+40e_in[n]=
+38 -> 40; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931c53b3d0>
+39 -> 40; v.string() 
+<pydotplus.graphviz.Edge object at 0x7f931e097450>
+5e_in[n]=
+ finding the root 
+{'344': [<pydotplus.graphviz.Edge object at 0x7f931d79fe50>], '345': [<pydotplus.graphviz.Edge object at 0x7f931c9cb610>], '346': [<pydotplus.graphviz.Edge object at 0x7f931c90b3d0>], '347': [<pydotplus.graphviz.Edge object at 0x7f931d5b4490>], '340': [<pydotplus.graphviz.Edge object at 0x7f931c5c7850>], '341': [<pydotplus.graphviz.Edge object at 0x7f931cf7bad0>], '342': [<pydotplus.graphviz.Edge object at 0x7f931e019ad0>], '343': [<pydotplus.graphviz.Edge object at 0x7f931d5c00d0>], '349': [<pydotplus.graphviz.Edge object at 0x7f931c93f190>], '299': [<pydotplus.graphviz.Edge object at 0x7f931dff5e50>], '296': [<pydotplus.graphviz.Edge object at 0x7f931d5ee790>], '297': [<pydotplus.graphviz.Edge object at 0x7f931d9f0650>], '295': [<pydotplus.graphviz.Edge object at 0x7f931c931cd0>], '292': [<pydotplus.graphviz.Edge object at 0x7f931d9b8c10>], '293': [<pydotplus.graphviz.Edge object at 0x7f931e4e8090>], '291': [<pydotplus.graphviz.Edge object at 0x7f931c8e2850>], '199': [<pydotplus.graphviz.Edge object at 0x7f931d13bc10>], '195': [<pydotplus.graphviz.Edge object at 0x7f931e654310>], '197': [<pydotplus.graphviz.Edge object at 0x7f931c95a850>], '196': [<pydotplus.graphviz.Edge object at 0x7f931d979e50>], '191': [<pydotplus.graphviz.Edge object at 0x7f931e7dde50>], '190': [<pydotplus.graphviz.Edge object at 0x7f931d01ec10>], '193': [<pydotplus.graphviz.Edge object at 0x7f931ddbd310>], '192': [<pydotplus.graphviz.Edge object at 0x7f931dfffe10>], '270': [<pydotplus.graphviz.Edge object at 0x7f931da1c190>], '272': [<pydotplus.graphviz.Edge object at 0x7f931e632550>], '273': [<pydotplus.graphviz.Edge object at 0x7f931d325550>], '274': [<pydotplus.graphviz.Edge object at 0x7f931c841f10>], '275': [<pydotplus.graphviz.Edge object at 0x7f931d642f50>], '276': [<pydotplus.graphviz.Edge object at 0x7f931cf9c210>], '277': [<pydotplus.graphviz.Edge object at 0x7f931dc30550>], '278': [<pydotplus.graphviz.Edge object at 0x7f931d0aabd0>], '279': [<pydotplus.graphviz.Edge object at 0x7f931c5d9cd0>], '108': [<pydotplus.graphviz.Edge object at 0x7f931e5f9a90>], '109': [<pydotplus.graphviz.Edge object at 0x7f931d5c1b50>], '103': [<pydotplus.graphviz.Edge object at 0x7f931da7fe90>], '100': [<pydotplus.graphviz.Edge object at 0x7f931d429910>], '101': [<pydotplus.graphviz.Edge object at 0x7f931c667190>], '107': [<pydotplus.graphviz.Edge object at 0x7f931c581610>], '104': [<pydotplus.graphviz.Edge object at 0x7f931ca39b90>], '105': [<pydotplus.graphviz.Edge object at 0x7f931e1bf0d0>], '39': [<pydotplus.graphviz.Edge object at 0x7f931e097450>], '38': [<pydotplus.graphviz.Edge object at 0x7f931c53b3d0>], '33': [<pydotplus.graphviz.Edge object at 0x7f931d2be790>], '32': [<pydotplus.graphviz.Edge object at 0x7f931ce07310>], '31': [<pydotplus.graphviz.Edge object at 0x7f931c8aea90>], '30': [<pydotplus.graphviz.Edge object at 0x7f931d3dc0d0>], '37': [<pydotplus.graphviz.Edge object at 0x7f931dd6d6d0>], '36': [<pydotplus.graphviz.Edge object at 0x7f931d008850>], '35': [<pydotplus.graphviz.Edge object at 0x7f931c9483d0>], '339': [<pydotplus.graphviz.Edge object at 0x7f931c616cd0>], '338': [<pydotplus.graphviz.Edge object at 0x7f931c4cc610>], '335': [<pydotplus.graphviz.Edge object at 0x7f931dc389d0>], '334': [<pydotplus.graphviz.Edge object at 0x7f931c874cd0>], '337': [<pydotplus.graphviz.Edge object at 0x7f931e88eb50>], '336': [<pydotplus.graphviz.Edge object at 0x7f931e23fd50>], '331': [<pydotplus.graphviz.Edge object at 0x7f931c78af10>], '330': [<pydotplus.graphviz.Edge object at 0x7f931c51ba90>], '333': [<pydotplus.graphviz.Edge object at 0x7f931c5773d0>], '6': [<pydotplus.graphviz.Edge object at 0x7f931c594a90>], '99': [<pydotplus.graphviz.Edge object at 0x7f931dd43310>], '91': [<pydotplus.graphviz.Edge object at 0x7f931dd5de50>], '90': [<pydotplus.graphviz.Edge object at 0x7f931e4f7f50>], '93': [<pydotplus.graphviz.Edge object at 0x7f931d3b34d0>], '92': [<pydotplus.graphviz.Edge object at 0x7f931c9c23d0>], '95': [<pydotplus.graphviz.Edge object at 0x7f931d0aec90>], '94': [<pydotplus.graphviz.Edge object at 0x7f931d09ae50>], '97': [<pydotplus.graphviz.Edge object at 0x7f931d91bb90>], '96': [<pydotplus.graphviz.Edge object at 0x7f931d9919d0>], '238': [<pydotplus.graphviz.Edge object at 0x7f931c6b7850>], '239': [<pydotplus.graphviz.Edge object at 0x7f931c6cacd0>], '234': [<pydotplus.graphviz.Edge object at 0x7f931c72f610>], '235': [<pydotplus.graphviz.Edge object at 0x7f931c6d4f10>], '237': [<pydotplus.graphviz.Edge object at 0x7f931d4ca4d0>], '230': [<pydotplus.graphviz.Edge object at 0x7f931c9a1a90>], '231': [<pydotplus.graphviz.Edge object at 0x7f931d62dad0>], '232': [<pydotplus.graphviz.Edge object at 0x7f931c5a7f10>], '233': [<pydotplus.graphviz.Edge object at 0x7f931d7afc10>], '1': [<pydotplus.graphviz.Edge object at 0x7f931d737c10>], '146': [<pydotplus.graphviz.Edge object at 0x7f931dc272d0>], '147': [<pydotplus.graphviz.Edge object at 0x7f931e65d0d0>], '145': [<pydotplus.graphviz.Edge object at 0x7f931e8705d0>], '142': [<pydotplus.graphviz.Edge object at 0x7f931dc46cd0>], '143': [<pydotplus.graphviz.Edge object at 0x7f931d329310>], '140': [<pydotplus.graphviz.Edge object at 0x7f931d3fa490>], '141': [<pydotplus.graphviz.Edge object at 0x7f931ca2cb90>], '148': [<pydotplus.graphviz.Edge object at 0x7f931d64c0d0>], '149': [<pydotplus.graphviz.Edge object at 0x7f931c5bd610>], '132': [<pydotplus.graphviz.Edge object at 0x7f931e842310>], '131': [<pydotplus.graphviz.Edge object at 0x7f931c821610>], '130': [<pydotplus.graphviz.Edge object at 0x7f931c508610>], '136': [<pydotplus.graphviz.Edge object at 0x7f931ca5e950>], '135': [<pydotplus.graphviz.Edge object at 0x7f931dc65510>], '134': [<pydotplus.graphviz.Edge object at 0x7f931d113310>], '139': [<pydotplus.graphviz.Edge object at 0x7f931dbce310>], '138': [<pydotplus.graphviz.Edge object at 0x7f931dbe4e50>], '24': [<pydotplus.graphviz.Edge object at 0x7f931c525cd0>], '25': [<pydotplus.graphviz.Edge object at 0x7f931da8c790>], '26': [<pydotplus.graphviz.Edge object at 0x7f931d619450>], '27': [<pydotplus.graphviz.Edge object at 0x7f931d546c10>], '20': [<pydotplus.graphviz.Edge object at 0x7f931d44ef50>], '21': [<pydotplus.graphviz.Edge object at 0x7f931d106f10>], '22': [<pydotplus.graphviz.Edge object at 0x7f931d9759d0>], '23': [<pydotplus.graphviz.Edge object at 0x7f931ca34f50>], '28': [<pydotplus.graphviz.Edge object at 0x7f931ca68b90>], '29': [<pydotplus.graphviz.Edge object at 0x7f931cf33490>], '407': [<pydotplus.graphviz.Edge object at 0x7f931e21d790>], '406': [<pydotplus.graphviz.Edge object at 0x7f931e610310>], '405': [<pydotplus.graphviz.Edge object at 0x7f931c67c850>], '404': [<pydotplus.graphviz.Edge object at 0x7f931d9229d0>], '403': [<pydotplus.graphviz.Edge object at 0x7f931c63f850>], '402': [<pydotplus.graphviz.Edge object at 0x7f931e453210>], '401': [<pydotplus.graphviz.Edge object at 0x7f931e880dd0>], '400': [<pydotplus.graphviz.Edge object at 0x7f931ca19710>], '409': [<pydotplus.graphviz.Edge object at 0x7f931da04e50>], '408': [<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>], '379': [<pydotplus.graphviz.Edge object at 0x7f931ca06290>], '378': [<pydotplus.graphviz.Edge object at 0x7f931c7b1850>], '371': [<pydotplus.graphviz.Edge object at 0x7f931c52ef10>], '373': [<pydotplus.graphviz.Edge object at 0x7f931d404790>], '372': [<pydotplus.graphviz.Edge object at 0x7f931d19d590>], '375': [<pydotplus.graphviz.Edge object at 0x7f931c8193d0>], '374': [<pydotplus.graphviz.Edge object at 0x7f931d3f4710>], '377': [<pydotplus.graphviz.Edge object at 0x7f931c82b850>], '376': [<pydotplus.graphviz.Edge object at 0x7f931dbadfd0>], '393': [<pydotplus.graphviz.Edge object at 0x7f931d175b50>], '392': [<pydotplus.graphviz.Edge object at 0x7f931d4b6910>], '88': [<pydotplus.graphviz.Edge object at 0x7f931d9da850>], '89': [<pydotplus.graphviz.Edge object at 0x7f931db96ad0>], '397': [<pydotplus.graphviz.Edge object at 0x7f931c6f5850>], '396': [<pydotplus.graphviz.Edge object at 0x7f931d182e50>], '395': [<pydotplus.graphviz.Edge object at 0x7f931d1949d0>], '394': [<pydotplus.graphviz.Edge object at 0x7f931db749d0>], '82': [<pydotplus.graphviz.Edge object at 0x7f931d9e2310>], '181': [<pydotplus.graphviz.Edge object at 0x7f931c91e850>], '80': [<pydotplus.graphviz.Edge object at 0x7f931c7253d0>], '81': [<pydotplus.graphviz.Edge object at 0x7f931d08bc10>], '86': [<pydotplus.graphviz.Edge object at 0x7f931c710f10>], '87': [<pydotplus.graphviz.Edge object at 0x7f931d2e0910>], '84': [<pydotplus.graphviz.Edge object at 0x7f931c889190>], '85': [<pydotplus.graphviz.Edge object at 0x7f931d662c10>], '7': [<pydotplus.graphviz.Edge object at 0x7f931c73aa90>], '245': [<pydotplus.graphviz.Edge object at 0x7f931d597250>], '244': [<pydotplus.graphviz.Edge object at 0x7f931db93f90>], '247': [<pydotplus.graphviz.Edge object at 0x7f931e29f9d0>], '246': [<pydotplus.graphviz.Edge object at 0x7f931d8f6310>], '241': [<pydotplus.graphviz.Edge object at 0x7f931d0fae50>], '243': [<pydotplus.graphviz.Edge object at 0x7f931da0ab10>], '242': [<pydotplus.graphviz.Edge object at 0x7f931ce13750>], '249': [<pydotplus.graphviz.Edge object at 0x7f931d13e950>], '248': [<pydotplus.graphviz.Edge object at 0x7f931d6577d0>], '179': [<pydotplus.graphviz.Edge object at 0x7f931ddadc10>], '178': [<pydotplus.graphviz.Edge object at 0x7f931c648a90>], '177': [<pydotplus.graphviz.Edge object at 0x7f931c744cd0>], '176': [<pydotplus.graphviz.Edge object at 0x7f931c89b610>], '175': [<pydotplus.graphviz.Edge object at 0x7f931c97b190>], '174': [<pydotplus.graphviz.Edge object at 0x7f931d27d510>], '173': [<pydotplus.graphviz.Edge object at 0x7f931ca56710>], '171': [<pydotplus.graphviz.Edge object at 0x7f931d550310>], '170': [<pydotplus.graphviz.Edge object at 0x7f931d56dbd0>], '182': [<pydotplus.graphviz.Edge object at 0x7f931e232e50>], '183': [<pydotplus.graphviz.Edge object at 0x7f931e626e50>], '180': [<pydotplus.graphviz.Edge object at 0x7f931d1685d0>], '2': [<pydotplus.graphviz.Edge object at 0x7f931c98e610>], '186': [<pydotplus.graphviz.Edge object at 0x7f931d90ee50>], '187': [<pydotplus.graphviz.Edge object at 0x7f931dbf1dd0>], '184': [<pydotplus.graphviz.Edge object at 0x7f931d171190>], '185': [<pydotplus.graphviz.Edge object at 0x7f931c672610>], '188': [<pydotplus.graphviz.Edge object at 0x7f931c998850>], '189': [<pydotplus.graphviz.Edge object at 0x7f931d75e550>], '11': [<pydotplus.graphviz.Edge object at 0x7f931e665890>], '10': [<pydotplus.graphviz.Edge object at 0x7f931d014e50>], '13': [<pydotplus.graphviz.Edge object at 0x7f931d66c9d0>], '15': [<pydotplus.graphviz.Edge object at 0x7f931e85c290>], '14': [<pydotplus.graphviz.Edge object at 0x7f931d467e50>], '17': [<pydotplus.graphviz.Edge object at 0x7f931cdfb550>], '16': [<pydotplus.graphviz.Edge object at 0x7f931c697f10>], '19': [<pydotplus.graphviz.Edge object at 0x7f931c4b9190>], '18': [<pydotplus.graphviz.Edge object at 0x7f931d30c9d0>], '62': [<pydotplus.graphviz.Edge object at 0x7f931e4e1310>], '322': [<pydotplus.graphviz.Edge object at 0x7f931d296590>], '323': [<pydotplus.graphviz.Edge object at 0x7f931c59ecd0>], '320': [<pydotplus.graphviz.Edge object at 0x7f931c933f10>], '326': [<pydotplus.graphviz.Edge object at 0x7f931e66eb90>], '327': [<pydotplus.graphviz.Edge object at 0x7f931c837cd0>], '324': [<pydotplus.graphviz.Edge object at 0x7f931e4b4c10>], '325': [<pydotplus.graphviz.Edge object at 0x7f931c65bf10>], '329': [<pydotplus.graphviz.Edge object at 0x7f931c87df10>], '201': [<pydotplus.graphviz.Edge object at 0x7f931e603550>], '200': [<pydotplus.graphviz.Edge object at 0x7f931d9f9310>], '203': [<pydotplus.graphviz.Edge object at 0x7f931e1b3310>], '205': [<pydotplus.graphviz.Edge object at 0x7f931d8d89d0>], '204': [<pydotplus.graphviz.Edge object at 0x7f931d7900d0>], '207': [<pydotplus.graphviz.Edge object at 0x7f931e1edc10>], '209': [<pydotplus.graphviz.Edge object at 0x7f931d3bfe10>], '208': [<pydotplus.graphviz.Edge object at 0x7f931e0139d0>], '77': [<pydotplus.graphviz.Edge object at 0x7f931d4f10d0>], '76': [<pydotplus.graphviz.Edge object at 0x7f931db7bfd0>], '75': [<pydotplus.graphviz.Edge object at 0x7f931d2ca550>], '74': [<pydotplus.graphviz.Edge object at 0x7f931d890590>], '73': [<pydotplus.graphviz.Edge object at 0x7f931c620f10>], '72': [<pydotplus.graphviz.Edge object at 0x7f931e4c19d0>], '71': [<pydotplus.graphviz.Edge object at 0x7f931dba20d0>], '79': [<pydotplus.graphviz.Edge object at 0x7f931caa8090>], '78': [<pydotplus.graphviz.Edge object at 0x7f931e1e43d0>], '120': [<pydotplus.graphviz.Edge object at 0x7f931e25c550>], '121': [<pydotplus.graphviz.Edge object at 0x7f931c652cd0>], '122': [<pydotplus.graphviz.Edge object at 0x7f931e7bb550>], '123': [<pydotplus.graphviz.Edge object at 0x7f931dde3e10>], '124': [<pydotplus.graphviz.Edge object at 0x7f931ddc60d0>], '125': [<pydotplus.graphviz.Edge object at 0x7f931e253790>], '126': [<pydotplus.graphviz.Edge object at 0x7f931d5dd3d0>], '127': [<pydotplus.graphviz.Edge object at 0x7f931c71c190>], '128': [<pydotplus.graphviz.Edge object at 0x7f931e1d6dd0>], '129': [<pydotplus.graphviz.Edge object at 0x7f931c9dda90>], '414': [<pydotplus.graphviz.Edge object at 0x7f931c85e610>], '415': [], '410': [<pydotplus.graphviz.Edge object at 0x7f931e02e310>], '411': [<pydotplus.graphviz.Edge object at 0x7f931c9b8190>], '412': [<pydotplus.graphviz.Edge object at 0x7f931d19bad0>], '413': [<pydotplus.graphviz.Edge object at 0x7f931c560cd0>], '319': [<pydotplus.graphviz.Edge object at 0x7f931dc07d10>], '318': [<pydotplus.graphviz.Edge object at 0x7f931c902190>], '313': [<pydotplus.graphviz.Edge object at 0x7f931d9a7510>], '312': [<pydotplus.graphviz.Edge object at 0x7f931ddd4e50>], '311': [<pydotplus.graphviz.Edge object at 0x7f931c7e5610>], '310': [<pydotplus.graphviz.Edge object at 0x7f931e022550>], '317': [<pydotplus.graphviz.Edge object at 0x7f931c6a3190>], '316': [<pydotplus.graphviz.Edge object at 0x7f931d4e4e50>], '315': [<pydotplus.graphviz.Edge object at 0x7f931c780cd0>], '314': [<pydotplus.graphviz.Edge object at 0x7f931cf9e8d0>], '3': [<pydotplus.graphviz.Edge object at 0x7f931e63f4d0>], '368': [<pydotplus.graphviz.Edge object at 0x7f931c8eaa90>], '369': [<pydotplus.graphviz.Edge object at 0x7f931d3c9c50>], '366': [<pydotplus.graphviz.Edge object at 0x7f931da001d0>], '367': [<pydotplus.graphviz.Edge object at 0x7f931c4c33d0>], '364': [<pydotplus.graphviz.Edge object at 0x7f931c5fa610>], '365': [<pydotplus.graphviz.Edge object at 0x7f931cfa8790>], '362': [<pydotplus.graphviz.Edge object at 0x7f931dd72d90>], '363': [<pydotplus.graphviz.Edge object at 0x7f931dd8a310>], '360': [<pydotplus.graphviz.Edge object at 0x7f931c7d2190>], '361': [<pydotplus.graphviz.Edge object at 0x7f931e877090>], '380': [<pydotplus.graphviz.Edge object at 0x7f931c79f3d0>], '381': [<pydotplus.graphviz.Edge object at 0x7f931dd346d0>], '382': [<pydotplus.graphviz.Edge object at 0x7f931dc199d0>], '383': [<pydotplus.graphviz.Edge object at 0x7f931d5cee50>], '384': [<pydotplus.graphviz.Edge object at 0x7f931c8c5190>], '385': [<pydotplus.graphviz.Edge object at 0x7f931d624790>], '386': [<pydotplus.graphviz.Edge object at 0x7f931da7b190>], '387': [<pydotplus.graphviz.Edge object at 0x7f931c84b190>], '388': [<pydotplus.graphviz.Edge object at 0x7f931dee0610>], '389': [<pydotplus.graphviz.Edge object at 0x7f931da95550>], '61': [<pydotplus.graphviz.Edge object at 0x7f931d786310>], '258': [<pydotplus.graphviz.Edge object at 0x7f931e1ca910>], '63': [<pydotplus.graphviz.Edge object at 0x7f931dd7d550>], '64': [<pydotplus.graphviz.Edge object at 0x7f931d659e10>], '65': [<pydotplus.graphviz.Edge object at 0x7f931dbf6e90>], '66': [<pydotplus.graphviz.Edge object at 0x7f931d2aa810>], '67': [<pydotplus.graphviz.Edge object at 0x7f931e5280d0>], '252': [<pydotplus.graphviz.Edge object at 0x7f931dbb8790>], '69': [<pydotplus.graphviz.Edge object at 0x7f931d55ae50>], '250': [<pydotplus.graphviz.Edge object at 0x7f931dc11e10>], '251': [<pydotplus.graphviz.Edge object at 0x7f931c56af10>], '256': [<pydotplus.graphviz.Edge object at 0x7f931c6e83d0>], '257': [<pydotplus.graphviz.Edge object at 0x7f931d8c4e50>], '254': [<pydotplus.graphviz.Edge object at 0x7f931d438790>], '255': [<pydotplus.graphviz.Edge object at 0x7f931dde99d0>], '168': [<pydotplus.graphviz.Edge object at 0x7f931c758190>], '169': [<pydotplus.graphviz.Edge object at 0x7f931d2d4310>], '164': [<pydotplus.graphviz.Edge object at 0x7f931d3d3c90>], '165': [<pydotplus.graphviz.Edge object at 0x7f931c927a90>], '166': [<pydotplus.graphviz.Edge object at 0x7f931d600e50>], '167': [<pydotplus.graphviz.Edge object at 0x7f931cffc710>], '160': [<pydotplus.graphviz.Edge object at 0x7f931dda21d0>], '161': [<pydotplus.graphviz.Edge object at 0x7f931cfdc690>], '162': [<pydotplus.graphviz.Edge object at 0x7f931dda8050>], '163': [<pydotplus.graphviz.Edge object at 0x7f931c7ee850>], '9': [<pydotplus.graphviz.Edge object at 0x7f931c9853d0>], '357': [<pydotplus.graphviz.Edge object at 0x7f931e61a0d0>], '356': [<pydotplus.graphviz.Edge object at 0x7f931c8a4850>], '355': [<pydotplus.graphviz.Edge object at 0x7f931e625150>], '354': [<pydotplus.graphviz.Edge object at 0x7f931c5cfa90>], '353': [<pydotplus.graphviz.Edge object at 0x7f931c557a90>], '352': [<pydotplus.graphviz.Edge object at 0x7f931c5b43d0>], '351': [<pydotplus.graphviz.Edge object at 0x7f931dd960d0>], '350': [<pydotplus.graphviz.Edge object at 0x7f931d444550>], '359': [<pydotplus.graphviz.Edge object at 0x7f931c5ee190>], '358': [<pydotplus.graphviz.Edge object at 0x7f931d567590>], '216': [<pydotplus.graphviz.Edge object at 0x7f931d99b110>], '217': [<pydotplus.graphviz.Edge object at 0x7f931d150790>], '214': [<pydotplus.graphviz.Edge object at 0x7f931c68fcd0>], '215': [<pydotplus.graphviz.Edge object at 0x7f931ca0f4d0>], '212': [<pydotplus.graphviz.Edge object at 0x7f931e7d22d0>], '213': [<pydotplus.graphviz.Edge object at 0x7f931e7eb990>], '210': [<pydotplus.graphviz.Edge object at 0x7f931c4f5190>], '211': [<pydotplus.graphviz.Edge object at 0x7f931c8b9f10>], '218': [<pydotplus.graphviz.Edge object at 0x7f931c9fd050>], '219': [<pydotplus.graphviz.Edge object at 0x7f931c6fea90>], '289': [<pydotplus.graphviz.Edge object at 0x7f931cac4910>], '288': [<pydotplus.graphviz.Edge object at 0x7f931e26dd50>], '281': [<pydotplus.graphviz.Edge object at 0x7f931d9c6e50>], '280': [<pydotplus.graphviz.Edge object at 0x7f931c5e2f10>], '283': [<pydotplus.graphviz.Edge object at 0x7f931d116590>], '282': [<pydotplus.graphviz.Edge object at 0x7f931c58b850>], '285': [<pydotplus.graphviz.Edge object at 0x7f931e2149d0>], '284': [<pydotplus.graphviz.Edge object at 0x7f931c603850>], '287': [<pydotplus.graphviz.Edge object at 0x7f931c8913d0>], '286': [<pydotplus.graphviz.Edge object at 0x7f931d289790>], '263': [<pydotplus.graphviz.Edge object at 0x7f931c707cd0>], '262': [<pydotplus.graphviz.Edge object at 0x7f931d3b7290>], '261': [<pydotplus.graphviz.Edge object at 0x7f931d2ac990>], '260': [<pydotplus.graphviz.Edge object at 0x7f931dc24a50>], '267': [<pydotplus.graphviz.Edge object at 0x7f931d2b5910>], '266': [<pydotplus.graphviz.Edge object at 0x7f931c6ad3d0>], '265': [<pydotplus.graphviz.Edge object at 0x7f931cf88550>], '264': [<pydotplus.graphviz.Edge object at 0x7f931c868850>], '269': [<pydotplus.graphviz.Edge object at 0x7f931c7b4a90>], '268': [<pydotplus.graphviz.Edge object at 0x7f931d756f50>], '59': [<pydotplus.graphviz.Edge object at 0x7f931d7a2650>], '58': [<pydotplus.graphviz.Edge object at 0x7f931c8d8610>], '55': [<pydotplus.graphviz.Edge object at 0x7f931c4ff3d0>], '54': [<pydotplus.graphviz.Edge object at 0x7f931c778a90>], '57': [<pydotplus.graphviz.Edge object at 0x7f931d77c9d0>], '56': [<pydotplus.graphviz.Edge object at 0x7f931c62a190>], '51': [<pydotplus.graphviz.Edge object at 0x7f931c7a7610>], '50': [<pydotplus.graphviz.Edge object at 0x7f931c7c7f10>], '53': [<pydotplus.graphviz.Edge object at 0x7f931e1ffe10>], '52': [<pydotplus.graphviz.Edge object at 0x7f931e209510>], '259': [<pydotplus.graphviz.Edge object at 0x7f931c54e850>], '115': [<pydotplus.graphviz.Edge object at 0x7f931c964a90>], '68': [<pydotplus.graphviz.Edge object at 0x7f931d29d310>], '117': [<pydotplus.graphviz.Edge object at 0x7f931d470c10>], '116': [<pydotplus.graphviz.Edge object at 0x7f931d9d0e90>], '111': [<pydotplus.graphviz.Edge object at 0x7f931e513410>], '113': [<pydotplus.graphviz.Edge object at 0x7f931c6c1a90>], '253': [<pydotplus.graphviz.Edge object at 0x7f931e229a90>], '119': [<pydotplus.graphviz.Edge object at 0x7f931cae2410>], '118': [<pydotplus.graphviz.Edge object at 0x7f931d43dcd0>], '308': [<pydotplus.graphviz.Edge object at 0x7f931ddb2550>], '309': [<pydotplus.graphviz.Edge object at 0x7f931ca98fd0>], '300': [<pydotplus.graphviz.Edge object at 0x7f931e20af10>], '301': [<pydotplus.graphviz.Edge object at 0x7f931dc3a110>], '302': [<pydotplus.graphviz.Edge object at 0x7f931c9f2dd0>], '303': [<pydotplus.graphviz.Edge object at 0x7f931dbc4a50>], '304': [<pydotplus.graphviz.Edge object at 0x7f931dd39550>], '306': [<pydotplus.graphviz.Edge object at 0x7f931c685a90>], '307': [<pydotplus.graphviz.Edge object at 0x7f931d0a2650>], '228': [<pydotplus.graphviz.Edge object at 0x7f931daae450>], '227': [<pydotplus.graphviz.Edge object at 0x7f931d07e0d0>], '226': [<pydotplus.graphviz.Edge object at 0x7f931cf90c10>], '224': [<pydotplus.graphviz.Edge object at 0x7f931e899b50>], '223': [<pydotplus.graphviz.Edge object at 0x7f931c60da90>], '222': [<pydotplus.graphviz.Edge object at 0x7f931d989210>], '221': [<pydotplus.graphviz.Edge object at 0x7f931dd510d0>], '220': [<pydotplus.graphviz.Edge object at 0x7f931d02b110>], '391': [<pydotplus.graphviz.Edge object at 0x7f931c7db3d0>], '390': [<pydotplus.graphviz.Edge object at 0x7f931c7becd0>], '151': [<pydotplus.graphviz.Edge object at 0x7f931d5f40d0>], '150': [<pydotplus.graphviz.Edge object at 0x7f931da11bd0>], '153': [<pydotplus.graphviz.Edge object at 0x7f931d60fd10>], '152': [<pydotplus.graphviz.Edge object at 0x7f931ca8e6d0>], '155': [<pydotplus.graphviz.Edge object at 0x7f931ce1ee50>], '154': [<pydotplus.graphviz.Edge object at 0x7f931c9e7cd0>], '157': [<pydotplus.graphviz.Edge object at 0x7f931d9020d0>], '156': [<pydotplus.graphviz.Edge object at 0x7f931d5378d0>], '159': [<pydotplus.graphviz.Edge object at 0x7f931e84dcd0>], '158': [<pydotplus.graphviz.Edge object at 0x7f931d2ec050>], '112': [<pydotplus.graphviz.Edge object at 0x7f931e7f6350>], '83': [<pydotplus.graphviz.Edge object at 0x7f931d128b90>], '399': [<pydotplus.graphviz.Edge object at 0x7f931e4d5550>], '48': [<pydotplus.graphviz.Edge object at 0x7f931e1e0b50>], '49': [<pydotplus.graphviz.Edge object at 0x7f931d2f4d90>], '46': [<pydotplus.graphviz.Edge object at 0x7f931e4cf910>], '47': [<pydotplus.graphviz.Edge object at 0x7f931d41b310>], '44': [<pydotplus.graphviz.Edge object at 0x7f931c66f3d0>], '45': [<pydotplus.graphviz.Edge object at 0x7f931ca22950>], '42': [<pydotplus.graphviz.Edge object at 0x7f931c870a90>], '43': [<pydotplus.graphviz.Edge object at 0x7f931d137890>], '40': [<pydotplus.graphviz.Edge object at 0x7f931d74e9d0>], '5': [<pydotplus.graphviz.Edge object at 0x7f931dc50d50>]}
+{'344': [<pydotplus.graphviz.Edge object at 0x7f931d5c00d0>], '345': [], '346': [], '347': [<pydotplus.graphviz.Edge object at 0x7f931c9cb610>, <pydotplus.graphviz.Edge object at 0x7f931c90b3d0>], '340': [<pydotplus.graphviz.Edge object at 0x7f931c837cd0>, <pydotplus.graphviz.Edge object at 0x7f931cf7bad0>], '341': [], '342': [], '343': [<pydotplus.graphviz.Edge object at 0x7f931e019ad0>, <pydotplus.graphviz.Edge object at 0x7f931e23fd50>], '349': [], '299': [], '296': [], '297': [<pydotplus.graphviz.Edge object at 0x7f931c931cd0>, <pydotplus.graphviz.Edge object at 0x7f931d5ee790>], '295': [], '292': [], '293': [<pydotplus.graphviz.Edge object at 0x7f931c8e2850>, <pydotplus.graphviz.Edge object at 0x7f931d9b8c10>], '291': [], '199': [], '195': [], '197': [<pydotplus.graphviz.Edge object at 0x7f931e654310>, <pydotplus.graphviz.Edge object at 0x7f931d979e50>], '196': [], '191': [], '190': [<pydotplus.graphviz.Edge object at 0x7f931d75e550>], '193': [<pydotplus.graphviz.Edge object at 0x7f931dfffe10>, <pydotplus.graphviz.Edge object at 0x7f931e7dde50>], '192': [], '270': [<pydotplus.graphviz.Edge object at 0x7f931c7b4a90>, <pydotplus.graphviz.Edge object at 0x7f931d756f50>], '272': [], '273': [], '274': [<pydotplus.graphviz.Edge object at 0x7f931e632550>, <pydotplus.graphviz.Edge object at 0x7f931d325550>], '275': [], '276': [], '277': [<pydotplus.graphviz.Edge object at 0x7f931cf9c210>, <pydotplus.graphviz.Edge object at 0x7f931d642f50>], '278': [<pydotplus.graphviz.Edge object at 0x7f931c5d9cd0>, <pydotplus.graphviz.Edge object at 0x7f931dc30550>], '279': [<pydotplus.graphviz.Edge object at 0x7f931c5e2f10>, <pydotplus.graphviz.Edge object at 0x7f931da1c190>], '108': [], '109': [<pydotplus.graphviz.Edge object at 0x7f931c581610>, <pydotplus.graphviz.Edge object at 0x7f931e5f9a90>], '103': [], '100': [], '101': [<pydotplus.graphviz.Edge object at 0x7f931d429910>, <pydotplus.graphviz.Edge object at 0x7f931dd43310>], '107': [], '104': [], '105': [<pydotplus.graphviz.Edge object at 0x7f931ca39b90>, <pydotplus.graphviz.Edge object at 0x7f931da7fe90>], '39': [], '38': [], '33': [<pydotplus.graphviz.Edge object at 0x7f931c8aea90>, <pydotplus.graphviz.Edge object at 0x7f931ce07310>], '32': [], '31': [], '30': [<pydotplus.graphviz.Edge object at 0x7f931cf33490>], '37': [<pydotplus.graphviz.Edge object at 0x7f931c9483d0>, <pydotplus.graphviz.Edge object at 0x7f931d008850>], '36': [], '35': [], '339': [<pydotplus.graphviz.Edge object at 0x7f931c933f10>, <pydotplus.graphviz.Edge object at 0x7f931c5c7850>], '338': [<pydotplus.graphviz.Edge object at 0x7f931c78af10>, <pydotplus.graphviz.Edge object at 0x7f931c616cd0>], '335': [<pydotplus.graphviz.Edge object at 0x7f931c874cd0>, <pydotplus.graphviz.Edge object at 0x7f931c5773d0>], '334': [], '337': [<pydotplus.graphviz.Edge object at 0x7f931c4cc610>, <pydotplus.graphviz.Edge object at 0x7f931e4b4c10>], '336': [<pydotplus.graphviz.Edge object at 0x7f931e88eb50>, <pydotplus.graphviz.Edge object at 0x7f931dc389d0>], '331': [<pydotplus.graphviz.Edge object at 0x7f931c87df10>, <pydotplus.graphviz.Edge object at 0x7f931c51ba90>], '330': [], '333': [], '6': [], '99': [], '91': [], '90': [<pydotplus.graphviz.Edge object at 0x7f931d3dc0d0>, <pydotplus.graphviz.Edge object at 0x7f931dd5de50>], '93': [<pydotplus.graphviz.Edge object at 0x7f931c9c23d0>, <pydotplus.graphviz.Edge object at 0x7f931c710f10>], '92': [], '95': [], '94': [<pydotplus.graphviz.Edge object at 0x7f931d3b34d0>], '97': [<pydotplus.graphviz.Edge object at 0x7f931d0aec90>, <pydotplus.graphviz.Edge object at 0x7f931d9919d0>], '96': [], '238': [], '239': [<pydotplus.graphviz.Edge object at 0x7f931c6b7850>, <pydotplus.graphviz.Edge object at 0x7f931d4ca4d0>], '234': [], '235': [<pydotplus.graphviz.Edge object at 0x7f931c72f610>, <pydotplus.graphviz.Edge object at 0x7f931d7afc10>], '237': [], '230': [], '231': [], '232': [<pydotplus.graphviz.Edge object at 0x7f931c9a1a90>, <pydotplus.graphviz.Edge object at 0x7f931d62dad0>], '233': [], '1': [], '146': [], '147': [<pydotplus.graphviz.Edge object at 0x7f931dc272d0>, <pydotplus.graphviz.Edge object at 0x7f931e8705d0>], '145': [], '142': [], '143': [<pydotplus.graphviz.Edge object at 0x7f931ca2cb90>, <pydotplus.graphviz.Edge object at 0x7f931dc46cd0>], '140': [<pydotplus.graphviz.Edge object at 0x7f931dbe4e50>, <pydotplus.graphviz.Edge object at 0x7f931dbce310>], '141': [], '148': [<pydotplus.graphviz.Edge object at 0x7f931c5bd610>, <pydotplus.graphviz.Edge object at 0x7f931e65d0d0>], '149': [<pydotplus.graphviz.Edge object at 0x7f931ca5e950>, <pydotplus.graphviz.Edge object at 0x7f931da11bd0>], '132': [<pydotplus.graphviz.Edge object at 0x7f931c821610>, <pydotplus.graphviz.Edge object at 0x7f931c508610>], '131': [], '130': [], '136': [<pydotplus.graphviz.Edge object at 0x7f931d113310>, <pydotplus.graphviz.Edge object at 0x7f931dc65510>], '135': [], '134': [], '139': [], '138': [], '24': [<pydotplus.graphviz.Edge object at 0x7f931da8c790>, <pydotplus.graphviz.Edge object at 0x7f931d30c9d0>], '25': [<pydotplus.graphviz.Edge object at 0x7f931e85c290>, <pydotplus.graphviz.Edge object at 0x7f931d619450>], '26': [<pydotplus.graphviz.Edge object at 0x7f931d106f10>, <pydotplus.graphviz.Edge object at 0x7f931d546c10>], '27': [], '20': [], '21': [<pydotplus.graphviz.Edge object at 0x7f931c4b9190>, <pydotplus.graphviz.Edge object at 0x7f931d44ef50>], '22': [<pydotplus.graphviz.Edge object at 0x7f931ca34f50>, <pydotplus.graphviz.Edge object at 0x7f931e665890>], '23': [<pydotplus.graphviz.Edge object at 0x7f931c73aa90>, <pydotplus.graphviz.Edge object at 0x7f931c525cd0>], '28': [], '29': [<pydotplus.graphviz.Edge object at 0x7f931ca68b90>, <pydotplus.graphviz.Edge object at 0x7f931d9759d0>], '407': [<pydotplus.graphviz.Edge object at 0x7f931e610310>], '406': [<pydotplus.graphviz.Edge object at 0x7f931c67c850>, <pydotplus.graphviz.Edge object at 0x7f931e4d5550>], '405': [], '404': [], '403': [<pydotplus.graphviz.Edge object at 0x7f931d9229d0>, <pydotplus.graphviz.Edge object at 0x7f931dee0610>], '402': [<pydotplus.graphviz.Edge object at 0x7f931c63f850>, <pydotplus.graphviz.Edge object at 0x7f931d624790>], '401': [<pydotplus.graphviz.Edge object at 0x7f931e453210>, <pydotplus.graphviz.Edge object at 0x7f931db749d0>], '400': [<pydotplus.graphviz.Edge object at 0x7f931e880dd0>, <pydotplus.graphviz.Edge object at 0x7f931c7db3d0>], '409': [<pydotplus.graphviz.Edge object at 0x7f931e02e310>, <pydotplus.graphviz.Edge object at 0x7f931e21d790>], '408': [<pydotplus.graphviz.Edge object at 0x7f931da04e50>, <pydotplus.graphviz.Edge object at 0x7f931d01ec10>], '379': [], '378': [<pydotplus.graphviz.Edge object at 0x7f931ca06290>, <pydotplus.graphviz.Edge object at 0x7f931dd8a310>], '371': [], '373': [<pydotplus.graphviz.Edge object at 0x7f931c52ef10>, <pydotplus.graphviz.Edge object at 0x7f931d19d590>], '372': [], '375': [<pydotplus.graphviz.Edge object at 0x7f931da001d0>, <pydotplus.graphviz.Edge object at 0x7f931dbadfd0>], '374': [<pydotplus.graphviz.Edge object at 0x7f931c8193d0>, <pydotplus.graphviz.Edge object at 0x7f931d404790>], '377': [<pydotplus.graphviz.Edge object at 0x7f931c7d2190>, <pydotplus.graphviz.Edge object at 0x7f931c7b1850>], '376': [<pydotplus.graphviz.Edge object at 0x7f931c82b850>, <pydotplus.graphviz.Edge object at 0x7f931d3c9c50>], '393': [], '392': [], '88': [<pydotplus.graphviz.Edge object at 0x7f931db96ad0>, <pydotplus.graphviz.Edge object at 0x7f931d9e2310>], '89': [<pydotplus.graphviz.Edge object at 0x7f931e4f7f50>, <pydotplus.graphviz.Edge object at 0x7f931e63f4d0>], '397': [<pydotplus.graphviz.Edge object at 0x7f931d1949d0>, <pydotplus.graphviz.Edge object at 0x7f931d182e50>], '396': [], '395': [], '394': [<pydotplus.graphviz.Edge object at 0x7f931d175b50>, <pydotplus.graphviz.Edge object at 0x7f931d4b6910>], '82': [<pydotplus.graphviz.Edge object at 0x7f931d08bc10>], '181': [<pydotplus.graphviz.Edge object at 0x7f931d1685d0>, <pydotplus.graphviz.Edge object at 0x7f931ddadc10>], '80': [], '81': [<pydotplus.graphviz.Edge object at 0x7f931c7253d0>, <pydotplus.graphviz.Edge object at 0x7f931d890590>], '86': [<pydotplus.graphviz.Edge object at 0x7f931d2e0910>, <pydotplus.graphviz.Edge object at 0x7f931d662c10>], '87': [<pydotplus.graphviz.Edge object at 0x7f931c62a190>, <pydotplus.graphviz.Edge object at 0x7f931d9da850>], '84': [], '85': [<pydotplus.graphviz.Edge object at 0x7f931c889190>, <pydotplus.graphviz.Edge object at 0x7f931d128b90>], '7': [<pydotplus.graphviz.Edge object at 0x7f931c594a90>, <pydotplus.graphviz.Edge object at 0x7f931dc50d50>], '245': [<pydotplus.graphviz.Edge object at 0x7f931c5a7f10>, <pydotplus.graphviz.Edge object at 0x7f931d8f6310>], '244': [<pydotplus.graphviz.Edge object at 0x7f931d597250>, <pydotplus.graphviz.Edge object at 0x7f931da0ab10>], '247': [<pydotplus.graphviz.Edge object at 0x7f931d6577d0>, <pydotplus.graphviz.Edge object at 0x7f931daae450>], '246': [<pydotplus.graphviz.Edge object at 0x7f931c6cacd0>, <pydotplus.graphviz.Edge object at 0x7f931e29f9d0>], '241': [], '243': [<pydotplus.graphviz.Edge object at 0x7f931d0fae50>, <pydotplus.graphviz.Edge object at 0x7f931ce13750>], '242': [], '249': [], '248': [<pydotplus.graphviz.Edge object at 0x7f931c6d4f10>, <pydotplus.graphviz.Edge object at 0x7f931d13e950>], '179': [], '178': [<pydotplus.graphviz.Edge object at 0x7f931c89b610>, <pydotplus.graphviz.Edge object at 0x7f931c744cd0>], '177': [], '176': [], '175': [<pydotplus.graphviz.Edge object at 0x7f931ca56710>, <pydotplus.graphviz.Edge object at 0x7f931d27d510>], '174': [], '173': [], '171': [<pydotplus.graphviz.Edge object at 0x7f931d56dbd0>, <pydotplus.graphviz.Edge object at 0x7f931d2d4310>], '170': [], '182': [<pydotplus.graphviz.Edge object at 0x7f931c91e850>, <pydotplus.graphviz.Edge object at 0x7f931e626e50>], '183': [<pydotplus.graphviz.Edge object at 0x7f931c97b190>, <pydotplus.graphviz.Edge object at 0x7f931d171190>], '180': [], '2': [], '186': [<pydotplus.graphviz.Edge object at 0x7f931d550310>, <pydotplus.graphviz.Edge object at 0x7f931dbf1dd0>], '187': [], '184': [<pydotplus.graphviz.Edge object at 0x7f931c672610>, <pydotplus.graphviz.Edge object at 0x7f931c648a90>], '185': [<pydotplus.graphviz.Edge object at 0x7f931c758190>, <pydotplus.graphviz.Edge object at 0x7f931d90ee50>], '188': [], '189': [<pydotplus.graphviz.Edge object at 0x7f931c998850>, <pydotplus.graphviz.Edge object at 0x7f931e232e50>], '11': [<pydotplus.graphviz.Edge object at 0x7f931c9853d0>, <pydotplus.graphviz.Edge object at 0x7f931d014e50>], '10': [], '13': [], '15': [<pydotplus.graphviz.Edge object at 0x7f931d467e50>, <pydotplus.graphviz.Edge object at 0x7f931d66c9d0>], '14': [], '17': [], '16': [], '19': [], '18': [<pydotplus.graphviz.Edge object at 0x7f931c697f10>, <pydotplus.graphviz.Edge object at 0x7f931cdfb550>], '62': [], '322': [], '323': [], '320': [<pydotplus.graphviz.Edge object at 0x7f931c902190>, <pydotplus.graphviz.Edge object at 0x7f931dc07d10>], '326': [], '327': [<pydotplus.graphviz.Edge object at 0x7f931c65bf10>, <pydotplus.graphviz.Edge object at 0x7f931e66eb90>], '324': [<pydotplus.graphviz.Edge object at 0x7f931c59ecd0>, <pydotplus.graphviz.Edge object at 0x7f931d296590>], '325': [], '329': [], '201': [<pydotplus.graphviz.Edge object at 0x7f931d9f9310>, <pydotplus.graphviz.Edge object at 0x7f931d13bc10>], '200': [], '203': [], '205': [<pydotplus.graphviz.Edge object at 0x7f931d7900d0>, <pydotplus.graphviz.Edge object at 0x7f931e1b3310>], '204': [], '207': [], '209': [<pydotplus.graphviz.Edge object at 0x7f931e0139d0>, <pydotplus.graphviz.Edge object at 0x7f931e1edc10>], '208': [], '77': [<pydotplus.graphviz.Edge object at 0x7f931e1e43d0>, <pydotplus.graphviz.Edge object at 0x7f931d2aa810>], '76': [<pydotplus.graphviz.Edge object at 0x7f931d55ae50>, <pydotplus.graphviz.Edge object at 0x7f931d4f10d0>], '75': [<pydotplus.graphviz.Edge object at 0x7f931d7a2650>, <pydotplus.graphviz.Edge object at 0x7f931db7bfd0>], '74': [<pydotplus.graphviz.Edge object at 0x7f931dd7d550>, <pydotplus.graphviz.Edge object at 0x7f931d2ca550>], '73': [<pydotplus.graphviz.Edge object at 0x7f931e4c19d0>, <pydotplus.graphviz.Edge object at 0x7f931dba20d0>], '72': [], '71': [], '79': [], '78': [<pydotplus.graphviz.Edge object at 0x7f931caa8090>, <pydotplus.graphviz.Edge object at 0x7f931c620f10>], '120': [<pydotplus.graphviz.Edge object at 0x7f931cae2410>, <pydotplus.graphviz.Edge object at 0x7f931d43dcd0>], '121': [<pydotplus.graphviz.Edge object at 0x7f931e7bb550>, <pydotplus.graphviz.Edge object at 0x7f931e25c550>], '122': [<pydotplus.graphviz.Edge object at 0x7f931d5c1b50>, <pydotplus.graphviz.Edge object at 0x7f931dde3e10>], '123': [<pydotplus.graphviz.Edge object at 0x7f931d470c10>, <pydotplus.graphviz.Edge object at 0x7f931ddc60d0>], '124': [<pydotplus.graphviz.Edge object at 0x7f931e1bf0d0>, <pydotplus.graphviz.Edge object at 0x7f931e253790>], '125': [<pydotplus.graphviz.Edge object at 0x7f931c6c1a90>, <pydotplus.graphviz.Edge object at 0x7f931d5dd3d0>], '126': [], '127': [], '128': [<pydotplus.graphviz.Edge object at 0x7f931c71c190>, <pydotplus.graphviz.Edge object at 0x7f931c652cd0>], '129': [<pydotplus.graphviz.Edge object at 0x7f931e1d6dd0>], '414': [], '415': [<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>, <pydotplus.graphviz.Edge object at 0x7f931c85e610>], '410': [<pydotplus.graphviz.Edge object at 0x7f931c9b8190>, <pydotplus.graphviz.Edge object at 0x7f931d289790>], '411': [<pydotplus.graphviz.Edge object at 0x7f931d09ae50>, <pydotplus.graphviz.Edge object at 0x7f931d19bad0>], '412': [<pydotplus.graphviz.Edge object at 0x7f931c560cd0>, <pydotplus.graphviz.Edge object at 0x7f931dc199d0>], '413': [], '319': [], '318': [], '313': [<pydotplus.graphviz.Edge object at 0x7f931dc3a110>, <pydotplus.graphviz.Edge object at 0x7f931cf9e8d0>], '312': [<pydotplus.graphviz.Edge object at 0x7f931e4e8090>, <pydotplus.graphviz.Edge object at 0x7f931d9a7510>], '311': [<pydotplus.graphviz.Edge object at 0x7f931ddd4e50>, <pydotplus.graphviz.Edge object at 0x7f931dd39550>], '310': [<pydotplus.graphviz.Edge object at 0x7f931c7e5610>, <pydotplus.graphviz.Edge object at 0x7f931d9f0650>], '317': [<pydotplus.graphviz.Edge object at 0x7f931d4e4e50>], '316': [<pydotplus.graphviz.Edge object at 0x7f931ca98fd0>, <pydotplus.graphviz.Edge object at 0x7f931c780cd0>], '315': [], '314': [], '3': [<pydotplus.graphviz.Edge object at 0x7f931c98e610>, <pydotplus.graphviz.Edge object at 0x7f931d737c10>], '368': [], '369': [<pydotplus.graphviz.Edge object at 0x7f931c8eaa90>, <pydotplus.graphviz.Edge object at 0x7f931c4c33d0>], '366': [<pydotplus.graphviz.Edge object at 0x7f931c5fa610>, <pydotplus.graphviz.Edge object at 0x7f931cfa8790>], '367': [], '364': [], '365': [], '362': [], '363': [<pydotplus.graphviz.Edge object at 0x7f931e877090>, <pydotplus.graphviz.Edge object at 0x7f931dd72d90>], '360': [<pydotplus.graphviz.Edge object at 0x7f931c5ee190>], '361': [], '380': [], '381': [<pydotplus.graphviz.Edge object at 0x7f931c79f3d0>, <pydotplus.graphviz.Edge object at 0x7f931d3f4710>], '382': [<pydotplus.graphviz.Edge object at 0x7f931dd346d0>], '383': [], '384': [], '385': [<pydotplus.graphviz.Edge object at 0x7f931c8c5190>, <pydotplus.graphviz.Edge object at 0x7f931d5cee50>], '386': [], '387': [], '388': [<pydotplus.graphviz.Edge object at 0x7f931c84b190>, <pydotplus.graphviz.Edge object at 0x7f931da7b190>], '389': [], '61': [], '258': [<pydotplus.graphviz.Edge object at 0x7f931c54e850>, <pydotplus.graphviz.Edge object at 0x7f931dbb8790>], '63': [<pydotplus.graphviz.Edge object at 0x7f931d786310>, <pydotplus.graphviz.Edge object at 0x7f931e4e1310>], '64': [], '65': [], '66': [<pydotplus.graphviz.Edge object at 0x7f931dbf6e90>, <pydotplus.graphviz.Edge object at 0x7f931d659e10>], '67': [], '252': [<pydotplus.graphviz.Edge object at 0x7f931c56af10>], '69': [<pydotplus.graphviz.Edge object at 0x7f931e5280d0>, <pydotplus.graphviz.Edge object at 0x7f931d29d310>], '250': [], '251': [<pydotplus.graphviz.Edge object at 0x7f931dc11e10>, <pydotplus.graphviz.Edge object at 0x7f931db93f90>], '256': [<pydotplus.graphviz.Edge object at 0x7f931d8c4e50>, <pydotplus.graphviz.Edge object at 0x7f931dd510d0>], '257': [<pydotplus.graphviz.Edge object at 0x7f931ddbd310>, <pydotplus.graphviz.Edge object at 0x7f931e1ca910>], '254': [], '255': [<pydotplus.graphviz.Edge object at 0x7f931d438790>, <pydotplus.graphviz.Edge object at 0x7f931e229a90>], '168': [<pydotplus.graphviz.Edge object at 0x7f931cffc710>], '169': [], '164': [<pydotplus.graphviz.Edge object at 0x7f931c927a90>, <pydotplus.graphviz.Edge object at 0x7f931e84dcd0>], '165': [], '166': [], '167': [<pydotplus.graphviz.Edge object at 0x7f931d600e50>, <pydotplus.graphviz.Edge object at 0x7f931dda21d0>], '160': [<pydotplus.graphviz.Edge object at 0x7f931c667190>, <pydotplus.graphviz.Edge object at 0x7f931cfdc690>], '161': [<pydotplus.graphviz.Edge object at 0x7f931dda8050>, <pydotplus.graphviz.Edge object at 0x7f931d91bb90>], '162': [<pydotplus.graphviz.Edge object at 0x7f931c7ee850>, <pydotplus.graphviz.Edge object at 0x7f931d5378d0>], '163': [<pydotplus.graphviz.Edge object at 0x7f931c9dda90>, <pydotplus.graphviz.Edge object at 0x7f931d3d3c90>], '9': [], '357': [], '356': [<pydotplus.graphviz.Edge object at 0x7f931dd960d0>, <pydotplus.graphviz.Edge object at 0x7f931e61a0d0>], '355': [<pydotplus.graphviz.Edge object at 0x7f931c8a4850>, <pydotplus.graphviz.Edge object at 0x7f931d79fe50>], '354': [<pydotplus.graphviz.Edge object at 0x7f931d5b4490>, <pydotplus.graphviz.Edge object at 0x7f931e625150>], '353': [<pydotplus.graphviz.Edge object at 0x7f931c5cfa90>, <pydotplus.graphviz.Edge object at 0x7f931cac4910>], '352': [<pydotplus.graphviz.Edge object at 0x7f931c6a3190>, <pydotplus.graphviz.Edge object at 0x7f931c557a90>], '351': [<pydotplus.graphviz.Edge object at 0x7f931c93f190>, <pydotplus.graphviz.Edge object at 0x7f931d444550>], '350': [], '359': [<pydotplus.graphviz.Edge object at 0x7f931c5b43d0>, <pydotplus.graphviz.Edge object at 0x7f931d567590>], '358': [], '216': [<pydotplus.graphviz.Edge object at 0x7f931c95a850>, <pydotplus.graphviz.Edge object at 0x7f931d150790>], '217': [<pydotplus.graphviz.Edge object at 0x7f931c9fd050>, <pydotplus.graphviz.Edge object at 0x7f931d8d89d0>], '214': [<pydotplus.graphviz.Edge object at 0x7f931ca0f4d0>, <pydotplus.graphviz.Edge object at 0x7f931e603550>], '215': [<pydotplus.graphviz.Edge object at 0x7f931d3bfe10>, <pydotplus.graphviz.Edge object at 0x7f931d99b110>], '212': [<pydotplus.graphviz.Edge object at 0x7f931c8b9f10>, <pydotplus.graphviz.Edge object at 0x7f931c4f5190>], '213': [<pydotplus.graphviz.Edge object at 0x7f931c68fcd0>, <pydotplus.graphviz.Edge object at 0x7f931e7d22d0>], '210': [], '211': [], '218': [], '219': [], '289': [<pydotplus.graphviz.Edge object at 0x7f931c8913d0>, <pydotplus.graphviz.Edge object at 0x7f931e26dd50>], '288': [], '281': [<pydotplus.graphviz.Edge object at 0x7f931c868850>, <pydotplus.graphviz.Edge object at 0x7f931c58b850>], '280': [<pydotplus.graphviz.Edge object at 0x7f931c841f10>, <pydotplus.graphviz.Edge object at 0x7f931d9c6e50>], '283': [], '282': [<pydotplus.graphviz.Edge object at 0x7f931d116590>, <pydotplus.graphviz.Edge object at 0x7f931d2b5910>], '285': [<pydotplus.graphviz.Edge object at 0x7f931c603850>, <pydotplus.graphviz.Edge object at 0x7f931d0aabd0>], '284': [], '287': [], '286': [<pydotplus.graphviz.Edge object at 0x7f931e2149d0>], '263': [<pydotplus.graphviz.Edge object at 0x7f931c6e83d0>, <pydotplus.graphviz.Edge object at 0x7f931d3b7290>], '262': [], '261': [], '260': [<pydotplus.graphviz.Edge object at 0x7f931d2ac990>, <pydotplus.graphviz.Edge object at 0x7f931dde99d0>], '267': [<pydotplus.graphviz.Edge object at 0x7f931c6ad3d0>, <pydotplus.graphviz.Edge object at 0x7f931cf88550>], '266': [], '265': [], '264': [<pydotplus.graphviz.Edge object at 0x7f931c707cd0>], '269': [], '268': [], '59': [<pydotplus.graphviz.Edge object at 0x7f931c8d8610>, <pydotplus.graphviz.Edge object at 0x7f931d77c9d0>], '58': [], '55': [<pydotplus.graphviz.Edge object at 0x7f931c778a90>, <pydotplus.graphviz.Edge object at 0x7f931e1e0b50>], '54': [], '57': [], '56': [<pydotplus.graphviz.Edge object at 0x7f931c4ff3d0>], '51': [<pydotplus.graphviz.Edge object at 0x7f931e209510>, <pydotplus.graphviz.Edge object at 0x7f931d74e9d0>], '50': [<pydotplus.graphviz.Edge object at 0x7f931c7a7610>, <pydotplus.graphviz.Edge object at 0x7f931c66f3d0>], '53': [], '52': [<pydotplus.graphviz.Edge object at 0x7f931d41b310>, <pydotplus.graphviz.Edge object at 0x7f931e1ffe10>], '259': [<pydotplus.graphviz.Edge object at 0x7f931dc24a50>, <pydotplus.graphviz.Edge object at 0x7f931e899b50>], '115': [], '68': [], '117': [<pydotplus.graphviz.Edge object at 0x7f931c964a90>, <pydotplus.graphviz.Edge object at 0x7f931d9d0e90>], '116': [], '111': [], '113': [<pydotplus.graphviz.Edge object at 0x7f931e7f6350>, <pydotplus.graphviz.Edge object at 0x7f931e513410>], '253': [], '119': [], '118': [], '308': [<pydotplus.graphviz.Edge object at 0x7f931c685a90>, <pydotplus.graphviz.Edge object at 0x7f931d0a2650>], '309': [<pydotplus.graphviz.Edge object at 0x7f931e022550>, <pydotplus.graphviz.Edge object at 0x7f931ddb2550>], '300': [], '301': [<pydotplus.graphviz.Edge object at 0x7f931dff5e50>, <pydotplus.graphviz.Edge object at 0x7f931e20af10>], '302': [], '303': [], '304': [<pydotplus.graphviz.Edge object at 0x7f931c9f2dd0>, <pydotplus.graphviz.Edge object at 0x7f931dbc4a50>], '306': [], '307': [], '228': [<pydotplus.graphviz.Edge object at 0x7f931cf90c10>, <pydotplus.graphviz.Edge object at 0x7f931d07e0d0>], '227': [], '226': [], '224': [<pydotplus.graphviz.Edge object at 0x7f931c60da90>, <pydotplus.graphviz.Edge object at 0x7f931d989210>], '223': [], '222': [], '221': [<pydotplus.graphviz.Edge object at 0x7f931d02b110>], '220': [<pydotplus.graphviz.Edge object at 0x7f931c6fea90>, <pydotplus.graphviz.Edge object at 0x7f931e7eb990>], '391': [<pydotplus.graphviz.Edge object at 0x7f931c7becd0>, <pydotplus.graphviz.Edge object at 0x7f931da95550>], '390': [], '151': [<pydotplus.graphviz.Edge object at 0x7f931ca8e6d0>, <pydotplus.graphviz.Edge object at 0x7f931e842310>], '150': [<pydotplus.graphviz.Edge object at 0x7f931d5f40d0>, <pydotplus.graphviz.Edge object at 0x7f931d329310>], '153': [], '152': [<pydotplus.graphviz.Edge object at 0x7f931d3fa490>, <pydotplus.graphviz.Edge object at 0x7f931d60fd10>], '155': [<pydotplus.graphviz.Edge object at 0x7f931c9e7cd0>, <pydotplus.graphviz.Edge object at 0x7f931d64c0d0>], '154': [], '157': [], '156': [<pydotplus.graphviz.Edge object at 0x7f931ce1ee50>], '159': [<pydotplus.graphviz.Edge object at 0x7f931d2ec050>, <pydotplus.graphviz.Edge object at 0x7f931d9020d0>], '158': [], '112': [], '83': [], '399': [<pydotplus.graphviz.Edge object at 0x7f931ca19710>, <pydotplus.graphviz.Edge object at 0x7f931c6f5850>], '48': [<pydotplus.graphviz.Edge object at 0x7f931d2f4d90>, <pydotplus.graphviz.Edge object at 0x7f931dd6d6d0>], '49': [<pydotplus.graphviz.Edge object at 0x7f931c7c7f10>, <pydotplus.graphviz.Edge object at 0x7f931d2be790>], '46': [], '47': [<pydotplus.graphviz.Edge object at 0x7f931ca22950>, <pydotplus.graphviz.Edge object at 0x7f931e4cf910>], '44': [<pydotplus.graphviz.Edge object at 0x7f931c870a90>, <pydotplus.graphviz.Edge object at 0x7f931d137890>], '45': [], '42': [], '43': [], '40': [<pydotplus.graphviz.Edge object at 0x7f931c53b3d0>, <pydotplus.graphviz.Edge object at 0x7f931e097450>], '5': []}
+ ======= ARESTAS de DESCARTE =======
+{'344': [], '345': [<pydotplus.graphviz.Edge object at 0x7f931daa1990>], '346': [], '347': [], '340': [], '341': [], '342': [], '343': [], '349': [<pydotplus.graphviz.Edge object at 0x7f931d9b0310>], '299': [<pydotplus.graphviz.Edge object at 0x7f931d8eb550>], '296': [], '297': [], '295': [<pydotplus.graphviz.Edge object at 0x7f931d635550>], '292': [], '293': [], '291': [<pydotplus.graphviz.Edge object at 0x7f931d3ece50>], '199': [<pydotplus.graphviz.Edge object at 0x7f931c803f10>], '195': [<pydotplus.graphviz.Edge object at 0x7f931c76b610>], '197': [], '196': [], '191': [<pydotplus.graphviz.Edge object at 0x7f931c7facd0>], '190': [], '193': [], '192': [], '270': [], '272': [<pydotplus.graphviz.Edge object at 0x7f931c532190>], '273': [], '274': [], '275': [<pydotplus.graphviz.Edge object at 0x7f931de74cd0>], '276': [], '277': [], '278': [], '279': [], '108': [], '109': [], '103': [<pydotplus.graphviz.Edge object at 0x7f931c8cf3d0>], '100': [], '101': [], '107': [<pydotplus.graphviz.Edge object at 0x7f931dfd7a90>], '104': [], '105': [], '39': [], '38': [<pydotplus.graphviz.Edge object at 0x7f931e7c6310>], '33': [], '32': [], '31': [<pydotplus.graphviz.Edge object at 0x7f931da861d0>], '30': [], '37': [], '36': [], '35': [<pydotplus.graphviz.Edge object at 0x7f931d1a9390>], '339': [], '338': [], '335': [], '334': [], '337': [], '336': [], '331': [], '330': [], '333': [<pydotplus.graphviz.Edge object at 0x7f931c96dcd0>], '6': [], '99': [<pydotplus.graphviz.Edge object at 0x7f931d76e7d0>], '91': [], '90': [], '93': [], '92': [], '95': [<pydotplus.graphviz.Edge object at 0x7f931e4fe2d0>], '94': [], '97': [], '96': [], '238': [], '239': [], '234': [], '235': [], '237': [<pydotplus.graphviz.Edge object at 0x7f931c9d4850>], '230': [<pydotplus.graphviz.Edge object at 0x7f931e835bd0>], '231': [], '232': [], '233': [<pydotplus.graphviz.Edge object at 0x7f931d91d8d0>], '1': [<pydotplus.graphviz.Edge object at 0x7f931e002910>], '146': [], '147': [], '145': [<pydotplus.graphviz.Edge object at 0x7f931ca4afd0>], '142': [], '143': [], '140': [], '141': [<pydotplus.graphviz.Edge object at 0x7f931e6f1390>], '148': [], '149': [], '132': [], '131': [], '130': [<pydotplus.graphviz.Edge object at 0x7f931e4ca9d0>], '136': [], '135': [], '134': [<pydotplus.graphviz.Edge object at 0x7f931ce307d0>], '139': [], '138': [<pydotplus.graphviz.Edge object at 0x7f931e8580d0>], '24': [], '25': [], '26': [], '27': [], '20': [], '21': [], '22': [], '23': [], '28': [], '29': [], '407': [], '406': [], '405': [], '404': [], '403': [], '402': [], '401': [], '400': [], '409': [], '408': [], '379': [], '378': [], '371': [<pydotplus.graphviz.Edge object at 0x7f931c545610>], '373': [], '372': [], '375': [], '374': [], '377': [], '376': [], '393': [], '392': [<pydotplus.graphviz.Edge object at 0x7f931d742190>], '88': [], '89': [], '397': [], '396': [], '395': [<pydotplus.graphviz.Edge object at 0x7f931da1dc10>], '394': [], '82': [], '181': [], '80': [], '81': [], '86': [], '87': [], '84': [], '85': [], '7': [], '245': [], '244': [], '247': [], '246': [], '241': [<pydotplus.graphviz.Edge object at 0x7f931c636610>], '243': [], '242': [], '249': [], '248': [], '179': [<pydotplus.graphviz.Edge object at 0x7f931d8b50d0>], '178': [], '177': [], '176': [<pydotplus.graphviz.Edge object at 0x7f931db80790>], '175': [], '174': [], '173': [<pydotplus.graphviz.Edge object at 0x7f931c952610>], '171': [], '170': [], '182': [], '183': [], '180': [], '2': [], '186': [], '187': [], '184': [], '185': [], '188': [], '189': [], '11': [], '10': [], '13': [<pydotplus.graphviz.Edge object at 0x7f931d126790>], '15': [], '14': [], '17': [], '16': [<pydotplus.graphviz.Edge object at 0x7f931d15cf90>], '19': [<pydotplus.graphviz.Edge object at 0x7f931e507790>], '18': [], '62': [], '322': [<pydotplus.graphviz.Edge object at 0x7f931d01aa90>], '323': [], '320': [], '326': [], '327': [], '324': [], '325': [<pydotplus.graphviz.Edge object at 0x7f931c7623d0>], '329': [<pydotplus.graphviz.Edge object at 0x7f931c512850>], '201': [], '200': [], '203': [<pydotplus.graphviz.Edge object at 0x7f931c4d6850>], '205': [], '204': [], '207': [<pydotplus.graphviz.Edge object at 0x7f931dbe00d0>], '209': [], '208': [], '77': [], '76': [], '75': [], '74': [], '73': [], '72': [], '71': [<pydotplus.graphviz.Edge object at 0x7f931c6de190>], '79': [], '78': [], '120': [], '121': [], '122': [], '123': [], '124': [], '125': [], '126': [], '127': [], '128': [], '129': [], '414': [], '415': [], '410': [], '411': [], '412': [], '413': [], '319': [], '318': [<pydotplus.graphviz.Edge object at 0x7f931d4bf550>], '313': [], '312': [], '311': [], '310': [], '317': [], '316': [], '315': [], '314': [], '3': [], '368': [], '369': [], '366': [], '367': [<pydotplus.graphviz.Edge object at 0x7f931c9abcd0>], '364': [<pydotplus.graphviz.Edge object at 0x7f931c80f190>], '365': [], '362': [], '363': [], '360': [], '361': [<pydotplus.graphviz.Edge object at 0x7f931d272c10>], '380': [], '381': [], '382': [], '383': [<pydotplus.graphviz.Edge object at 0x7f931d187c10>], '384': [], '385': [], '386': [<pydotplus.graphviz.Edge object at 0x7f931cae4c90>], '387': [], '388': [], '389': [<pydotplus.graphviz.Edge object at 0x7f931d4d50d0>], '61': [<pydotplus.graphviz.Edge object at 0x7f931c8553d0>], '258': [], '63': [], '64': [<pydotplus.graphviz.Edge object at 0x7f931d300450>], '65': [], '66': [], '67': [<pydotplus.graphviz.Edge object at 0x7f931e2469d0>], '252': [], '69': [], '250': [], '251': [], '256': [], '257': [], '254': [], '255': [], '168': [], '169': [<pydotplus.graphviz.Edge object at 0x7f931ca81990>], '164': [], '165': [], '166': [], '167': [], '160': [], '161': [], '162': [], '163': [], '9': [<pydotplus.graphviz.Edge object at 0x7f931c914610>], '357': [], '356': [], '355': [], '354': [], '353': [], '352': [], '351': [], '350': [], '359': [], '358': [], '216': [], '217': [], '214': [], '215': [], '212': [], '213': [], '210': [<pydotplus.graphviz.Edge object at 0x7f931c9f0f10>], '211': [], '218': [], '219': [], '289': [], '288': [], '281': [], '280': [], '283': [], '282': [], '285': [], '284': [], '287': [<pydotplus.graphviz.Edge object at 0x7f931dc6b250>], '286': [], '263': [], '262': [], '261': [], '260': [], '267': [], '266': [], '265': [<pydotplus.graphviz.Edge object at 0x7f931d411850>], '264': [], '269': [], '268': [<pydotplus.graphviz.Edge object at 0x7f931d8e3910>], '59': [], '58': [], '55': [], '54': [], '57': [<pydotplus.graphviz.Edge object at 0x7f931e26e550>], '56': [], '51': [], '50': [], '53': [], '52': [], '259': [], '115': [<pydotplus.graphviz.Edge object at 0x7f931cdead90>], '68': [], '117': [], '116': [], '111': [<pydotplus.graphviz.Edge object at 0x7f931e51e310>], '113': [], '253': [<pydotplus.graphviz.Edge object at 0x7f931d31b650>], '119': [], '118': [<pydotplus.graphviz.Edge object at 0x7f931c795190>], '308': [], '309': [], '300': [], '301': [], '302': [<pydotplus.graphviz.Edge object at 0x7f931d118790>], '303': [], '304': [], '306': [<pydotplus.graphviz.Edge object at 0x7f931e64a550>], '307': [], '228': [], '227': [], '226': [<pydotplus.graphviz.Edge object at 0x7f931c74df10>], '224': [], '223': [], '222': [<pydotplus.graphviz.Edge object at 0x7f931dc5d890>], '221': [], '220': [], '391': [], '390': [], '151': [], '150': [], '153': [], '152': [], '155': [], '154': [], '157': [<pydotplus.graphviz.Edge object at 0x7f931d5e29d0>], '156': [], '159': [], '158': [], '112': [], '83': [<pydotplus.graphviz.Edge object at 0x7f931ce0e6d0>], '399': [], '48': [], '49': [], '46': [], '47': [], '44': [], '45': [<pydotplus.graphviz.Edge object at 0x7f931d4570d0>], '42': [<pydotplus.graphviz.Edge object at 0x7f931d2c9410>], '43': [], '40': [], '5': [<pydotplus.graphviz.Edge object at 0x7f931d8d1c90>]}
+na=344
+label="(X3v3 imp q) 19"
+na=344label="(X3v3 imp q) 19"
+<class 'pydotplus.graphviz.Node'>
+na=344label="(X3v3 imp q) 19"
+na=344label="(X3v3 imp q) 19"
+ Lista de nos sainde de na=344 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931d79fe50>
+na=355label="(X3v4 imp q) imp ((X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q))))"
+ Lista de nos sainde de na=355 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931e625150>
+na=354label="(X3v1 imp q) imp ((X3v2 imp q) imp ((ORX3 imp q)))"
+ Lista de nos sainde de na=354 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c5cfa90>
+na=353label="(X3v2 imp q) imp ((ORX3 imp q))"
+ Lista de nos sainde de na=353 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c557a90>
+na=352label="(ORX3 imp q)"
+ Lista de nos sainde de na=352 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c5b43d0>
+na=359label=q
+ Lista de nos sainde de na=359 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c5ee190>
+na=360label="(X2v1 imp q) 17"
+ Lista de nos sainde de na=360 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c7d2190>
+na=377label="(X2v4 imp q) imp ((X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q))))"
+ Lista de nos sainde de na=377 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c82b850>
+na=376label="(X2v3 imp q) imp ((X2v5 imp q) imp ((ORX2 imp q)))"
+ Lista de nos sainde de na=376 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931dbadfd0>
+na=375label="(X2v5 imp q) imp ((ORX2 imp q))"
+ Lista de nos sainde de na=375 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c8193d0>
+na=374label="(ORX2 imp q)"
+ Lista de nos sainde de na=374 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931d3f4710>
+na=381label=q
+ Lista de nos sainde de na=381 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931dd346d0>
+na=382label="(X1v4 imp q) 16"
+ Lista de nos sainde de na=382 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931dc199d0>
+na=412label="(X1v1 imp q) imp ((X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))))"
+ Lista de nos sainde de na=412 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931d19bad0>
+na=411label="(X1v3 imp q) imp ((X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q))))"
+ Lista de nos sainde de na=411 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c9b8190>
+na=410label="(X1v5 imp q) imp ((X1v2 imp q) imp ((ORX1 imp q)))"
+ Lista de nos sainde de na=410 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931e02e310>
+na=409label="(X1v2 imp q) imp ((ORX1 imp q))"
+ Lista de nos sainde de na=409 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931da04e50>
+na=408label="(ORX1 imp q)"
+ Lista de nos sainde de na=408 ===> 
+<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>
+ A Raiz do DLDS = q ou 415
+415
+q
+nr 415
+ node_formulas inicial
+[<pydotplus.graphviz.Node object at 0x7f931cf4d710>]
+ Inicio do while de formulas[nivel], nivel = 0 node_formulas[nivel]
+[<pydotplus.graphviz.Node object at 0x7f931cf4d710>]
+ node_formulas[nivel] no nivel 0
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: []}
+ No n é do tipo 
+<class 'pydotplus.graphviz.Node'>
+ n.get_name() = 415
+ E_IN AVALIADO em n.get_name()
+[<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>, <pydotplus.graphviz.Edge object at 0x7f931c85e610>]
+ tem aresta chegando no node 415
+q
+ arestas sao =
+[<pydotplus.graphviz.Edge object at 0x7f931c8f7f10>, <pydotplus.graphviz.Edge object at 0x7f931c85e610>]
+ PRIMEIRO node_formulas[nivel+1] 1
+[]
+ mostra getsource
+<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>
+DEPOIS
+[<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>]
+Fez o n=415
+ mostra getsource
+<pydotplus.graphviz.Node object at 0x7f931d1c4d10>
+DEPOIS
+[<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>]
+Fez o n=415
+node_formulas=
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: [<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>]}
+ Nao vazia
+set(['"(ORX1 imp q)"', 'ORX1'])
+Fez o NIVEL=1
+ Inicio do while de formulas[nivel], nivel = 1 node_formulas[nivel]
+[<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>]
+ node_formulas[nivel] no nivel 1
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: [<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>], 2: []}
+ No n é do tipo 
+<class 'pydotplus.graphviz.Node'>
+ n.get_name() = 408
+ E_IN AVALIADO em n.get_name()
+[<pydotplus.graphviz.Edge object at 0x7f931da04e50>, <pydotplus.graphviz.Edge object at 0x7f931d01ec10>]
+ tem aresta chegando no node 408
+"(ORX1 imp q)"
+ arestas sao =
+[<pydotplus.graphviz.Edge object at 0x7f931da04e50>, <pydotplus.graphviz.Edge object at 0x7f931d01ec10>]
+ PRIMEIRO node_formulas[nivel+1] 2
+[]
+ mostra getsource
+<pydotplus.graphviz.Node object at 0x7f931cf62590>
+DEPOIS
+[<pydotplus.graphviz.Node object at 0x7f931cf62590>]
+Fez o n=408
+ mostra getsource
+<pydotplus.graphviz.Node object at 0x7f931cf6bad0>
+DEPOIS
+[<pydotplus.graphviz.Node object at 0x7f931cf62590>, <pydotplus.graphviz.Node object at 0x7f931cf6bad0>]
+Fez o n=408
+node_formulas=
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: [<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>], 2: [<pydotplus.graphviz.Node object at 0x7f931cf62590>, <pydotplus.graphviz.Node object at 0x7f931cf6bad0>]}
+ Nao vazia
+set(['"(X1v2 imp q) imp ((ORX1 imp q))"', '"(X1v2 imp q) 6"'])
+Fez o NIVEL=2
+ node_formulas[nivel] no nivel 2
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: [<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>], 2: [<pydotplus.graphviz.Node object at 0x7f931cf62590>, <pydotplus.graphviz.Node object at 0x7f931cf6bad0>]}
+ No n é do tipo 
+<class 'pydotplus.graphviz.Node'>
+ n.get_name() = 414
+ E_IN AVALIADO em n.get_name()
+[]
+node_formulas=
+{0: [<pydotplus.graphviz.Node object at 0x7f931cf4d710>], 1: [<pydotplus.graphviz.Node object at 0x7f931d1c4ad0>, <pydotplus.graphviz.Node object at 0x7f931d1c4d10>], 2: [<pydotplus.graphviz.Node object at 0x7f931cf62590>, <pydotplus.graphviz.Node object at 0x7f931cf6bad0>]}

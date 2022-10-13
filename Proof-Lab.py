@@ -16,21 +16,22 @@ e_in={}
 e_out={}
 
 def raw_formula(formula):
-#        print "in raw_formula"+formula
-        if re.match(r'\[.+\][\s]*[0-9]+',formula):
-           m=re.search(r'\[(.+)\][\s]*[0-9]+[0-9a-z]*',formula)
-#           print "====> "+formula+" ="+m.group(1)
-           res=m.group(1)
-        elif re.match(r'\(.+\)[\s]*[0-9]+[0-9a-z]*',formula):
-           m=re.match(r'\((.+)\)[\s]*[0-9]+[0-9a-z]*',formula)
-           res=m.group(1)
-#           print "ACHOU descarte ="+m.group(1)
-        elif re.match(r'([A-Za-z0-9]+|\(.+\))', formula):
-           m=re.match(r'([A-Za-z0-9]+|\(.+\))', formula)
-           res=m.group(1)
+        print "in raw_formula"+formula+"Fim"
+        if re.match(r'\[[A-Za-z0-9 ]+\]',formula):
+ #          m=re.search(r'\[([A-Za-z0-9 ]+)\]',formula)
+           print "====> "+formula+" ="
+#           res=m.group(1)
+        # elif re.match(r'\(.+\)\s*[0-9]+[0-9a-z]*',formula):
+        #    m=re.match(r'\((.+)\)[\s]*[0-9]+[0-9a-z]*',formula)
+        #    res=m.group(1)
+        #    print "ACHOU descarte ="+m.group(1)
+        # elif re.match(r'[A-Za-z0-9]+|(.+)', formula):
+        #    m=re.match(r'([A-Za-z0-9]+|(.+))', formula)
+        #    res=m.group(1)
+        #    print "achou o padrao"+m.group(1)
         else:
            res="error"
-#        print "OUT raw_formula"+res
+        print "OUT raw_formula"+res
         return res
 
 
@@ -150,62 +151,108 @@ nr=node_root
 print "nr "+nr[0].get_name()
 nivel=0
 node_formulas={}
-node_formulas[nivel]=[nr]
+node_formulas[nivel]=nr
+print " node_formulas inicial"
+print node_formulas[0]
 
-while node_formulas[nivel]:
-#   print node_formulas[nivel]
-# for l in node_formulas[nivel]:
-#   print l
+# Defines node_formula[nivel], i.e., the list of formula nodes by level  
+
+while len(node_formulas[nivel])>0:
    node_formulas[nivel+1]=[]
+   print " Inicio do while de formulas[nivel], nivel = "+ str(nivel)+" node_formulas[nivel]"
+   print node_formulas
+#
    for n in node_formulas[nivel]:
-    n[0].set_color( "blue")
-    n[0].set_style("filled")       
-    if e_in.has_key(n[0].get_name()):
-     for e in e_in[n[0].get_name()]:
-       node_formulas[nivel+1].append(e.get_source())
-#     print "DEPOIS"
+#    print " node_formulas[nivel] no nivel "+str(nivel)
+#    print node_formulas
+#    print " No n é do tipo "
+#    print type(n)        
+    n.set_color( "blue")
+    n.set_style("filled")
+#    print " n.get_name() = "+ n.get_name()
+#    print " E_IN AVALIADO em n.get_name()" 
+#    print e_in[n.get_name()]
+    if len(e_in[n.get_name()])>0:
+     print " tem aresta chegando no node "+n.get_name()
+     no=graph_from_file.get_node(n.get_name()) 
+     print no[0].get_label()
+#     print " arestas sao ="
+#     print e_in[n.get_name()]
+#     print " PRIMEIRO node_formulas[nivel+1] "+str(nivel+1)
 #     print node_formulas[nivel+1]
-#     print "Fez o n="+n
-   print "node_formulas="
-   print  { graph_from_file.get_node(n)[0].get_label() for n in node_formulas[nivel+1]}
+     for e in e_in[n.get_name()]:
+#       print " mostra getsource"
+       node_up=graph_from_file.get_node(e.get_source())[0]
+#       print node_up
+       node_formulas[nivel+1].append(node_up)
+       print "DEPOIS de append de node_up"
+       print node_formulas[nivel+1]
+#       print "Fez o n="+n.get_name()
+    print "node_formulas depois do if len(e_in[n.get_name()])>0"
+    print node_formulas[nivel+1]
+    if len(node_formulas[nivel+1])>0:
+      print " Nao vazia"       
+      print  { n.get_label() for n in node_formulas[nivel+1]}
+    else:
+      print " lista vazia"
    print "Fez o NIVEL="+str(nivel+1)
+   graph_from_file.write("img/"+str(nivel)+"InputGraph-ProvaNonHamiltonicity-copia.dot")   
    nivel=nivel+1
+
 # calculando vetores de ocorrencias
-v_oc={}
-v_repeated_nodes={}
-i=0
-while i< len(node_formulas):
-  v_repeated_nodes[i]={}
-  v_oc[i]={}
-  i=i+1
+
+v_oc=[]
+#v_repeated_nodes={}
+list_formulas_proof=[]
+
 for (n,l) in node_formulas.items():
- print "nivel="+str(n)
- print "LISTA DE NOS="
- print l
- print "============FIM DE LISTA"
- for f in l:
-   lista_nos_formula=graph_from_file.get_node(f)
-#   print "lista_nos_formula==>"
-#   print lista_nos_formula
-   if lista_nos_formula <> []:
-     node_formula_f=graph_from_file.get_node(f)[0]
-     # print "lista de nos"
-     # print node_formula_f
-     formula_f=node_formula_f.get_label()
-#     print "formula_f"+formula_f
-     formula_f=raw_formula(formula_f)
-     v_oc[n][formula_f]=0
-     v_repeated_nodes[n][formula_f]=[]
- for f in l:
-   lista_nos_formula=graph_from_file.get_node(f)
-   if lista_nos_formula <> []:
-     node_formula_f=graph_from_file.get_node(f)[0]
-     formula_f=node_formula_f.get_label()
-     formula_f=raw_formula(formula_f)
-     v_oc[n][formula_f]=v_oc[n][formula_f]+1
-     v_repeated_nodes[n][formula_f].append(node_formula_f)
-     #------Alteracao de Inspecao
-print " LISTANDO v_oc[n][formula_f] "
+  for node_formula in l:  
+   formula=node_formula.get_label()
+   print "formula no loop (n,l)"+formula
+   formula_raw=raw_formula(formula)
+#   print "formula_raw "+formula_raw
+   if formula not in list_formulas_proof:
+     list_formulas_proof.append(formula)
+print " Total List of Formulas in the proof "
+
+        
+  # for node_formula in l:
+  #  formula=node_formula.get_label()
+  #  print "formula "+formula
+  #  formula_raw=raw_formula(formula)
+  #  print "formula_raw "+formula_raw
+  #  if formula_raw in list_formulas_proof:
+  #    v_oc[n][formula_raw]=v_oc[n][formula_raw]+1
+  #  else:
+  #    v_oc[n][formula_raw]=1
+  #    list_formulas_proof.append(formula_raw)
+     
+# for (n,l) in node_formulas.items():
+#  print "nivel="+str(n)
+#  print "LISTA DE NOS="
+#  print l
+#  print "============FIM DE LISTA"
+
+# for n in range(0,nivel):
+#     print "ocorrências do nível "+str(n)
+#     for f in list_formulas_proof:
+#       if v_oc[n,f]>0:
+#         print "formula="+f+" ocorre "+str(v_oc[n,f])+" vezes"
+ 
+#  for node in l:
+#    print node
+#    print type(node)
+# #   lista_nos_formula=graph_from_file.get_node(f)
+#  for f in l:
+#    lista_nos_formula=graph_from_file.get_node(f)
+#    if lista_nos_formula <> []:
+#      node_formula_f=graph_from_file.get_node(f)[0]
+#      formula_f=node_formula_f.get_label()
+#      formula_f=raw_formula(formula_f)
+#      v_oc[n][formula_f]=v_oc[n][formula_f]+1
+#      v_repeated_nodes[n][formula_f].append(node_formula_f)
+#      #------Alteracao de Inspecao
+# print " LISTANDO v_oc[n][formula_f] "
 # for n in range(0,len(v_oc)):
 #       formula_f=graph_from_file.get_node(f)[0].get_label()
 #       if len(v_oc[n][formula_f]) > 1:
@@ -213,8 +260,8 @@ print " LISTANDO v_oc[n][formula_f] "
 #       print n
 #       print l
 #       print v_oc[n]
-    # Final da Alteracao
-write_vetor_oc(v_oc)
+# #    Final da Alteracao
+#write_vetor_oc(v_oc)
 # -------   Final alteracao
 print "seqnode="+str(seqnode)
 l_nodes=graph_from_file.get_node_list()
