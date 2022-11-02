@@ -142,102 +142,8 @@ def write_vetor_oc(t):
           for f,formulas_oc in list(vector_oc_by_level.items()):
               writer.writerow(formulas_oc)
 
-def ordem_formula(f,l):
-   i=1
-   
-   while (l[i-1] != f) and (i<len(l)):
-      print      
-      i=i+1
-   if l[i-1]==f:
-     return i-1
-   else:      
-     return -1
-   
-
-def dependency_set(l):
-   v=0
-   i=0
-   for b in reversed(l):
-      print(v,i,b)     
-      v = v+b*2**i
-      i=i+1
-   return v
-
-def antecedente(f):
-   if re.match(r'\"?(.+) +imp +\(.+\)\"?',f):
-      m=re.search(r'\"?(.+) +imp +\(.+\)\"?',f)
-      res=m.group(1)
-   elif re.match(r'\"?(.+) +imp +[A-Za-z0-9]+\"?',f):
-      m=re.search(r'\"?(.+) +imp +[A-Za-z0-9]+\"?',f)
-      res=m.group(1)
-   else:
-      res="error"
-   return(res)
-
-def conjunto(s):
-  i=int(s)+(2**(len(list_formulas_proof))+1)
-  l=[int(j) for j in bin(i)[2:]]
-  print("len(l) de dentro de conjunto(s)="+str(len(l)))
-  return(l[:len(list_formulas_proof)])
-
-def bitor(l1,l2):
-  l=[0]*len(list_formulas_proof)
-  print("len(l1)="+str(len(l1))+" len(l2)="+str(len(l2))+" len(l)="+str(len(l)))
-  for j in range(0,len(list_formulas_proof)-1):
-    print("indice j= "+str(j)+"l1[j]= "+str(l1[j])+"l2[j]= "+str(l2[j]))      
-    if l1[j]==1 or l2[j]==1:
-            l[j]=1
-  return(l)
-
-        
-def desliga_bit_ordem(l,n):
-    l1=l
-    l1[n]=0
-    return(l1)
-  
 
 
-def label(e):
-  global e_out
-  global e_in
-  global list_formulas_proof      
-  conj_depen=[]
-  node_source=graph_from_file.get_node(e.get_source())[0]
-  print("e.get_source()"+node_source.get_label())
-  if len(e_in[node_source.get_name()])==0:
-      formula=raw_formula(node_source.get_label())
-      conj_depen=[0]*len(list_formulas_proof)
-      bit_formula=ordem_formula(formula,list_formulas_proof)
-      print("bit_formula="+str(bit_formula))
-      conj_depen[bit_formula]=1
-      valor_bitstring=dependency_set(conj_depen)
-      print(valor_bitstring)
-      e.set_label(str(valor_bitstring)[:5])
-      return(str(valor_bitstring))
-  elif len(e_in[node_source.get_name()])==1:
-      formula=raw_formula(node_source.get_label())          
-      label1=label(e_in[node_source.get_name()][0])
-      formula_ant=antecedente(formula)
-      ordem=ordem_formula(formula_ant,list_formulas_proof)
-      if ordem>=0:
-       label_set=conjunto(label1)
-       label_set=desliga_bit_ordem(label_set,ordem)
-       label1=dependency_set(label_set)
-       print("para formula_ant="+formula_ant+"a ordem foi"+str(ordem))
-       e.set_label(str(label1)[:5])       
-       return(str(label1))      
-      else:
-       return("Erro antecedente nao está em lista_formulas_proof"+" antecedente de "+formula+" ="+formula_ant)       
-  elif len(e_in[node_source.get_name()])==2:
-      label_set1=conjunto(label(e_in[node_source.get_name()][0]))
-      label_set2=conjunto(label(e_in[node_source.get_name()][1]))
-      label_set=bitor(label_set1,label_set2)
-      label_2premissas=dependency_set(label_set)
-      e.set_label(str(label_2premissas)[:5])      
-      return(str(label_2premissas))
-  else:
-      return("ERRO")    
-          
 print(" Vai ler a prova ")
 graph_from_file=pd.graph_from_dot_file("img/Prova.dot")
 
@@ -286,9 +192,7 @@ while len(node_formulas[nivel])>0:
 #     print " PRIMEIRO node_formulas[nivel+1] "+str(nivel+1)
 #     print node_formulas[nivel+1]
      for e in e_in[n.get_name()]:
-       print( " mostra edge")
-#       e.set_label('label')
-#       print(e.get_label())
+#       print " mostra getsource"
        node_up=graph_from_file.get_node(e.get_source())[0]
 #       print node_up
        node_formulas[nivel+1].append(node_up)
@@ -309,11 +213,8 @@ while len(node_formulas[nivel])>0:
 # calculando vetores de ocorrencias
 
 v_oc={}
-global list_formulas_proof
 #v_repeated_nodes={}
 list_formulas_proof=[]
-list_node_leaves=[]
-
 
 
 print("---------------------------------------------------------")
@@ -324,10 +225,6 @@ print("---------------------------------------------------------")
 for (n,l) in list(node_formulas.items()):
   for node_formula in l:  
    formula=node_formula.get_label()
-   if len(e_in[node_formula.get_name()])==0:
-          node_formula.set_color('red')
-          node_formula.set_style('filled')
-          list_node_leaves.append((n,node_formula))
    print("formula no loop (n,l)"+formula)
    print(type(formula))
    formula_raw=raw_formula(formula)
@@ -336,104 +233,6 @@ for (n,l) in list(node_formulas.items()):
      list_formulas_proof.append(formula_raw)
 print(" Total List of Formulas in the proof ")
 print(list_formulas_proof)
-
-print("ordem de q"+str(ordem_formula('q',list_formulas_proof)))
-
-# Labeling the edges with the dependdency-sets
-
-print("nr "+nr[0].get_name())
-print(e_in[nr[0].get_name()])
-label_premiss1=label(e_in[nr[0].get_name()][0])
-label_premiss2=label(e_in[nr[0].get_name()][1])
-print("premissa1 label="+label_premiss1)
-print("premissa1 label="+label_premiss2)
-
-
-# conj_depen=[]
-# list_edges_downwards=[]
-# for (n,node) in list_node_leaves:     
-#    if len(e_out[node.get_name()])>0:
-#        e=e_out[node.get_name()][0]  
-#        list_edges_downwards.append((n,e))
-#        formula=raw_formula(node.get_label())
-# #       print("CONTROLPOINT")
-# #       print("formula raw"+formula)
-# #       for i in range(0,len(list_formulas_proof))
-#        conj_depen=[0]*len(list_formulas_proof)
-# #       print(conj_depen)    
-#        bit_formula=ordem_formula(formula,list_formulas_proof)
-#        print("bit_formula="+str(bit_formula))
-#        conj_depen[bit_formula]=1
-#        print(conj_depen)
-#        valor_bitstring=dependency_set(conj_depen)
-#        print(valor_bitstring)
-#        e.set_label(str(valor_bitstring)[:5])
-
-# new_list_edges_downwards=[]       
-# list_node_downwards=[]
-# for (n,e) in list_edges_downwards:
-#  node_dest=e.get_destination()
-#  if len(e_out[node_dest])>0:
-#     new_edge=e_out[node_dest][0]
-#     print(e_in[node_dest])
-#     if len(e_in[node_dest])==1:
-#        print("e_in[node_dest][0]")
-#        print(e_in[node_dest][0])
-#        new_edge.set_label(e_in[node_dest][0].get_label()[:5]+"-"+ant)
-#     elif len(e_in[node_dest])==2:
-#        if isinstance(e_in[node_dest][0], str):    
-#           print("e_in[node_dest][0].get_label()")
-#           label1=e_in[node_dest][0].get_label()
-#           print(label1)
-#        else:
-#           label1=label(e_in[node_dest][0])     
-#        if isinstance(e_in[node_dest][1], str):
-#           print("e_in[node_dest][1].get_label()")               
-#           label2=e_in[node_dest][1].get_label()
-#           print(label2)          
-#        else:
-#           label2=label(e_in[node_dest][1])               
-#        new_edge.set_label(label1[:5]+"+"+label2[:5])
-#     new_list_edges_downwards.append((n-1,new_edge))
-
-         
-
-
-
-        
- # for (n,e1) in list_edges_downwards:
- #  if i==n:      
- #  for e2 in list_edges_downwards:
- #    if (e1!=e2) and e1.get_destination()==e2.get_destination():
- #        flag=1    
- #        if len(e_out[e1.get_destination()])>0:
- #           e=e_out[e1.get_destination()][0]
- #           new_list_downwards.append(e)
- #           e.set_label(e1.get_label()[:5]+"+"+e2.get_label()[:5])
- #  if (flag==0):
- #        if len(e_out[e1.get_destination()])>0:
- #           e=e_out[e1.get_destination()][0]
- #           new_list_downwards.append(e)
- #           e.set_label(e1.get_label()[:5]+"-ant")
- # list_node_downwards=new_list_downwards
- # i=i+1
-          
-           
-           
-
-            
-    # node=e.get_destination()
-    # print("node")
-    # print(node)
-    # list_node_downwards.append(node)
-
-    
-       
-
-# i=0       
-# for e in list_edges_downwards:
-#         e.set_label(str(i))
-#         i=i+1
 
 for f in list_formulas_proof:
      v_oc[f]=[]
