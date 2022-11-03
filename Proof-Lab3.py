@@ -203,16 +203,18 @@ def label(e):
   global list_formulas_proof      
   conj_depen=[]
   node_source=graph_from_file.get_node(e.get_source())[0]
-  print("e.get_source()"+node_source.get_label())
+#  print("e.get_source()"+node_source.get_label())
   if len(e_in[node_source.get_name()])==0:
       formula=raw_formula(node_source.get_label())
       conj_depen=[0]*len(list_formulas_proof)
       bit_formula=ordem_formula(formula,list_formulas_proof)
-      print("bit_formula="+str(bit_formula))
+#      print("bit_formula="+str(bit_formula))
       conj_depen[bit_formula]=1
       valor_bitstring=dependency_set(conj_depen)
-      print(valor_bitstring)
+      grava_conjdepen(str(valor_bitstring)[:5], conj_depen)
+#      print(valor_bitstring)
       e.set_label(str(valor_bitstring)[:5])
+      e.set_URL(str(valor_bitstring)[:5]+".conjdep")
       return(str(valor_bitstring))
   elif len(e_in[node_source.get_name()])==1:
       formula=raw_formula(node_source.get_label())          
@@ -223,8 +225,11 @@ def label(e):
        label_set=conjunto(label1)
        label_set=desliga_bit_ordem(label_set,ordem)
        label1=dependency_set(label_set)
+       e.set_label(str(label1)[:5])
+       e.set_URL(str(label1)[:5]+".conjdep")
+       grava_conjdepen(str(label1)[:5], label_set)       
        print("para formula_ant="+formula_ant+"a ordem foi"+str(ordem))
-       e.set_label(str(label1)[:5])       
+#       e.set_label(str(label1)[:5])       
        return(str(label1))      
       else:
        return("Erro antecedente nao está em lista_formulas_proof"+" antecedente de "+formula+" ="+formula_ant)       
@@ -233,10 +238,26 @@ def label(e):
       label_set2=conjunto(label(e_in[node_source.get_name()][1]))
       label_set=bitor(label_set1,label_set2)
       label_2premissas=dependency_set(label_set)
-      e.set_label(str(label_2premissas)[:5])      
+      e.set_label(str(label_2premissas)[:5])
+      e.set_URL(str(label_2premissas)[:5]+".conjdep")
+      grava_conjdepen(str(label_2premissas)[:5], label_set)             
       return(str(label_2premissas))
   else:
-      return("ERRO")    
+      return("ERRO")
+
+def grava_conjdepen(bs,cd):
+  global list_formulas_proof
+  global conjdepen_gravados
+  if bs not in conjdepen_gravados:
+     f=open("img/"+bs+".conjdep","a")     
+     for j in range(0,len(cd)):
+         if cd[j]==1:
+                 f.write(list_formulas_proof[j])
+     f.close()
+     conjdepen_gravados.append(bs)
+
+
+  
           
 print(" Vai ler a prova ")
 graph_from_file=pd.graph_from_dot_file("img/Prova.dot")
@@ -310,10 +331,11 @@ while len(node_formulas[nivel])>0:
 
 v_oc={}
 global list_formulas_proof
+global conjdepen_gravados
 #v_repeated_nodes={}
 list_formulas_proof=[]
 list_node_leaves=[]
-
+conjdepen_gravados=[]
 
 
 print("---------------------------------------------------------")
