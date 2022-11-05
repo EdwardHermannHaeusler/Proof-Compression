@@ -146,7 +146,7 @@ def ordem_formula(f,l):
    i=1
    
    while (l[i-1] != f) and (i<len(l)):
-      print      
+#      print      
       i=i+1
    if l[i-1]==f:
      return i-1
@@ -158,7 +158,7 @@ def dependency_set(l):
    v=0
    i=0
    for b in reversed(l):
-      print(v,i,b)     
+#      print(v,i,b)     
       v = v+b*2**i
       i=i+1
    return v
@@ -175,16 +175,16 @@ def antecedente(f):
    return(res)
 
 def conjunto(s):
-  i=int(s)+(2**(len(list_formulas_proof))+1)
+  i=int(s)+(2**(len(list_formulas_proof)))
   l=[int(j) for j in bin(i)[2:]]
-  print("len(l) de dentro de conjunto(s)="+str(len(l)))
-  return(l[:len(list_formulas_proof)])
+#  print("len(l) de dentro de conjunto(s)="+str(len(l)))
+  return(l[1:])
 
 def bitor(l1,l2):
   l=[0]*len(list_formulas_proof)
-  print("len(l1)="+str(len(l1))+" len(l2)="+str(len(l2))+" len(l)="+str(len(l)))
-  for j in range(0,len(list_formulas_proof)-1):
-    print("indice j= "+str(j)+"l1[j]= "+str(l1[j])+"l2[j]= "+str(l2[j]))      
+#  print("len(l1)="+str(len(l1))+" len(l2)="+str(len(l2))+" len(l)="+str(len(l)))
+  for j in range(0,len(list_formulas_proof)):
+#    print("indice j= "+str(j)+"l1[j]= "+str(l1[j])+"l2[j]= "+str(l2[j]))      
     if l1[j]==1 or l2[j]==1:
             l[j]=1
   return(l)
@@ -214,6 +214,7 @@ def label(e):
       grava_conjdepen(str(valor_bitstring)[:5], conj_depen)
 #      print(valor_bitstring)
       e.set_label(str(valor_bitstring)[:5])
+      e.set_comment(str(valor_bitstring))      
       e.set_URL(str(valor_bitstring)[:5]+".conjdep")
       return(str(valor_bitstring))
   elif len(e_in[node_source.get_name()])==1:
@@ -226,6 +227,7 @@ def label(e):
        label_set=desliga_bit_ordem(label_set,ordem)
        label1=dependency_set(label_set)
        e.set_label(str(label1)[:5])
+       e.set_label(str(label1))       
        e.set_URL(str(label1)[:5]+".conjdep")
        grava_conjdepen(str(label1)[:5], label_set)       
        print("para formula_ant="+formula_ant+"a ordem foi"+str(ordem))
@@ -236,9 +238,16 @@ def label(e):
   elif len(e_in[node_source.get_name()])==2:
       label_set1=conjunto(label(e_in[node_source.get_name()][0]))
       label_set2=conjunto(label(e_in[node_source.get_name()][1]))
+      print("labelset1")
+      print(label_set1)
+      print("labelset2")
+      print(label_set2)      
       label_set=bitor(label_set1,label_set2)
       label_2premissas=dependency_set(label_set)
+      print("labelset2premissas")
+      print(label_set)
       e.set_label(str(label_2premissas)[:5])
+      e.set_comment(str(label_2premissas))
       e.set_URL(str(label_2premissas)[:5]+".conjdep")
       grava_conjdepen(str(label_2premissas)[:5], label_set)             
       return(str(label_2premissas))
@@ -368,8 +377,9 @@ print(e_in[nr[0].get_name()])
 label_premiss1=label(e_in[nr[0].get_name()][0])
 label_premiss2=label(e_in[nr[0].get_name()][1])
 print("premissa1 label="+label_premiss1)
-print("premissa1 label="+label_premiss2)
-
+print("premissa2 label="+label_premiss2)
+e_in[nr[0].get_name()][0].set_comment(label_premiss1)
+print("printing "+e_in[nr[0].get_name()][0].get_comment())
 
 # conj_depen=[]
 # list_edges_downwards=[]
