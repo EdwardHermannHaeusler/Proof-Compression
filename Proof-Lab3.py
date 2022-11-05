@@ -211,11 +211,12 @@ def label(e):
 #      print("bit_formula="+str(bit_formula))
       conj_depen[bit_formula]=1
       valor_bitstring=dependency_set(conj_depen)
-      grava_conjdepen(str(valor_bitstring)[:5], conj_depen)
+      grava_conjdepen(str(valor_bitstring), conj_depen)
 #      print(valor_bitstring)
-      e.set_label(str(valor_bitstring)[:5])
+#      e.set_label(str(valor_bitstring)[:5])
+      e.set_label("DS")
       e.set_comment(str(valor_bitstring))      
-      e.set_URL(str(valor_bitstring)[:5]+".conjdep")
+      e.set_URL(str(valor_bitstring)+".conjdep")
       return(str(valor_bitstring))
   elif len(e_in[node_source.get_name()])==1:
       formula=raw_formula(node_source.get_label())          
@@ -226,10 +227,10 @@ def label(e):
        label_set=conjunto(label1)
        label_set=desliga_bit_ordem(label_set,ordem)
        label1=dependency_set(label_set)
-       e.set_label(str(label1)[:5])
-       e.set_label(str(label1))       
-       e.set_URL(str(label1)[:5]+".conjdep")
-       grava_conjdepen(str(label1)[:5], label_set)       
+#       e.set_label(str(label1)[:5])
+       e.set_label("DS")       
+       e.set_URL(str(label1)+".conjdep")
+       grava_conjdepen(str(label1), label_set)       
        print("para formula_ant="+formula_ant+"a ordem foi"+str(ordem))
 #       e.set_label(str(label1)[:5])       
        return(str(label1))      
@@ -246,10 +247,10 @@ def label(e):
       label_2premissas=dependency_set(label_set)
       print("labelset2premissas")
       print(label_set)
-      e.set_label(str(label_2premissas)[:5])
+      e.set_label("DS")
       e.set_comment(str(label_2premissas))
-      e.set_URL(str(label_2premissas)[:5]+".conjdep")
-      grava_conjdepen(str(label_2premissas)[:5], label_set)             
+      e.set_URL(str(label_2premissas)+".conjdep")
+      grava_conjdepen(str(label_2premissas), label_set)             
       return(str(label_2premissas))
   else:
       return("ERRO")
@@ -258,10 +259,14 @@ def grava_conjdepen(bs,cd):
   global list_formulas_proof
   global conjdepen_gravados
   if bs not in conjdepen_gravados:
-     f=open("img/"+bs+".conjdep","a")     
-     for j in range(0,len(cd)):
+     f=open("img/"+bs+".conjdep","a")
+     follow=False
+     for j in range(0,len(cd)):   
          if cd[j]==1:
+                 if follow:
+                    f.write(", ")
                  f.write(list_formulas_proof[j])
+                 follow=True
      f.close()
      conjdepen_gravados.append(bs)
 
