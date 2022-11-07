@@ -117,30 +117,21 @@ def igual(c1, c2):
        i=i+1
    return c1[i-1]==c2[i-1] and i==l1 and i==l2
 
-def write_vetor_oc(t):
+def write_vetor_oc(t,nivel):
 # building the dict of all key-formulas in t
-    formulas=set([])
-    i=0
-    vector_oc_by_level={}
-    for n,l in list(t.items()):
-        for f,n_oc in list(l.items()):
-            formulas.add(raw_formula(f))
-#    print len(formulas)
-    header=['formulas']
-    for i in range(0,len(t)):
-        header.append(i)
-    for f in formulas:
-        vector_oc_by_level[f]=[f]
-        for n in range(0,len(t)):
-          if f in t[n]:
-            vector_oc_by_level[f].append(t[n][f])
-          else:
-            vector_oc_by_level[f].append(0)
-        with open('img/vetorocorrencias.csv', 'wb') as csv_file:
-          writer=csv.writer(csv_file)
-          writer.writerow(header)
-          for f,formulas_oc in list(vector_oc_by_level.items()):
-              writer.writerow(formulas_oc)
+#    formulas=[]
+#    i=0
+    header=["formulas"]
+    for i in range(0,nivel):
+        header.append(str(i))
+    with open('img/vetorocorrencias.csv', 'w') as csv_file:
+        writer=csv.writer(csv_file)
+        writer.writerow(header)
+        for f in list_formulas_proof:
+            row=[f]
+            for r in t[f]:
+               row.append(str(r))     
+            writer.writerow(row)
 
 def ordem_formula(f,l):
    i=1
@@ -487,74 +478,68 @@ for (n,l) in list(node_formulas.items()):
    if (v_oc[formula_raw][n]>1):
      print("vetor v_oc nivel"+str(n)+" formula="+formula_raw)      
      print(str(v_oc[formula_raw][n]))
-   
-   
-
-
-
-       
-        
-  # for node_formula in l:
-  #  formula=node_formula.get_label()
-  #  print "formula "+formula
-  #  formula_raw=raw_formula(formula)
-  #  print "formula_raw "+formula_raw
-  #  if formula_raw in list_formulas_proof:
-  #    v_oc[n][formula_raw]=v_oc[n][formula_raw]+1
-  #  else:
-  #    v_oc[n][formula_raw]=1
-  #    list_formulas_proof.append(formula_raw)
+  for node_formula in l:
+   formula=node_formula.get_label()
+   print("formula "+formula)
+   formula_raw=raw_formula(formula)
+   print( "formula_raw "+formula_raw)
+   if formula_raw in list_formulas_proof:
+     v_oc[formula_raw][n]=v_oc[formula_raw][n]+1
+   else:
+     v_oc[n][formula_raw]=1
+     list_formulas_proof.append(formula_raw)
      
-# for (n,l) in node_formulas.items():
-#  print "nivel="+str(n)
-#  print "LISTA DE NOS="
-#  print l
-#  print "============FIM DE LISTA"
+for (n,l) in node_formulas.items():
+ print( "nivel="+str(n))
+ print( "LISTA DE NOS=")
+ print( l)
+ print( "============FIM DE LISTA")
 
-# for n in range(0,nivel):
-#     print "ocorrências do nível "+str(n)
-#     for f in list_formulas_proof:
-#       if v_oc[n,f]>0:
-#         print "formula="+f+" ocorre "+str(v_oc[n,f])+" vezes"
- 
-#  for node in l:
-#    print node
-#    print type(node)
+for n in range(0,nivel):
+    print( "ocorrências do nível "+str(n))
+    for f in list_formulas_proof:
+      if v_oc[f][n]>0:
+        print( "formula="+f+" ocorre "+str(v_oc[f][n])+" vezes")
+# Nao sei porque fiz este trecho abaixo. O trecho acima já cumpre o propósito 
+# for node in l:
+#    print( node)
+#    print( type(node))
 # #   lista_nos_formula=graph_from_file.get_node(f)
-#  for f in l:
+# for f in l:
 #    lista_nos_formula=graph_from_file.get_node(f)
-#    if lista_nos_formula <> []:
+#    if lista_nos_formula != []:
 #      node_formula_f=graph_from_file.get_node(f)[0]
 #      formula_f=node_formula_f.get_label()
 #      formula_f=raw_formula(formula_f)
 #      v_oc[n][formula_f]=v_oc[n][formula_f]+1
 #      v_repeated_nodes[n][formula_f].append(node_formula_f)
-#      #------Alteracao de Inspecao
-# print " LISTANDO v_oc[n][formula_f] "
+# #------Alteracao de Inspecao
+# print( " LISTANDO v_oc[formula_f][n] ")
 # for n in range(0,len(v_oc)):
 #       formula_f=graph_from_file.get_node(f)[0].get_label()
 #       if len(v_oc[n][formula_f]) > 1:
-#          print "MAIS DE UMA OC = "+str(v_oc[n][formula_f])
-#       print n
-#       print l
-#       print v_oc[n]
-# #    Final da Alteracao
-#write_vetor_oc(v_oc)
-# -------   Final alteracao
+#          print( "MAIS DE UMA OC = "+str(v_oc[n][formula_f]))
+#       print( n)
+#       print( l)
+#       print( v_oc[n])
+#    Final da Alteracao
+# --------------------------------
+write_vetor_oc(v_oc,nivel)
+#-------   Final alteracao
 print("seqnode="+str(seqnode))
-l_nodes=graph_from_file.get_node_list()
-num_oc_formulas=len(l_nodes)
-print("num_oc_formulas="+str(num_oc_formulas))
-# #  Starting the horizontal collapsing
-# print "COLLAPSING THE REPEATED FORMULAS"
-# print "Gerando graph_from_dot_data ANTES-COMPRESSAO "
-# sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
-# print "gravando dot file"
+# l_nodes=graph_from_file.get_node_list()
+# num_oc_formulas=len(l_nodes)
+# print("num_oc_formulas="+str(num_oc_formulas))
+#  Starting the horizontal collapsing
+print( "COLLAPSING THE REPEATED FORMULAS")
+print( "Gerando graph_from_dot_data ANTES-COMPRESSAO ")
+sgraph=pd.graph_from_dot_data(graph_from_file.to_string())
+print( "gravando dot file")
 
-# sgraph.write("img/"+sgraph.get_name()+"ANTES.dot")
-# print "GRAVOU"
-# i=0
-# while i < len(v_oc) and v_oc[i]:
+sgraph.write("img/"+sgraph.get_name()+"ANTES.dot")
+print( "GRAVOU")
+i=0
+while i < nivel and v_oc[i]:
 #     repeated_formulas=[]
 #     while not repeated_formulas and v_oc[i]:
 #        i=i+1
