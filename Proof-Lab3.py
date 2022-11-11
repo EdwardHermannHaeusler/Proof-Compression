@@ -10,6 +10,12 @@ import sets
 
 global e_in
 global e_out
+global e_in_A
+global e_out_A
+# associa vertices as arestas ancestrais (l_A no paper) que saem de cada um deles
+e_in_A={}
+# associa vertices as arestas ancestrais (l_A no paper) que chegam em  cada um deles
+e_out_A={}
 global seqnode
 seqnode=1
 e_in={}
@@ -84,11 +90,9 @@ def find_root(g):
   print(e_in)
   print(" ======= ARESTAS de DESCARTE =======")
   print(e_out_D)
-#  print "Vai encontrar raiz"
   n=g.get_node_list()
   i=0
   while i < len(n) and not (n[i]):
-#    print "i="+str(i)
      i=i+1
   na=n[i]
   print("na="+na.get_name())
@@ -118,9 +122,6 @@ def igual(c1, c2):
    return c1[i-1]==c2[i-1] and i==l1 and i==l2
 
 def write_vetor_oc(t,nivel):
-# building the dict of all key-formulas in t
-#    formulas=[]
-#    i=0
     header=["formulas"]
     for i in range(0,nivel):
         header.append(str(i))
@@ -137,7 +138,6 @@ def ordem_formula(f,l):
    i=1
    
    while (l[i-1] != f) and (i<len(l)):
-#      print      
       i=i+1
    if l[i-1]==f:
      return i-1
@@ -149,7 +149,6 @@ def dependency_set(l):
    v=0
    i=0
    for b in reversed(l):
-#      print(v,i,b)     
       v = v+b*2**i
       i=i+1
    return v
@@ -168,14 +167,11 @@ def antecedente(f):
 def conjunto(s):
   i=int(s)+(2**(len(list_formulas_proof)))
   l=[int(j) for j in bin(i)[2:]]
-#  print("len(l) de dentro de conjunto(s)="+str(len(l)))
   return(l[1:])
 
 def bitor(l1,l2):
   l=[0]*len(list_formulas_proof)
-#  print("len(l1)="+str(len(l1))+" len(l2)="+str(len(l2))+" len(l)="+str(len(l)))
   for j in range(0,len(list_formulas_proof)):
-#    print("indice j= "+str(j)+"l1[j]= "+str(l1[j])+"l2[j]= "+str(l2[j]))      
     if l1[j]==1 or l2[j]==1:
             l[j]=1
   return(l)
@@ -194,17 +190,13 @@ def label(e):
   global list_formulas_proof      
   conj_depen=[]
   node_source=graph_from_file.get_node(e.get_source())[0]
-#  print("e.get_source()"+node_source.get_label())
   if len(e_in[node_source.get_name()])==0:
       formula=raw_formula(node_source.get_label())
       conj_depen=[0]*len(list_formulas_proof)
       bit_formula=ordem_formula(formula,list_formulas_proof)
-#      print("bit_formula="+str(bit_formula))
       conj_depen[bit_formula]=1
       valor_bitstring=dependency_set(conj_depen)
       grava_conjdepen(str(valor_bitstring), conj_depen)
-#      print(valor_bitstring)
-#      e.set_label(str(valor_bitstring)[:5])
       e.set_label("DS")
       e.set_comment(str(valor_bitstring))      
       e.set_URL(str(valor_bitstring)+".conjdep")
@@ -218,26 +210,18 @@ def label(e):
        label_set=conjunto(label1)
        label_set=desliga_bit_ordem(label_set,ordem)
        label1=dependency_set(label_set)
-#       e.set_label(str(label1)[:5])
        e.set_label("DS")       
        e.set_URL(str(label1)+".conjdep")
        grava_conjdepen(str(label1), label_set)       
-       print("para formula_ant="+formula_ant+"a ordem foi"+str(ordem))
-#       e.set_label(str(label1)[:5])       
        return(str(label1))      
       else:
        return("Erro antecedente nao está em lista_formulas_proof"+" antecedente de "+formula+" ="+formula_ant)       
   elif len(e_in[node_source.get_name()])==2:
       label_set1=conjunto(label(e_in[node_source.get_name()][0]))
       label_set2=conjunto(label(e_in[node_source.get_name()][1]))
-      print("labelset1")
-      print(label_set1)
-      print("labelset2")
-      print(label_set2)      
+
       label_set=bitor(label_set1,label_set2)
       label_2premissas=dependency_set(label_set)
-      print("labelset2premissas")
-      print(label_set)
       e.set_label("DS")
       e.set_comment(str(label_2premissas))
       e.set_URL(str(label_2premissas)+".conjdep")
@@ -261,14 +245,340 @@ def grava_conjdepen(bs,cd):
      f.close()
      conjdepen_gravados.append(bs)
 
+def collapsible_nodes(node_formula, node_formulas):
+        f=raw_formula(node_formula.get_label())
+        collapsibles=[]
+        for node in node_formulas:
+                if node != node_formula and f==raw_formula(node.get_label()):
+                        collapsibles.append(node)
+        return(collapsibles)
+
+def Ancestor_Edge(s,d):
+   global e_in_A
+   global e_out_A
+   if not d.get_name() in e_in_A:
+      e_in_A[d.get_name()]=[]
+   if not s.get_name() in e_out_A:
+      e_out_A[s.get_name()]=[]
+   e=pd.Edge(s,d,label='Ancestor', color="blue")
+   e_out_A[s.get_name()].append(e)
+   e_in_A[d.get_name()].append(e)
+   return e
+
+
+def prepare_to_identify(n,g):
+  global e_in_A
+  global e_in
+  if not n.get_name() in e_in_A:
+#   print e_in.has_key(n.get_name())
+   if  n.get_name() in e_in:
+    for e1 in e_in[n.get_name()]:
+        p=e1.get_source()
+        p_node=g.get_node(p)[0]
+        for e2 in e_out[n.get_name()]:
+            v=e2.get_destination()
+            v_node=g.get_node(v)[0]
+            g.add_edge(Ancestor_Edge(v_node,p_node))
+  elif not n.get_name() in e_out_A:
+    print( "PREPARE-TO-IDENTIFY: Caso que no= "+n.get_label()+" tem e_out_A vazio, mas e_in_A diferente de vazio")
+    if  n.get_name() in e_in:
+     deletion_list=[]
+     for e in e_in_A[n.get_name()]:
+       source_A=e.get_source()
+       n_source_A=g.get_node(source_A)[0]
+       for e_p in e_in[n.get_name()]:
+           p_n=e_p.get_source()
+           p_n_node=g.get_node(p_n)[0]
+           g.add_edge(Ancestor_Edge(n_source_A,p_n_node))
+       deletion_list.append(e)
+     for e in deletion_list:
+       e_out_A[e.get_source()].remove(e)
+       e_in_A[e.get_destination()].remove(e)
+       g.del_edge(e.get_source(),e.get_destination())
+  else:
+     print( "PREPARE-To-IDENTIFY: no= "+n.get_label()+" tem out_A diferente de vazio")
+
+def identify(n,v,g):
+    global discharged_occurrences
+    global conclusions
+    global e_out_A
+    global e_in_A
+# storing the label of v before its deletion in the algorithm below
+# the label of v will indicate whether it has discharging edges that must be attached to n
+# besides this, the label of n has to incorporate the number discharged
+    label_of_v=v.get_label()
+    print( "vai identificar n="+str(n.get_label())+" e v="+str(v.get_label()))
+    print( "vai identificar n="+str(n.get_name())+" e v="+str(v.get_name()))
+    delete_from_sources=[]
+    delete_from_targets=[]
+    print( "e_in_A.has_key(v.get_name())")
+    print( v.get_name() in e_in_A)
+    if not v.get_name() in e_in_A:
+     if v.get_name() in e_in:
+      for e1 in e_in[v.get_name()]:
+        print( "name = "+v.get_name())
+        print( e1)
+        p=e1.get_source()
+        print( p)
+        p_node=g.get_node(p)[0]
+#        print "name e1 p ="+p_node.get_label()+" e "+"v = "+v.get_label()
+#    Só adiciona aresta de dedução se não houver já uma aresta de dedução entre p_node e p
+        if not Double_Deduction_Edge(p_node,n):
+          g.add_edge(Deduction_Edge(p_node,n))
+        delete_from_sources.append(e1)
+#        print "LISTA DE EDGES SAINDO DE "+v.get_label()+v.get_name()
+#        print e_out[v.get_name()]
+        for e2 in e_out[v.get_name()]:
+            v1=e2.get_destination()
+            v_node=g.get_node(v1)[0]
+            g.add_edge(Ancestor_Edge(v_node,p_node))
+            if not e2 in delete_from_targets:
+               delete_from_targets.append(e2)
+      for e2 in e_out[v.get_name()]:
+#            print( e2)
+            v1=e2.get_destination()
+#            print( v1)
+            v_node=g.get_node(v1)[0]
+#            print "imrpimindo n e v_node "
+#            print n
+#            print v_node
+#            print "VAI ADICIONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
+#            print "VAI ADICIONAR UMA ARESTA de "+n.get_name()+" PARA "+v_node.get_name()
+            if not Double_Deduction_Edge(n,v_node):
+              g.add_edge(Deduction_Edge(n,v_node))
+#      print "delete_from_targets"
+#      print delete_from_targets
+      for e in delete_from_sources:
+          e_out[e.get_source()].remove(e)
+#          print "VAI DELETAR "+e.get_source()+" PARA "+e.get_destination()
+          g.del_edge(e.get_source(),e.get_destination())
+      for e in delete_from_targets:
+#          print "e_in[e.get_destination()]"
+#          print e_in[e.get_destination()]
+          e_in[e.get_destination()].remove(e)
+#          print "VAI DELETAR "+e.get_source()+" PARA "+e.get_destination()
+          g.del_edge(e.get_source(),e.get_destination())
+      g.del_node(v.get_name())
+     else:
+      delete_from_targets=[]
+      for e2 in e_out[v.get_name()]:
+#        print e2
+        v1=e2.get_destination()
+        v_node=g.get_node(v1)[0]
+#        print "VAI ADICONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
+        if not Double_Deduction_Edge(n,v_node):
+          g.add_edge(Deduction_Edge(n,v_node))
+        if not e2 in delete_from_targets:
+            delete_from_targets.append(e2)
+      for e in delete_from_targets:
+#          print "e_in[e.get_destination()]"
+#          print e_in[e.get_destination()]
+          e_in[e.get_destination()].remove(e)
+          g.del_edge(e.get_source(),e.get_destination())
+      g.del_node(v.get_name())
+    elif not e_out_A.has_key(v.get_name()):
+     print( "e_out_A.has_key(v.get_name())= "+str(e_out_A.has_key(v.get_name())))
+     print( "IDENTIFY: elif not e_out_A.has_key(v.get_name()) Caso com no= "+v.get_label()+" com lista de ancestor-saindo vazia, mas ancestor-chegando (e_in_A) nao vazia")
+     print( "IDENTIFY: e_in_A= ")
+     print( e_in_A[v.get_name()])
+     if e_in.has_key(v.get_name()):
+      for e1 in e_in[v.get_name()]:
+#        print "name = "+v.get_name()
+        p=e1.get_source()
+        p_node=g.get_node(p)[0]
+        print( "IDENTIFY: e_in.has_key(v.get_name()) name e1 p ="+p_node.get_label()+" e "+"v = "+v.get_label()+" n="+n.get_label()+" Double_Deduction_Edge= ")
+        print( Double_Deduction_Edge(p_node,n))
+        if not Double_Deduction_Edge(p_node,n):
+          print( "VAI ADICIONAR ARESTA DE "+p_node.get_label()+" para "+n.get_label())
+          g.add_edge(Deduction_Edge(p_node,n))
+        delete_from_sources.append(e1)
+#        print "LISTA DE EDGES SAINDO DE "+v.get_label()+v.get_name()
+#        print e_out[v.get_name()]
+        # for e2 in e_out[v.get_name()]:
+        #     v1=e2.get_destination()
+        #     v_node=g.get_node(v1)[0]
+        #     g.add_edge(Ancestor_Edge(v_node,p_node))
+        #     if not e2 in delete_from_targets:
+        #        delete_from_targets.append(e2)
+      delete_from_targets=[]
+      for e2 in e_out[v.get_name()]:
+#            print e2
+            v1=e2.get_destination()
+#            print v1
+            v_node=g.get_node(v1)[0]
+#            print "imrpimindo n e v_node "
+#            print n
+#            print v_node
+#            print "VAI ADICIONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
+#            print "VAI ADICIONAR UMA ARESTA de "+n.get_name()+" PARA "+v_node.get_name()
+#            if not linked(g,n.get_name(),v_node.get_name()):
+            if not Double_Deduction_Edge(n,v_node):
+                g.add_edge(Deduction_Edge(n,v_node))
+            if not e2 in delete_from_targets:
+               delete_from_targets.append(e2)
+      delete_edge_ancestor=[]
+      for e3 in e_in_A[v.get_name()]:
+            r1=e3.get_source()
+            r_node=g.get_node(r1)[0]
+            for e4 in e_in[v.get_name()]:
+              r2=e4.get_source()
+              p_node=g.get_node(r2)[0]
+              g.add_edge(Ancestor_Edge(r_node,p_node))
+            delete_edge_ancestor.append(e3)
+      print( "delete in_edge_Ancestor")
+      for e3 in delete_edge_ancestor:
+          e_in_A[v.get_name()].remove(e3)
+          g.del_edge(e3.get_source(), e3.get_destination())
+ #     print "delete_from_targets"
+ #     print delete_from_targets
+      for e in delete_from_sources:
+          e_out[e.get_source()].remove(e)
+ #         print "VAI DELETAR "+e.get_source()+" PARA "+e.get_destination()
+          g.del_edge(e.get_source(),e.get_destination())
+      for e in delete_from_targets:
+ #         print "e_in[e.get_destination()]"
+ #         print e_in[e.get_destination()]
+          e_in[e.get_destination()].remove(e)
+ #         print "VAI DELETER "+e.get_source()+" PARA "+e.get_destination()
+          g.del_edge(e.get_source(),e.get_destination())
+      g.del_node(v.get_name())
+     else:
+      delete_edge_ancestor=[]
+      for e3 in e_in_A[v.get_name()]:
+            r1=e3.get_source()
+            r_node=g.get_node(r1)[0]
+            g.add_edge(Ancestor_Edge(r_node,n))
+            delete_edge_ancestor.append(e3)
+ #     print "delete in_edge_Ancestor"
+      for e3 in delete_edge_ancestor:
+          e_in_A[v.get_name()].remove(e3)
+          g.del_edge(e3.get_source(), e3.get_destination())
+      delete_from_targets=[]
+      for e2 in e_out[v.get_name()]:
+ #       print e2
+        v1=e2.get_destination()
+        v_node=g.get_node(v1)[0]
+ #       print "VAI ADICIONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
+        if not linked(g,n.get_name(),v_node.get_name()):
+          if not Double_Deduction_Edge(n,v_node):
+            g.add_edge(Deduction_Edge(n,v_node))
+        if not e2 in delete_from_targets:
+            delete_from_targets.append(e2)
+      for e in delete_from_targets:
+ #         print "e_in[e.get_destination()]"
+ #         print e_in[e.get_destination()]
+          e_in[e.get_destination()].remove(e)
+          g.del_edge(e.get_source(),e.get_destination())
+      g.del_node(v.get_name())
+    else:
+      print( "IDENTIFY: no= "+v.get_label()+" tem out_A diferente de vazio, portanto um grafo sintaticamente errado")
+# this part takes care of the discharged edges that must be attached to n as well as the number discharged that has
+# to be in the label of n
+# Testing if the node v is the discharged formula  of a discharging rule (imply-intro)
+    if re.match(r'\[.+\][0-9]+',label_of_v):
+       m=re.search(r'\[.+\]([0-9][0-9a-z]*)',label_of_v)
+       print( "v ====> "+label_of_v+" ="+m.group(1))
+       if re.match(r'\[.+\][0-9]+',n.get_label()):
+         m1=re.search(r'\[.+\]([0-9][0-9a-z]*)',n.get_label())
+         print( "n ======> "+n.get_label()+" ="+m1.group(1))
+         if m.group(1)==m1.group(1):
+            print( "SAO IGUAIS")
+# We do not need to add a new edge. Both edges got to the same intro-imply rule instance application (conclusion[m.group(1)])
+# The only obligation is to delete the v node.
+         else:
+# Since n and v are discharged by different instance of intro-imply, after collapsing n and v in n we have to add the new edge
+# from n to the conclusion that was obtained with the instance rule app that discharged v (conclusions[m.group(1)]) and
+#  change the labels of n accordingly
+            if conclusions[m.group(1)]!=conclusions[m1.group(1)]:
+               g.add_edge(pd.Edge(n,conclusions[m.group(1)],color="red"))
+            n.set_label(n.get_label()+str(m.group(1)))
+# Deleting the node v.  I DO NOT KNOW WHETHER THE FORMER EDGE FROM v TO conclusions[m.group(1)] is deleted automaticaly when v is
+         print( "APAGANDO ARESTA "+v.get_label()+"==> "+ conclusions[m.group(1)].get_label())
+         g.del_edge(v,conclusions[m.group(1)])
+         g.del_node(v.get_name())
+    #    conclusions[m.group(1)]=
+    #    for l in discharged_occurrences[m.group(1)]:
+    #       print l
+    #       print "label de l="+str(l.get_label())
+    #       g.add_edge(pd.Edge(l,n,color="red"))
+    #    n.set_label(n.get_label()+str(m.group(1)))
+    else:
+       if re.match(r'\(.+\)\s*[0-9]+',label_of_v):
+         m=re.search(r'\(.+\)\s*([0-9][0-9a-z]*)',label_of_v)
+         print( "COLLAPSO DE REGRA DE INTRODUCAO v ====> "+label_of_v+" ="+m.group(1))
+         if re.match(r'\(.+\)\s*[0-9]+',n.get_label()):
+           m1=re.search(r'\(.+\)\s*([0-9][0-9a-z]*)',n.get_label())
+           print( "COM REGRA DE INTRODUCAO n ====> "+ m1.group(1))
+#          print "n ======>  ="+ m1.group(1)
+           if m.group(1)==m1.group(1):
+              print( "SAO IGUAIS, SERIA UM ERRO ?")
+# We do not need to add a new edge. Both edges got to the same intro-imply rule instance application (conclusion[m.group(1))
+# The only obligation is to delete the v node.
+           else:
+# Since n and v are discharged by different instance of intro-imply, after collapsing n and v in n we have to add the new edge
+# from n to the conclusion that was obtained with the instance rule app that discharged v (conclusions[m.group(1)]) and
+#  change the labels of n accordingly
+              for node_dhg_by_v in discharged_occurrences[m.group(1)]:
+                  g.add_edge(pd.Edge(node_dhg_by_v,n,color="red"))
+                  g.del_edge(node_dhg_by_v,v)
+              n.set_label(n.get_label()+" "+str(m.group(1)))
+              print( "collapsing_nodes: atualizando conclusions: "+m1.group(1)+"--> "+n.get_label())
+              print( "collapsing_nodes: atualizando conclusions: "+m.group(1)+"--> "+n.get_label())
+              conclusions[m.group(1)]=n
+              conclusions[m1.group(1)]=n
+              g.del_node(v.get_name())
+# FALTARIA ATUALIZAR A ESTRUTURA discharged_occurrence, mas precisa avaliar a necessidade DISSO
+         else:
+           print( "COM REGRA DE ELIMINACAO n ++++++> "+ m1.group(1))
+           n.set_color("purple")
+# Deleting the node v.  I DO NOT KNOW WHETHER THE FORMER EDGE FROM v TO conclusions[m.group(1)] is deleted automaticaly when v is
+         # print "APAGANDO ARESTA "+v.get_label()+"==> "+ conclusions[m.group(1)].get_label()
+         # g.del_edge(v,conclusions[m.group(1)])
+         # g.del_node(v.get_name())
+    return g
+
+
+
+def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
+    print( "Collapsing Equally Labeled Nodes in the list =>")
+    print( nodes_repeated)
+    print( node_keep)
+    node_keep.set_color( "blue")
+    node_keep.set_style("filled")
+    for n in nodes_repeated:
+       print( "labels = "+n.get_label())
+       n.set_color( "blue")
+       n.set_style("filled")
+#   Gravando resultado parcial
+    intermediograph=pd.graph_from_dot_data(g.to_string())
+    print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos a serem colapsados estao em azul")
+    intermediograph.write("img/"+g.get_name()+"IntermediodeNivANTES"+str(i)+"For-"+f+".dot")
+#    node_keep=nodes_repeated[0]
+    prepare_to_identify(node_keep,g)
+#    del nodes_repeated[0]
+    print( "nos node_repeated = ")
+    print( nodes_repeated)
+    for n in nodes_repeated:
+       print( "n = "+n.get_label()+" name= "+n.get_name())
+       print(" vai identificar ")
+       print(node_keep)
+       print(" com ")
+       print(n)
+#       g=identify(node_keep,n,g)
+#       print "collapsing_nodes: Gerando dot string para gravacao"
+    node_keep.set_color( "red" )
+    intermediograph=pd.graph_from_dot_data(g.to_string())
+    print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos a serem colapsados estao em azul")
+    intermediograph.write("img/"+g.get_name()+"IntermediodeNiv"+str(i)+"ForCollapsed-"+f+".dot")
+    node_keep.set_color( "green" )
+    return g
 
   
-          
+# ======================Start Main ==============================          
 print(" Vai ler a prova ")
 graph_from_file=pd.graph_from_dot_file("img/Prova.dot")
 
 (e_out,e_in,e_in_D,e_out_D)=associative_source_and_target_lists(graph_from_file)
-#Display used during the development phase
 for (n,l) in list(e_in.items()):
    print(n+"e_in[n]=")
    for v in l:
@@ -286,41 +596,24 @@ node_formulas[nivel]=nr
 print(" node_formulas inicial")
 print(node_formulas[0])
 
-# Defines node_formula[nivel], i.e., the list of formula nodes by level  
 
 while len(node_formulas[nivel])>0:
    node_formulas[nivel+1]=[]
    print(" Inicio do while de formulas[nivel], nivel = "+ str(nivel)+" node_formulas[nivel]")
    print(node_formulas)
-#
    for n in node_formulas[nivel]:
-#    print " node_formulas[nivel] no nivel "+str(nivel)
-#    print node_formulas
-#    print " No n é do tipo "
-#    print type(n)        
     n.set_color( "blue")
     n.set_style("filled")
-#    print " n.get_name() = "+ n.get_name()
-#    print " E_IN AVALIADO em n.get_name()" 
-#    print e_in[n.get_name()]
     if len(e_in[n.get_name()])>0:
      print(" tem aresta chegando no node "+n.get_name())
      no=graph_from_file.get_node(n.get_name()) 
      print(no[0].get_label())
-#     print " arestas sao ="
-#     print e_in[n.get_name()]
-#     print " PRIMEIRO node_formulas[nivel+1] "+str(nivel+1)
-#     print node_formulas[nivel+1]
      for e in e_in[n.get_name()]:
        print( " mostra edge")
-#       e.set_label('label')
-#       print(e.get_label())
        node_up=graph_from_file.get_node(e.get_source())[0]
-#       print node_up
        node_formulas[nivel+1].append(node_up)
        print("DEPOIS de append de node_up")
        print(node_formulas[nivel+1])
-#       print "Fez o n="+n.get_name()
     print("node_formulas depois do if len(e_in[n.get_name()])>0")
     print(node_formulas[nivel+1])
     if len(node_formulas[nivel+1])>0:
@@ -335,9 +628,9 @@ while len(node_formulas[nivel])>0:
 # calculando vetores de ocorrencias
 
 v_oc={}
+repeated_node_formulas={}
 global list_formulas_proof
 global conjdepen_gravados
-#v_repeated_nodes={}
 list_formulas_proof=[]
 list_node_leaves=[]
 conjdepen_gravados=[]
@@ -358,7 +651,6 @@ for (n,l) in list(node_formulas.items()):
    print("formula no loop (n,l)"+formula)
    print(type(formula))
    formula_raw=raw_formula(formula)
-#   print "formula_raw "+formula_raw
    if formula not in list_formulas_proof:
      list_formulas_proof.append(formula_raw)
 print(" Total List of Formulas in the proof ")
@@ -375,100 +667,24 @@ label_premiss2=label(e_in[nr[0].get_name()][1])
 print("premissa1 label="+label_premiss1)
 print("premissa2 label="+label_premiss2)
 e_in[nr[0].get_name()][0].set_comment(label_premiss1)
-print("printing "+e_in[nr[0].get_name()][0].get_comment())
-
-# conj_depen=[]
-# list_edges_downwards=[]
-# for (n,node) in list_node_leaves:     
-#    if len(e_out[node.get_name()])>0:
-#        e=e_out[node.get_name()][0]  
-#        list_edges_downwards.append((n,e))
-#        formula=raw_formula(node.get_label())
-# #       print("CONTROLPOINT")
-# #       print("formula raw"+formula)
-# #       for i in range(0,len(list_formulas_proof))
-#        conj_depen=[0]*len(list_formulas_proof)
-# #       print(conj_depen)    
-#        bit_formula=ordem_formula(formula,list_formulas_proof)
-#        print("bit_formula="+str(bit_formula))
-#        conj_depen[bit_formula]=1
-#        print(conj_depen)
-#        valor_bitstring=dependency_set(conj_depen)
-#        print(valor_bitstring)
-#        e.set_label(str(valor_bitstring)[:5])
-
-# new_list_edges_downwards=[]       
-# list_node_downwards=[]
-# for (n,e) in list_edges_downwards:
-#  node_dest=e.get_destination()
-#  if len(e_out[node_dest])>0:
-#     new_edge=e_out[node_dest][0]
-#     print(e_in[node_dest])
-#     if len(e_in[node_dest])==1:
-#        print("e_in[node_dest][0]")
-#        print(e_in[node_dest][0])
-#        new_edge.set_label(e_in[node_dest][0].get_label()[:5]+"-"+ant)
-#     elif len(e_in[node_dest])==2:
-#        if isinstance(e_in[node_dest][0], str):    
-#           print("e_in[node_dest][0].get_label()")
-#           label1=e_in[node_dest][0].get_label()
-#           print(label1)
-#        else:
-#           label1=label(e_in[node_dest][0])     
-#        if isinstance(e_in[node_dest][1], str):
-#           print("e_in[node_dest][1].get_label()")               
-#           label2=e_in[node_dest][1].get_label()
-#           print(label2)          
-#        else:
-#           label2=label(e_in[node_dest][1])               
-#        new_edge.set_label(label1[:5]+"+"+label2[:5])
-#     new_list_edges_downwards.append((n-1,new_edge))
-
-         
-
-
-
-        
- # for (n,e1) in list_edges_downwards:
- #  if i==n:      
- #  for e2 in list_edges_downwards:
- #    if (e1!=e2) and e1.get_destination()==e2.get_destination():
- #        flag=1    
- #        if len(e_out[e1.get_destination()])>0:
- #           e=e_out[e1.get_destination()][0]
- #           new_list_downwards.append(e)
- #           e.set_label(e1.get_label()[:5]+"+"+e2.get_label()[:5])
- #  if (flag==0):
- #        if len(e_out[e1.get_destination()])>0:
- #           e=e_out[e1.get_destination()][0]
- #           new_list_downwards.append(e)
- #           e.set_label(e1.get_label()[:5]+"-ant")
- # list_node_downwards=new_list_downwards
- # i=i+1
-          
+print("printing "+e_in[nr[0].get_name()][0].get_comment())          
            
            
 
             
-    # node=e.get_destination()
-    # print("node")
-    # print(node)
-    # list_node_downwards.append(node)
 
-    
-       
-
-# i=0       
-# for e in list_edges_downwards:
-#         e.set_label(str(i))
-#         i=i+1
 
 for f in list_formulas_proof:
      v_oc[f]=[]
      for n in range(0,nivel):
        v_oc[f].append(0)
 
-print(v_oc)       
+       
+       
+
+print(v_oc)
+
+
 
 for (n,l) in list(node_formulas.items()):
   for node_formula in l:  
@@ -478,16 +694,7 @@ for (n,l) in list(node_formulas.items()):
    if (v_oc[formula_raw][n]>1):
      print("vetor v_oc nivel"+str(n)+" formula="+formula_raw)      
      print(str(v_oc[formula_raw][n]))
-  for node_formula in l:
-   formula=node_formula.get_label()
-   print("formula "+formula)
-   formula_raw=raw_formula(formula)
-   print( "formula_raw "+formula_raw)
-   if formula_raw in list_formulas_proof:
-     v_oc[formula_raw][n]=v_oc[formula_raw][n]+1
-   else:
-     v_oc[n][formula_raw]=1
-     list_formulas_proof.append(formula_raw)
+
      
 for (n,l) in node_formulas.items():
  print( "nivel="+str(n))
@@ -495,35 +702,26 @@ for (n,l) in node_formulas.items():
  print( l)
  print( "============FIM DE LISTA")
 
+
 for n in range(0,nivel):
     print( "ocorrências do nível "+str(n))
-    for f in list_formulas_proof:
-      if v_oc[f][n]>0:
-        print( "formula="+f+" ocorre "+str(v_oc[f][n])+" vezes")
-# Nao sei porque fiz este trecho abaixo. O trecho acima já cumpre o propósito 
-# for node in l:
-#    print( node)
-#    print( type(node))
-# #   lista_nos_formula=graph_from_file.get_node(f)
-# for f in l:
-#    lista_nos_formula=graph_from_file.get_node(f)
-#    if lista_nos_formula != []:
-#      node_formula_f=graph_from_file.get_node(f)[0]
-#      formula_f=node_formula_f.get_label()
-#      formula_f=raw_formula(formula_f)
-#      v_oc[n][formula_f]=v_oc[n][formula_f]+1
-#      v_repeated_nodes[n][formula_f].append(node_formula_f)
-# #------Alteracao de Inspecao
-# print( " LISTANDO v_oc[formula_f][n] ")
-# for n in range(0,len(v_oc)):
-#       formula_f=graph_from_file.get_node(f)[0].get_label()
-#       if len(v_oc[n][formula_f]) > 1:
-#          print( "MAIS DE UMA OC = "+str(v_oc[n][formula_f]))
-#       print( n)
-#       print( l)
-#       print( v_oc[n])
-#    Final da Alteracao
-# --------------------------------
+    print(node_formulas[n])
+    for node_formula in node_formulas[n]:
+      f=node_formula.get_label()
+      node_formula.set_color( "none")
+#      node_formula.set_style("filled")
+      f=raw_formula(f)
+      if v_oc[f][n]>1:
+        print( "formula="+f+" ocorre "+str(v_oc[f][n])+" vezes no nivel"+str(n))
+        list_collapsible=collapsible_nodes(node_formula, node_formulas[n])
+        print("Collapsible nodes=")
+        print(list_collapsible)
+        for no in list_collapsible:
+                print("labels of collapsible nodes ="+raw_formula(no.get_label()))
+        collapsing_nodes(n,f,node_formula,list_collapsible,graph_from_file)
+        
+        
+
 write_vetor_oc(v_oc,nivel)
 #-------   Final alteracao
 print("seqnode="+str(seqnode))
@@ -538,8 +736,8 @@ print( "gravando dot file")
 
 sgraph.write("img/"+sgraph.get_name()+"ANTES.dot")
 print( "GRAVOU")
-i=0
-while i < nivel and v_oc[i]:
+#i=0
+#while i < nivel and v_oc[i]:
 #     repeated_formulas=[]
 #     while not repeated_formulas and v_oc[i]:
 #        i=i+1
