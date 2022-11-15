@@ -253,14 +253,14 @@ def collapsible_nodes(node_formula, node_formulas):
                         collapsibles.append(node)
         return(collapsibles)
 
-def Ancestor_Edge(s,d):
+def Ancestor_Edge(s,d,l):
    global e_in_A
    global e_out_A
    if not d.get_name() in e_in_A:
       e_in_A[d.get_name()]=[]
    if not s.get_name() in e_out_A:
       e_out_A[s.get_name()]=[]
-   e=pd.Edge(s,d,label='Ancestor', color="blue")
+   e=pd.Edge(s,d,label="A["+str(l)+"]", color="blue")
    e_out_A[s.get_name()].append(e)
    e_in_A[d.get_name()].append(e)
    return e
@@ -269,6 +269,8 @@ def Ancestor_Edge(s,d):
 def prepare_to_identify(n,g):
   global e_in_A
   global e_in
+  global detour_label
+  detour_label=1
   if not n.get_name() in e_in_A:
 #   print e_in.has_key(n.get_name())
    if  n.get_name() in e_in:
@@ -278,7 +280,8 @@ def prepare_to_identify(n,g):
         for e2 in e_out[n.get_name()]:
             v=e2.get_destination()
             v_node=g.get_node(v)[0]
-            g.add_edge(Ancestor_Edge(v_node,p_node))
+            g.add_edge(Ancestor_Edge(v_node,p_node,detour_label))
+            detour_label=detour_label+1
   elif not n.get_name() in e_out_A:
     print( "PREPARE-TO-IDENTIFY: Caso que no= "+n.get_label()+" tem e_out_A vazio, mas e_in_A diferente de vazio")
     if  n.get_name() in e_in:
@@ -289,7 +292,7 @@ def prepare_to_identify(n,g):
        for e_p in e_in[n.get_name()]:
            p_n=e_p.get_source()
            p_n_node=g.get_node(p_n)[0]
-           g.add_edge(Ancestor_Edge(n_source_A,p_n_node))
+           g.add_edge(Ancestor_Edge(n_source_A,p_n_node,detour_label))
        deletion_list.append(e)
      for e in deletion_list:
        e_out_A[e.get_source()].remove(e)
@@ -303,6 +306,7 @@ def identify(n,v,g):
     global conclusions
     global e_out_A
     global e_in_A
+    global detour_label
 # storing the label of v before its deletion in the algorithm below
 # the label of v will indicate whether it has discharging edges that must be attached to n
 # besides this, the label of n has to incorporate the number discharged
@@ -311,27 +315,30 @@ def identify(n,v,g):
     print( "vai identificar n="+str(n.get_name())+" e v="+str(v.get_name()))
     delete_from_sources=[]
     delete_from_targets=[]
-    print( "e_in_A.has_key(v.get_name())")
-    print( v.get_name() in e_in_A)
+#    print( "e_in_A.has_key(v.get_name())")
+#    print( v.get_name() in e_in_A)
     if not v.get_name() in e_in_A:
+     print("o no "+v.get_name()+" tem aresta ancestral chegando nele")       
      if v.get_name() in e_in:
+      print("o no "+v.get_name()+" tem aresta de deducao chegando nele")
+#  Rule 1 application      
       for e1 in e_in[v.get_name()]:
         print( "name = "+v.get_name())
         print( e1)
         p=e1.get_source()
         print( p)
         p_node=g.get_node(p)[0]
-#        print "name e1 p ="+p_node.get_label()+" e "+"v = "+v.get_label()
+        print( "name e1 p ="+p_node.get_label()+" e "+"v = "+v.get_label())
 #    Só adiciona aresta de dedução se não houver já uma aresta de dedução entre p_node e p
         if not Double_Deduction_Edge(p_node,n):
-          g.add_edge(Deduction_Edge(p_node,n))
+          g.add_edge(Deduction_Edge(p_node,n,0))
         delete_from_sources.append(e1)
-#        print "LISTA DE EDGES SAINDO DE "+v.get_label()+v.get_name()
-#        print e_out[v.get_name()]
+        print( "LISTA DE EDGES SAINDO DE "+v.get_label()+v.get_name())
+        print( e_out[v.get_name()])
         for e2 in e_out[v.get_name()]:
             v1=e2.get_destination()
             v_node=g.get_node(v1)[0]
-            g.add_edge(Ancestor_Edge(v_node,p_node))
+            g.add_edge(Ancestor_Edge(v_node,p_node,detour_label))
             if not e2 in delete_from_targets:
                delete_from_targets.append(e2)
       for e2 in e_out[v.get_name()]:
@@ -345,7 +352,7 @@ def identify(n,v,g):
 #            print "VAI ADICIONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
 #            print "VAI ADICIONAR UMA ARESTA de "+n.get_name()+" PARA "+v_node.get_name()
             if not Double_Deduction_Edge(n,v_node):
-              g.add_edge(Deduction_Edge(n,v_node))
+              g.add_edge(Deduction_Edge(n,v_node,detour_label))
 #      print "delete_from_targets"
 #      print delete_from_targets
       for e in delete_from_sources:
@@ -359,7 +366,9 @@ def identify(n,v,g):
 #          print "VAI DELETAR "+e.get_source()+" PARA "+e.get_destination()
           g.del_edge(e.get_source(),e.get_destination())
       g.del_node(v.get_name())
+      detour_label=detour_label+1
      else:
+# Rule 3 or Rule 4             
       delete_from_targets=[]
       for e2 in e_out[v.get_name()]:
 #        print e2
@@ -367,23 +376,25 @@ def identify(n,v,g):
         v_node=g.get_node(v1)[0]
 #        print "VAI ADICONAR UMA ARESTA de "+n.get_label()+" PARA "+v_node.get_label()
         if not Double_Deduction_Edge(n,v_node):
-          g.add_edge(Deduction_Edge(n,v_node))
+          g.add_edge(Deduction_Edge(n,v_node,0))
+          print(" we will annotate in the formula that it is the label of the node n that it is also an hypothesis for it was collapsed with one")
+          n.set_label(n.get_label()+"H")
         if not e2 in delete_from_targets:
-            delete_from_targets.append(e2)
+          delete_from_targets.append(e2)
       for e in delete_from_targets:
 #          print "e_in[e.get_destination()]"
 #          print e_in[e.get_destination()]
           e_in[e.get_destination()].remove(e)
           g.del_edge(e.get_source(),e.get_destination())
       g.del_node(v.get_name())
-    elif not e_out_A.has_key(v.get_name()):
-     print( "e_out_A.has_key(v.get_name())= "+str(e_out_A.has_key(v.get_name())))
+    elif not v.get_name() in e_out_A:
+     print( "e_out_A.has_key(v.get_name())= "+str(v.get_name() in e_out_A))
      print( "IDENTIFY: elif not e_out_A.has_key(v.get_name()) Caso com no= "+v.get_label()+" com lista de ancestor-saindo vazia, mas ancestor-chegando (e_in_A) nao vazia")
      print( "IDENTIFY: e_in_A= ")
      print( e_in_A[v.get_name()])
-     if e_in.has_key(v.get_name()):
+     if v.get_name() in e_in:
       for e1 in e_in[v.get_name()]:
-#        print "name = "+v.get_name()
+        print( "name = "+v.get_name())
         p=e1.get_source()
         p_node=g.get_node(p)[0]
         print( "IDENTIFY: e_in.has_key(v.get_name()) name e1 p ="+p_node.get_label()+" e "+"v = "+v.get_label()+" n="+n.get_label()+" Double_Deduction_Edge= ")
@@ -394,17 +405,19 @@ def identify(n,v,g):
         delete_from_sources.append(e1)
 #        print "LISTA DE EDGES SAINDO DE "+v.get_label()+v.get_name()
 #        print e_out[v.get_name()]
-        # for e2 in e_out[v.get_name()]:
-        #     v1=e2.get_destination()
-        #     v_node=g.get_node(v1)[0]
-        #     g.add_edge(Ancestor_Edge(v_node,p_node))
-        #     if not e2 in delete_from_targets:
-        #        delete_from_targets.append(e2)
+        for e2 in e_out[v.get_name()]:
+            v1=e2.get_destination()
+            print(v1)
+            v_node=g.get_node(v1)[0]
+            g.add_edge(Ancestor_Edge(v_node,p_node))
+            if not e2 in delete_from_targets:
+               delete_from_targets.append(e2)
       delete_from_targets=[]
       for e2 in e_out[v.get_name()]:
-#            print e2
+            print( e2)
             v1=e2.get_destination()
-#            print v1
+            print( "ponto de parada"+v1)
+            print(g.get_node(v1))
             v_node=g.get_node(v1)[0]
 #            print "imrpimindo n e v_node "
 #            print n
@@ -538,6 +551,46 @@ def identify(n,v,g):
     return g
 
 
+def Deduction_Edge(s,d,det_label):
+   global e_in
+   global e_out
+#   print "CRIANDO EDGE de "+ s.get_name()+ "Para "+d.get_name()
+#   print "CRIANDO EDGE de "+ s.get_label()+ "Para "+d.get_label()
+#  Tem efeito nulo se ja existe aresta de s para d. O grafo de prova eh um grafo simples colorido (no maximo uma aresta de
+#  cada cor entre cada par de vertices
+   if not d.get_name() in e_in:
+      e_in[d.get_name()]=[]
+   if not s.get_name() in e_out:
+      e_out[s.get_name()]=[]
+   if det_label == 0:   
+     e=pd.Edge(s,d)
+   else:
+     e=pd.Edge(s,d,label=det_label)
+   e_out[s.get_name()].append(e)
+   e_in[d.get_name()].append(e)
+   return e
+
+
+def Double_Deduction_Edge(s,d):
+   print("Double_Deduction_Edge")
+   v1 = set(e_out[s.get_name()])
+   print( "conjunto v1")
+   v1_labels={(x.get_source(),x.get_destination()) for x in v1}
+   # print v1
+   # print v1_labels
+   # print s.get_label()
+   v2 = e_in[d.get_name()]
+   print( "conjunto v2")
+   v2_edges={(x.get_source(),x.get_destination()) for x in v2}
+   # print v2
+   # print v2_edges
+   # print d.get_label()
+   inter = v1.intersection(v2)
+   print( "INtersecao ====================")
+   print( inter)
+   return inter
+
+
 
 def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
     print( "Collapsing Equally Labeled Nodes in the list =>")
@@ -547,14 +600,17 @@ def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
     node_keep.set_style("filled")
     for n in nodes_repeated:
        print( "labels = "+n.get_label())
-       n.set_color( "blue")
+       n.set_color( "purple")
        n.set_style("filled")
 #   Gravando resultado parcial
     intermediograph=pd.graph_from_dot_data(g.to_string())
-    print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos a serem colapsados estao em azul")
-    intermediograph.write("img/"+g.get_name()+"IntermediodeNivANTES"+str(i)+"For-"+f+".dot")
+    print( "gravando dot file em collapsing_nodes somente com a marcação com cores azul e roxo")
+    intermediograph.write("img/"+g.get_name()+"MarcacaoDoNiv"+str(i)+"Formula"+f+".dot")
 #    node_keep=nodes_repeated[0]
     prepare_to_identify(node_keep,g)
+    intermediograph=pd.graph_from_dot_data(g.to_string())
+    print( "gravando dot file em collapsing_nodes após o prepare_to_identify em node_keep com a marcação com cores azul e roxo")
+    intermediograph.write("img/"+g.get_name()+"PrepareNodeKeepDoNiv"+str(i)+"Formula"+f+".dot")    
 #    del nodes_repeated[0]
     print( "nos node_repeated = ")
     print( nodes_repeated)
@@ -564,11 +620,14 @@ def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
        print(node_keep)
        print(" com ")
        print(n)
-#       g=identify(node_keep,n,g)
-#       print "collapsing_nodes: Gerando dot string para gravacao"
+       g=identify(node_keep,n,g)
+       print( "collapsing_nodes: Gerando dot string para gravacao")
+       intermediograph=pd.graph_from_dot_data(g.to_string())
+       print( "gravando dot file com collapso em sequencia das repeticoes")
+       intermediograph.write("img/"+g.get_name()+"IntermediodeNiv"+str(i)+"For-"+f+"CollapsingSequel.dot")
     node_keep.set_color( "red" )
     intermediograph=pd.graph_from_dot_data(g.to_string())
-    print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos a serem colapsados estao em azul")
+    print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos  colapsados estao em azul")
     intermediograph.write("img/"+g.get_name()+"IntermediodeNiv"+str(i)+"ForCollapsed-"+f+".dot")
     node_keep.set_color( "green" )
     return g
@@ -602,8 +661,8 @@ while len(node_formulas[nivel])>0:
    print(" Inicio do while de formulas[nivel], nivel = "+ str(nivel)+" node_formulas[nivel]")
    print(node_formulas)
    for n in node_formulas[nivel]:
-    n.set_color( "blue")
-    n.set_style("filled")
+#    n.set_color( "blue")
+#    n.set_style("filled")
     if len(e_in[n.get_name()])>0:
      print(" tem aresta chegando no node "+n.get_name())
      no=graph_from_file.get_node(n.get_name()) 
@@ -645,8 +704,8 @@ for (n,l) in list(node_formulas.items()):
   for node_formula in l:  
    formula=node_formula.get_label()
    if len(e_in[node_formula.get_name()])==0:
-          node_formula.set_color('red')
-          node_formula.set_style('filled')
+#          node_formula.set_color('red')
+#          node_formula.set_style('filled')
           list_node_leaves.append((n,node_formula))
    print("formula no loop (n,l)"+formula)
    print(type(formula))
