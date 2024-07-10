@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93456567-cf9f-48b3-b7db-595e6d936f3e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.#compress-hamiltonian-proof-graph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proof-Lab3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proof-Lab3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

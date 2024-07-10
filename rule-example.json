@@ -1,0 +1,32 @@
+{
+
+	"name": "R1XE",
+	"edges": ["apartamento-v","escritorio-v","v-estrela"],
+	"new_edges":[
+		{
+		    "edge_name": "apartamento-u",
+		    "edge_label": 0
+		},
+		{
+		    "edge_name": "u-estrela",
+		    "edge_label": -2
+		},
+		{
+		    "edge_name": "escritorio-u",
+		    "edge_label": 0
+		}
+
+	],
+	"ancestor_edges":[],
+	"new_ancestor_edges":[
+		{
+		    "edge_name": "estrela-escritorio",
+		    "edge_label": [-2]
+		},
+		{
+		    "edge_name": "estrela-apartamento",
+		    "edge_label": [-2]
+		}
+	],
+	"delete_edges":["apartamento-v","escritorio-v","v-estrela"]
+}

@@ -266,24 +266,36 @@ def Ancestor_Edge(s,d,l):
    return e
 
 
-def prepare_to_identify(n,g):
+def prepare_to_identify(detour_label,n,g):
   global e_in_A
   global e_in
-  global detour_label
-  detour_label=1
   if not n.get_name() in e_in_A:
-#   print e_in.has_key(n.get_name())
-   if  n.get_name() in e_in:
-    for e1 in e_in[n.get_name()]:
-        p=e1.get_source()
-        p_node=g.get_node(p)[0]
-        for e2 in e_out[n.get_name()]:
-            v=e2.get_destination()
-            v_node=g.get_node(v)[0]
-            g.add_edge(Ancestor_Edge(v_node,p_node,detour_label))
-            detour_label=detour_label+1
+# There is no ancestor edge arriving in n             
+   print(" PREPARE-TO-IDENTIFY: no "+n.get_name()+" rotulado com "+n.get_label()+" tem e_in_A[n.get_name()] vazio")
+   if len(e_in[n.get_name()])==2:
+    print(" PREPARE-TO-IDENTIFY: np "+n.get_name()+" rotulado com "+n.get_label()+" é conclusão de imply-Elim, premissas:")
+    print(e_in[n.get_name()])
+    e0=e_in[n.get_name()][0]
+    e1=e_in[n.get_name()][1]
+    p0=e0.get_source()
+    p1=e1.get_source()    
+    p0_node=g.get_node(p0)[0]    
+    p1_node=g.get_node(p1)[0]
+    e=e_out[n.get_name()][0]
+    v=e.get_destination()
+    v_node=g.get_node(v)[0]
+    dep_set_e=e.get_comment()
+    g.add_edge(Ancestor_Edge(v_node,p0_node,detour_label))
+    g.add_edge(Ancestor_Edge(v_node,p1_node,detour_label))
+    n_new=e.get_source()
+    n_source=g.get_node(n_new)[0]
+    e_conclusion=Deduction_Edge(n_source,v_node,detour_label)
+    e_conclusion.set_comment(dep_set_e)
+    g.add_edge(e_conclusion)
+    detour_label=detour_label+1
   elif not n.get_name() in e_out_A:
-    print( "PREPARE-TO-IDENTIFY: Caso que no= "+n.get_label()+" tem e_out_A vazio, mas e_in_A diferente de vazio")
+# There is at least one ancestor edge arriving in n and no ancestor edge going out of n          
+    print( "PREPARE-TO-IDENTIFY: Caso que no= "+n.get_name()+" rotulado com "+n.get_label()+" tem e_out_A vazio, mas e_in_A diferente de vazio")
     if  n.get_name() in e_in:
      deletion_list=[]
      for e in e_in_A[n.get_name()]:
@@ -292,7 +304,8 @@ def prepare_to_identify(n,g):
        for e_p in e_in[n.get_name()]:
            p_n=e_p.get_source()
            p_n_node=g.get_node(p_n)[0]
-           g.add_edge(Ancestor_Edge(n_source_A,p_n_node,detour_label))
+           dl=e_p.get_label()
+           g.add_edge(Ancestor_Edge(n_source_A,p_n_node,dl))
        deletion_list.append(e)
      for e in deletion_list:
        e_out_A[e.get_source()].remove(e)
@@ -301,12 +314,12 @@ def prepare_to_identify(n,g):
   else:
      print( "PREPARE-To-IDENTIFY: no= "+n.get_label()+" tem out_A diferente de vazio")
 
-def identify(n,v,g):
+def identify(n,detour_label,v,g):
     global discharged_occurrences
     global conclusions
     global e_out_A
     global e_in_A
-    global detour_label
+#    global detour_label
 # storing the label of v before its deletion in the algorithm below
 # the label of v will indicate whether it has discharging edges that must be attached to n
 # besides this, the label of n has to incorporate the number discharged
@@ -393,6 +406,8 @@ def identify(n,v,g):
      print( "IDENTIFY: e_in_A= ")
      print( e_in_A[v.get_name()])
      if v.get_name() in e_in:
+      print(" e_in[v.get_name()] =")
+      print(e_in[v.get_name()])
       for e1 in e_in[v.get_name()]:
         print( "name = "+v.get_name())
         p=e1.get_source()
@@ -414,9 +429,10 @@ def identify(n,v,g):
                delete_from_targets.append(e2)
       delete_from_targets=[]
       for e2 in e_out[v.get_name()]:
+            print("Aresta saindo")  
             print( e2)
             v1=e2.get_destination()
-            print( "ponto de parada"+v1)
+            print( "ponto de parada = "+v1)
             print(g.get_node(v1))
             v_node=g.get_node(v1)[0]
 #            print "imrpimindo n e v_node "
@@ -595,19 +611,22 @@ def Double_Deduction_Edge(s,d):
 def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
     print( "Collapsing Equally Labeled Nodes in the list =>")
     print( nodes_repeated)
+    print(" node_keep =")
     print( node_keep)
-    node_keep.set_color( "blue")
+    node_keep.set_color( "green")
     node_keep.set_style("filled")
-    for n in nodes_repeated:
-       print( "labels = "+n.get_label())
-       n.set_color( "purple")
-       n.set_style("filled")
+    # for n in nodes_repeated:
+    #    print( "labels = "+n.get_label()+"name "+n.get_name())
+    #    print(n)
+    #    n.set_color( "blue")
+    #    n.set_style("filled")
 #   Gravando resultado parcial
     intermediograph=pd.graph_from_dot_data(g.to_string())
     print( "gravando dot file em collapsing_nodes somente com a marcação com cores azul e roxo")
     intermediograph.write("img/"+g.get_name()+"MarcacaoDoNiv"+str(i)+"Formula"+f+".dot")
 #    node_keep=nodes_repeated[0]
-    prepare_to_identify(node_keep,g)
+    dl=1  # detour_label = 1
+    prepare_to_identify(dl,node_keep,g)
     intermediograph=pd.graph_from_dot_data(g.to_string())
     print( "gravando dot file em collapsing_nodes após o prepare_to_identify em node_keep com a marcação com cores azul e roxo")
     intermediograph.write("img/"+g.get_name()+"PrepareNodeKeepDoNiv"+str(i)+"Formula"+f+".dot")    
@@ -620,7 +639,7 @@ def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
        print(node_keep)
        print(" com ")
        print(n)
-       g=identify(node_keep,n,g)
+       g=identify(node_keep,dl,n,g)
        print( "collapsing_nodes: Gerando dot string para gravacao")
        intermediograph=pd.graph_from_dot_data(g.to_string())
        print( "gravando dot file com collapso em sequencia das repeticoes")
@@ -629,7 +648,7 @@ def collapsing_nodes(i,f,node_keep,nodes_repeated,g):
     intermediograph=pd.graph_from_dot_data(g.to_string())
     print( "gravando dot file em collapsing_nodes ANTES da compressao horizontal, nos  colapsados estao em azul")
     intermediograph.write("img/"+g.get_name()+"IntermediodeNiv"+str(i)+"ForCollapsed-"+f+".dot")
-    node_keep.set_color( "green" )
+#    node_keep.set_color( "green" )
     return g
 
   
@@ -768,11 +787,13 @@ for n in range(0,nivel):
     for node_formula in node_formulas[n]:
       f=node_formula.get_label()
       node_formula.set_color( "none")
-#      node_formula.set_style("filled")
+      node_formula.set_style("filled")
       f=raw_formula(f)
       if v_oc[f][n]>1:
         print( "formula="+f+" ocorre "+str(v_oc[f][n])+" vezes no nivel"+str(n))
         list_collapsible=collapsible_nodes(node_formula, node_formulas[n])
+        print("node_formula=")
+        print(node_formula)
         print("Collapsible nodes=")
         print(list_collapsible)
         for no in list_collapsible:

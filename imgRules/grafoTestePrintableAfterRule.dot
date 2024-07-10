@@ -1,0 +1,19 @@
+digraph G {
+p1;
+p4;
+p2;
+p3;
+u;
+f1;
+f2;
+p1 -> u  [color=black, label=0];
+p4 -> u  [color=black, label=0];
+u -> f1  [color=black, label=0];
+p2 -> u  [color=black, label=0];
+u -> f2  [color=black, label=1];
+p3 -> u  [color=black, label=0];
+f1 -> p1  [color=blue, label="[0]"];
+f1 -> p4  [color=blue, label="[0]"];
+f2 -> p2  [color=blue, label="[1]"];
+f2 -> p3  [color=blue, label="[1]"];
+}
